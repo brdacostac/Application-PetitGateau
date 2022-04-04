@@ -1,0 +1,15 @@
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\bin\Debug\InterfaceAppli1.exe.config
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\bin\Debug\InterfaceAppli1.exe
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\bin\Debug\InterfaceAppli1.pdb
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.csproj.AssemblyReference.cache
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\MainWindow.g.cs
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\App.g.cs
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1_MarkupCompile.cache
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1_MarkupCompile.lref
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\MainWindow.baml
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.g.resources
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.Properties.Resources.resources
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.csproj.GenerateResource.cache
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.csproj.CoreCompileInputs.cache
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.exe
+C:\Users\nifranco\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.pdb
