@@ -16,7 +16,8 @@
 
         <StackPanel Grid.Row="1">
             <StackPanel Orientation="Horizontal">
-                <Image Width="250" Height="100" HorizontalAlignment="Center" RenderTransformOrigin="-0.44,0.5" VerticalAlignment="Top"/>
+                <Image Width="250" Height="100" HorizontalAlignment="Center" RenderTransformOrigin="-0.44,0.5" VerticalAlignment="Top"
+					   Source="/Images/logoTemp.jpg"/>
             </StackPanel>
         </StackPanel>
 
