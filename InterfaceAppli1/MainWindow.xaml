@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InterfaceAppli1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MoquecaDeRecettes" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -14,34 +14,42 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
+        <StackPanel Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+                <Image Width="250" Height="100" HorizontalAlignment="Center" RenderTransformOrigin="-0.44,0.5" VerticalAlignment="Top"/>
+            </StackPanel>
+        </StackPanel>
+
         <StackPanel Grid.Row="2">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" 
+						HorizontalAlignment="Center"
+                        RenderTransformOrigin="0.492,1.027" VerticalAlignment="Center" Height="125">
                 <Button  Content="REGIONS" 
                  Foreground="Black"
-                 FontSize="30"
-                 FontWeight="Medium">
-                    
+                 FontSize="20"
+                 FontWeight="Medium" RenderTransformOrigin="0.502,0.867" Click="Button_Click">
+
                     <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="Aqua"/>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#FF01FF80"/>
                             <Setter Property="Cursor" Value="Hand"/>
                         </Style>
                     </Button.Style>
 
                     <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border Width="650" Height="75"
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="499" Height="55"
                             CornerRadius="25"
-                            Background="{TemplateBinding Background}">
+                            Background="{TemplateBinding Background}"
+                            BorderThickness="2" BorderBrush="Black"  >
                                 <ContentPresenter VerticalAlignment="Center"
-                                          HorizontalAlignment="Center">
-                                </ContentPresenter>
+                                          HorizontalAlignment="Center"/>
                             </Border>
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
+
             </StackPanel>
         </StackPanel>
-        
     </Grid>
 </Window>
