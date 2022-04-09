@@ -101,13 +101,25 @@
     <Resource Include="logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="chefAvatar.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="chef_F.PNG" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="chef_H.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="veganB.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="brazil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="regionsB.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="topB.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="mesRecettesB.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

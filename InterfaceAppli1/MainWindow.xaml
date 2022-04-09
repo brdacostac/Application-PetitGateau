@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MoquecaDeRecettes" Height="450" Width="800">
     <DockPanel>
-        <WrapPanel DockPanel.Dock="Right" Background="LightGray">
+        <WrapPanel DockPanel.Dock="Right" Background="AliceBlue">
             <Image Source="menu button.png" Height="40" Width="45"/>
         </WrapPanel>
 
@@ -16,15 +16,121 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <StackPanel Grid.Column="0">
-                <Border Background="SeaGreen" CornerRadius="20" Visibility="Visible" Width="350" Height="140">
+            <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                <Border CornerRadius="20" Visibility="Visible" Width="350" Height="140">
                     <Image Source="logo.png" Height="159" Width="295"/>
                 </Border>
             </StackPanel>
 
             <WrapPanel Grid.Column="1" HorizontalAlignment="Center">
-                <Image Source="Chef_F.PNG" Width="150"/>
+                <Image Source="Chef_F.PNG" Width="150" VerticalAlignment="Center"/>
             </WrapPanel>
         </Grid>
+
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                <Button
+                    Background="LightGreen"
+                    ClickMode="Press" 
+                    Cursor="Hand" 
+                    Margin="10,10,10,10">
+                    <Button.Content>
+                        <Image Source="veganB.png" Height="83" Width="200" />
+                    </Button.Content>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border
+                                CornerRadius="25"
+                                BorderThickness="3" 
+                                BorderBrush="Black"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                              HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <Button BorderBrush="Black" 
+                        ClickMode="Press" 
+                        Cursor="Hand" 
+                        Background="#FFFFFF99" 
+                        Margin="10,10,10,10">
+                    <Button.Content>
+                        <Image Source="topB.png" Height="83" Width="200" />
+                    </Button.Content>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border
+                            CornerRadius="25"
+                            BorderThickness="3" 
+                            BorderBrush="Black"
+                            Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                          HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" VerticalAlignment="Center">
+                <Button BorderBrush="Black" 
+                        ClickMode="Press" 
+                        Cursor="Hand" 
+                        Background="#FFFDD1D8" 
+                        Margin="10,10,10,10">
+                    <Button.Content>
+                        <Image Source="mesRecettesB.png" Height="83" Width="200" />
+                    </Button.Content>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border
+                            CornerRadius="25"
+                            BorderThickness="3" 
+                            BorderBrush="Black"
+                            Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                          HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center">
+            <Button BorderBrush="Black" 
+                        ClickMode="Press" 
+                        Cursor="Hand" 
+                        Background="LightBlue">
+                <Button.Content>
+                    <Image Source="regionsB.png" Height="83" Width="730"/>
+                </Button.Content>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border
+                            CornerRadius="25"
+                            BorderThickness="3" 
+                            BorderBrush="Black" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                          HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </WrapPanel>
     </DockPanel>
 </Window>
