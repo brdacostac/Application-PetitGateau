@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MoquecaDeRecettes" Height="450" Width="800">
     <DockPanel>
-        <WrapPanel DockPanel.Dock="Right" Background="AliceBlue">
+        <WrapPanel DockPanel.Dock="Right" Background="White">
             <Image Source="menu button.png" Height="40" Width="45"/>
         </WrapPanel>
 
-        <Grid DockPanel.Dock="Top" Height="160" VerticalAlignment="Top" Margin="0,20,0,0">
+        <Grid DockPanel.Dock="Top" Height="160" VerticalAlignment="Top" Margin="0,20,0,0" Background="LightGray">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -48,7 +48,7 @@
                         <ControlTemplate TargetType="{x:Type Button}">
                             <Border
                                 CornerRadius="25"
-                                BorderThickness="3" 
+                                BorderThickness="4" 
                                 BorderBrush="Black"
                                 Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -73,7 +73,7 @@
                         <ControlTemplate TargetType="{x:Type Button}">
                             <Border
                             CornerRadius="25"
-                            BorderThickness="3" 
+                            BorderThickness="4" 
                             BorderBrush="Black"
                             Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -98,7 +98,7 @@
                         <ControlTemplate TargetType="{x:Type Button}">
                             <Border
                             CornerRadius="25"
-                            BorderThickness="3" 
+                            BorderThickness="4" 
                             BorderBrush="Black"
                             Background="{TemplateBinding Background}">
                                 <ContentPresenter VerticalAlignment="Center"
@@ -109,7 +109,7 @@
                 </Button>
             </StackPanel>
         </Grid>
-        <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center">
+        <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10,0,0,0">
             <Button BorderBrush="Black" 
                         ClickMode="Press" 
                         Cursor="Hand" 
@@ -122,7 +122,7 @@
                     <ControlTemplate TargetType="{x:Type Button}">
                         <Border
                             CornerRadius="25"
-                            BorderThickness="3" 
+                            BorderThickness="4" 
                             BorderBrush="Black" 
                             Background="{TemplateBinding Background}">
                             <ContentPresenter VerticalAlignment="Center"
