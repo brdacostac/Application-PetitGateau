@@ -11,22 +11,20 @@
             <Image Source="menu button.png" Height="40" Width="45"/>
         </WrapPanel>
 
-        <Grid DockPanel.Dock="Top" Background="LightPink" Height="105" VerticalAlignment="Top" Margin="0,40,0,0">
+        <Grid DockPanel.Dock="Top" Height="160" VerticalAlignment="Top" Margin="0,20,0,0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0">
-                <Border>
-                    <Image Source="logo.png"/>
+                <Border Background="SeaGreen" CornerRadius="20" Visibility="Visible" Width="350" Height="140">
+                    <Image Source="logo.png" Height="159" Width="295"/>
                 </Border>
             </StackPanel>
 
-            <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                <TextBlock Text="Bienvenue a Moqueca!" FontWeight="Bold"/>
-            </StackPanel>
+            <WrapPanel Grid.Column="1" HorizontalAlignment="Center">
+                <Image Source="Chef_F.PNG" Width="150"/>
+            </WrapPanel>
         </Grid>
     </DockPanel>
 </Window>

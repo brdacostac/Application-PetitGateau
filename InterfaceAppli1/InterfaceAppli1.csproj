@@ -100,5 +100,14 @@
   <ItemGroup>
     <Resource Include="logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chefAvatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chef_F.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="chef_H.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
