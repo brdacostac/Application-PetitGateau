@@ -6,51 +6,27 @@
         xmlns:local="clr-namespace:InterfaceAppli1"
         mc:Ignorable="d"
         Title="MoquecaDeRecettes" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="150"/>
-            <RowDefinition Height="125"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
+    <DockPanel>
+        <WrapPanel DockPanel.Dock="Right" Background="LightGray">
+            <Image Source="menu button.png" Height="40" Width="45"/>
+        </WrapPanel>
 
-        <StackPanel Grid.Row="1">
-            <StackPanel Orientation="Horizontal">
-                <Image Width="250" Height="100" HorizontalAlignment="Center" RenderTransformOrigin="-0.44,0.5" VerticalAlignment="Top"
-					   Source="/Images/logoTemp.jpg"/>
+        <Grid DockPanel.Dock="Top" Background="LightPink" Height="105" VerticalAlignment="Top" Margin="0,40,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <Border>
+                    <Image Source="logo.png"/>
+                </Border>
             </StackPanel>
-        </StackPanel>
 
-        <StackPanel Grid.Row="2">
-            <StackPanel Orientation="Horizontal" 
-						HorizontalAlignment="Center"
-                        RenderTransformOrigin="0.492,1.027" VerticalAlignment="Center" Height="125">
-                <Button  Content="REGIONS" 
-                 Foreground="Black"
-                 FontSize="20"
-                 FontWeight="Medium" RenderTransformOrigin="0.502,0.867" Click="Button_Click">
-
-                    <Button.Style>
-                        <Style TargetType="{x:Type Button}">
-                            <Setter Property="Background" Value="#FF01FF80"/>
-                            <Setter Property="Cursor" Value="Hand"/>
-                        </Style>
-                    </Button.Style>
-
-                    <Button.Template>
-                        <ControlTemplate TargetType="{x:Type Button}">
-                            <Border Width="499" Height="55"
-                            CornerRadius="25"
-                            Background="{TemplateBinding Background}"
-                            BorderThickness="2" BorderBrush="Black"  >
-                                <ContentPresenter VerticalAlignment="Center"
-                                          HorizontalAlignment="Center"/>
-                            </Border>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
-
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <TextBlock Text="Bienvenue a Moqueca!" FontWeight="Bold"/>
             </StackPanel>
-        </StackPanel>
-    </Grid>
+        </Grid>
+    </DockPanel>
 </Window>
