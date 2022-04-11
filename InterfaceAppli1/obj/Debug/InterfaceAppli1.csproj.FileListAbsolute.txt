@@ -29,3 +29,5 @@ C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.c
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.csproj.CoreCompileInputs.cache
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.exe
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\InterfaceAppli1.pdb
+C:\Users\nifranco\source\repos\sae-2.02\InterfaceAppli1\obj\Debug\Apropos.g.cs
+C:\Users\nifranco\source\repos\sae-2.02\InterfaceAppli1\obj\Debug\Apropos.baml
