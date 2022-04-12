@@ -11,14 +11,14 @@
             <Image Source="menu button.png" Height="40" Width="45"/>
         </WrapPanel>
 
-        <Grid DockPanel.Dock="Top" Height="160" VerticalAlignment="Top" Margin="0,20,0,0" Background="LightGray">
+        <Grid DockPanel.Dock="Top" Height="160" VerticalAlignment="Top" Margin="0,20,0,0" Background="White">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0" VerticalAlignment="Center">
                 <Border CornerRadius="20" Visibility="Visible" Width="350" Height="140">
-                    <Image Source="logo.png" Height="159" Width="295"/>
+                    <Image Source="logo.png" Margin="-58,-78,-58,-78"/>
                 </Border>
             </StackPanel>
 
@@ -91,7 +91,7 @@
                         Background="#FFFDD1D8" 
                         Margin="10,10,10,10">
                     <Button.Content>
-                        <Image Source="mesRecettesB.png" Height="83" Width="200" />
+                        <Image Source="mesRecettesB.png" Height="82" Width="202" />
                     </Button.Content>
 
                     <Button.Template>

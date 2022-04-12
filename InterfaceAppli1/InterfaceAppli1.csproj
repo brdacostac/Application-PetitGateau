@@ -105,22 +105,22 @@
     <Resource Include="menu button.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="logo.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="chef_F.PNG" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="chef_H.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="veganB.PNG" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="brazil.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="regionsB.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="veganB.PNG" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="topB.PNG" />
