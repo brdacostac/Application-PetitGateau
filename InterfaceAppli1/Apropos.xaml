@@ -14,15 +14,15 @@
         </WrapPanel>
 
         <StackPanel DockPanel.Dock="Top" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Qui sommes-nous ?" FontSize="20" TextDecorations="Underline"/>
+            <TextBlock Text="Qui sommes-nous ?" FontSize="20" TextDecorations="Underline" Margin="0,20,0,0"/>
             <TextBlock Text="--DESCRIPTION--" HorizontalAlignment="Center"/>
         </StackPanel>
         
         <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10,0,0,0" HorizontalAlignment="Center">
-            <TextBlock Text="Développeurs" FontSize="30" TextDecorations="Underline"/>
+            <TextBlock Text="Développeurs" FontSize="30" TextDecorations="Underline" Margin="0,20,0,0"/>
         </WrapPanel>
 
-        <Grid DockPanel.Dock="Top">
+        <Grid DockPanel.Dock="Top" Height="198">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
