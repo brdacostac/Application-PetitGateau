@@ -7,29 +7,35 @@
         mc:Ignorable="d"
         Title="Apropos" Height="450" Width="800">
     <DockPanel>
-        <WrapPanel DockPanel.Dock="Top" Background="White">
-            <Image Source="home button.png" Height="40" Width="45" HorizontalAlignment="Right" Margin="0,0,300,0"/>
-            <TextBlock Text="A PROPOS" VerticalAlignment="Center" FontSize="25" Margin="0,0,285,0"/>
-            <Image Source="menu button.png" Height="40" Width="45" HorizontalAlignment="Right"/>
+        <WrapPanel DockPanel.Dock="Top" Background="White" Height="56">
+            <Image Source="home button.png" Height="44" Width="45" HorizontalAlignment="Right" Margin="0,10,300,0"/>
+            <TextBlock Text="A PROPOS" VerticalAlignment="Center" FontSize="25" Margin="0,10,285,0"/>
+            <Image Source="menu button.png" Height="40" Width="45" Margin="0,10,0,0"/>
         </WrapPanel>
 
-        <Grid DockPanel.Dock="Bottom">
+        <StackPanel DockPanel.Dock="Top" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Qui sommes-nous ?" FontSize="20" TextDecorations="Underline"/>
+            <TextBlock Text="--DESCRIPTION--" HorizontalAlignment="Center"/>
+        </StackPanel>
+        
+        <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10,0,0,0" HorizontalAlignment="Center">
+            <TextBlock Text="Développeurs" FontSize="30" TextDecorations="Underline"/>
+        </WrapPanel>
+
+        <Grid DockPanel.Dock="Top">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                <TextBlock Text="Titre"/>
-                <TextBlock Text="Description"/>
+            <StackPanel Grid.Column="0" VerticalAlignment="Center" Height="155">
+                <Image Source="profileBlock.PNG" Height="156" Margin="27,0,22,0" />
             </StackPanel>
 
             <StackPanel Grid.Column="1" VerticalAlignment="Center">
-
+                <Image Source="profileBlock.PNG" Height="155" Margin="27,0,22,0" />
             </StackPanel>
         </Grid>
-        <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10,0,0,0">
-
-        </WrapPanel>
+        
     </DockPanel>
 </Window>

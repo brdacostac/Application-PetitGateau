@@ -128,5 +128,8 @@
   <ItemGroup>
     <Resource Include="mesRecettesB.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="profileBlock.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
