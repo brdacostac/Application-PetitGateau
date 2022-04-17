@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Apropos" Height="450" Width="800">
     <DockPanel>
-        <WrapPanel DockPanel.Dock="Top" Background="White" Height="50">
+        <WrapPanel DockPanel.Dock="Top" Background="White">
             <local:UCbuttons Titre="Vegan" Width="800"/>
         </WrapPanel>
         
