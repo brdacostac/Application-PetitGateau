@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Apropos" Height="450" Width="800">
     <DockPanel>
-        <WrapPanel DockPanel.Dock="Top" Background="White" Height="56">
-            <local:UCbuttons></local:UCbuttons>
+        <WrapPanel DockPanel.Dock="Top" Background="White" Height="50">
+            <local:UCbuttons Titre="Vegan" Width="800"/>
         </WrapPanel>
-
+        
         <StackPanel DockPanel.Dock="Top" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="Qui sommes-nous ?" FontSize="20" TextDecorations="Underline" Margin="0,20,0,0"/>
             <TextBlock Text="--DESCRIPTION--" HorizontalAlignment="Center"/>
@@ -27,11 +27,11 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" VerticalAlignment="Center" Height="155">
-                <Image Source="profileBlock.PNG" Height="156" Margin="27,0,22,0" />
+                <Image Source="Images/profileBlock.PNG" Height="156" Margin="27,0,22,0" />
             </StackPanel>
 
             <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                <Image Source="profileBlock.PNG" Height="155" Margin="27,0,22,0" />
+                <Image Source="Images/profileBlock.PNG" Height="155" Margin="27,0,22,0" />
             </StackPanel>
         </Grid>
         

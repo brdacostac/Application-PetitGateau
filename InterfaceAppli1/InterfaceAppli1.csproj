@@ -109,34 +109,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="menu button.png" />
+    <Resource Include="Images\menu button.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="chef_F.PNG" />
+    <Resource Include="Images\chef_F.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="chef_H.PNG" />
+    <Resource Include="Images\chef_H.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="brazil.jpg" />
+    <Resource Include="Images\logo.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="logo.PNG" />
+    <Resource Include="Images\regionsB.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="regionsB.PNG" />
+    <Resource Include="Images\veganB.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="veganB.PNG" />
+    <Resource Include="Images\topB.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="topB.PNG" />
+    <Resource Include="Images\mesRecettesB.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="mesRecettesB.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="profileBlock.PNG" />
+    <Resource Include="Images\profileBlock.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

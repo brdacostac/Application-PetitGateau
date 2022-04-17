@@ -23,5 +23,10 @@ namespace InterfaceAppli1
         {
             InitializeComponent();
         }
+
+        private void UCbuttons_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

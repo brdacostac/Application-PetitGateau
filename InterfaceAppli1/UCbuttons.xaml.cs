@@ -24,5 +24,13 @@ namespace InterfaceAppli1
         {
             InitializeComponent();
         }
+
+        public string Titre
+        {
+            set
+            {
+                TitrePage.Text = value;
+            }
+        }
     }
 }
