@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MasterRecettes.xaml.cs">
+      <DependentUpon>MasterRecettes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MonChef.xaml.cs">
       <DependentUpon>MonChef.xaml</DependentUpon>
     </Compile>
@@ -80,6 +83,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MasterRecettes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MonChef.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -141,6 +148,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\profileBlock.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\home button.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
