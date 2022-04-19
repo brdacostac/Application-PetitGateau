@@ -64,6 +64,9 @@
     <Compile Include="UCbuttons.xaml.cs">
       <DependentUpon>UCbuttons.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UCrecette.xaml.cs">
+      <DependentUpon>UCrecette.xaml</DependentUpon>
+    </Compile>
     <Page Include="Apropos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -92,6 +95,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UCbuttons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UCrecette.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -153,10 +160,19 @@
     <Resource Include="Images\home button.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\defaultRecette.png" />
+    <Resource Include="Images\likeButton.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\likeButton.png" />
+    <Resource Include="Images\testR.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\testR2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\defaultR.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\liked.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

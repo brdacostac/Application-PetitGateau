@@ -20,23 +20,32 @@
                 <Button Content="Desserts" Width="50" Cursor="Hand"/>
             </WrapPanel>
         </StackPanel>
-
+        <ScrollViewer>
         <Grid DockPanel.Dock="Top">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-
-            <StackPanel>
-                <Rectangle Height="180" Stroke="Black" Width="150">
-                </Rectangle>
-                <WrapPanel Height="20">
-                    <TextBlock Text="Strogonoff de carne" Width="120" Margin="60,0,0,0"/>
-                    <Image Source="Images/likeButton.png"/>
-                </WrapPanel>
-            </StackPanel>
             
+            <StackPanel Grid.Column="0">
+                <local:UCrecette Margin="0,0,0,20"/>
+                <local:UCrecette Margin="0,0,0,20"/>
+                <local:UCrecette Margin="0,0,0,20"/>
+                </StackPanel>
+
+            <StackPanel Grid.Column="1">
+                <local:UCrecette Margin="0,0,0,20"/>
+                <local:UCrecette Margin="0,0,0,20"/>
+                <local:UCrecette Margin="0,0,0,20"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2">
+                <local:UCrecette Margin="0,0,0,20"/>
+                <local:UCrecette Margin="0,0,0,20"/>
+                <local:UCrecette Margin="0,0,0,20"/>
+            </StackPanel>
         </Grid>
+        </ScrollViewer>    
     </DockPanel>
 </UserControl>
