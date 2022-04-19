@@ -152,5 +152,11 @@
   <ItemGroup>
     <Resource Include="Images\home button.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\defaultRecette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\likeButton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

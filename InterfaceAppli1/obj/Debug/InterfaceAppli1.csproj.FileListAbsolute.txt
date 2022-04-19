@@ -38,3 +38,5 @@ C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\GeneratedInternal
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCbuttons.baml
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\MonChef.g.cs
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\MonChef.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\MasterRecettes.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\MasterRecettes.baml
