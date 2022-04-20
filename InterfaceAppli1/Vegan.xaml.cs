@@ -10,14 +10,15 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace InterfaceAppli1
 {
     /// <summary>
-    /// Lógica interna para Vegan.xaml
+    /// Interação lógica para Vegan.xam
     /// </summary>
-    public partial class Vegan : Window
+    public partial class Vegan : Page
     {
         public Vegan()
         {

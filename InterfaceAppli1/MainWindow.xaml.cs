@@ -25,9 +25,10 @@ namespace InterfaceAppli1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Page_vegan(object sender, RoutedEventArgs e)
         {
-
+            Vegan pg = new Vegan();
+            this.Content = pg;
         }
     }
 }
