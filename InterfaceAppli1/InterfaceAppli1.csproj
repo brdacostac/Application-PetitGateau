@@ -61,8 +61,17 @@
     <Compile Include="MonChef.xaml.cs">
       <DependentUpon>MonChef.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Norte.xaml.cs">
+      <DependentUpon>Norte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TopRecettes.xaml.cs">
+      <DependentUpon>TopRecettes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UCbuttons.xaml.cs">
       <DependentUpon>UCbuttons.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCmasterRegions.xaml.cs">
+      <DependentUpon>UCmasterRegions.xaml</DependentUpon>
     </Compile>
     <Compile Include="UCrecette.xaml.cs">
       <DependentUpon>UCrecette.xaml</DependentUpon>
@@ -97,7 +106,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Norte.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TopRecettes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UCbuttons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UCmasterRegions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -180,6 +201,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\liked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\norte_brasil.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

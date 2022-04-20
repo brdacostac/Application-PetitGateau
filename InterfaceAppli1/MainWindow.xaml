@@ -120,7 +120,8 @@
             <Button BorderBrush="Black" 
                         ClickMode="Press" 
                         Cursor="Hand" 
-                        Background="LightBlue">
+                        Background="LightBlue"
+                    Click="Page_regions">
                 <Button.Content>
                     <Image Source="Images/regionsB.png" Height="83" Width="730"/>
                 </Button.Content>

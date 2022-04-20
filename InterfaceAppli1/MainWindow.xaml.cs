@@ -30,5 +30,11 @@ namespace InterfaceAppli1
             Vegan pg = new Vegan();
             this.Content = pg;
         }
+
+        private void Page_regions(object sender, RoutedEventArgs e)
+        {
+            Norte pg = new Norte();
+            this.Content = pg;
+        }
     }
 }

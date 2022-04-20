@@ -44,3 +44,9 @@ C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCrecette.g.cs
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCrecette.baml
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Vegan.g.cs
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Vegan.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Norte.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\TopRecettes.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCmasterRegions.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\TopRecettes.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCmasterRegions.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Norte.baml
