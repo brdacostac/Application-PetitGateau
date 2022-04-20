@@ -67,6 +67,9 @@
     <Compile Include="UCrecette.xaml.cs">
       <DependentUpon>UCrecette.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Vegan.xaml.cs">
+      <DependentUpon>Vegan.xaml</DependentUpon>
+    </Compile>
     <Page Include="Apropos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -99,6 +102,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UCrecette.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vegan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

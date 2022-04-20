@@ -42,4 +42,5 @@ C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\MasterRecettes.g.
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\MasterRecettes.baml
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCrecette.g.cs
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCrecette.baml
-C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCMasterRecettes.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Vegan.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Vegan.baml

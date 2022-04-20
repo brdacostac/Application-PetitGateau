@@ -48,5 +48,10 @@ namespace InterfaceAppli1
                 LikeButton.Source = new BitmapImage(new Uri(value, UriKind.Relative));
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            monButton.Content = "Images/liked.png";
+        }
     }
 }
