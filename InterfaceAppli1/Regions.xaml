@@ -1,0 +1,52 @@
+﻿<Page x:Class="InterfaceAppli1.Regions"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:InterfaceAppli1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Regions">
+    
+    <DockPanel Background="White">
+        <local:UCbuttons DockPanel.Dock="Top" Titre="Regions"/>
+        <DockPanel DockPanel.Dock="Top" Width="470">
+            <DockPanel.Background>
+                <ImageBrush ImageSource="Images/brasilMap.png"/>
+            </DockPanel.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Button Content="Norte"
+                        Width="80" Height="30" Grid.Row="1" 
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Top" 
+                        Margin="155,10,0,0"/>
+
+                <Button Content="Nordeste"
+                        Width="60" Height="30" Grid.Row="1" 
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Top" 
+                        Margin="344,50,0,0"/>
+                
+                <Button Content="Centro-Oeste" Width="78" Height="34" Grid.Row="2" 
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center"/>
+                
+                <Button Content="Sudeste" Width="60" Height="30" Grid.Row="3" 
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Top" Margin="297,0,0,0"/>
+                
+                <Button Content="Sul" Width="38" Height="25" Grid.Row="4" 
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Top" Margin="236,0,0,0"/>
+            </Grid>
+        </DockPanel>
+    </DockPanel>
+</Page>

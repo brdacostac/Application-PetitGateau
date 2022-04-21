@@ -55,20 +55,38 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CentroOeste.xaml.cs">
+      <DependentUpon>CentroOeste.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MasterRecettes.xaml.cs">
       <DependentUpon>MasterRecettes.xaml</DependentUpon>
     </Compile>
     <Compile Include="MonChef.xaml.cs">
       <DependentUpon>MonChef.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Nordeste.xaml.cs">
+      <DependentUpon>Nordeste.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Norte.xaml.cs">
       <DependentUpon>Norte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Regions.xaml.cs">
+      <DependentUpon>Regions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sudeste.xaml.cs">
+      <DependentUpon>Sudeste.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sul.xaml.cs">
+      <DependentUpon>Sul.xaml</DependentUpon>
     </Compile>
     <Compile Include="TopRecettes.xaml.cs">
       <DependentUpon>TopRecettes.xaml</DependentUpon>
     </Compile>
     <Compile Include="UCbuttons.xaml.cs">
       <DependentUpon>UCbuttons.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCfiltreRegions.xaml.cs">
+      <DependentUpon>UCfiltreRegions.xaml</DependentUpon>
     </Compile>
     <Compile Include="UCmasterRegions.xaml.cs">
       <DependentUpon>UCmasterRegions.xaml</DependentUpon>
@@ -80,6 +98,10 @@
       <DependentUpon>Vegan.xaml</DependentUpon>
     </Compile>
     <Page Include="Apropos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CentroOeste.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -106,7 +128,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Nordeste.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Norte.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Regions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sudeste.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sul.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -115,6 +153,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UCbuttons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UCfiltreRegions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -204,6 +246,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\norte_brasil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\brasilMap.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -50,3 +50,15 @@ C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCmasterRegions.g
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\TopRecettes.baml
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCmasterRegions.baml
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Norte.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Regions.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Regions.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\CentroOeste.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Nordeste.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Sudeste.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Sul.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCfiltreRegions.g.cs
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\CentroOeste.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Nordeste.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Sudeste.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Sul.baml
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCfiltreRegions.baml

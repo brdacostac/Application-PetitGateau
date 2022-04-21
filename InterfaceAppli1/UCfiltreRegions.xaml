@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="InterfaceAppli1.UCfiltreRegions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:InterfaceAppli1"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="800">
+
+    <ScrollViewer>
+        <DockPanel Background="White" Height="280">
+            <WrapPanel DockPanel.Dock="Top" Margin="50,0,0,0" Height="35">
+                <TextBlock Text="Search"
+                           VerticalAlignment="Center"
+                           Width="200"
+                           Height="20"
+                           Background="Orange" 
+                           TextAlignment="Center"/>
+
+                <WrapPanel HorizontalAlignment="Center" Margin="320,0,0,0">
+                    <Button Content="Entrées" Width="50" Cursor="Hand" Click="Button_Click"/>
+                    <Button Content="Plats" Width="50" Cursor="Hand"/>
+                    <Button Content="Desserts" Width="50" Cursor="Hand"/>
+                </WrapPanel>
+            </WrapPanel>
+
+            <WrapPanel DockPanel.Dock="Top" Margin="0,0,0,20" Width="680">
+                <Image x:Name="ImageRegion" Source="Images/norte_brasil.jpg" Height="252" Width="508"/>
+                <TextBlock x:Name="description"  Text="* Texto sobre a regiao aqui *" Width="172"
+                           TextAlignment="Center" VerticalAlignment="Center" />
+            </WrapPanel>
+
+            <Frame x:Name="Recettes" DockPanel.Dock="Bottom" Height="400"/>
+        </DockPanel>
+    </ScrollViewer>
+</UserControl>
