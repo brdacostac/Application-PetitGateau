@@ -33,10 +33,10 @@
 
             <StackPanel Grid.Column="0" VerticalAlignment="Center">
                 <Button
-                    Background="LightGreen"
                     ClickMode="Press" 
                     Cursor="Hand" 
                     Margin="10,10,10,10"
+                    Style="{StaticResource MenuBoutonVegan}"
                     Click="Page_vegan">
                     <Button.Content>
                         <Image Source="Images/veganB.png" Height="83" Width="200" />
@@ -61,7 +61,7 @@
                 <Button BorderBrush="Black" 
                         ClickMode="Press" 
                         Cursor="Hand" 
-                        Background="#FFFFFF99" 
+                        Style="{StaticResource MenuBoutonTop}"
                         Margin="10,10,10,10">
                     <Button.Content>
                         <Image Source="Images/topB.png" Height="83" Width="200" />
@@ -86,7 +86,7 @@
                 <Button BorderBrush="Black" 
                         ClickMode="Press" 
                         Cursor="Hand" 
-                        Background="#FFFDD1D8" 
+                        Style="{StaticResource MenuBoutonFavorits}"
                         Margin="10,10,10,10">
                     <Button.Content>
                         <Image Source="Images/mesRecettesB.png" Height="82" Width="202" />
@@ -110,8 +110,8 @@
         <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Button BorderBrush="Black" 
                         ClickMode="Press" 
-                        Cursor="Hand" 
-                        Background="LightBlue"
+                        Cursor="Hand"
+                        Style="{StaticResource MenuBoutonRegions}"
                         Click="Page_regions">
                 <Button.Content>
                     <Image Source="Images/regionsB.png" Height="83" Width="730"/>

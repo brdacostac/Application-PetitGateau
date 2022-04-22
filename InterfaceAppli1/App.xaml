@@ -2,9 +2,10 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:InterfaceAppli1"
-             StartupUri="Norte.xaml">
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
+            
             <ResourceDictionary.MergedDictionaries>
                 <!-- MahApps.Metro resource dictionaries.-->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
@@ -12,6 +13,54 @@
                 <!-- Theme setting -->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+
+
+            <!--Définition de la couleur du bouton region-->
+            <RadialGradientBrush x:Key="colorButtonRegions">
+                <GradientStop Color="#b6f5f6" Offset="0"/>
+                <GradientStop Color="#99c1f4" Offset="1"/>
+            </RadialGradientBrush>
+
+            <!--Définition du style du bouton region-->
+            <Style TargetType="Button" x:Key="MenuBoutonRegions">
+                <Setter Property="Background" Value="{StaticResource colorButtonRegions}"/>
+            </Style>
+
+            <!--Définition de la couleur du bouton vegan-->
+            <RadialGradientBrush x:Key="colorButtonVegan">
+                <GradientStop Color="#57e57e" Offset="1.2"/>
+                <GradientStop Color="#fdf690" Offset="0"/>
+            </RadialGradientBrush>
+
+            <!--Définition du style du bouton vegan-->
+            <Style TargetType="Button" x:Key="MenuBoutonVegan">
+                <Setter Property="Background" Value="{StaticResource colorButtonVegan}"/>
+            </Style>
+
+            <!--Définition de la couleur du bouton top-->
+            <RadialGradientBrush x:Key="colorButtonTop">
+                <GradientStop Color="#eacda3" Offset="0"/>
+                <GradientStop Color="#f9f586" Offset="1"/>
+            </RadialGradientBrush>
+
+            <!--Définition du style du bouton top-->
+            <Style TargetType="Button" x:Key="MenuBoutonTop">
+                <Setter Property="Background" Value="{StaticResource colorButtonTop}"/>
+            </Style>
+
+            <!--Définition de la couleur du bouton favorits-->
+            <RadialGradientBrush x:Key="colorButtonFavorits">
+                <GradientStop Color="#f292a0" Offset="1"/>
+                <GradientStop Color="#f8c4cb" Offset="0"/>
+            </RadialGradientBrush>
+
+            <!--Définition du style du bouton favorits-->
+            <Style TargetType="Button" x:Key="MenuBoutonFavorits">
+                <Setter Property="Background" Value="{StaticResource colorButtonFavorits}"/>
+            </Style>
+
+
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>
