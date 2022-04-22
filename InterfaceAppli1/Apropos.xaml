@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InterfaceAppli1"
         mc:Ignorable="d"
-        Title="Apropos" Height="450" Width="800">
+        Title="Apropos"
+        d:DesignHeight="600" d:DesignWidth="920">
     <DockPanel>
         <WrapPanel DockPanel.Dock="Top" Background="White">
-            <local:UCbuttons Titre="À Propos" Width="800"/>
+            <local:UCbuttons Titre="À Propos" Width="920"/>
         </WrapPanel>
         
         <StackPanel DockPanel.Dock="Top" VerticalAlignment="Center" HorizontalAlignment="Center">

@@ -31,8 +31,7 @@ namespace InterfaceAppli1
 
         private void Page_regions(object sender, RoutedEventArgs e)
         {
-            Norte pg = new Norte();
-            this.Content = pg;
+            this.Content = new Norte();
         }
     }
 }

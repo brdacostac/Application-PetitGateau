@@ -10,7 +10,6 @@
     
     <DockPanel>
         <local:UCbuttons DockPanel.Dock="Top" Titre="Top recettes"/>
-        <local:MasterRecettes DockPanel.Dock="Bottom">
-        </local:MasterRecettes>
+        <local:MasterRecettes DockPanel.Dock="Bottom"/>
     </DockPanel>
 </Page>

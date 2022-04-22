@@ -112,7 +112,7 @@
                         ClickMode="Press" 
                         Cursor="Hand" 
                         Background="LightBlue"
-                    Click="Page_regions">
+                        Click="Page_regions">
                 <Button.Content>
                     <Image Source="Images/regionsB.png" Height="83" Width="730"/>
                 </Button.Content>

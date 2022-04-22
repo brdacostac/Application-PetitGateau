@@ -6,13 +6,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InterfaceAppli1"
         mc:Ignorable="d"
-        Title="PetitGateau" Height="600" Width="920"
+        Title="PetitGateau" 
+        Height="600" Width="920"
         Icon="/Images/logo.PNG">
     
     <DockPanel Background="white">
         <local:UCbuttons DockPanel.Dock="Top" Titre="Bienvenue !"/>
-        <Frame x:Name="mainContent" DockPanel.Dock="Top">
+        <ContentControl x:Name="pagePrincipale">
+            <ContentControl.Content>
 
-        </Frame>
+                <local:UCaccueil />
+
+            </ContentControl.Content>
+        </ContentControl>
     </DockPanel>
 </mah:MetroWindow>

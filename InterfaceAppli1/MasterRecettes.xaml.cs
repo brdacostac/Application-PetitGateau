@@ -24,5 +24,6 @@ namespace InterfaceAppli1
         {
             InitializeComponent();
         }
+
     }
 }
