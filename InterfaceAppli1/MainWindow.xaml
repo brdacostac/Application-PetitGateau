@@ -27,7 +27,7 @@
                     <Image Source="Images/logo.png" Margin="-58,-78,-58,-78"/>
                 </Border>
             </StackPanel>
-
+            
             <WrapPanel Grid.Column="1" HorizontalAlignment="Center">
                 <Image Source="Images/Chef_F.PNG" Width="150" VerticalAlignment="Center"/>
             </WrapPanel>

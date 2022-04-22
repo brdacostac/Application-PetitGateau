@@ -8,7 +8,8 @@
              d:DesignHeight="400" d:DesignWidth="800">
 
     <ScrollViewer>
-        <DockPanel Background="White" Height="280">
+        <DockPanel Background="White">
+            
             <WrapPanel DockPanel.Dock="Top" Margin="50,0,0,0" Height="35">
                 <TextBlock Text="Search"
                            VerticalAlignment="Center"
@@ -30,7 +31,9 @@
                            TextAlignment="Center" VerticalAlignment="Center" />
             </WrapPanel>
 
-            <Frame x:Name="Recettes" DockPanel.Dock="Bottom" Height="400"/>
+
+            <Frame x:Name="Recettes" DockPanel.Dock="Bottom" NavigationUIVisibility="Hidden"/>
+
         </DockPanel>
     </ScrollViewer>
 </UserControl>
