@@ -58,6 +58,12 @@
     <Compile Include="CentroOeste.xaml.cs">
       <DependentUpon>CentroOeste.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Connexion.xaml.cs">
+      <DependentUpon>Connexion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MasterRecettes.xaml.cs">
       <DependentUpon>MasterRecettes.xaml</DependentUpon>
     </Compile>
@@ -82,6 +88,9 @@
     <Compile Include="TopRecettes.xaml.cs">
       <DependentUpon>TopRecettes.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UCaccueil.xaml.cs">
+      <DependentUpon>UCaccueil.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UCbuttons.xaml.cs">
       <DependentUpon>UCbuttons.xaml</DependentUpon>
     </Compile>
@@ -102,6 +111,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CentroOeste.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Connexion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -149,6 +166,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TopRecettes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UCaccueil.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

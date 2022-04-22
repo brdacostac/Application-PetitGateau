@@ -23,18 +23,8 @@ namespace InterfaceAppli1
         public MainWindow()
         {
             InitializeComponent();
-        }
+            mainContent.Content =  new UCaccueil();
 
-        private void Page_vegan(object sender, RoutedEventArgs e)
-        {
-            Vegan pg = new Vegan();
-            this.Content = pg;
-        }
-
-        private void Page_regions(object sender, RoutedEventArgs e)
-        {
-            Norte pg = new Norte();
-            this.Content = pg;
         }
     }
 }

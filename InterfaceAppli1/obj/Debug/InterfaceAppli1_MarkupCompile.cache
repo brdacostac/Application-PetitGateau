@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\
 InterfaceAppli1
 none
 false
 DEBUG;TRACE
-C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\App.xaml
-16-1671038839
+C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\App.xaml
+19-894804238
 
-201923328997
+23-1354734340
 13-1310406943
-Apropos.xaml;CentroOeste.xaml;MainWindow.xaml;MasterRecettes.xaml;MonChef.xaml;Nordeste.xaml;Norte.xaml;Regions.xaml;Sudeste.xaml;Sul.xaml;TopRecettes.xaml;UCbuttons.xaml;UCfiltreRegions.xaml;UCmasterRegions.xaml;UCrecette.xaml;Vegan.xaml;
+Apropos.xaml;CentroOeste.xaml;Connexion.xaml;HomePage.xaml;MainWindow.xaml;MasterRecettes.xaml;MonChef.xaml;Nordeste.xaml;Norte.xaml;Regions.xaml;Sudeste.xaml;Sul.xaml;TopRecettes.xaml;UCaccueil.xaml;UCbuttons.xaml;UCfiltreRegions.xaml;UCmasterRegions.xaml;UCrecette.xaml;Vegan.xaml;
 
 False
 
