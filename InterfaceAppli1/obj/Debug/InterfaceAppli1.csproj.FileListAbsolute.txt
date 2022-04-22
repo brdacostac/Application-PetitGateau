@@ -115,3 +115,9 @@ C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Connexion.g.cs
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\Connexion.baml
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCaccueil.g.cs
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\UCaccueil.baml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\Connexion.g.cs
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\HomePage.g.cs
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\UCaccueil.g.cs
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\Connexion.baml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\HomePage.baml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\UCaccueil.baml

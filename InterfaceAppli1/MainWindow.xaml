@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InterfaceAppli1"
         mc:Ignorable="d"
-        Title="PetitGateau" Height="500" Width="850">
+        Title="PetitGateau" Height="600" Width="920"
+        Icon="/Images/logo.PNG">
     
     <DockPanel Background="white">
         <local:UCbuttons DockPanel.Dock="Top" Titre="Bienvenue !"/>

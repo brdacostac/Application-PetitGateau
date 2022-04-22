@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:InterfaceAppli1"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="600" d:DesignWidth="920">
     
     <DockPanel Background="White">
         <Grid DockPanel.Dock="Top" Height="160" VerticalAlignment="Top" Margin="0,20,0,0" Background="White">
@@ -13,7 +13,7 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <StackPanel Grid.Column="0" VerticalAlignment="Center">
+            <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Border CornerRadius="20" Visibility="Visible" Width="350" Height="140">
                     <Image Source="Images/logo.png" Margin="-58,-78,-58,-78"/>
                 </Border>
@@ -107,7 +107,7 @@
                 </Button>
             </StackPanel>
         </Grid>
-        <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10,0,0,0">
+        <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Button BorderBrush="Black" 
                         ClickMode="Press" 
                         Cursor="Hand" 
@@ -121,7 +121,7 @@
                     <ControlTemplate TargetType="{x:Type Button}">
                         <Border
                             CornerRadius="25"
-                            BorderThickness="4" 
+                            BorderThickness="4"
                             BorderBrush="Black" 
                             Background="{TemplateBinding Background}">
                             <ContentPresenter VerticalAlignment="Center"
