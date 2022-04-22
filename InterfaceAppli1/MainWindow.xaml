@@ -1,4 +1,5 @@
-﻿<Window x:Class="InterfaceAppli1.MainWindow"
+﻿<mah:MetroWindow x:Class="InterfaceAppli1.MainWindow"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -14,4 +15,4 @@
 
         </Frame>
     </DockPanel>
-</Window>
+</mah:MetroWindow>

@@ -121,3 +121,15 @@ C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\UCaccueil.g.cs
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\Connexion.baml
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\HomePage.baml
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\UCaccueil.baml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\ControlzEx.dll
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\MahApps.Metro.dll
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\ControlzEx.pdb
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\ControlzEx.xml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\MahApps.Metro.pdb
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\MahApps.Metro.xml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\App.baml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\InterfaceAppli1.csproj.CopyComplete
