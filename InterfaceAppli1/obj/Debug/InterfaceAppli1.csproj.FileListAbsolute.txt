@@ -133,3 +133,4 @@ C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\Microsoft.Xaml.Be
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\de\MahApps.Metro.resources.dll
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\App.baml
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\InterfaceAppli1.csproj.CopyComplete
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\Themes\TextBoxTheme.baml

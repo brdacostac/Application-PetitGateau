@@ -2,16 +2,21 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:InterfaceAppli1"
-             StartupUri="MainWindow.xaml">
+             StartupUri="Norte.xaml">
     <Application.Resources>
         <ResourceDictionary>
-            
+
+           
             <ResourceDictionary.MergedDictionaries>
                 <!-- MahApps.Metro resource dictionaries.-->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
                 <!-- Theme setting -->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml"/>
+           
+                <!---Theme crée pour le TextBox-->
+                <ResourceDictionary Source="Themes/TextBoxTheme.xaml"/>
+                
             </ResourceDictionary.MergedDictionaries>
 
 
