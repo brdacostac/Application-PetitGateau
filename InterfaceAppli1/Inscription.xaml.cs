@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace InterfaceAppli1
 {
     /// <summary>
-    /// Interação lógica para HomePage.xam
+    /// Interação lógica para Inscription.xam
     /// </summary>
-    public partial class HomePage : UserControl
+    public partial class Inscription : Page
     {
-        public HomePage()
+        public Inscription()
         {
             InitializeComponent();
         }

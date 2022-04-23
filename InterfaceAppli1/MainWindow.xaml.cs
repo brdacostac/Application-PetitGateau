@@ -24,7 +24,7 @@ namespace InterfaceAppli1
         public MainWindow()
         {
             InitializeComponent();
-            pagePrincipale.Content =  new UCaccueil();
+            pagePrincipale.Content =  new UCrecDetailee();
 
         }
     }

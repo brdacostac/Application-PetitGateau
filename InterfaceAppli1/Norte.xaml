@@ -10,6 +10,6 @@
 
     <DockPanel>
         <local:UCbuttons DockPanel.Dock="Top" Titre="Nord"/>
-        <local:UCfiltreRegions DockPanel.Dock="Top"/>
+        <local:UCfiltreRegions DockPanel.Dock="Top" Width="919"/>
     </DockPanel>
 </Page>

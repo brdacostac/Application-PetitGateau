@@ -74,8 +74,8 @@
     <Compile Include="Connexion.xaml.cs">
       <DependentUpon>Connexion.xaml</DependentUpon>
     </Compile>
-    <Compile Include="HomePage.xaml.cs">
-      <DependentUpon>HomePage.xaml</DependentUpon>
+    <Compile Include="Inscription.xaml.cs">
+      <DependentUpon>Inscription.xaml</DependentUpon>
     </Compile>
     <Compile Include="MasterRecettes.xaml.cs">
       <DependentUpon>MasterRecettes.xaml</DependentUpon>
@@ -113,6 +113,9 @@
     <Compile Include="UCmasterRegions.xaml.cs">
       <DependentUpon>UCmasterRegions.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UCrecDetailee.xaml.cs">
+      <DependentUpon>UCrecDetailee.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UCrecette.xaml.cs">
       <DependentUpon>UCrecette.xaml</DependentUpon>
     </Compile>
@@ -131,7 +134,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="HomePage.xaml">
+    <Page Include="Inscription.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -199,6 +202,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UCmasterRegions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UCrecDetailee.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -288,6 +295,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\brasilMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\badges\1.png" />
+    <Resource Include="Images\badges\2.png" />
+    <Resource Include="Images\badges\3.png" />
+    <Resource Include="Images\badges\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\boloDecenoura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons\clock.png" />
+    <Resource Include="Images\icons\comments.png" />
+    <Resource Include="Images\icons\heart.png" />
+    <Resource Include="Images\icons\serving.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons\knifeFork.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
