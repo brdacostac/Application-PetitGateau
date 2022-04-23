@@ -7,11 +7,9 @@
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="920"
       Title="CentroOeste">
-    <ScrollViewer>
-        <DockPanel>
-            <local:UCbuttons DockPanel.Dock="Top" Titre="Centro-Oeste"/>
-            <local:UCfiltreRegions DockPanel.Dock="Top"/>
-            
-        </DockPanel>
-    </ScrollViewer>
+    <DockPanel>
+        <local:UCbuttons DockPanel.Dock="Top" Titre="Centro-Oeste"/>
+        <local:UCfiltreRegions DockPanel.Dock="Top"/>
+
+    </DockPanel>
 </Page>
