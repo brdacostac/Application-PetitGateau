@@ -15,7 +15,7 @@
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Border CornerRadius="20" Visibility="Visible" Width="350" Height="140">
-                    <Image Source="Images/logo.png" Margin="-58,-78,-58,-78"/>
+                    <Image Source="Images/logo.png" Margin="-42,-17,-112,-45"/>
                 </Border>
             </StackPanel>
 

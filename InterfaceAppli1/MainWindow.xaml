@@ -8,10 +8,10 @@
         mc:Ignorable="d"
         Title="PetitGateau" 
         Height="600" Width="920"
-        Icon="/Images/logo.PNG">
+        Icon="/Images/logo.png">
     
     <DockPanel Background="white">
-        <local:UCbuttons DockPanel.Dock="Top" Titre="Bienvenue !"/>
+        <local:UCbuttons DockPanel.Dock="Top" Titre=" "/>
         <ContentControl x:Name="pagePrincipale">
             <ContentControl.Content>
 
