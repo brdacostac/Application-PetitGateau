@@ -15,7 +15,7 @@
         <ContentControl x:Name="pagePrincipale">
             <ContentControl.Content>
 
-                <local:UCaccueil />
+                <local:UCaccueil/>
 
             </ContentControl.Content>
         </ContentControl>

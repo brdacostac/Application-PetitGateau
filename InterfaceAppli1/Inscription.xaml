@@ -26,7 +26,8 @@
                 <TextBox TextWrapping="Wrap" 
                          Text="Enter your username" 
                          Width="316" Height="30"
-                         BorderThickness="2" FontStyle="Italic"/>
+                         BorderThickness="2" FontStyle="Italic"
+                         Foreground="DarkGray"/>
             </StackPanel>
 
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="400">
@@ -37,7 +38,8 @@
                 <TextBox TextWrapping="Wrap" 
                          Text="Enter your password" 
                          Width="316" Height="30"
-                         BorderThickness="2" FontStyle="Italic"/>
+                         BorderThickness="2" FontStyle="Italic"
+                         Foreground="DarkGray"/>
             </StackPanel>
 
             <StackPanel Grid.Row="2" HorizontalAlignment="Center" Width="400">
@@ -48,7 +50,8 @@
                 <TextBox TextWrapping="Wrap" 
                          Text="Enter your password again" 
                          Width="316" Height="29"
-                         BorderThickness="2" FontStyle="Italic"/>
+                         BorderThickness="2" FontStyle="Italic"
+                         Foreground="DarkGray"/>
             </StackPanel>
 
 
