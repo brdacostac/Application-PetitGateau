@@ -30,7 +30,7 @@
                         Margin="155,10,0,0"/>
 
                 <Button Content="Nordeste"
-                        Width="60" Height="30" Grid.Row="1" 
+                        Width="65" Height="30" Grid.Row="1" 
                         HorizontalAlignment="Left" 
                         VerticalAlignment="Top" 
                         Margin="344,50,0,0"/>

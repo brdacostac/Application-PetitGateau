@@ -6,20 +6,6 @@
     <Application.Resources>
         <ResourceDictionary>
 
-           
-            <ResourceDictionary.MergedDictionaries>
-                <!-- MahApps.Metro resource dictionaries.-->
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
-                <!-- Theme setting -->
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml"/>
-           
-                <!---Theme crée pour le TextBox-->
-                <ResourceDictionary Source="Themes/TextBoxTheme.xaml"/>
-                
-            </ResourceDictionary.MergedDictionaries>
-
-
             <!--Définition de la couleur du bouton region-->
             <RadialGradientBrush x:Key="colorButtonRegions">
                 <GradientStop Color="#b6f5f6" Offset="0"/>
@@ -64,7 +50,17 @@
                 <Setter Property="Background" Value="{StaticResource colorButtonFavorits}"/>
             </Style>
 
+            <ResourceDictionary.MergedDictionaries>
+                <!-- MahApps.Metro resource dictionaries.-->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <!-- Theme setting -->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml"/>
 
+                <!---Theme crée pour le TextBox-->
+                <ResourceDictionary Source="Themes/TextBoxTheme.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
 
         </ResourceDictionary>
     </Application.Resources>
