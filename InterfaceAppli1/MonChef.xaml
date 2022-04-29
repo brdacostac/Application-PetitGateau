@@ -1,4 +1,4 @@
-﻿<Page x:Class="InterfaceAppli1.MonChef"
+﻿<Page xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"  x:Class="InterfaceAppli1.MonChef"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -14,7 +14,7 @@
 
         <StackPanel DockPanel.Dock="Top">
             <Image Source="Images/chef_H.png" Height="310" Width="360"/>
-            <ProgressBar Height="20" Width="500" Margin="0,10,0,0" Background="#FF27E60C"/>
+            <mah:MetroProgressBar Height="20" Width="500" Margin="0,10,0,0" Background="#FF27E60C"/>
             <TextBlock Text="LV.1" HorizontalAlignment="Center" FontSize="30" Margin="0,5,0,0" FontWeight="Bold"/>
         </StackPanel>
 
