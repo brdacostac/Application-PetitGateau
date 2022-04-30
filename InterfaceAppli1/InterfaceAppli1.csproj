@@ -236,6 +236,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Fonts\GreatVibes-Regular.ttf" />
+    <Resource Include="Fonts\Kalam-Regular.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -319,6 +321,20 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\ImageLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons\PassWord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Decoration1.png" />
+    <Resource Include="Images\Decoration2.png" />
+    <Resource Include="Images\Decoration3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Decoration4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,6 +6,10 @@
     <Application.Resources>
         <ResourceDictionary>
 
+            <Style x:Key="Titre" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="Fonts/Kalam-Regular.ttf #Kalam"></Setter>
+            </Style>
+            
             <!--Définition de la couleur du bouton region-->
             <RadialGradientBrush x:Key="colorButtonRegions">
                 <GradientStop Color="#b6f5f6" Offset="0"/>

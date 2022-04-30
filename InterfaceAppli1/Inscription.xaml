@@ -7,9 +7,9 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Inscription">
-    
+
     <DockPanel Background="White">
-        <local:UCbuttons DockPanel.Dock="Top" Titre="S'inscrire"/>
+        <local:UCbuttons DockPanel.Dock="Top" Titre="S'inscrire" FontFamily="Fonts/#"/>
         <Grid DockPanel.Dock="Top">
             <Grid.RowDefinitions>
                 <RowDefinition/>
@@ -18,11 +18,16 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
+            <Image Source="Images/Decoration2.png" Margin="560,-25,12,2" Grid.RowSpan="3"/>
             <StackPanel Grid.Row="0" HorizontalAlignment="Center" Width="400">
-                <TextBlock Text="Nom d'utilisateur" 
-                           FontSize="14" 
-                           Width="300"
-                           Margin="0,30,0,10" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Width="400">
+                    <Image Source="Images/icons/User.png" Width="40" Height="24" Margin="0,15,0,0"/>
+                    <TextBlock Text="Nom d'utilisateur" 
+                               FontSize="14" 
+                               Width="300"
+                               Margin="0,30,0,10" FontWeight="Bold"
+                               Style="{StaticResource Titre}"/>
+                </StackPanel>
                 <TextBox TextWrapping="Wrap" 
                          Text="Enter your username" 
                          Width="316" Height="30"
@@ -31,10 +36,14 @@
             </StackPanel>
 
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="400">
-                <TextBlock Text="Mot de passe" 
+                <StackPanel Orientation="Horizontal" Width="400">
+                    <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
+                    <TextBlock Text="Mot de passe" 
                            FontSize="14" 
                            Width="300"
-                           Margin="0,20,0,10" FontWeight="Bold"/>
+                           Margin="15,20,0,10" FontWeight="Bold"
+                           Style="{StaticResource Titre}"/>
+                </StackPanel>
                 <TextBox TextWrapping="Wrap" 
                          Text="Enter your password" 
                          Width="316" Height="30"
@@ -43,10 +52,15 @@
             </StackPanel>
 
             <StackPanel Grid.Row="2" HorizontalAlignment="Center" Width="400">
-                <TextBlock Text="Confirmez votre mot de passe" 
+                <StackPanel Orientation="Horizontal" Width="400">
+                    <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
+                    <TextBlock Text="Confirmez votre mot de passe" 
                            FontSize="14" 
                            Width="300"
-                           Margin="0,20,0,10" FontWeight="Bold"/>
+                           Margin="15,20,0,10" FontWeight="Bold"
+                           Style="{StaticResource Titre}"/>
+                </StackPanel>
+                
                 <TextBox TextWrapping="Wrap" 
                          Text="Enter your password again" 
                          Width="316" Height="29"

@@ -24,12 +24,16 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
+            <Image Source="Images/Decoration1.png" Margin="570,8,0,2" Grid.RowSpan="3" Width="205"/>
             <StackPanel Grid.Row="0" HorizontalAlignment="Center" Width="400">
-                <TextBlock Text="Nom d'utilisateur" 
-                           FontSize="14" 
-                           Width="300"
-                           Margin="0,30,0,10" FontWeight="Bold"
-                           FontFamily="Great Vibes"/>
+                <StackPanel Orientation="Horizontal" Width="400">
+                    <Image Source="Images/icons/User.png" Width="40" Height="24" Margin="0,15,0,0"/>
+                    <TextBlock Text="Nom d'utilisateur" 
+                               FontSize="14" 
+                               Width="300"
+                               Margin="0,30,0,10" FontWeight="Bold"
+                               Style="{StaticResource Titre}"/>
+                </StackPanel>
                 <TextBox TextWrapping="Wrap" 
                          Text="Enter your username" 
                          Width="316" Height="30"
@@ -38,10 +42,14 @@
             </StackPanel>
 
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="400">
-                <TextBlock Text="Mot de passe" 
+                <StackPanel Orientation="Horizontal" Width="400">
+                    <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
+                    <TextBlock Text="Mot de passe" 
                            FontSize="14" 
                            Width="300"
-                           Margin="0,20,0,10" FontWeight="Bold"/>
+                           Margin="15,20,0,10" FontWeight="Bold"
+                           Style="{StaticResource Titre}"/>
+                </StackPanel>
                 <TextBox TextWrapping="Wrap" 
                          Text="Enter your password" 
                          Width="316" Height="30"
@@ -50,15 +58,15 @@
             </StackPanel>
             <Button  Grid.Row="2" Content="Connexion" Height="30" Width="100" HorizontalAlignment="Center" Margin="0,20,0,50"
                     Cursor="Hand"/>
-            
+
             <StackPanel Grid.Row="2" Margin="0,55,0,45" Grid.RowSpan="2">
-                <TextBlock Text="Vous n'avez pas de compte?" Width="200" FontSize="14" 
-                           HorizontalAlignment="Left" Margin="50,20,0,0" />
+                <TextBlock Text="Vous n'avez pas de compte?" Width="200" FontSize="23" 
+                           HorizontalAlignment="Left" Margin="50,20,0,0"  FontFamily="Fonts/#Great Vibes"/>
                 <Button Content="S'inscrire" Height="30" Width="100"
                     Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,10,0,0"/>
             </StackPanel>
 
         </Grid>
-        
+
     </DockPanel>
 </Page>
