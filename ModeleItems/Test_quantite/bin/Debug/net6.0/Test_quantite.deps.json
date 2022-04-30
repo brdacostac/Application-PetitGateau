@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Test_quantite/1.0.0": {
+        "dependencies": {
+          "ModeleItems": "1.0.0"
+        },
+        "runtime": {
+          "Test_quantite.dll": {}
+        }
+      },
+      "ModeleItems/1.0.0": {
+        "runtime": {
+          "ModeleItems.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Test_quantite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModeleItems/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

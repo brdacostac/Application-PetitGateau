@@ -1,0 +1,12 @@
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\bin\Debug\net6.0\ModeleItems.deps.json
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\bin\Debug\net6.0\ModeleItems.dll
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\bin\Debug\net6.0\ModeleItems.pdb
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\obj\Debug\net6.0\ModeleItems.csproj.AssemblyReference.cache
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\obj\Debug\net6.0\ModeleItems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\obj\Debug\net6.0\ModeleItems.AssemblyInfoInputs.cache
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\obj\Debug\net6.0\ModeleItems.AssemblyInfo.cs
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\obj\Debug\net6.0\ModeleItems.csproj.CoreCompileInputs.cache
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\obj\Debug\net6.0\ModeleItems.dll
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\obj\Debug\net6.0\refint\ModeleItems.dll
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\obj\Debug\net6.0\ModeleItems.pdb
+C:\Users\runte\source\repos\ModeleItems\ModeleItems\obj\Debug\net6.0\ref\ModeleItems.dll
