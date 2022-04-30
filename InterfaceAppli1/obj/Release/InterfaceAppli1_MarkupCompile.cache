@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Release\
+C:\Users\runte\source\repos\sae-2.02\InterfaceAppli1\obj\Release\
 InterfaceAppli1
 none
 false
 TRACE
-C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\App.xaml
-16-1671038839
+C:\Users\runte\source\repos\sae-2.02\InterfaceAppli1\App.xaml
+21461030042
 
-201923328997
-13-1310406943
-Apropos.xaml;CentroOeste.xaml;MainWindow.xaml;MasterRecettes.xaml;MonChef.xaml;Nordeste.xaml;Norte.xaml;Regions.xaml;Sudeste.xaml;Sul.xaml;TopRecettes.xaml;UCbuttons.xaml;UCfiltreRegions.xaml;UCmasterRegions.xaml;UCrecette.xaml;Vegan.xaml;
+241876801929
+20-774943949
+Apropos.xaml;CentroOeste.xaml;Connexion.xaml;Inscription.xaml;MainWindow.xaml;MasterRecettes.xaml;MonChef.xaml;Nordeste.xaml;Norte.xaml;Regions.xaml;Sudeste.xaml;Sul.xaml;Themes\TextBoxTheme.xaml;TopRecettes.xaml;UCaccueil.xaml;UCbuttons.xaml;UCfiltreRegions.xaml;UCmasterRegions.xaml;UCrecDetailee.xaml;UCrecette.xaml;Vegan.xaml;
 
 True
 
