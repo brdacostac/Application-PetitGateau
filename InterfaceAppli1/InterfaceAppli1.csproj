@@ -290,7 +290,9 @@
     <Resource Include="Images\defaultR.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\liked.png" />
+    <Content Include="Images\liked.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\norte_brasil.jpg" />

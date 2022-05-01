@@ -20,38 +20,26 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class UCrecette : UserControl
     {
+        bool like=false;
         public UCrecette()
         {
             InitializeComponent();
         }
 
-        public string ImageName
-        {
-            set
-            {
-                ImageR.Source = new BitmapImage(new Uri(value,UriKind.Relative));
-            }
-        }
-
-        public string NomRecette
-        {
-            set 
-            {
-                NomR.Text = value;
-            }
-        }
-
-        public string LikeLiked
-        {
-            set
-            {
-                LikeButton.Source = new BitmapImage(new Uri(value, UriKind.Relative));
-            }
-        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            monButton.Content = "Images/liked.png";
+            if (!like)
+            {
+                LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
+                like = true;
+            }
+            else
+            {
+                LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
+                like = false;
+            }
+            
         }
     }
 }

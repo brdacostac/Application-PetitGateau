@@ -151,3 +151,5 @@ C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\Inscription.g.cs
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\UCrecDetailee.g.cs
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\Inscription.baml
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\UCrecDetailee.baml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\Images\liked.png
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\InterfaceAppli1_Content.g.cs

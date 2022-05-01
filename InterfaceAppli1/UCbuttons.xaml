@@ -52,13 +52,6 @@
                     </ListBox>
                 </mah:DropDownButton.Items>
             </mah:DropDownButton>
-            <!--
-            <Button Width="40" Height="40" HorizontalAlignment="Right" Margin="0,0,10,0">
-                <Button.Content>
-                    <Image Source="Images/menu button.png" Height="30" Width="36" HorizontalAlignment="Center"/>
-                </Button.Content>
-            </Button>
-            -->
         </StackPanel>
             
     </Grid>
