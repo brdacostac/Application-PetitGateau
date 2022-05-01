@@ -8,7 +8,7 @@
              d:DesignHeight="600" d:DesignWidth="920">
     
     <DockPanel Background="White">
-        <Grid DockPanel.Dock="Top" Height="160" VerticalAlignment="Top" Margin="0,20,0,0" Background="White">
+        <Grid DockPanel.Dock="Top" Height="160" VerticalAlignment="Top" Margin="0,20,0,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
