@@ -19,7 +19,7 @@
 
             <Button Click="Button_Click" x:Name="monButton">
                 <Button.Content>
-                    <Image x:Name="LikeButton" Source="Images/likeButton.png" />
+                    <Image x:Name="LikeButton" Source="Images/likeButton.png"/>
                 </Button.Content>
 
                 <Button.Template>

@@ -29,5 +29,23 @@ namespace InterfaceAppli1
         {
 
         }
+
+        private async void Page_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            int valeur = 100;
+            while (progressBar.Value <= valeur)
+            {
+
+                await Task.Delay(1);
+                
+                if (progressBar.Value <= valeur)
+                {
+                    progressBar.Value = progressBar.Value + 0.50;
+                }
+
+
+
+            }
+        }
     }
 }
