@@ -10,10 +10,18 @@
     <ScrollViewer>
         <DockPanel Background="white">
 
-            <TextBlock x:Name="nom" DockPanel.Dock="Top" Text="Gateau de carottes" FontWeight="Bold" FontSize="20" Margin="20,20,0,10"/>
+            <TextBlock x:Name="nom" DockPanel.Dock="Top" Text="Gateau de carottes" FontWeight="Bold" FontSize="20" Margin="20,20,0,10" Style="{StaticResource Titre}"/>
 
-            <StackPanel DockPanel.Dock="Top" Height="285" Width="800">
-                <Image x:Name="photo" Source="Images/boloDecenoura.png" Height="185" Width="300"/>
+            <StackPanel DockPanel.Dock="Top" Height="285">
+                <StackPanel Orientation="Horizontal" Width="785">
+                    <Image Source="Images/Decoration3.png" Width="200"/>
+                    <StackPanel Width="30"></StackPanel>
+                    <Border BorderThickness="2"
+                            BorderBrush="#FF000000"
+                            CornerRadius="5">
+                        <Image x:Name="photo" Source="Images/boloDecenoura.png" Width="320"/>
+                    </Border>
+                </StackPanel>
 
                 <Grid Width="390" Margin="0,10,0,0">
                     <Grid.ColumnDefinitions>
@@ -58,7 +66,8 @@
                 <TextBlock Text="Ingredients" 
                                FontWeight="Bold" 
                                FontSize="20" 
-                               Margin="20,0,255,327"/>
+                               Margin="20,0,255,327"
+                               Style="{StaticResource Titre}"/>
             </StackPanel>
 
         </DockPanel>
