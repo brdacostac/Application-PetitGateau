@@ -9,5 +9,6 @@ namespace Modele
         /// <summary>
         /// represente un ingredient
         /// </summary>
+        
     }
 }
