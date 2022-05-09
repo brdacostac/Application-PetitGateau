@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\nifranco\\.nuget\\packages\\": {},
+    "C:\\Users\\brdacostac\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
+      "projectUniqueName": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
       "projectName": "Modele",
-      "projectPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
-      "packagesPath": "C:\\Users\\nifranco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\obj\\",
+      "projectPath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
+      "packagesPath": "C:\\Users\\brdacostac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Modele\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\nifranco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brdacostac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

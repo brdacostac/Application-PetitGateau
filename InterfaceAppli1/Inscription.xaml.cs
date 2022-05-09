@@ -20,9 +20,38 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class Inscription : Page
     {
+        bool isCheckH = false;
+        bool isCheckF = false;
         public Inscription()
         {
             InitializeComponent();
+        }
+
+        private void CheckBox_Checked_Homme(object sender, RoutedEventArgs e)
+        {
+            if (!isCheckH)
+            {
+                Femme.IsChecked = false;
+                isCheckH = true;
+            }
+            else
+            {
+                Femme.IsChecked = false;
+                isCheckH = false;
+            }
+        }
+        private void CheckBox_Checked_Femme(object sender, RoutedEventArgs e)
+        {
+            if(!isCheckF)
+            {
+                Homme.IsChecked = false;
+                isCheckF = true;
+            }
+            else
+            {
+                Homme.IsChecked = false;
+                isCheckF = false;
+            }
         }
     }
 }

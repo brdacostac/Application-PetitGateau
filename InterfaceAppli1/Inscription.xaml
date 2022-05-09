@@ -29,6 +29,10 @@
                                Margin="0,30,0,10" FontWeight="Bold"
                                Style="{StaticResource Titre}"/>
                     <Image Source="Images/icons/User.png" Width="40" Height="24" Margin="0,15,0,0"/>
+
+                    
+
+
                 </StackPanel>
                 <TextBox TextWrapping="Wrap" 
                          Text="Enter your username" 
@@ -36,7 +40,12 @@
                          BorderThickness="2" FontStyle="Italic"
                          Foreground="DarkGray"/>
             </StackPanel>
-
+            <StackPanel Grid.Row="0" HorizontalAlignment="Right" Orientation="Horizontal">
+                <CheckBox Content="Homme" HorizontalAlignment="Right" Margin="0,60,0,0"
+                              IsChecked="False" x:Name="Homme" Style="{StaticResource inscriptionCheckBox}" Checked="CheckBox_Checked_Homme"/>
+                <CheckBox Content="Femme" HorizontalAlignment="Right" Margin="40,60,30,0"
+                              IsChecked="False" x:Name="Femme" Style="{StaticResource inscriptionCheckBox}" Checked="CheckBox_Checked_Femme"/>
+            </StackPanel>
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="400">
                 <StackPanel Orientation="Horizontal" Width="316">
                     <TextBlock Text="Mot de passe" 
