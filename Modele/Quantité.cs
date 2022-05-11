@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Modele
+    
 {
+    /*
     /// <summary>
     /// represente la quantié d'un Ingredient
     /// </summary>
@@ -33,4 +35,5 @@ namespace Modele
             return $"{Nombre} {Uni}";
         }
     }
+    */
 }

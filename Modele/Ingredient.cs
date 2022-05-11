@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modele
 {
+     /*
     /// <summary>
     /// represente un ingredient
     /// </summary>
@@ -36,4 +37,5 @@ namespace Modele
             return $"{Quant} {Aliment}";
         }
     }
+     */
 }
