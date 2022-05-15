@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using static System.Console;
+using System.Linq;
 using System.Text;
 
 namespace Modele
@@ -21,7 +22,7 @@ namespace Modele
             get { return realisations; }
             private set { realisations = value; }
         }
-        public Dictionary<Réalisation, bool> realisations = new Dictionary<Réalisation, bool>();
+        private Dictionary<Réalisation, bool> realisations = new Dictionary<Réalisation, bool>();
 
         public void Display(Dictionary<Réalisation, bool> Realisations)
         {
@@ -46,11 +47,15 @@ namespace Modele
         {
             Random rdm = new Random();
             int nbRandom = rdm.Next(29);
-            while (listeTrue.Contains(nbRandom)) {
+            while (listeTrue.Contains(nbRandom))
+            {
                 nbRandom = rdm.Next(29);
             }
-            Realisations.Add((Réalisation)nbRandom, true);
+            Console.WriteLine(nbRandom);
+            Realisations[(Réalisation)nbRandom] = true;
             listeTrue.Add(nbRandom);
+            
+            
         }
 
         public Chef(Niveau level)

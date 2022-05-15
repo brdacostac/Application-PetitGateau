@@ -14,7 +14,8 @@ namespace Test_Chef
             Console.WriteLine("*****TESTE_Chef_Class******");
             Chef newChef = new Chef(niveau);
          
-            newChef.LevelUp();
+            for(int i = 0; i < 29; i++)
+                newChef.LevelUp();
             newChef.Display(newChef.Realisations);
         }
     }
