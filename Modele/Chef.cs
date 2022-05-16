@@ -24,14 +24,6 @@ namespace Modele
         }
         private Dictionary<Réalisation, bool> realisations = new Dictionary<Réalisation, bool>();
 
-        public void Display(Dictionary<Réalisation, bool> Realisations)
-        {
-            foreach(KeyValuePair<Réalisation, bool> kvp in Realisations)
-            {
-                Console.WriteLine($"{kvp.Key} => { kvp.Value}");
-            }
-            Console.WriteLine();
-        }
 
         public void LevelUp()
         {
@@ -40,6 +32,11 @@ namespace Modele
                 Level.level++;
             }
             DebloquerOutil();
+        }
+
+        public override string ToString()
+        {
+            return ($"{level}");
         }
 
         private List<int> listeTrue = new List<int>();
@@ -51,7 +48,6 @@ namespace Modele
             {
                 nbRandom = rdm.Next(29);
             }
-            Console.WriteLine(nbRandom);
             Realisations[(Réalisation)nbRandom] = true;
             listeTrue.Add(nbRandom);
             

@@ -11,12 +11,22 @@ namespace Test_Chef
         static void Main(string[] args)
         {
             Niveau niveau = new Niveau(10, 99);
-            Console.WriteLine("*****TESTE_Chef_Class******");
             Chef newChef = new Chef(niveau);
-         
-            for(int i = 0; i < 29; i++)
+            Console.WriteLine("*****TESTE_Chef_Class******");
+
+            void Display(Dictionary<Réalisation, bool> Realisations)
+            {
+                foreach (KeyValuePair<Réalisation, bool> kvp in Realisations)
+                {
+                    Console.WriteLine($"{kvp.Key} => { kvp.Value}");
+                }
+                Console.WriteLine();
+                Console.WriteLine($"Niveau : {newChef.Level}");
+            }
+
+            for (int i = 0; i < 29; i++)
                 newChef.LevelUp();
-            newChef.Display(newChef.Realisations);
+            Display(newChef.Realisations);
         }
     }
 }

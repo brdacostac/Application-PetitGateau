@@ -35,6 +35,11 @@ namespace Modele
         {
             this.level = level;
             this.experienceActuel = experienceActuel;
+        }   
+
+        public override string ToString()
+        {
+            return $"Level: {level} Experiance Actuel: {experienceActuel}";
         }
 
         public void LevelUp()

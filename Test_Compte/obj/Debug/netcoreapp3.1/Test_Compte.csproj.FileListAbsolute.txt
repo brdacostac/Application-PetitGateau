@@ -1,0 +1,16 @@
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\bin\Debug\netcoreapp3.1\Test_Compte.exe
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\bin\Debug\netcoreapp3.1\Test_Compte.deps.json
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\bin\Debug\netcoreapp3.1\Test_Compte.runtimeconfig.json
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\bin\Debug\netcoreapp3.1\Test_Compte.runtimeconfig.dev.json
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\bin\Debug\netcoreapp3.1\Test_Compte.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\bin\Debug\netcoreapp3.1\Test_Compte.pdb
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\bin\Debug\netcoreapp3.1\Modele.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\bin\Debug\netcoreapp3.1\Modele.pdb
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.csproj.AssemblyReference.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.AssemblyInfoInputs.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.AssemblyInfo.cs
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.csproj.CoreCompileInputs.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.csproj.CopyComplete
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.pdb
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\bin\Debug\netcoreapp3.1\Test_Niveau.exe
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\bin\Debug\netcoreapp3.1\Test_Niveau.deps.json
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\bin\Debug\netcoreapp3.1\Test_Niveau.runtimeconfig.json
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\bin\Debug\netcoreapp3.1\Test_Niveau.runtimeconfig.dev.json
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\bin\Debug\netcoreapp3.1\Test_Niveau.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\bin\Debug\netcoreapp3.1\Test_Niveau.pdb
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\bin\Debug\netcoreapp3.1\Modele.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\bin\Debug\netcoreapp3.1\Modele.pdb
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\obj\Debug\netcoreapp3.1\Test_Niveau.csproj.AssemblyReference.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\obj\Debug\netcoreapp3.1\Test_Niveau.AssemblyInfoInputs.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\obj\Debug\netcoreapp3.1\Test_Niveau.AssemblyInfo.cs
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\obj\Debug\netcoreapp3.1\Test_Niveau.csproj.CoreCompileInputs.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\obj\Debug\netcoreapp3.1\Test_Niveau.csproj.CopyComplete
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\obj\Debug\netcoreapp3.1\Test_Niveau.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\obj\Debug\netcoreapp3.1\Test_Niveau.pdb
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Niveau\obj\Debug\netcoreapp3.1\Test_Niveau.genruntimeconfig.cache
