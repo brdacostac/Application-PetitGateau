@@ -1,0 +1,15 @@
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\bin\Debug\netcoreapp3.1\Test_Unité.exe
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\bin\Debug\netcoreapp3.1\Test_Unité.deps.json
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\bin\Debug\netcoreapp3.1\Test_Unité.runtimeconfig.json
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\bin\Debug\netcoreapp3.1\Test_Unité.runtimeconfig.dev.json
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\bin\Debug\netcoreapp3.1\Test_Unité.dll
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\bin\Debug\netcoreapp3.1\Test_Unité.pdb
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\bin\Debug\netcoreapp3.1\ClassesRecettes.dll
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\bin\Debug\netcoreapp3.1\ClassesRecettes.pdb
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.AssemblyInfoInputs.cache
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.AssemblyInfo.cs
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.csproj.CoreCompileInputs.cache
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.csproj.CopyComplete
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.dll
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.pdb
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.genruntimeconfig.cache

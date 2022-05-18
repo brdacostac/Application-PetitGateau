@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Test_Recette/1.0.0": {
+        "dependencies": {
+          "ClassesRecettes": "1.0.0"
+        },
+        "runtime": {
+          "Test_Recette.dll": {}
+        }
+      },
+      "ClassesRecettes/1.0.0": {
+        "runtime": {
+          "ClassesRecettes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Test_Recette/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassesRecettes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

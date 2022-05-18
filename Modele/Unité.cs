@@ -1,5 +1,10 @@
-﻿namespace ModeleItems
+﻿using System;
+
+namespace Modele
 {
+    /// <summary>
+    /// represente des differentes unitées
+    /// </summary>
     public enum Unité : short
     {
         Inconnue,

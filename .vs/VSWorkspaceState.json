@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Modele"
   ],
-  "SelectedNode": "\\InterfaceAppli1.sln",
+  "SelectedNode": "\\Modele\\Unité.cs",
   "PreviewInSolutionExplorer": false
 }

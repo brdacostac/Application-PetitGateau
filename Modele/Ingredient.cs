@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Modele
 {
-     /*
     /// <summary>
     /// represente un ingredient
     /// </summary>
@@ -15,12 +14,22 @@ namespace Modele
         /// <summary>
         /// nom de l'aliment
         /// </summary>
-        public string Aliment { get; private set; }
+        public string Aliment 
+        {
+            get { return aliment; }
+            private set { aliment = value; } 
+        }
+        private string aliment;
 
         /// <summary>
         /// la quantité de l'ingredient
         /// </summary>
-        public Quantité Quant { get; private set; }
+        public Quantité Quant 
+        { 
+            get { return quant; }
+            private set { quant = value; } 
+        }
+        private Quantité quant;
 
         /// <summary>
         /// constructeur
@@ -34,8 +43,7 @@ namespace Modele
 
         public override string ToString()
         {
-            return $"{Quant} {Aliment}";
+            return $"{Aliment} {Quant}";
         }
     }
-     */
 }

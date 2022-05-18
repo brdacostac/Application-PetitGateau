@@ -1,0 +1,16 @@
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\bin\Debug\netcoreapp3.1\Test_Ingredient.exe
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\bin\Debug\netcoreapp3.1\Test_Ingredient.deps.json
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\bin\Debug\netcoreapp3.1\Test_Ingredient.runtimeconfig.json
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\bin\Debug\netcoreapp3.1\Test_Ingredient.runtimeconfig.dev.json
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\bin\Debug\netcoreapp3.1\Test_Ingredient.dll
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\bin\Debug\netcoreapp3.1\Test_Ingredient.pdb
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\bin\Debug\netcoreapp3.1\ClassesRecettes.dll
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\bin\Debug\netcoreapp3.1\ClassesRecettes.pdb
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\obj\Debug\netcoreapp3.1\Test_Ingredient.csproj.AssemblyReference.cache
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\obj\Debug\netcoreapp3.1\Test_Ingredient.AssemblyInfoInputs.cache
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\obj\Debug\netcoreapp3.1\Test_Ingredient.AssemblyInfo.cs
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\obj\Debug\netcoreapp3.1\Test_Ingredient.csproj.CoreCompileInputs.cache
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\obj\Debug\netcoreapp3.1\Test_Ingredient.csproj.CopyComplete
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\obj\Debug\netcoreapp3.1\Test_Ingredient.dll
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\obj\Debug\netcoreapp3.1\Test_Ingredient.pdb
+C:\Users\nifranco\Desktop\ClassesRecettes\Test_Ingredient\obj\Debug\netcoreapp3.1\Test_Ingredient.genruntimeconfig.cache

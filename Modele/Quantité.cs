@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Modele
-    
 {
-    /*
     /// <summary>
     /// represente la quantié d'un Ingredient
     /// </summary>
@@ -16,14 +12,28 @@ namespace Modele
         /// <summary>
         /// la quantite
         /// </summary>
-        public double Nombre { get; private set; }
+        public double Nombre 
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+        private double nombre;
 
-        public Unité Uni { get; private set; }
+        /// <summary>
+        /// l'unité liée a la quantité 
+        /// </summary>
+        public Unité Uni 
+        {
+            get { return uni; }
+            set { uni = value; }
+        }
+        private Unité uni;
 
         /// <summary>
         /// constructeur
         /// </summary>
         /// <param name="nombre">la quantité desirée</param>
+        /// <param name="uni">l'unité liée a la quantité</param>
         public Quantité(double nombre, Unité uni)
         {
             Nombre = nombre;
@@ -35,5 +45,5 @@ namespace Modele
             return $"{Nombre} {Uni}";
         }
     }
-    */
+
 }
