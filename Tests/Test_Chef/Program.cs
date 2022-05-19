@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Modele;
 
-
 namespace Test_Chef
 {
     

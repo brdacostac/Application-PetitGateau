@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xZaErxRDMdO/DWWsABn+yEdGhhL2xpNmdnRI2pPh8yAr4kTONOBFp1E3kRANAwhRTWZzhAb8ZP+Bw8x57z6BiA==",
+  "dgSpecHash": "nq1dUra2+ToV/yX+4xlKAUDqDCCQqo5tVJmghuzILaIs4GqVGaihfOPZWnKE7aHuClLopO6o7q84YuOEHNHE8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Test_Compte\\Test_Compte.csproj",
+  "projectFilePath": "C:\\Users\\nifranco\\source\\repos\\sae-2.02\\Tests\\Test_Compte\\Test_Compte.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

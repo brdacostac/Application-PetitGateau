@@ -19,7 +19,7 @@ namespace Test_Recette
             List<Ingredient> l = new List<Ingredient>() { ingred2, ingred3, ingred4, ingred1 };
 
             Recette rec1 = new Recette("Petit gateau", "un petit gateau de chocolat, chaud accompagné de glace",
-                ClassesRecettes.Type.Dessert, l,Region.Sudest);
+                Modele.Type.Dessert, l,Region.Sudest);
             rec1.Display();
         }
     }

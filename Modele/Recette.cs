@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modele
 {
-    public class Recette
+    public class Recette // : IEquatable<Recette> ? ou IEquatable<Ingredients>
     {
         /// <summary>
         /// nom de la recette
