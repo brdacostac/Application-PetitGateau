@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Modele
 {
-    class Databse
+    public class Database
     {
         /// <summary>
         /// liste de recettes de l'application
@@ -31,7 +31,7 @@ namespace Modele
         /// </summary>
         /// <param name="c"></param>
         /// <param name="r"></param>
-        public Databse(List<Compte> c, List<Recette> r)
+        public Database(List<Compte> c, List<Recette> r)
         {
             Comptes = c;
             Recettes = r;

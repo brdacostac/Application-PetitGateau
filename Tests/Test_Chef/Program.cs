@@ -13,6 +13,7 @@ namespace Test_Chef
             Console.WriteLine(newChef);
             Console.WriteLine();
 
+            
             void Display(Dictionary<Réalisation, bool> Realisations)
             {
                 foreach (KeyValuePair<Réalisation, bool> kvp in Realisations)
@@ -20,16 +21,16 @@ namespace Test_Chef
                     Console.WriteLine($"{kvp.Key} => { kvp.Value}");
                 }
             }
-
+            
             for (int i = 0; i < 10; i++)
             {
-                newChef.ExperienceActuel = newChef.ExperienceActuel * 2;
+                newChef.ExperienceActuel = newChef.ExperienceActuel + 200;
                 newChef.LevelUp();
                 Console.WriteLine(newChef.Level);
             }
             Display(newChef.Realisations);
             Console.WriteLine();
-            Console.WriteLine(newChef);
+            Console.WriteLine(newChef);         
         }
     }
 }

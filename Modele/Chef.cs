@@ -25,10 +25,9 @@ namespace Modele
         public double ExperienceActuel
         {
             get { return experienceActuel; }
-            private set { experienceActuel = value; }
-
+            set { experienceActuel = value; }
         }
-        public double experienceActuel;
+        private double experienceActuel;
 
         /// <summary>
         /// permet de savoir quels réalisation ont été débloquées
@@ -53,6 +52,7 @@ namespace Modele
                 DebloquerOutil();
                 Level.experienceNecessaire = Level.experienceNecessaire * 2;
             }
+            return;
         }
 
         /// <summary>
@@ -83,10 +83,10 @@ namespace Modele
         /// <summary>
         /// contructeur
         /// </summary>
-        /// <param name="level"></param>
         public Chef()
         {
             Level = new Niveau();
+            ExperienceActuel = 0;
 
             Realisations.Add(Réalisation.Livre, false);
             Realisations.Add(Réalisation.Planche, false);

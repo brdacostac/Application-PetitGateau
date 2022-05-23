@@ -8,10 +8,9 @@ namespace Test_Niveau
     {
         static void Main(string[] args)
         {
-            Niveau niveau = new Niveau(10, 101);
+            Niveau niveau = new Niveau();
             Console.WriteLine("*****TESTE_Niveau_Class******");
-
-            Console.WriteLine(niveau.ToString());
+            Console.WriteLine(niveau);
 
         }
     }

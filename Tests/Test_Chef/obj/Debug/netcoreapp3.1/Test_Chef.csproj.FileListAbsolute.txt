@@ -47,4 +47,3 @@ C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Chef\obj\Debug\netcoreapp3.1\
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Chef\obj\Debug\netcoreapp3.1\Test_Chef.csproj.CoreCompileInputs.cache
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Chef\obj\Debug\netcoreapp3.1\Test_Chef.csproj.CopyComplete
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Chef\obj\Debug\netcoreapp3.1\Test_Chef.genruntimeconfig.cache
-C:\Users\nifranco\Source\Repos\sae-2.02\Tests\Test_Chef\obj\Debug\netcoreapp3.1\Test_Chef.GeneratedMSBuildEditorConfig.editorconfig

@@ -6,12 +6,12 @@ namespace Modele
 {
     class Manager
     {
-        public Databse Dd
+        public Database Dd
         {
             get { return db; }
             private set { db = value; }
         }
-        private Databse db;
+        private Database db;
 
         /// <summary>
         /// Recherche une recettes par nom. L'affiche si trouvé.
@@ -76,6 +76,13 @@ namespace Modele
                 return;
         }
 
+        public void NouveauCompte(string username, string password, char sexe)
+        {
+            Compte c = new Compte(username, password, sexe);
+            db.Comptes.Add(c);
+            Console.WriteLine("Le nouveau compte a été créé");
+        }
+
         /// <summary>
         /// constructeur
         /// </summary>
@@ -83,7 +90,7 @@ namespace Modele
         /// <param name="c">liste de comptes</param>
         public Manager(List<Recette> r, List<Compte> c)
         {
-            db = new Databse(c, r);
+            db = new Database(c, r);
         }
     }
  }
