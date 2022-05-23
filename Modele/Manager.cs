@@ -6,13 +6,13 @@ namespace Modele
 {
     class Manager
     {
-        public List<Recette> Recette
+        public Databse Dd
         {
-            get { return recettes; }
-            private set { recettes = value; }
+            get { return db; }
+            private set { db = value; }
         }
-        private List<Recette> recettes = new List<Recette>();
-        
+        private Databse db;
+
         /// <summary>
         /// Recherche une recettes par nom. L'affiche si trouvé.
         /// </summary>
@@ -20,7 +20,7 @@ namespace Modele
         public void SearchByName(string nom)
         {
             int i = 0;
-            foreach(Recette r in recettes)
+            foreach(Recette r in db.Recettes)
             {
                 if (r.Nom == nom)
                 {
@@ -41,7 +41,7 @@ namespace Modele
         public void DisplayRecetteType(Type t)
         {
             int i = 0;
-            foreach (Recette r in recettes)
+            foreach (Recette r in db.Recettes)
             {
                 if (r.Filtre == t)
                 {
@@ -62,7 +62,7 @@ namespace Modele
         public void DisplayRecetteRegion(Region og)
         {
             int i = 0;
-            foreach (Recette r in recettes)
+            foreach (Recette r in db.Recettes)
             {
                 if (r.Origine == og)
                 {
@@ -74,6 +74,16 @@ namespace Modele
                 Console.Write("Aucune recette de cette region a été trouver");
             else
                 return;
+        }
+
+        /// <summary>
+        /// constructeur
+        /// </summary>
+        /// <param name="r">liste de recettes</param>
+        /// <param name="c">liste de comptes</param>
+        public Manager(List<Recette> r, List<Compte> c)
+        {
+            db = new Databse(c, r);
         }
     }
  }

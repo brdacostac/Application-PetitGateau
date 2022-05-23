@@ -29,3 +29,4 @@ C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.dll
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.pdb
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.genruntimeconfig.cache
+C:\Users\nifranco\Source\Repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.GeneratedMSBuildEditorConfig.editorconfig

@@ -6,6 +6,9 @@ namespace Modele
 {
     public class Compte
     {
+        /// <summary>
+        /// represente identifiant de l'utilisateur
+        /// </summary>
         public string Username
         {
             get { return username; }
@@ -14,6 +17,9 @@ namespace Modele
         }
         public string username;
 
+        /// <summary>
+        /// represente le mot de passe du compte
+        /// </summary>
         public string Password
         {
             get { return password; }
@@ -22,6 +28,9 @@ namespace Modele
         }
         public string password;
 
+        /// <summary>
+        /// represente le sexe de l'utilisateur
+        /// </summary>
         public char Sexe
         {
             get { return sexe; }
@@ -30,6 +39,9 @@ namespace Modele
         }
         public char sexe;
 
+        /// <summary>
+        /// le chef associé au compte
+        /// </summary>
         public Chef MonChef
         {
             get { return monChef; }
@@ -38,18 +50,29 @@ namespace Modele
         }
         private Chef monChef;
 
+        /// <summary>
+        /// permet d'afficher les information d'un compte  
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             
             return ($"Username : {username} \nPassword : {password} \nSexe: {sexe} \nMonChef: {monChef}");
         }
 
-        public Compte(string username, string password, char sexe, Chef monChef)
+        /// <summary>
+        /// constructeur de la classe  
+        /// </summary>
+        /// <param name="username">l'identifiant</param>
+        /// <param name="password">le mot de passe</param>
+        /// <param name="sexe">le sexe</param>
+        /// <param name="monChef"></param>
+        public Compte(string username, string password, char sexe)
         {
-            this.username = username;
-            this.password = password;
-            this.sexe = sexe;
-            this.monChef = monChef;
+            Username = username;
+            Password = password;
+            Sexe = sexe;
+            MonChef = new Chef();
         }
 
     }

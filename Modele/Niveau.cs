@@ -6,48 +6,44 @@ namespace Modele
 {
     public class Niveau
     {
-        
-        public int Level
+        /// <summary>
+        /// indique le niveau
+        /// </summary>
+        public double Level
         {
             get { return level; }
             private set { level = value; }
 
         }
-        public int level = 0;
+        public double level;
 
-        public int ExperienceActuel
-        {
-            get { return experienceActuel; }
-            private set { experienceActuel = value; }
-
-        }
-        public int experienceActuel = 0;
-
-        public int ExperienceNecessaire
+        /// <summary>
+        /// Experience necessaire pour passer au prochain niveau
+        /// </summary>
+        public double ExperienceNecessaire
         {
             get { return experienceNecessaire; }
             private set { experienceNecessaire = value; }
 
         }
-        public int experienceNecessaire = 100;
+        public double experienceNecessaire;
 
-        public Niveau(int level, int experienceActuel)
+        /// <summary>
+        /// contructeur
+        /// </summary>
+        public Niveau()
         {
-            this.level = level;
-            this.experienceActuel = experienceActuel;
+            Level = 1;
+            ExperienceNecessaire = 100;
         }   
 
+        /// <summary>
+        /// permet d'afficher les information d'un niveau
+        /// </summary>
+        /// <returns>un string contenant le niveau et experience nécessaire</returns>
         public override string ToString()
         {
-            return $"Level: {level} Experiance Actuel: {experienceActuel}";
-        }
-
-        public void LevelUp()
-        {
-            if (experienceActuel >= experienceNecessaire)
-            {
-                level++;
-            }
+            return $"Level: {Level} Experience Nécéssaire: {ExperienceNecessaire}";
         }
     }
 }

@@ -8,7 +8,9 @@ namespace Modele
 {
     public class Chef
     {
-
+        /// <summary>
+        /// représente le niveau du chef 
+        /// </summary>
         public Niveau Level
         {
             get { return level; }
@@ -17,6 +19,20 @@ namespace Modele
         }
         private Niveau level;
 
+        /// <summary>
+        /// l'experience actuel de l'utilisateur
+        /// </summary>
+        public double ExperienceActuel
+        {
+            get { return experienceActuel; }
+            private set { experienceActuel = value; }
+
+        }
+        public double experienceActuel;
+
+        /// <summary>
+        /// permet de savoir quels réalisation ont été débloquées
+        /// </summary>
         public Dictionary<Réalisation, bool> Realisations
         {
             get { return realisations; }
@@ -25,21 +41,33 @@ namespace Modele
         private Dictionary<Réalisation, bool> realisations = new Dictionary<Réalisation, bool>();
 
 
+        /// <summary>
+        /// Monte le niveau du chef de 1 en mettant a jour l'experience 
+        /// nécéssaire et en débloquant un nouvel outil
+        /// </summary>
         public void LevelUp()
         {
-            if (Level.experienceActuel >= Level.experienceNecessaire)
+            if (experienceActuel >= Level.experienceNecessaire)
             {
                 Level.level++;
             }
             DebloquerOutil();
+            Level.experienceNecessaire = Level.experienceNecessaire * 2;
         }
 
-        public override string ToString()
+        /// <summary>
+        /// permet de savoir quelles associations ont étées débloquées ou pas
+        /// </summary>
+        public List<int> ListeTrue
         {
-            return ($"{level}");
+            get { return listeTrue; }
+            private set { listeTrue = value; }
         }
-
         private List<int> listeTrue = new List<int>();
+
+        /// <summary>
+        /// débloque un nouvel outil a l'utilisateur
+        /// </summary>
         public void DebloquerOutil()
         {
             Random rdm = new Random();
@@ -49,14 +77,16 @@ namespace Modele
                 nbRandom = rdm.Next(29);
             }
             Realisations[(Réalisation)nbRandom] = true;
-            listeTrue.Add(nbRandom);
-            
-            
+            listeTrue.Add(nbRandom);        
         }
 
-        public Chef(Niveau level)
+        /// <summary>
+        /// contructeur
+        /// </summary>
+        /// <param name="level"></param>
+        public Chef()
         {
-            this.level = level;
+            Level = new Niveau();
 
             Realisations.Add(Réalisation.Livre, false);
             Realisations.Add(Réalisation.Planche, false);
@@ -83,9 +113,15 @@ namespace Modele
             Realisations.Add(Réalisation.PotVide, false);
             Realisations.Add(Réalisation.CasseroleVide, false);
             Realisations.Add(Réalisation.Assiette, false);
-
         }
-        
 
+        /// <summary>
+        /// affiche les informations basiques du chef
+        /// </summary>
+        /// <returns>Une string contenant le niveau et l'experience actuel du chef</returns>
+        public override string ToString()
+        {
+            return ($"{Level}\n Experience actuelle : {ExperienceActuel}");
+        }
     }
 }

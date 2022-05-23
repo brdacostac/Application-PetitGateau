@@ -26,3 +26,4 @@ C:\Users\nifranco\Source\Repos\sae-2.02\Modele\obj\Debug\netcoreapp3.1\Modele.As
 C:\Users\nifranco\Source\Repos\sae-2.02\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
 C:\Users\nifranco\Source\Repos\sae-2.02\Modele\obj\Debug\netcoreapp3.1\Modele.dll
 C:\Users\nifranco\Source\Repos\sae-2.02\Modele\obj\Debug\netcoreapp3.1\Modele.pdb
+C:\Users\nifranco\Source\Repos\sae-2.02\Modele\obj\Debug\netcoreapp3.1\Modele.GeneratedMSBuildEditorConfig.editorconfig
