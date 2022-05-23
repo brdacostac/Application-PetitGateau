@@ -9,13 +9,13 @@ namespace Modele
         /// <summary>
         /// indique le niveau
         /// </summary>
-        public double Level
+        public double Indice
         {
-            get { return level; }
-            private set { level = value; }
+            get { return indice; }
+            private set { indice = value; }
 
         }
-        public double level;
+        public double indice;
 
         /// <summary>
         /// Experience necessaire pour passer au prochain niveau
@@ -33,7 +33,7 @@ namespace Modele
         /// </summary>
         public Niveau()
         {
-            Level = 1;
+            Indice = 1;
             ExperienceNecessaire = 100;
         }   
 
@@ -43,7 +43,7 @@ namespace Modele
         /// <returns>un string contenant le niveau et experience nécessaire</returns>
         public override string ToString()
         {
-            return $"Level: {Level} Experience Nécéssaire: {ExperienceNecessaire}";
+            return $"Level: {Indice} Experience Nécéssaire: {ExperienceNecessaire}";
         }
     }
 }

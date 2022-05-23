@@ -49,10 +49,10 @@ namespace Modele
         {
             if (experienceActuel >= Level.experienceNecessaire)
             {
-                Level.level++;
+                Level.indice = Level.indice + 1;
+                DebloquerOutil();
+                Level.experienceNecessaire = Level.experienceNecessaire * 2;
             }
-            DebloquerOutil();
-            Level.experienceNecessaire = Level.experienceNecessaire * 2;
         }
 
         /// <summary>
@@ -121,7 +121,7 @@ namespace Modele
         /// <returns>Une string contenant le niveau et l'experience actuel du chef</returns>
         public override string ToString()
         {
-            return ($"{Level}\n Experience actuelle : {ExperienceActuel}");
+            return ($"{Level}\nExperience actuelle : {ExperienceActuel}");
         }
     }
 }
