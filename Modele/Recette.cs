@@ -69,6 +69,16 @@ namespace Modele
         }
         private List<Ingredient> ingredients = new List<Ingredient>();
 
+        /// <summary>
+        /// Liste de commentaires attribués a la recettte
+        /// </summary>
+        public List<string> Commentaires
+        {
+            get { return commentaires; }
+            private set { commentaires = value; }
+        }
+        private List<string> commentaires;
+
         // liste d'ingredients
 
         /// <summary>
