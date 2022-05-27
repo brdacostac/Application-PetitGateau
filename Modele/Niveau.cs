@@ -18,7 +18,7 @@ namespace Modele
         public double indice;
 
         /// <summary>
-        /// Experience necessaire pour passer au prochain niveau
+        /// experience necessaire pour passer au prochain niveau
         /// </summary>
         public double ExperienceNecessaire
         {
@@ -43,7 +43,7 @@ namespace Modele
         /// <returns>un string contenant le niveau et experience nécessaire</returns>
         public override string ToString()
         {
-            return $"Level: {Indice} Experience Nécéssaire: {ExperienceNecessaire}";
+            return $"Niveau: {Indice} Experience Nécéssaire: {ExperienceNecessaire}";
         }
     }
 }

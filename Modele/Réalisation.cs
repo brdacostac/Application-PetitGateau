@@ -36,6 +36,5 @@ namespace Modele
         PotVide = 26,
         CasseroleVide = 27,
         Assiette = 28
-
     }
 }

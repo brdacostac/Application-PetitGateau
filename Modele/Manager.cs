@@ -76,12 +76,39 @@ namespace Modele
                 return;
         }
 
+        /// <summary>
+        /// verifie si les un compte existe dans la base de donnée ou pas
+        /// </summary>
+        /// <param name="username">nom du compte cherché</param>
+        /// <param name="password">le mot de passe associé</param>
+        /// <returns>true si le compte et dans la base et le mot de passe est correcte.
+        /// false si le mot de passe n'est pas correcete ou si le compte n'existe pas</returns>
+        public bool Login(string username, string password)
+        {
+            foreach (Compte c in db.Comptes)
+            {
+                if (c.Username == username)
+                    if (c.Password == password)
+                        return true;
+                    else
+                        Console.WriteLine("Le mot de passe n'est pas correcte");
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// ajoute un nouveau compte a la base de données
+        /// </summary>
+        /// <param name="username">le choisi par l'utilisateur</param>
+        /// <param name="password">le mot de passe associé</param>
+        /// <param name="sexe">le sexe choisi</param>
         public void NouveauCompte(string username, string password, char sexe)
         {
             Compte c = new Compte(username, password, sexe);
             db.Comptes.Add(c);
             Console.WriteLine("Le nouveau compte a été créé");
         }
+
 
         /// <summary>
         /// constructeur

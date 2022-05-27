@@ -41,7 +41,19 @@ namespace Modele
 
 
         /// <summary>
-        /// Monte le niveau du chef de 1 en mettant a jour l'experience 
+        /// permet a la fonction débloqué outil de ne pas réutiliser
+        /// un outil déjà débloqué
+        /// </summary>
+        public List<int> ListeTrue
+        {
+            get { return listeTrue; }
+            private set { listeTrue = value; }
+        }
+        private List<int> listeTrue = new List<int>();
+
+
+        /// <summary>
+        /// monte le niveau du chef de 1 en mettant a jour l'experience 
         /// nécéssaire et en débloquant un nouvel outil
         /// </summary>
         public void LevelUp()
@@ -54,16 +66,6 @@ namespace Modele
             }
             return;
         }
-
-        /// <summary>
-        /// permet de savoir quelles associations ont étées débloquées ou pas
-        /// </summary>
-        public List<int> ListeTrue
-        {
-            get { return listeTrue; }
-            private set { listeTrue = value; }
-        }
-        private List<int> listeTrue = new List<int>();
 
         /// <summary>
         /// débloque un nouvel outil a l'utilisateur

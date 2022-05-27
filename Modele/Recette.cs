@@ -34,9 +34,40 @@ namespace Modele
         public int Liked 
         {
             get { return liked; }
-            private set { liked = value; }
+            set { liked = value; }
         }
         private int liked;
+
+        /// <summary>
+        /// Liste de commentaires attribués a la recettte
+        /// </summary>
+        public List<string> Commentaires
+        {
+            get { return commentaires; }
+            private set { commentaires = value; }
+        }
+        private List<string> commentaires;
+
+        /// <summary>
+        /// indique le nombre de couverts possible par cette recette
+        /// </summary>
+        public int Couverts
+        {
+            get { return couverts; }
+            set { couverts = value; }
+        }
+        private int couverts;
+
+        /// <summary>
+        /// indique le temps de préparation de la recette
+        /// </summary>
+        public int Preparation
+        {
+            get { return preparation; }
+            set { preparation = value; }
+        }
+        private int preparation;
+
 
         /// <summary>
         /// Le type de plat (entrée, plat ou dessert)
@@ -69,17 +100,6 @@ namespace Modele
         }
         private List<Ingredient> ingredients = new List<Ingredient>();
 
-        /// <summary>
-        /// Liste de commentaires attribués a la recettte
-        /// </summary>
-        public List<string> Commentaires
-        {
-            get { return commentaires; }
-            private set { commentaires = value; }
-        }
-        private List<string> commentaires;
-
-        // liste d'ingredients
 
         /// <summary>
         /// constructeur
@@ -95,14 +115,6 @@ namespace Modele
             Filtre = type;
             Ingredients = l;
             Origine = og;
-        }
-
-        /// <summary>
-        /// Augmente le nombre de "like" d'une recette de un  
-        /// </summary>
-        public void LikeRecette()
-        {
-            Liked++;
         }
 
         /// <summary>

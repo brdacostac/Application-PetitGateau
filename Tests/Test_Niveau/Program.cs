@@ -11,7 +11,6 @@ namespace Test_Niveau
             Niveau niveau = new Niveau();
             Console.WriteLine("*****TESTE_Niveau_Class******");
             Console.WriteLine(niveau);
-
         }
     }
 }

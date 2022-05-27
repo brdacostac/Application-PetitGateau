@@ -51,13 +51,36 @@ namespace Modele
         private Chef monChef;
 
         /// <summary>
-        /// permet d'afficher les information d'un compte  
+        /// contient les recettes aimées par l'utilisateur
         /// </summary>
-        /// <returns></returns>
-        public override string ToString()
+        public List<Recette> MesRecettes
         {
-            
-            return ($"Username : {username} \nPassword : {password} \nSexe: {sexe} \nMonChef: {monChef}");
+            get { return mesRecettes; }
+            private set { mesRecettes = value; }
+        }
+        private List<Recette> mesRecettes = new List<Recette>();
+
+
+        /// <summary>
+        /// sauvegarde une recette aimé par l'utilisateur
+        /// </summary>
+        /// <param name="r"></param>
+        public void LikeRecette(Recette r)
+        {
+            r.Liked++;
+            mesRecettes.Add(r);
+        }
+
+        /// <summary>
+        /// affiche les recettes aimées par l'utilisateur
+        /// </summary>
+        public void DisplayMesRecettes()
+        {
+            foreach(Recette r in MesRecettes)
+            {
+                r.Display();
+                Console.WriteLine();
+            }
         }
 
         /// <summary>
@@ -73,6 +96,15 @@ namespace Modele
             Password = password;
             Sexe = sexe;
             MonChef = new Chef();
+        }
+
+        /// <summary>
+        /// permet d'afficher les information d'un compte  
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return ($"Username : {username} \nPassword : {password} \nSexe: {sexe} \nMonChef: {monChef}");
         }
 
     }
