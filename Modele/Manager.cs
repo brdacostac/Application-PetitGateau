@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Modele
 {
-    class Manager
+    public class Manager
     {
         public Database Dd
         {

@@ -1,342 +1,170 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFB8F3DE-DE82-4510-B700-80BCB0F6254F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>InterfaceAppli1</RootNamespace>
-    <AssemblyName>InterfaceAppli1</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <WarningLevel>4</WarningLevel>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\icons\logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ControlzEx, Version=4.0.0.0, Culture=neutral, PublicKeyToken=69f1c32f803d307e, processorArchitecture=MSIL">
-      <HintPath>packages\ControlzEx.4.4.0\lib\net462\ControlzEx.dll</HintPath>
-    </Reference>
-    <Reference Include="MahApps.Metro, Version=2.0.0.0, Culture=neutral, PublicKeyToken=51482d6f650b2b3f, processorArchitecture=MSIL">
-      <HintPath>packages\MahApps.Metro.2.4.9\lib\net47\MahApps.Metro.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Xaml.Behaviors.Wpf.1.1.19\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Configuration" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xaml">
-      <RequiredTargetFramework>4.0</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="WindowsBase" />
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
+    <None Remove="Images\badges\1.png" />
+    <None Remove="Images\badges\2.png" />
+    <None Remove="Images\badges\3.png" />
+    <None Remove="Images\badges\4.png" />
+    <None Remove="Images\boloDecenoura.png" />
+    <None Remove="Images\brasilMap.png" />
+    <None Remove="Images\chef_F.PNG" />
+    <None Remove="Images\chef_H.PNG" />
+    <None Remove="Images\Decoration1.png" />
+    <None Remove="Images\Decoration2.png" />
+    <None Remove="Images\Decoration3.png" />
+    <None Remove="Images\Decoration4.png" />
+    <None Remove="Images\defaultR.PNG" />
+    <None Remove="Images\home button.png" />
+    <None Remove="Images\icons\clock.png" />
+    <None Remove="Images\icons\comments.png" />
+    <None Remove="Images\icons\heart.png" />
+    <None Remove="Images\icons\knifeFork.png" />
+    <None Remove="Images\icons\PassWord.png" />
+    <None Remove="Images\icons\serving.png" />
+    <None Remove="Images\icons\User.png" />
+    <None Remove="Images\ImageLogin.jpg" />
+    <None Remove="Images\ImageLogin.png" />
+    <None Remove="Images\likeButton.png" />
+    <None Remove="Images\liked.png" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\logoOriginal.png" />
+    <None Remove="Images\logoTemp.jpg" />
+    <None Remove="Images\menu button.png" />
+    <None Remove="Images\mesRecettesB.PNG" />
+    <None Remove="Images\norte_brasil.jpg" />
+    <None Remove="Images\profileBlock.PNG" />
+    <None Remove="Images\regionsB.PNG" />
+    <None Remove="Images\testR.PNG" />
+    <None Remove="Images\testR2.PNG" />
+    <None Remove="Images\topB.PNG" />
+    <None Remove="Images\veganB.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-    <Compile Include="CentroOeste.xaml.cs">
-      <DependentUpon>CentroOeste.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Connexion.xaml.cs">
-      <DependentUpon>Connexion.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Inscription.xaml.cs">
-      <DependentUpon>Inscription.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MasterRecettes.xaml.cs">
-      <DependentUpon>MasterRecettes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MonChef.xaml.cs">
-      <DependentUpon>MonChef.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Nordeste.xaml.cs">
-      <DependentUpon>Nordeste.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Norte.xaml.cs">
-      <DependentUpon>Norte.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Regions.xaml.cs">
-      <DependentUpon>Regions.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Sudeste.xaml.cs">
-      <DependentUpon>Sudeste.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Sul.xaml.cs">
-      <DependentUpon>Sul.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TopRecettes.xaml.cs">
-      <DependentUpon>TopRecettes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UCaccueil.xaml.cs">
-      <DependentUpon>UCaccueil.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UCbuttons.xaml.cs">
-      <DependentUpon>UCbuttons.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UCfiltreRegions.xaml.cs">
-      <DependentUpon>UCfiltreRegions.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UCmasterRegions.xaml.cs">
-      <DependentUpon>UCmasterRegions.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UCrecDetailee.xaml.cs">
-      <DependentUpon>UCrecDetailee.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UCrecette.xaml.cs">
-      <DependentUpon>UCrecette.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Vegan.xaml.cs">
-      <DependentUpon>Vegan.xaml</DependentUpon>
-    </Compile>
-    <Page Include="Apropos.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="CentroOeste.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Connexion.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Inscription.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Apropos.xaml.cs">
-      <DependentUpon>Apropos.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="MasterRecettes.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MonChef.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Nordeste.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Norte.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Regions.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Sudeste.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Sul.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Themes\TextBoxTheme.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="TopRecettes.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UCaccueil.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UCbuttons.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UCfiltreRegions.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UCmasterRegions.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UCrecDetailee.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UCrecette.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Vegan.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Resource Include="Fonts\GreatVibes-Regular.ttf" />
-    <Resource Include="Fonts\Kalam-Regular.ttf" />
-    <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\menu button.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\chef_F.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\chef_H.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\logo.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\regionsB.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\veganB.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\topB.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\mesRecettesB.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\profileBlock.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\home button.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\likeButton.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\testR.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\testR2.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\defaultR.PNG" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Images\badges\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\badges\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\badges\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\badges\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\boloDecenoura.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\brasilMap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\chef_F.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\chef_H.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Decoration1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Decoration2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Decoration3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Decoration4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\defaultR.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\home button.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons\clock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons\comments.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons\heart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons\knifeFork.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons\logo.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons\PassWord.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons\serving.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icons\User.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ImageLogin.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ImageLogin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\likeButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\liked.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\logoOriginal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\logoTemp.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\menu button.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\mesRecettesB.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\norte_brasil.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\profileBlock.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\regionsB.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\testR.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\testR2.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\topB.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\veganB.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\norte_brasil.jpg" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\brasilMap.png" />
+    <ProjectReference Include="..\Modele\Modele.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\badges\1.png" />
-    <Resource Include="Images\badges\2.png" />
-    <Resource Include="Images\badges\3.png" />
-    <Resource Include="Images\badges\4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\boloDecenoura.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\icons\clock.png" />
-    <Resource Include="Images\icons\comments.png" />
-    <Resource Include="Images\icons\heart.png" />
-    <Resource Include="Images\icons\serving.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\icons\knifeFork.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\ImageLogin.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\ImageLogin.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\icons\User.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\icons\PassWord.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Decoration1.png" />
-    <Resource Include="Images\Decoration2.png" />
-    <Resource Include="Images\Decoration3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\Decoration4.png" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

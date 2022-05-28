@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\runte\\source\\repos\\sae-2.02\\Tests\\Test_Ingredient\\Test_Ingredient.csproj": {}
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Ingredient\\Test_Ingredient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\runte\\source\\repos\\sae-2.02\\Modele\\Modele.csproj": {
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\runte\\source\\repos\\sae-2.02\\Modele\\Modele.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "C:\\Users\\runte\\source\\repos\\sae-2.02\\Modele\\Modele.csproj",
-        "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\runte\\source\\repos\\sae-2.02\\Modele\\obj\\",
+        "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,20 +49,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -72,17 +58,17 @@
         }
       }
     },
-    "C:\\Users\\runte\\source\\repos\\sae-2.02\\Tests\\Test_Ingredient\\Test_Ingredient.csproj": {
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Ingredient\\Test_Ingredient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\runte\\source\\repos\\sae-2.02\\Tests\\Test_Ingredient\\Test_Ingredient.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Ingredient\\Test_Ingredient.csproj",
         "projectName": "Test_Ingredient",
-        "projectPath": "C:\\Users\\runte\\source\\repos\\sae-2.02\\Tests\\Test_Ingredient\\Test_Ingredient.csproj",
-        "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\runte\\source\\repos\\sae-2.02\\Tests\\Test_Ingredient\\obj\\",
+        "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Ingredient\\Test_Ingredient.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Ingredient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\runte\\source\\repos\\sae-2.02\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\runte\\source\\repos\\sae-2.02\\Modele\\Modele.csproj"
+              "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
               }
             }
           }
@@ -121,24 +107,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.24, 3.1.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
