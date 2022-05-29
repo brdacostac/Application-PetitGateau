@@ -10,6 +10,6 @@
 
     <DockPanel>
         <local:UCbuttons DockPanel.Dock="Top" Titre="Sul"/>
-        <local:UCmasterRegions DockPanel.Dock="Top"/>
+        <!--<local:UCmasterRegions DockPanel.Dock="Top"/>-->
     </DockPanel>
 </Page>

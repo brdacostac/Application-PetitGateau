@@ -14,6 +14,11 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class App : Application
     {
-        public Manager leManager;
+        public Manager LeManager { get; private set; } = new Manager();
+        public App()
+        {
+
+        }
     }
+
 }

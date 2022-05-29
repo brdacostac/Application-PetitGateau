@@ -4,15 +4,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:InterfaceAppli1"
-             mc:Ignorable="d" Width="200" Height="200">
+             mc:Ignorable="d" Width="200" Height="200"
+             x:Name="UCRecette">
     <StackPanel Background="White">
         <Image x:Name="ImageR" 
-               Source="Images/defaultR.png" 
+               Source="{Binding Img, ElementName=UCRecette}"
                Height="175"/>
         
         <WrapPanel Height="25">
             <TextBlock x:Name="NomR"
-                       Text="Petit Gâteau"
+                       Text="{Binding Nom, ElementName=UCRecette}"
                        Width="125" 
                        Margin="28,0,0,0" 
                        TextAlignment="Center"/>

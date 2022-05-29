@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\net5.0-windows\
 InterfaceAppli1
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\App.xaml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\App.xaml
 21-460168108
 38262778190
 23-972890113
-197-586190504
+197945504952
 Apropos.xaml;CentroOeste.xaml;Connexion.xaml;Inscription.xaml;MainWindow.xaml;MasterRecettes.xaml;MonChef.xaml;Nordeste.xaml;Norte.xaml;Regions.xaml;Sudeste.xaml;Sul.xaml;Themes\TextBoxTheme.xaml;TopRecettes.xaml;UCaccueil.xaml;UCbuttons.xaml;UCfiltreRegions.xaml;UCmasterRegions.xaml;UCrecDetailee.xaml;UCrecette.xaml;Vegan.xaml;
 
-False
+True
 

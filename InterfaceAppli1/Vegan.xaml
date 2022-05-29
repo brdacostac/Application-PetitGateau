@@ -10,7 +10,7 @@
 
     <DockPanel>
         <local:UCbuttons DockPanel.Dock="Top" Titre="Vegan"/>
-        <local:MasterRecettes DockPanel.Dock="Bottom">
-        </local:MasterRecettes>
+        <!--<local:MasterRecettes DockPanel.Dock="Bottom">-->
+        <!--</local:MasterRecettes>-->
     </DockPanel>
 </Page>

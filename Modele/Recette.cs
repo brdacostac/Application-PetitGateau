@@ -124,7 +124,7 @@ namespace Modele
         /// </summary>
         public void Display()
         {
-            Console.Write($"Nom : {Nom}\nType : {Filtre}\nDescription : {Description}\nRegion : {Origine}");
+            Console.Write($"Nom : {Nom}\nType : {Filtre}\nRegion : {Origine}");
             Console.WriteLine();
             Console.Write("Ingredients : \n");
             foreach(Ingredient i in ingredients)
@@ -143,7 +143,7 @@ namespace Modele
             else
             {
                 Recette r = (Recette)obj; 
-                if (r.Nom == this.nom && r.Liked == this.Liked && r.Description == this.Description)
+                if (r.Nom == this.nom && r.Liked == this.Liked)
                     return true;
                 else
                     return false;

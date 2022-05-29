@@ -6,7 +6,7 @@ namespace Test_Database
 {
     class Program
     {
-        static void Main(string[] args)
+ /*       static void Main(string[] args)
         {
             Compte c1 = new Compte("botuser1", "password", 'h');
             Compte c2 = new Compte("botuser2", "password", 'h');
@@ -39,6 +39,6 @@ namespace Test_Database
             {
                 Console.WriteLine(c);
             }
-        }
+        }*/
     }
 }

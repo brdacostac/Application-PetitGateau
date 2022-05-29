@@ -13,7 +13,7 @@ namespace Modele
         }
         private List<string> sources = new List<string>();
 
-        public RecetteVegan(string nom, string description, Type type, List<Ingredient> l, Region og, List<string> s) : base(nom, description, type, l, og)
+        public RecetteVegan(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv, List<string> s) : base(nom, type, l, prep, og, t, couv)
         {
             sources = s;
         }

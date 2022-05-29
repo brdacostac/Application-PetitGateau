@@ -186,19 +186,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\runte\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\InterfaceAppli1.csproj",
       "projectName": "InterfaceAppli1",
-      "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
-      "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\obj\\",
+      "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\InterfaceAppli1.csproj",
+      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -212,8 +212,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
-              "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
             }
           }
         }

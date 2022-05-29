@@ -8,9 +8,9 @@ namespace Test_Compte
     {
         static void Main(string[] args)
         {
-            Niveau niveau = new Niveau(10, 99);
-            Chef newChef = new Chef(niveau);
-            Compte compte = new Compte("Bruno","cachorro",'M',newChef);
+            Niveau niveau = new Niveau();
+            Chef newChef = new Chef();
+            Compte compte = new Compte("Bruno","cachorro",'M');
             Console.WriteLine("*****TESTE_Compte_Class******");
             Console.WriteLine(compte.ToString());
         }

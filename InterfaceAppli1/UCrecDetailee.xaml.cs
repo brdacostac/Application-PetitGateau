@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Modele;
 
 namespace InterfaceAppli1
 {
@@ -20,9 +21,11 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class UCrecDetailee : UserControl
     {
+        public Manager Manager => (App.Current as App).LeManager;
         public UCrecDetailee()
         {
             InitializeComponent();
+            DataContext = Manager;
         }
     }
 }

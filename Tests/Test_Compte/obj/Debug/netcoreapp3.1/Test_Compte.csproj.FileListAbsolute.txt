@@ -35,5 +35,3 @@ C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\T
 C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.AssemblyInfoInputs.cache
 C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.AssemblyInfo.cs
 C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.csproj.CoreCompileInputs.cache
-C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.dll
-C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.pdb

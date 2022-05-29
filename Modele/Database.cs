@@ -36,5 +36,10 @@ namespace Modele
             Comptes = c;
             Recettes = r;
         }
+        public Database()
+        {
+            Comptes = new List<Compte>();
+            Recettes = new List<Recette>();
+        }
     }
 }

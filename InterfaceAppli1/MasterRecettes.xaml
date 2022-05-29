@@ -21,32 +21,26 @@
                 <Button Content="Desserts" Width="60" Cursor="Hand"/>
             </WrapPanel>
         </StackPanel>
-        <ScrollViewer>
-            <Grid DockPanel.Dock="Top">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-            
-                <StackPanel Grid.Column="0">
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    </StackPanel>
+        
+        
+        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top" ItemsSource="{Binding Dd.Recettes}">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel  Margin="0" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
 
-                <StackPanel Grid.Column="1">
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                </StackPanel>
+            <ListBox.ItemTemplate >
+                <DataTemplate>
+                    <ContentControl>
+                        <WrapPanel>
+                            <TextBlock Text="Piru2" FontSize="15"></TextBlock>
+                            <local:UCrecette Img="Images/boloDecenoura.png" Nom="{Binding Nom}" Margin="0,0,0,20" />
+                        </WrapPanel>
+                    </ContentControl>
+                </DataTemplate>
 
-                <StackPanel Grid.Column="2">
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                </StackPanel>
-            </Grid>
-        </ScrollViewer>    
+            </ListBox.ItemTemplate>
+        </ListBox>
     </DockPanel>
 </UserControl>

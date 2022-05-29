@@ -135,5 +135,11 @@ namespace Modele
             db = new Database(c, r);
             Pers = pers;
         }
+
+        public Manager()
+        {
+            Dd = new Database();
+        }
+
     }
  }

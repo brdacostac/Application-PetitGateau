@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
 using ControlzEx.Theming;
+using Modele;
 
 namespace InterfaceAppli1
 {
@@ -22,9 +23,11 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class MainWindow : MetroWindow
     {
+        public Manager Manager => (App.Current as App).LeManager;
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = Manager;
             pagePrincipale.Content =  new UCaccueil();
 
         }
