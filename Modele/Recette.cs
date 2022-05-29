@@ -19,16 +19,6 @@ namespace Modele
         private string nom;
 
         /// <summary>
-        /// description de la recette
-        /// </summary>
-        public string Description
-        {
-            get { return description; }
-            private set { description = value;}
-        }
-        private string description;
-
-        /// <summary>
         /// nombre de "like" reçues par cette recette
         /// </summary>
         public int Liked 
@@ -61,12 +51,12 @@ namespace Modele
         /// <summary>
         /// indique le temps de préparation de la recette
         /// </summary>
-        public int Preparation
+        public int Temps
         {
-            get { return preparation; }
-            set { preparation = value; }
+            get { return temps; }
+            set { temps = value; }
         }
-        private int preparation;
+        private int temps;
 
 
         /// <summary>
@@ -100,6 +90,16 @@ namespace Modele
         }
         private List<Ingredient> ingredients = new List<Ingredient>();
 
+        /// <summary>
+        /// Liste contenant les étapes de preparation de la recette
+        /// </summary>
+        public List<string> Preparation
+        {
+            get { return preparation; }
+            private set { preparation = value; }
+        }
+        private List<string> preparation = new List<string>();
+
 
         /// <summary>
         /// constructeur
@@ -107,14 +107,16 @@ namespace Modele
         /// <param name="nom">nom de la recette</param>
         /// <param name="description">description de la recettte</param>
         /// <param name="type">type de la recette</param>
-        public Recette(string nom, string description, Type type, List<Ingredient> l, Region og)
+        public Recette(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv)
         {
             Nom = nom;
-            Description = description;
+            Preparation = prep;
             Liked = 0;
             Filtre = type;
             Ingredients = l;
             Origine = og;
+            Temps = t;
+            Couverts = couv;
         }
 
         /// <summary>

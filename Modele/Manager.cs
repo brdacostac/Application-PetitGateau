@@ -14,6 +14,16 @@ namespace Modele
         private Database db;
 
         /// <summary>
+        /// dépendance avec IPersistanceManager
+        /// </summary>
+        public IPersistanceManager Pers
+        {
+            get { return pers; }
+            private set { pers = value; }
+        }
+        private IPersistanceManager pers;
+
+        /// <summary>
         /// Recherche une recettes par nom. L'affiche si trouvé.
         /// </summary>
         /// <param name="nom">le nom de la recette recherchée</param>
@@ -109,15 +119,21 @@ namespace Modele
             Console.WriteLine("Le nouveau compte a été créé");
         }
 
+        public void LoadRecettes()
+        {
+            db.Recettes.Clear();
+            db.Recettes.AddRange(Pers.LoadRecettes());
+        }
 
         /// <summary>
         /// constructeur
         /// </summary>
         /// <param name="r">liste de recettes</param>
         /// <param name="c">liste de comptes</param>
-        public Manager(List<Recette> r, List<Compte> c)
+        public Manager(List<Recette> r, List<Compte> c, IPersistanceManager pers)
         {
             db = new Database(c, r);
+            Pers = pers;
         }
     }
  }

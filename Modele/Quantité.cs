@@ -42,7 +42,12 @@ namespace Modele
 
         public override string ToString()
         {
-            return $"{Nombre} {Uni}";
+            if(Uni == Unité.UNITE)
+            {
+                return $"{Nombre}";
+            }
+            else
+                return $"{Nombre} {Uni}";
         }
     }
 
