@@ -1,0 +1,15 @@
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\bin\Debug\net5.0\StubLib2.deps.json
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\bin\Debug\net5.0\StubLib2.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\bin\Debug\net5.0\ref\StubLib2.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\bin\Debug\net5.0\StubLib2.pdb
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\bin\Debug\net5.0\Modele.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\bin\Debug\net5.0\Modele.pdb
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\obj\Debug\net5.0\StubLib2.csproj.AssemblyReference.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\obj\Debug\net5.0\StubLib2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\obj\Debug\net5.0\StubLib2.AssemblyInfoInputs.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\obj\Debug\net5.0\StubLib2.AssemblyInfo.cs
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\obj\Debug\net5.0\StubLib2.csproj.CoreCompileInputs.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\obj\Debug\net5.0\StubLib2.csproj.CopyComplete
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\obj\Debug\net5.0\StubLib2.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\obj\Debug\net5.0\ref\StubLib2.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\StubLib2\obj\Debug\net5.0\StubLib2.pdb

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "erSbRX83IRJJOb2MjbTpnFo1cEijO8Q86/c0W0/hkLOmsHOPrfK5Fzw0zXtUk/Vmn3XDdlJDu2MO18Kt0DezuA==",
+  "dgSpecHash": "PFjye4tfRPVIo5pxFJTd++9N3POxe3YYKpvzrNkHtgL1x9V5TyZpOszRjIOE38puMQqd3qVJlrPm+GGZbBxYww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
+  "projectFilePath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nifranco\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
-    "C:\\Users\\nifranco\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
-    "C:\\Users\\nifranco\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
-    "C:\\Users\\nifranco\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "C:\\Users\\brdacostac\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\brdacostac\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
+    "C:\\Users\\brdacostac\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\brdacostac\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

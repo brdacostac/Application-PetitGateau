@@ -21,12 +21,13 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class MasterRecettes : UserControl
     {
+        
         public Manager Mgr => (App.Current as App).LeManager;
         public MasterRecettes()
         {
             InitializeComponent();
-            Mgr.Dd.Recettes.Add(new Recette("Bolo de cenoura", Modele.Type.Dessert, null, null, new Region(), 15, 3));
-            Mgr.Dd.Recettes.Add(new Recette("Bolo de chocolate", Modele.Type.Dessert, null, null, new Region(), 15, 3));
+
+            (App.Current as App).LeManager.LoadRecettes();
             DataContext = Mgr;
         }
 

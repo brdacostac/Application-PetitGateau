@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 
 namespace Modele
 {
-    public class Manager
+    public class Manager : INotifyPropertyChanged
     {
         public Database Dd
         {
@@ -23,6 +24,10 @@ namespace Modele
         }
         private IPersistanceManager pers;
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
         /// <summary>
         /// Recherche une recettes par nom. L'affiche si trouvé.
         /// </summary>
@@ -30,13 +35,13 @@ namespace Modele
         public void SearchByName(string nom)
         {
             int i = 0;
-            foreach(Recette r in db.Recettes)
+            foreach (Recette r in db.Recettes)
             {
                 if (r.Nom == nom)
                 {
                     r.Display();
                     i++;
-                }       
+                }
             }
             if (i == 0)
                 Console.Write("Aucune recette de ce nom a été trouvée");
@@ -79,7 +84,7 @@ namespace Modele
                     r.Display();
                     i++;
                 }
-            } 
+            }
             if (i == 0)
                 Console.Write("Aucune recette de cette region a été trouver");
             else
@@ -130,9 +135,9 @@ namespace Modele
         /// </summary>
         /// <param name="r">liste de recettes</param>
         /// <param name="c">liste de comptes</param>
-        public Manager(List<Recette> r, List<Compte> c, IPersistanceManager pers)
+        public Manager(IPersistanceManager pers)
         {
-            db = new Database(c, r);
+            Dd = new Database();
             Pers = pers;
         }
 
@@ -142,4 +147,4 @@ namespace Modele
         }
 
     }
- }
+}

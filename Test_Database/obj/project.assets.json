@@ -27,25 +27,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nifranco\\.nuget\\packages\\": {},
+    "C:\\Users\\brdacostac\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Test_Database\\Test_Database.csproj",
+      "projectUniqueName": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Test_Database\\Test_Database.csproj",
       "projectName": "Test_Database",
-      "projectPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Test_Database\\Test_Database.csproj",
-      "packagesPath": "C:\\Users\\nifranco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Test_Database\\obj\\",
+      "projectPath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Test_Database\\Test_Database.csproj",
+      "packagesPath": "C:\\Users\\brdacostac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Test_Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\nifranco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brdacostac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -61,8 +61,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
-              "projectPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
+            "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
             }
           }
         }

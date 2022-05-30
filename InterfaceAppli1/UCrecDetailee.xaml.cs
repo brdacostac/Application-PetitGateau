@@ -21,11 +21,13 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class UCrecDetailee : UserControl
     {
-        public Manager Manager => (App.Current as App).LeManager;
+        public Manager Mgr => (App.Current as App).LeManager;
         public UCrecDetailee()
         {
             InitializeComponent();
-            DataContext = Manager;
+
+            (App.Current as App).LeManager.LoadRecettes();
+            DataContext = Mgr.Dd.Recettes;
         }
     }
 }

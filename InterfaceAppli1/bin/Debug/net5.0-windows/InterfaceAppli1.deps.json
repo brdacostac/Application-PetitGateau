@@ -9,7 +9,8 @@
       "InterfaceAppli1/1.0.0": {
         "dependencies": {
           "MahApps.Metro": "2.4.9",
-          "Modele": "1.0.0"
+          "Modele": "1.0.0",
+          "StubLib2": "1.0.0"
         },
         "runtime": {
           "InterfaceAppli1.dll": {}
@@ -56,6 +57,14 @@
         "runtime": {
           "Modele.dll": {}
         }
+      },
+      "StubLib2/1.0.0": {
+        "dependencies": {
+          "Modele": "1.0.0"
+        },
+        "runtime": {
+          "StubLib2.dll": {}
+        }
       }
     }
   },
@@ -94,6 +103,11 @@
       "hashPath": "system.text.json.4.7.2.nupkg.sha512"
     },
     "Modele/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StubLib2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
