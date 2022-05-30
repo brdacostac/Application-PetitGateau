@@ -124,7 +124,8 @@ namespace Modele
         /// </summary>
         public void Display()
         {
-            Console.Write($"Nom : {Nom}\nType : {Filtre}\nRegion : {Origine}");
+            int a = 1;
+            Console.Write($"Nom : {Nom}\nType : {Filtre}\nRegion : {Origine}\nTemps de preparation : {Temps} min\nCouverts : {Couverts}");
             Console.WriteLine();
             Console.Write("Ingredients : \n");
             foreach(Ingredient i in ingredients)
@@ -132,6 +133,13 @@ namespace Modele
                 Console.Write($"- {i} \n");
             }
             Console.WriteLine();
+            Console.WriteLine("Préparation :");
+            foreach(string s in Preparation)
+            {
+                Console.Write($"{a} - {s} \n");
+                a++;
+            }
+            Console.WriteLine("-\n");
         }
 
         public override bool Equals(object obj)

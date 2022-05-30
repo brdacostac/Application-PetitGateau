@@ -18,9 +18,19 @@ namespace Test_Recette
 
             List<Ingredient> l = new List<Ingredient>() { ingred2, ingred3, ingred4, ingred1 };
 
-           /* Recette rec1 = new Recette("Petit gateau", "un petit gateau de chocolat, chaud accompagné de glace",
-                Modele.Type.Dessert, l,Region.Sudest);
-            rec1.Display();*/
+            Recette rec1 = new Recette("Petit gateau",Modele.Type.Dessert,l,new List<string>() 
+            {
+                new string("Laisser tremper le pirarucu la veille, le faire frire en morceaux puis le déchiqueter"),
+                new string("Préparez une salade avec l'oignon, la tomate, le persil et le poivre, en ajoutant l'huile et le sel au goût."),
+                new string("Faire la farofa avec un peu de beurre et la farine de manioc et réserver."),
+                new string("Sur un tableau, disposez en couches :"),
+                new string("1ère couche : arapaima râpé.2ª camada: farofa."),
+                new string("3ème couche : salade."),
+                new string("4ème couche : banane frite."),
+                new string("5ème couche : paille de pomme de terre."),
+                new string("Mettre au four pendant 10 minutes.")
+            },Region.Sudest,10,1);
+            rec1.Display();
         }
     }
 }

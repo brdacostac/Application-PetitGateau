@@ -29,7 +29,6 @@ C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.dll
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.pdb
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.genruntimeconfig.cache
-C:\Users\nifranco\Source\Repos\sae-2.02\Tests\Test_Unité\obj\Debug\netcoreapp3.1\Test_Unité.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\runte\source\repos\sae-2.02\Tests\Test_Unité\bin\Debug\netcoreapp3.1\Test_Unité.exe
 C:\Users\runte\source\repos\sae-2.02\Tests\Test_Unité\bin\Debug\netcoreapp3.1\Test_Unité.deps.json
 C:\Users\runte\source\repos\sae-2.02\Tests\Test_Unité\bin\Debug\netcoreapp3.1\Test_Unité.runtimeconfig.json
