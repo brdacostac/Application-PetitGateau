@@ -23,6 +23,8 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class MainWindow : MetroWindow
     {
+
+        public Navigator Navigator => (App.Current as App).Navigator;
         public Manager Manager => (App.Current as App).LeManager;
         public MainWindow()
         {

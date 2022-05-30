@@ -36,3 +36,9 @@ C:\Users\Bruno\Desktop\sae-2.02-main\Test_Database\obj\Debug\netcoreapp3.1\Test_
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_Database\obj\Debug\netcoreapp3.1\Test_Database.AssemblyInfoInputs.cache
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_Database\obj\Debug\netcoreapp3.1\Test_Database.AssemblyInfo.cs
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_Database\obj\Debug\netcoreapp3.1\Test_Database.csproj.CoreCompileInputs.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Database\obj\Debug\netcoreapp3.1\Test_Database.csproj.AssemblyReference.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Database\obj\Debug\netcoreapp3.1\Test_Database.AssemblyInfoInputs.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Database\obj\Debug\netcoreapp3.1\Test_Database.AssemblyInfo.cs
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Database\obj\Debug\netcoreapp3.1\Test_Database.csproj.CoreCompileInputs.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Database\obj\Debug\netcoreapp3.1\Test_Database.dll
+C:\Users\brdacostac\Source\Repos\sae-2.02\Test_Database\obj\Debug\netcoreapp3.1\Test_Database.pdb
