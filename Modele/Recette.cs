@@ -18,6 +18,7 @@ namespace Modele
         }
         private string nom;
 
+
         /// <summary>
         /// nombre de "like" reçues par cette recette
         /// </summary>
@@ -102,12 +103,23 @@ namespace Modele
 
 
         /// <summary>
+        /// String qui va contenir l'image
+        /// </summary>
+        public string Img
+        {
+            get { return img; }
+            private set { img = value; }
+        }
+        private string img;
+
+
+        /// <summary>
         /// constructeur
         /// </summary>
         /// <param name="nom">nom de la recette</param>
         /// <param name="description">description de la recettte</param>
         /// <param name="type">type de la recette</param>
-        public Recette(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv)
+        public Recette(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv, string img)
         {
             Nom = nom;
             Preparation = prep;
@@ -117,6 +129,7 @@ namespace Modele
             Origine = og;
             Temps = t;
             Couverts = couv;
+            Img = img;
         }
 
         /// <summary>

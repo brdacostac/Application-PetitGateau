@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:InterfaceAppli1"
              xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
-             StartupUri="UCrecDetailee.xaml">
+             StartupUri="MasterRecettes.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <!--Fonts-->

@@ -28,7 +28,7 @@ namespace StubLib2
             new string("Servir dans une calebasse dans cet ordre : 2 cuillères à soupe de tucupí, une louche de gomme, une louche de tucupí, quelques feuilles de jambú" +
                 " et 5 crevettes, sel et poivre au goût."),
             new string("Si l'amidon de manioc n'est pas disponible, l'amidon acide peut être utilisé.")
-        },Region.Nord,60,6),
+        },Region.Nord,60,6, img:"Images/Decoration1.png"),
 
            new Recette("Pirarucu de casaca",Modele.Type.Plat,new List<Ingredient>()
         {
@@ -53,7 +53,7 @@ namespace StubLib2
             new string("4ème couche : banane frite."),
             new string("5ème couche : paille de pomme de terre."),
             new string("Mettre au four pendant 10 minutes.")
-        },Region.Nord,50,5)
+        },Region.Nord,50,5, img:"Images/Decoration4.png")
         };
 
 

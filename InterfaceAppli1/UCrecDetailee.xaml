@@ -10,7 +10,7 @@
     <ScrollViewer>
         <DockPanel Background="white">
 
-            <TextBlock x:Name="nom" DockPanel.Dock="Top" Text="Gateau de carottes" FontWeight="Bold" FontSize="20" Margin="20,20,0,10" Style="{StaticResource Titre}"/>
+            <TextBlock x:Name="nom" DockPanel.Dock="Top" Text="{Binding Nom}" FontWeight="Bold" FontSize="20" Margin="20,20,0,10" Style="{StaticResource Titre}"/>
 
             <StackPanel DockPanel.Dock="Top" Height="285">
                 <StackPanel Orientation="Horizontal" Width="785">

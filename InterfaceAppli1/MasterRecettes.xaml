@@ -34,11 +34,10 @@
                 <DataTemplate>
                     <ContentControl>
                         <WrapPanel>
-                            <local:UCrecette Img="Images/boloDecenoura.png" Nom="{Binding Nom}" Margin="0,0,0,20" />
+                            <local:UCrecette Img="{Binding Img}" Nom="{Binding Nom}" Margin="0,0,0,20" />
                         </WrapPanel>
                     </ContentControl>
                 </DataTemplate>
-
             </ListBox.ItemTemplate>
         </ListBox>
     </DockPanel>
