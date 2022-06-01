@@ -27,12 +27,20 @@ namespace InterfaceAppli1
         }
         private void Page_vegan(object sender, RoutedEventArgs e)
         {
-            Vegan pg = new Vegan();
+            Navigator.NavigateTo(Navigator.PART_VEGAN);
         }
 
         private void Page_regions(object sender, RoutedEventArgs e)
         {
             Navigator.NavigateTo(Navigator.PART_REGIONS);
+        }
+        private void Page_top(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_TOP);
+        }
+        private void Page_favoris(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_FAVORIS);
         }
     }
 }

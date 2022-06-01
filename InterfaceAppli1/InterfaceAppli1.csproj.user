@@ -4,12 +4,84 @@
     <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="AproposUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CentroOesteUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ConnexionUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FavoritsUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InscriptionUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MonChefUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NordesteUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NorteUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="RegionsUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SudesteUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SulUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TopRecettesUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VeganUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AproposUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CentroOesteUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConnexionUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FavoritsUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InscriptionUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MonChefUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NordesteUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NorteUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="RegionsUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SudesteUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SulUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TopRecettesUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VeganUC.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

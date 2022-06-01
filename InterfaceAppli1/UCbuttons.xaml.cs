@@ -20,6 +20,7 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class UCbuttons : UserControl
     {
+        public Navigator Navigator => (App.Current as App).Navigator;
         public UCbuttons()
         {
             InitializeComponent();
@@ -31,6 +32,11 @@ namespace InterfaceAppli1
             {
                 TitrePage.Text = value;
             }
+        }
+
+        private void Page_accueil(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_ACCUEIL);
         }
     }
 }

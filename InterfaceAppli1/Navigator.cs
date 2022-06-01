@@ -13,14 +13,20 @@ namespace InterfaceAppli1
 {
     public class Navigator : INotifyPropertyChanged
     {
-        public const string PART_REGIONS = "Regions";
         public const string PART_ACCUEIL = "Accueil";
+        public const string PART_REGIONS = "Regions";
+        public const string PART_VEGAN = "Vegan";
+        public const string PART_TOP = "Top";
+        public const string PART_FAVORIS = "Favoris";
         public ReadOnlyDictionary<string, Func<UserControl>> WindowParts { get; private set; }
         Dictionary<string, Func<UserControl>> windowParts { get; set; } = new Dictionary<string, Func<UserControl>>()
         {
             [PART_ACCUEIL] = () => new UCaccueil(),
-            [PART_REGIONS] = () => new RegionsUC()
-            
+            [PART_REGIONS] = () => new RegionsUC(),
+            [PART_VEGAN] = () => new VeganUC(),
+            [PART_TOP] = () => new TopRecettesUC(),
+            [PART_FAVORIS] = () => new FavoritsUC()
+
         };
 
         public Navigator()

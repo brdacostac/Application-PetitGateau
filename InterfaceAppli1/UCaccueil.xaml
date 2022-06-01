@@ -62,7 +62,8 @@
                         ClickMode="Press" 
                         Cursor="Hand" 
                         Style="{StaticResource MenuBoutonTop}"
-                        Margin="10,10,10,10">
+                        Margin="10,10,10,10"
+                        Click="Page_top">
                     <Button.Content>
                         <Image Source="Images/topB.png" Height="83" Width="200" />
                     </Button.Content>
@@ -87,7 +88,8 @@
                         ClickMode="Press" 
                         Cursor="Hand" 
                         Style="{StaticResource MenuBoutonFavorits}"
-                        Margin="10,10,10,10">
+                        Margin="10,10,10,10"
+                        Click="Page_favoris">
                     <Button.Content>
                         <Image Source="Images/mesRecettesB.png" Height="82" Width="202" />
                     </Button.Content>

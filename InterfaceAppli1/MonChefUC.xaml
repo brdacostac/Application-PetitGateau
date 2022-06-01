@@ -1,0 +1,42 @@
+﻿<UserControl 
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"  x:Class="InterfaceAppli1.MonChefUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:InterfaceAppli1"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <DockPanel Background="white">
+        <WrapPanel DockPanel.Dock="Top">
+            <local:UCbuttons Titre="Mon chef" Loaded="UCbuttons_Loaded" Width="800" FontStyle="Normal"/>
+        </WrapPanel>
+
+        <StackPanel DockPanel.Dock="Top">
+            <Image Source="Images/chef_H.png" Height="220" Width="260"/>
+            <mah:MetroProgressBar x:Name="progressBar" Height="20" Width="500" Margin="0,10,0,0" Foreground="#FF27E60C"/>
+            <TextBlock Text="LV.1" HorizontalAlignment="Center" FontSize="30" Margin="0,5,0,0" FontWeight="Bold"/>
+        </StackPanel>
+
+        <ScrollViewer Foreground="Red" Width="752" HorizontalScrollBarVisibility="Auto">
+            <WrapPanel DockPanel.Dock="Bottom" Height="85" Width="1000" Background="#FF69B5EF">
+                <Image Source="Images/badges/1.png"/>
+                <Image Source="Images/badges/2.png"/>
+                <Image Source="Images/badges/3.png"/>
+                <Image Source="Images/badges/4.png"/>
+                <Image Source="Images/badges/1.png"/>
+                <Image Source="Images/badges/2.png"/>
+                <Image Source="Images/badges/3.png"/>
+                <Image Source="Images/badges/4.png"/>
+                <Image Source="Images/badges/1.png"/>
+                <Image Source="Images/badges/2.png"/>
+                <Image Source="Images/badges/3.png"/>
+                <Image Source="Images/badges/4.png"/>
+                <Image Source="Images/badges/1.png"/>
+                <Image Source="Images/badges/2.png"/>
+                <Image Source="Images/badges/3.png"/>
+                <Image Source="Images/badges/4.png"/>
+            </WrapPanel>
+        </ScrollViewer>
+    </DockPanel>
+</UserControl>
