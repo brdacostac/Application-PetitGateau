@@ -42,5 +42,9 @@ namespace InterfaceAppli1
         {
             Navigator.NavigateTo(Navigator.PART_FAVORIS);
         }
+        private void Page_monchef(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_MONCHEF);
+        }
     }
 }

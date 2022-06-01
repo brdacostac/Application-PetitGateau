@@ -9,7 +9,7 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <DockPanel Background="white">
         <WrapPanel DockPanel.Dock="Top">
-            <local:UCbuttons Titre="Mon chef" Loaded="UCbuttons_Loaded" Width="800" FontStyle="Normal"/>
+            <local:UCbuttons Titre="Mon chef" Loaded="UCbuttons_Loaded" Width="920" FontStyle="Normal"/>
         </WrapPanel>
 
         <StackPanel DockPanel.Dock="Top">

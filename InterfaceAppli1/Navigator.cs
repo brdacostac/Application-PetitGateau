@@ -14,6 +14,7 @@ namespace InterfaceAppli1
     public class Navigator : INotifyPropertyChanged
     {
         public const string PART_ACCUEIL = "Accueil";
+        public const string PART_MONCHEF = "MonChef";
         public const string PART_REGIONS = "Regions";
         public const string PART_VEGAN = "Vegan";
         public const string PART_TOP = "Top";
@@ -22,6 +23,7 @@ namespace InterfaceAppli1
         Dictionary<string, Func<UserControl>> windowParts { get; set; } = new Dictionary<string, Func<UserControl>>()
         {
             [PART_ACCUEIL] = () => new UCaccueil(),
+            [PART_MONCHEF] = () => new MonChefUC(),
             [PART_REGIONS] = () => new RegionsUC(),
             [PART_VEGAN] = () => new VeganUC(),
             [PART_TOP] = () => new TopRecettesUC(),

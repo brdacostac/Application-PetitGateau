@@ -20,7 +20,15 @@
             </StackPanel>
 
             <WrapPanel Grid.Column="1" HorizontalAlignment="Center">
-                <Image Source="Images/Chef_F.PNG" Width="150" VerticalAlignment="Center"/>
+                <Button BorderBrush="Black" 
+                        ClickMode="Press" 
+                        Cursor="Hand"
+                        Click="Page_monchef">
+                    <Button.Content>
+                        <Image Source="Images/Chef_F.PNG" Width="150" VerticalAlignment="Center"/>
+                    </Button.Content>
+                </Button>
+                
             </WrapPanel>
         </Grid>
 
