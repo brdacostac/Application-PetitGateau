@@ -20,6 +20,7 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class UCaccueil : UserControl
     {
+        public Navigator Navigator => (App.Current as App).Navigator;
         public UCaccueil()
         {
             InitializeComponent();
@@ -31,7 +32,7 @@ namespace InterfaceAppli1
 
         private void Page_regions(object sender, RoutedEventArgs e)
         {
-            this.Content = new Norte();
+            Navigator.NavigateTo(Navigator.PART_REGIONS);
         }
     }
 }

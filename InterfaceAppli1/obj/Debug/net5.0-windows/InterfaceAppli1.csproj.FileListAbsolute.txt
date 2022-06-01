@@ -173,7 +173,6 @@ C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windo
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\MonChef.g.cs
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Nordeste.g.cs
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Norte.g.cs
-C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Regions.g.cs
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Sudeste.g.cs
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Sul.g.cs
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\TopRecettes.g.cs
@@ -199,7 +198,6 @@ C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windo
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\MonChef.baml
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Nordeste.baml
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Norte.baml
-C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Regions.baml
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Sudeste.baml
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Sul.baml
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\TopRecettes.baml
@@ -220,3 +218,7 @@ C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windo
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\ref\InterfaceAppli1.dll
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\InterfaceAppli1.pdb
 C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\InterfaceAppli1.genruntimeconfig.cache
+C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Favorits.g.cs
+C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\RegionsUC.g.cs
+C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Favorits.baml
+C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\RegionsUC.baml

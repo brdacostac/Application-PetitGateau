@@ -6,41 +6,51 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using InterfaceAppli1;
 using System.Windows.Controls;
 
 namespace InterfaceAppli1
 {
     public class Navigator : INotifyPropertyChanged
     {
-        public ReadOnlyDictionary<string, Func<Page>> WindowParts { get; private set; }
-        Dictionary<string, Func<Page>> windowParts { get; set; } = new Dictionary<string, Func<Page>>()
+        public const string PART_REGIONS = "Regions";
+        public const string PART_ACCUEIL = "Accueil";
+        public ReadOnlyDictionary<string, Func<UserControl>> WindowParts { get; private set; }
+        Dictionary<string, Func<UserControl>> windowParts { get; set; } = new Dictionary<string, Func<UserControl>>()
         {
-            ["Regions"] = () => new Regions(),
-            ["Vegan"] = () => new Vegan(),
-            ["Top"] = () => new TopRecettes(),
-            ["Favorits"] = () => new Favorits(),
-            ["MonChef"] = () => new MonChef()
+            [PART_ACCUEIL] = () => new UCaccueil(),
+            [PART_REGIONS] = () => new RegionsUC()
+            
         };
 
         public Navigator()
         {
-            WindowParts = new ReadOnlyDictionary<string, Func<Page>>(windowParts);
-            SelectedPageCreator = WindowParts.First();
+            WindowParts = new ReadOnlyDictionary<string, Func<UserControl>>(windowParts);
+            SelectedUserControlCreator = WindowParts.First();
         }
-        public KeyValuePair<string, Func<Page>> SelectedPageCreator
+        public KeyValuePair<string, Func<UserControl>> SelectedUserControlCreator
         {
-            get => selectedPageCreator;
+            get => selectedUserControlCreator;
             set
             {
-                if (selectedPageCreator.Equals(value)) return;
-                selectedPageCreator = value;
+                if (selectedUserControlCreator.Equals(value)) return;
+                selectedUserControlCreator = value;
+                OnPropertyChanged();
             }
         }
-        private KeyValuePair<string, Func<Page>> selectedPageCreator;
+        private KeyValuePair<string, Func<UserControl>> selectedUserControlCreator;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
         void OnPropertyChanged([CallerMemberName] string propertyName = "")
             => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+        public void NavigateTo(string windowPartName)
+        {
+            if (WindowParts.ContainsKey(windowPartName))
+            {
+                SelectedUserControlCreator = WindowParts.Single(kvp => kvp.Key == windowPartName);
+            }
+        }
     }
 }

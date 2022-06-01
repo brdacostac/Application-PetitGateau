@@ -205,20 +205,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\runte\\.nuget\\packages\\": {}
+    "C:\\Users\\brdacostac\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
+      "projectUniqueName": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
       "projectName": "InterfaceAppli1",
-      "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
-      "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\obj\\",
+      "projectPath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
+      "packagesPath": "C:\\Users\\brdacostac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\brdacostac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0-windows7.0"
@@ -231,11 +239,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
-              "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
+            "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
             },
-            "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj": {
-              "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj"
+            "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj": {
+              "projectPath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj"
             }
           }
         }
@@ -265,24 +273,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.16, 5.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -291,7 +281,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

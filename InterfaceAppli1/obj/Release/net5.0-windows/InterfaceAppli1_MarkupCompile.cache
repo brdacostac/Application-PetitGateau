@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\brdacostac\source\repos\sae-2.02\InterfaceAppli1\obj\Release\net5.0-windows\
+C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\obj\Release\net5.0-windows\
 InterfaceAppli1
 none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-C:\Users\brdacostac\source\repos\sae-2.02\InterfaceAppli1\App.xaml
-221445736009
+C:\Users\brdacostac\Source\Repos\sae-2.02\InterfaceAppli1\App.xaml
+23-690813283
 38262778190
-23-1017060645
-198-1416702866
-Apropos.xaml;CentroOeste.xaml;Connexion.xaml;Favorits.xaml;Inscription.xaml;MainWindow.xaml;MasterRecettes.xaml;MonChef.xaml;Nordeste.xaml;Norte.xaml;Regions.xaml;Sudeste.xaml;Sul.xaml;Themes\TextBoxTheme.xaml;TopRecettes.xaml;UCaccueil.xaml;UCbuttons.xaml;UCfiltreRegions.xaml;UCmasterRegions.xaml;UCrecDetailee.xaml;UCrecette.xaml;Vegan.xaml;
+251088339769
+198-840068056
+Apropos.xaml;CentroOeste.xaml;Connexion.xaml;Favorits.xaml;Inscription.xaml;MainWindow.xaml;MasterRecettes.xaml;MonChef.xaml;Nordeste.xaml;Norte.xaml;Regions.xaml;RegionsUC.xaml;Sudeste.xaml;Sul.xaml;Themes\TextBoxTheme.xaml;TopRecettes.xaml;UCaccueil.xaml;UCbuttons.xaml;UCfiltreRegions.xaml;UCmasterRegions.xaml;UCrecDetailee.xaml;UCrecette.xaml;Vegan.xaml;
 
 True
 

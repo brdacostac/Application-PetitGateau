@@ -4,23 +4,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:InterfaceAppli1"
-        mc:Ignorable="d"
+        xmlns:local="clr-namespace:InterfaceAppli1" d:DataContext="{d:DesignInstance Type=local:Navigator}"
+                 mc:Ignorable="d"
         Title="PetitGateau" 
         Height="600" Width="920"
         Icon="/Images/logo.png"
         ResizeMode="NoResize" 
         WindowStartupLocation="CenterScreen">
-    
-    
+
+
     <DockPanel Background="white">
-        <local:UCbuttons DockPanel.Dock="Top" Titre=" "/>
-        <ContentControl x:Name="pagePrincipale">
-            <ContentControl.Content>
-
-                <local:UCaccueil/>
-
-            </ContentControl.Content>
-        </ContentControl>
+        <ContentControl x:Name="pagePrincipale" DataContext="{Binding Navigator}" Content="{Binding SelectedUserControlCreator.Value, Converter={StaticResource func2WindowPartConverter}}"/>
     </DockPanel>
 </mah:MetroWindow>

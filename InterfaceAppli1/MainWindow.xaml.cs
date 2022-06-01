@@ -29,9 +29,7 @@ namespace InterfaceAppli1
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = Manager;
-            pagePrincipale.Content =  new UCaccueil();
-
+            DataContext = this;
         }
     }
 }
