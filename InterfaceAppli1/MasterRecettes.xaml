@@ -16,25 +16,25 @@
                          Style="{StaticResource MordernTextBox}"/>
 
             <WrapPanel HorizontalAlignment="Center" Margin="0,10,0,20">
-                <Button Content="Entrées" Width="60" Cursor="Hand"/>
-                <Button Content="Plats" Width="60" Cursor="Hand"/>
-                <Button Content="Desserts" Width="60" Cursor="Hand"/>
+                <Button x:Name="entree" Content="Entrées" Width="60" Cursor="Hand" Click="entree_Click"/>
+                <Button x:Name="plat" Content="Plats" Width="60" Cursor="Hand" Click="plat_Click"/>
+                <Button x:Name="dessert" Content="Desserts" Width="60" Cursor="Hand" Click="dessert_Click"/>
             </WrapPanel>
         </StackPanel>
-        
-        
-        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top" ItemsSource="{Binding Dd.Recettes}">
+
+
+        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top" ItemsSource="{Binding}" ScrollViewer.VerticalScrollBarVisibility="Disabled" x:Name="recet">
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <WrapPanel  Margin="0" />
+                    <WrapPanel Orientation="Vertical"  Margin="0" />
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
 
-            <ListBox.ItemTemplate >
+            <ListBox.ItemTemplate>
                 <DataTemplate>
                     <ContentControl>
                         <WrapPanel>
-                            <local:UCrecette Img="{Binding Img}" Nom="{Binding Nom}" Margin="0,0,0,20" />
+                            <local:UCrecette Img="{Binding Img}" Nom="{Binding Nom}" Margin="0,0,0,20"/>
                         </WrapPanel>
                     </ContentControl>
                 </DataTemplate>

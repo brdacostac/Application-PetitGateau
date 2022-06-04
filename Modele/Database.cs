@@ -41,5 +41,21 @@ namespace Modele
             Comptes = new List<Compte>();
             Recettes = new List<Recette>();
         }
+
+        public List<Recette> recettes_type_choisi(Type filtre)
+        {
+            List<Recette> liste_demande = new List<Recette>();
+
+            foreach ( Recette r in recettes)
+            {
+
+                if(r.Filtre == filtre)
+                {
+                    liste_demande.Add(r);
+                }
+            }
+            return liste_demande;
+            
+        }
     }
 }

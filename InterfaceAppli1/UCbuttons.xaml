@@ -41,13 +41,13 @@
                 <mah:DropDownButton.Items>
                     <ListBox>
                         <ListBoxItem>
-                            <Button>ListBox Item #1</Button>
+                            <Button>Mode sombre</Button>
                         </ListBoxItem>
                         <ListBoxItem>
-                            <Button>ListBox Item #1</Button>
+                            <Button Click="Page_Apropos">A-Propos</Button>
                         </ListBoxItem>
                         <ListBoxItem>
-                            <Button>ListBox Item #1</Button>
+                            <Button Click="Page_Connexion">Connexion</Button>
                         </ListBoxItem>
                     </ListBox>
                 </mah:DropDownButton.Items>

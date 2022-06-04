@@ -19,6 +19,16 @@ namespace InterfaceAppli1
         public const string PART_VEGAN = "Vegan";
         public const string PART_TOP = "Top";
         public const string PART_FAVORIS = "Favoris";
+        public const string PART_APROPOS = "Apropos";
+        public const string PART_CONNEXION = "Connexion";
+        public const string PART_INSCRIPTION = "Inscription";
+
+        public const string PART_NORTE = "Norte";
+        public const string PART_NORDESTE = "Nordeste";
+        public const string PART_CENTRO_OESTE = "Centro-Oeste";
+        public const string PART_SUDESTE = "Sudeste";
+        public const string PART_SUL = "Sul";
+
         public ReadOnlyDictionary<string, Func<UserControl>> WindowParts { get; private set; }
         Dictionary<string, Func<UserControl>> windowParts { get; set; } = new Dictionary<string, Func<UserControl>>()
         {
@@ -27,7 +37,17 @@ namespace InterfaceAppli1
             [PART_REGIONS] = () => new RegionsUC(),
             [PART_VEGAN] = () => new VeganUC(),
             [PART_TOP] = () => new TopRecettesUC(),
-            [PART_FAVORIS] = () => new FavoritsUC()
+            [PART_FAVORIS] = () => new FavoritsUC(),
+            [PART_APROPOS] = () => new AproposUC(),
+            [PART_CONNEXION] = () => new ConnexionUC(),
+            [PART_INSCRIPTION] = () => new InscriptionUC(),
+
+            [PART_NORTE] = () => new NorteUC(),
+            [PART_NORDESTE] = () => new NordesteUC(),
+            [PART_CENTRO_OESTE] = () => new CentroOesteUC(),
+            [PART_SUDESTE] = () => new SudesteUC(),
+            [PART_SUL] = () => new SulUC()
+
 
         };
 

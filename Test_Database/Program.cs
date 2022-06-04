@@ -6,7 +6,7 @@ namespace Test_Database
 {
     class Program
     {
-          static void Main(string[] args)
+        static void Main(string[] args)
         {
             Compte c1 = new Compte("botuser1", "password", 'h');
             Compte c2 = new Compte("botuser2", "password", 'h');
@@ -14,8 +14,8 @@ namespace Test_Database
             Compte c4 = new Compte("botuser4", "password", 'f');
             List<Compte> comptes = new List<Compte>() { c1, c2, c3, c4 };
 
-           
-            List<Recette> recettes  = new List<Recette>() 
+
+            List<Recette> recettes = new List<Recette>()
             {
                 new Recette("Tacaca d'Amazonie",Modele.Type.Plat,new List<Ingredient>()
                 {
@@ -80,7 +80,10 @@ namespace Test_Database
             foreach (Compte c in db.Comptes)
             {
                 Console.WriteLine(c);
+
+
             }
+
         }
     }
 }

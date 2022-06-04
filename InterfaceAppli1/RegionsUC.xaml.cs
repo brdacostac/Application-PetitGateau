@@ -20,9 +20,30 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class RegionsUC : UserControl
     {
+        public Navigator Navigator => (App.Current as App).Navigator;
         public RegionsUC()
         {
             InitializeComponent();
+        }
+        private void Page_Norte(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_NORTE);
+        }
+        private void Page_Nordeste(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_NORDESTE);
+        }
+        private void Page_Centro_Oeste(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_CENTRO_OESTE);
+        }
+        private void Page_Sudeste(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_SUDESTE);
+        }
+        private void Page_Sul(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_SUL);
         }
     }
 }

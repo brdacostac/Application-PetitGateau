@@ -38,5 +38,15 @@ namespace InterfaceAppli1
         {
             Navigator.NavigateTo(Navigator.PART_ACCUEIL);
         }
+        private void Page_Apropos(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_APROPOS);
+        }
+
+        private void Page_Connexion(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_CONNEXION);
+        }
+        
     }
 }

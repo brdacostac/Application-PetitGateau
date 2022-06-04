@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modele;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,13 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class UCmasterRegions : UserControl
     {
+        public Manager Mgr => (App.Current as App).LeManager;
         public UCmasterRegions()
         {
             InitializeComponent();
+
+            (App.Current as App).LeManager.LoadRecettes();
+            DataContext = Mgr;
         }
     }
 }

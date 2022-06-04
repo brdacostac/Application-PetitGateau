@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace InterfaceAppli1
 {
     /// <summary>
@@ -20,9 +21,15 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class ConnexionUC : UserControl
     {
+        public Navigator Navigator => (App.Current as App).Navigator;
         public ConnexionUC()
         {
             InitializeComponent();
+        }
+
+        private void Page_Inscription(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_INSCRIPTION);
         }
     }
 }

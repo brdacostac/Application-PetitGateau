@@ -30,11 +30,6 @@ C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Compte\obj\Debug\netcoreapp3.
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.dll
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.pdb
 C:\Users\nifranco\source\repos\sae-2.02\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.genruntimeconfig.cache
-C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.csproj.AssemblyReference.cache
-C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.AssemblyInfoInputs.cache
-C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.AssemblyInfo.cs
-C:\Users\Bruno\Desktop\sae-2.02-main\Tests\Test_Compte\obj\Debug\netcoreapp3.1\Test_Compte.csproj.CoreCompileInputs.cache
 C:\Users\brdacostac\Source\Repos\sae-2.02\Tests\Test_Compte\bin\Debug\netcoreapp3.1\Test_Compte.exe
 C:\Users\brdacostac\Source\Repos\sae-2.02\Tests\Test_Compte\bin\Debug\netcoreapp3.1\Test_Compte.deps.json
 C:\Users\brdacostac\Source\Repos\sae-2.02\Tests\Test_Compte\bin\Debug\netcoreapp3.1\Test_Compte.runtimeconfig.json

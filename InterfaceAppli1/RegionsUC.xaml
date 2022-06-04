@@ -25,25 +25,25 @@
                         Width="80" Height="30" Grid.Row="1" 
                         HorizontalAlignment="Left" 
                         VerticalAlignment="Top" 
-                        Margin="155,10,0,0"/>
+                        Margin="155,10,0,0" Click="Page_Norte"/>
 
                 <Button Content="Nordeste"
                         Width="65" Height="30" Grid.Row="1" 
                         HorizontalAlignment="Left" 
                         VerticalAlignment="Top" 
-                        Margin="344,50,0,0"/>
+                        Margin="344,50,0,0" Click="Page_Nordeste"/>
 
-                <Button Content="Centro-Oeste" Width="78" Height="34" Grid.Row="2" 
+                <Button Content="Centro-Oeste" Width="85" Height="30" Grid.Row="2" 
                         HorizontalAlignment="Center" 
-                        VerticalAlignment="Center"/>
+                        VerticalAlignment="Center" Click="Page_Centro_Oeste"/>
 
                 <Button Content="Sudeste" Width="60" Height="30" Grid.Row="3" 
                         HorizontalAlignment="Left" 
-                        VerticalAlignment="Top" Margin="297,0,0,0"/>
+                        VerticalAlignment="Top" Margin="297,0,0,0" Click="Page_Sudeste"/>
 
                 <Button Content="Sul" Width="38" Height="25" Grid.Row="4" 
                         HorizontalAlignment="Left" 
-                        VerticalAlignment="Top" Margin="236,0,0,0"/>
+                        VerticalAlignment="Top" Margin="236,0,0,0" Click="Page_Sul"/>
             </Grid>
         </DockPanel>
     </DockPanel>

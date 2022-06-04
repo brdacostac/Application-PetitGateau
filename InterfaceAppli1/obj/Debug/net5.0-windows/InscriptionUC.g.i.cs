@@ -69,7 +69,7 @@ namespace InterfaceAppli1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/InterfaceAppli1;V1.0.0.0;component/inscriptionuc.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/InterfaceAppli1;component/inscriptionuc.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\InscriptionUC.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

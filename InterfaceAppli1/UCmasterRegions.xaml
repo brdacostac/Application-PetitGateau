@@ -8,31 +8,22 @@
              d:DesignHeight="400" d:DesignWidth="800">
 
     <DockPanel Background="White">
-        <Grid DockPanel.Dock="Bottom">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <!--
-                <StackPanel Grid.Column="0">
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                </StackPanel>
+        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top" ItemsSource="{Binding Dd.Recettes}">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel  Margin="0" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
 
-                <StackPanel Grid.Column="1">
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                </StackPanel>
-
-                <StackPanel Grid.Column="2">
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                    <local:UCrecette Margin="0,0,0,20"/>
-                </StackPanel>
-                -->
-            </Grid>
-        </DockPanel>
+            <ListBox.ItemTemplate >
+                <DataTemplate>
+                    <ContentControl>
+                        <WrapPanel>
+                            <local:UCrecette Img="{Binding Img}" Nom="{Binding Nom}" Margin="0,0,0,20" />
+                        </WrapPanel>
+                    </ContentControl>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
 </UserControl>

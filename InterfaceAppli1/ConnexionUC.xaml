@@ -61,7 +61,7 @@
                 <TextBlock Text="Vous n'avez pas de compte?" Width="200" FontSize="23" 
                            HorizontalAlignment="Left" Margin="50,20,0,0"  FontFamily="Fonts/#Great Vibes"/>
                 <Button Content="S'inscrire" Height="30" Width="100" Style="{StaticResource MenuBoutonTop}"
-                    Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,10,0,0"/>
+                    Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="50,10,0,0" Click="Page_Inscription"/>
             </StackPanel>
 
         </Grid>
