@@ -31,10 +31,24 @@ namespace InterfaceAppli1
             
         }
 
+        /// <summary>
+        /// attribut origine qui va être changé en fonction de la page region
+        /// </summary>
         public Region Origine
         {
-            get { return Origine; }
-            set { DataContext = Mgr.Dd.recettes_region_choisi(value); }
+            get { return origine; }
+            set { origine = value; }
+        }
+        private Region origine;
+
+
+        /// <summary>
+        /// attribut typ va changer le dataContext en fonction du type choisi et de la region
+        /// </summary>
+        public Modele.Type typ
+        {
+            get { return typ; }
+            set { DataContext = Mgr.Dd.recettes_region_type_choisi(Origine,value); }
         }
         
     }

@@ -8,6 +8,6 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <DockPanel>
         <local:UCbuttons DockPanel.Dock="Top" Titre="Centro-Oeste"/>
-        <local:UCfiltreRegions DockPanel.Dock="Top"/>
+        <local:UCfiltreRegions x:Name="regionCentreOuestUC" Reg="CentreOuest" DockPanel.Dock="Top"/>
     </DockPanel>
 </UserControl>

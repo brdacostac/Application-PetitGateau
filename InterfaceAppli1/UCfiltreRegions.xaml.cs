@@ -33,8 +33,25 @@ namespace InterfaceAppli1
         {
             UCmasterRegions page = new UCmasterRegions();
             page.Origine = Reg;
+            page.typ = Modele.Type.Entree;
             Recettes.Content = page;
             
+        }
+        private void Button_Click_plat(object sender, RoutedEventArgs e)
+        {
+            UCmasterRegions page = new UCmasterRegions();
+            page.Origine = Reg;
+            page.typ = Modele.Type.Plat;
+            Recettes.Content = page;
+
+        }
+        private void Button_Click_dessert(object sender, RoutedEventArgs e)
+        {
+            UCmasterRegions page = new UCmasterRegions();
+            page.Origine = Reg;
+            page.typ = Modele.Type.Dessert;
+            Recettes.Content = page;
+
         }
         public Region Reg
         {

@@ -25,7 +25,6 @@ namespace InterfaceAppli1
         public SulUC()
         {
             InitializeComponent();
-
         }
 
         

@@ -19,8 +19,8 @@
                 
                 <WrapPanel HorizontalAlignment="Center" Margin="320,0,0,0">
                     <Button Content="Entrées" Width="60" Cursor="Hand" Click="Button_Click_entree"/>
-                    <Button Content="Plats" Width="60" Cursor="Hand"/>
-                    <Button Content="Desserts" Width="60" Cursor="Hand"/>
+                    <Button Content="Plats" Width="60" Cursor="Hand" Click="Button_Click_plat"/>
+                    <Button Content="Desserts" Width="60" Cursor="Hand" Click="Button_Click_dessert"/>
                 </WrapPanel>
             </WrapPanel>
 

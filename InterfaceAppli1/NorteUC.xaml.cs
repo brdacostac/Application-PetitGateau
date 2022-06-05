@@ -25,7 +25,6 @@ namespace InterfaceAppli1
         public NorteUC()
         {
             InitializeComponent();
-            regionNordUC.DataContext = Mgr.Dd.recettes_region_choisi(Region.Nord);
         }
     }
 }
