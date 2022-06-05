@@ -29,6 +29,19 @@ namespace InterfaceAppli1
             InitializeComponent();
         }
 
+        public System.Windows.Media.ImageSource Limage
+        {
+            set
+            {
+                ImageRegion.Source = value;
+            }
+        }
+
+        public string Description
+        {
+            set => description.Text = value;
+        }
+
         private void Button_Click_entree(object sender, RoutedEventArgs e)
         {
             UCmasterRegions page = new UCmasterRegions();

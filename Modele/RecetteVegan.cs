@@ -6,16 +6,21 @@ namespace Modele
 {
     public class RecetteVegan : Recette
     {
-        public List<string> Sources
+        public string source
         {
             get { return sources; }
             private set { sources = value; }
         }
-        private List<string> sources = new List<string>();
+        private string sources;
 
-        public RecetteVegan(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv, List<string> s) : base(nom, type, l, prep, og, t, couv, null)
+        public RecetteVegan(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv, string img, string s) : base(nom, type, l, prep, og, t, couv, img)
         {
-            sources = s;
+            if(type == Type.Plat)
+                sources = "Cette recette est une version vegane du plat " + s;
+            else if(type == Type.Entree)
+                sources = "Cette recette est une version vegane de l'entrée " + s;
+            else
+                sources = "Cette recette est une version vegane du dessert " + s;
         }
     }
 }

@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <DockPanel>
-        <local:UCbuttons DockPanel.Dock="Top" Titre="Sul"/>
-        <local:UCfiltreRegions x:Name="regionSudUC" Reg="Sud" DockPanel.Dock="Top"/>
+        <local:UCbuttons DockPanel.Dock="Top" Titre="Sul" />
+        <local:UCfiltreRegions x:Name="regionSudUC" Reg="Sud" DockPanel.Dock="Top" Limage="Images/Regions/Sul.jpg" Description="L'une des principales caractéristiques de la population du sud est la forte influence européenne. La Région a accueilli plusieurs migrants venus d'Allemagne, d'Italie, de Pologne, entre autres. Ainsi, les États du sud présentent plusieurs manifestations culturelles d'origine européenne. La région sud du Brésil occupe une superficie de 576 774 310 km², ce qui correspond à 6,76 % du territoire brésilien. C'est la plus petite des régions du pays et la seule qui se trouve en dehors de la zone intertropicale. Elle a des frontières avec l'Uruguay, l'Argentine et le Paraguay."/>
     </DockPanel>
 </UserControl>

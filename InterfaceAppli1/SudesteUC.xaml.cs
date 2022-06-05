@@ -26,5 +26,10 @@ namespace InterfaceAppli1
         {
             InitializeComponent();
         }
+
+        private void regionSudestUC_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

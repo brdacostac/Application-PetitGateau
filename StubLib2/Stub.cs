@@ -28,7 +28,7 @@ namespace StubLib2
             "Servir dans une calebasse dans cet ordre : 2 cuillères à soupe de tucupí, une louche de gomme, une louche de tucupí, quelques feuilles de jambú" +
                 " et 5 crevettes, sel et poivre au goût.",
             "Si l'amidon de manioc n'est pas disponible, l'amidon acide peut être utilisé."
-        },Region.Nord,60,6, img:"Images/Recettes/amazonie.png"),
+        },Region.Nord,60,6, img:"Images/Recettes/amazonie.jpg"),
 //************************************************************************************************
            new Recette("Pirarucu de casaca",Modele.Type.Plat,new List<Ingredient>()
         {
@@ -53,7 +53,7 @@ namespace StubLib2
             "4ème couche : banane frite.",
             "5ème couche : paille de pomme de terre.",
             "Mettre au four pendant 10 minutes."
-        },Region.Nord,50,5, img:"Images/Recettes/casaca.png"),
+        },Region.Nord,50,5, img:"Images/Recettes/casaca.jpg"),
 //************************************************************************************************
             new Recette("Caldeirada de Tambaqui",Modele.Type.Plat,new List<Ingredient>()
         {
@@ -79,7 +79,7 @@ namespace StubLib2
             "Faire bouillir environ 20 minutes.",
             "Après 20 minutes, éteignez le feu, ajoutez le reste de la coriandre et de la ciboulette et servez immédiatement.",
             "Ce ragoût peut être accompagné de riz blanc."
-        },Region.Nord,30,4, img:"Images/Recettes/tambaqui.png"),
+        },Region.Nord,30,4, img:"Images/Recettes/tambaqui.jpg"),
 //************************************************************************************************
             new Recette("Gâteau arapaïma",Modele.Type.Entree,new List<Ingredient    >()
         {
@@ -105,7 +105,7 @@ namespace StubLib2
             "Ajustez le sel",
             "Faites des boulettes avec vos mains, faites-les frire dans l'huile chaude jusqu'à ce qu'elles soient dorées.",
             "Égoutter sur du papier absorbant et servir chaud."
-        },Region.Nord,50,5, img:"Images/Recettes/araipama.png"),
+        },Region.Nord,50,5, img:"Images/Recettes/araipama.jpg"),
 //************************************************************************************************
             new Recette("Salade d'île de marajo",Modele.Type.Entree,new List<Ingredient    >()
         {
@@ -128,7 +128,7 @@ namespace StubLib2
             "Préparez la sauce : dans un petit bol, placez la mayonnaise, la moutarde, le ketchup, " +
             "le vinaigre et l'Assaisonnement SAZÓN® et mélangez",
             "Servir la salade avec la vinaigrette."
-        },Region.Nord,20,2, img:"Images/Recettes/marajo.png"),
+        },Region.Nord,20,2, img:"Images/Recettes/marajo.jpg"),
 //************************************************************************************************
 
             new Recette("Cartola",Modele.Type.Dessert,new List<Ingredient>()
@@ -148,7 +148,7 @@ namespace StubLib2
             "recouvrir le tout avec le sucre et la cannelle.",
             "Le plat doit être assemblé avec la banane et le fromage encore chauds.",
             "Consommez de préférence tout de suite."
-        },Region.Nord,10,1, img:"Images/Recettes/cartola.png"),
+        },Region.Nord,10,1, img:"Images/Recettes/cartola.jpg"),
 //************************************************************************************************
 
             new Recette("Gâteau Macaxeira",Modele.Type.Dessert,new List<Ingredient>()
@@ -169,7 +169,7 @@ namespace StubLib2
             "Portez-le au four moyen, préchauffé, pendant environ 40 minutes.",
             "Pour le sirop, porter les 2 ingrédients à feu doux, quand ça bout, remuer un peu et laisser sur le feu encore 2 minutes.",
             "Le gâteau encore chaud, versez le sirop dessus et remettez le gâteau au four encore 10 minutes."
-        },Region.Nord,80,5, img:"Images/Recettes/macaxeira.png"),
+        },Region.Nord,80,5, img:"Images/Recettes/macaxeira.jpg"),
 //************************************************************************************************
 
             new Recette("Panelada piauense",Modele.Type.Plat,new List<Ingredient>()
@@ -190,7 +190,7 @@ namespace StubLib2
             "Mélangez les tripes, les tripes et les pieds de boeuf et faites bouillir 15 minutes avec le jus de 2 citrons.",
             "Ajouter les assaisonnements et mélanger avec les tripes, les tripes et les pieds.",
             "Cuire pendant 2 heures et vérifier toutes les 30 minutes pour voir ce que vous aimez."
-        },Region.Nordest,135,10, img:"Images/Recettes/piauense.png"),
+        },Region.Nordest,135,10, img:"Images/Recettes/piauense.jpg"),
 //************************************************************************************************
 
             new Recette("Moqueca aux crevettes",Modele.Type.Plat,new List<Ingredient>()
@@ -214,7 +214,7 @@ namespace StubLib2
             "Ajouter les crevettes et cuire 5 minutes avec la poêle couverte",
             "Enfin, ajoutez le lait de coco",
             "Servir avec du riz blanc"
-        },Region.Nordest,20,2, img:"Images/Recettes/crevettes.png"),
+        },Region.Nordest,20,2, img:"Images/Recettes/crevettes.jpg"),
 //************************************************************************************************
 
             new Recette("Caruru",Modele.Type.Plat,new List<Ingredient>()
@@ -238,7 +238,7 @@ namespace StubLib2
             "Ajouter suffisamment d'eau chaude pour couvrir.",
             "Pendant la cuisson, testez la bave de gombo et ajoutez, petit à petit, des cuillerées de jus de citron",
             "Laissez cuire jusqu'à ce que les graines deviennent roses",
-        },Region.Nordest,80,5, img:"Images/Recettes/caruru.png"),
+        },Region.Nordest,80,5, img:"Images/Recettes/caruru.jpg"),
 //************************************************************************************************
 
             new Recette("Tapioca poulet et catupiry",Modele.Type.Entree,new List<Ingredient>()
@@ -267,7 +267,7 @@ namespace StubLib2
             "Étalez le caillé sur le tapioca, placez une tranche de fromage mozzarella et la farce de" +
             "poulet avec la crème."
 
-        },Region.Nordest,40,4, img:"Images/Recettes/catupiry.png"),
+        },Region.Nordest,40,4, img:"Images/Recettes/catupiry.jpg"),
 //************************************************************************************************
 
             new Recette("Pudim de tapioca",Modele.Type.Dessert,new List<Ingredient>()
@@ -291,7 +291,7 @@ namespace StubLib2
             "Versez ce mélange dans la forme réservée avec le sirop.",
             "Recouvrez le moule de papier d'aluminium et faites cuire au bain-marie (180°C) pendant environ 60 minutes.",
             "Démouler et conserver au réfrigérateur."
-        },Region.Nordest,90,8, img:"Images/Recettes/tapioca.png"),
+        },Region.Nordest,90,8, img:"Images/Recettes/tapioca.jpg"),
 //************************************************************************************************
 
             new Recette("Bouillon de piranha",Modele.Type.Plat,new List<Ingredient>()
@@ -316,7 +316,7 @@ namespace StubLib2
             "Placer dans une casserole, ajouter la crème d'oignon et porter à ébullition en remuant constamment, à feu doux.",
             "Servir avec du persil et du parmesan râpé."
 
-        },Region.CentreOuest,90,8, img:"Images/Recettes/piranha.png"),
+        },Region.CentreOuest,90,8, img:"Images/Recettes/piranha.jpg"),
 //************************************************************************************************
 
             new Recette("TERERÊ",Modele.Type.Entree,new List<Ingredient>()
@@ -331,7 +331,7 @@ namespace StubLib2
         {
             "Mettez 1 litre d'eau glacée dans un thermos, le jus du jus de citron, le jus des 4 citrons, le sucre et remuez",
             "Servir dans la calebasse avec l'herbe."
-        },Region.CentreOuest,40,1, img:"Images/Recettes/terere.png"),
+        },Region.CentreOuest,40,1, img:"Images/Recettes/terere.jpg"),
 //************************************************************************************************
 
             new Recette("Gâteau mané Nelado",Modele.Type.Dessert,new List<Ingredient>()
@@ -354,7 +354,7 @@ namespace StubLib2
             "Verser dans une forme graissée avec de la margarine",
             "Placer au four préchauffé, laisser à haute température, jusqu'à ce qu'ils soient dorés.",
             "Il est préférable de servir après quelques heures, c'est meilleur !"
-        },Region.CentreOuest,40,12, img:"Images/Recettes/nelado.png"),
+        },Region.CentreOuest,40,12, img:"Images/Recettes/nelado.jpg"),
 //************************************************************************************************
 
             new Recette("Feijoada",Modele.Type.Plat,new List<Ingredient>()
@@ -383,7 +383,7 @@ namespace StubLib2
             "Cuire pas à pas : les viandes dures, puis les viandes tendres.",
             "Lorsqu'ils sont tendres, ajoutez les haricots et retirez la viande",
             "Enfin, assaisonnez les haricots."
-        },Region.Sudest,140,5, img:"Images/Recettes/feijoada.png"),
+        },Region.Sudest,140,5, img:"Images/Recettes/feijoada.jpg"),
 //************************************************************************************************
 
             new Recette("Bolinho de bacalhau",Modele.Type.Entree,new List<Ingredient>()
@@ -400,7 +400,7 @@ namespace StubLib2
             "Dans un bol, bien mélanger tous les ingrédients.",
             "A l'aide d'une cuillère à soupe, prélever des portions de pâte, les faire revenir dans l'huile chaude " +
             "jusqu'à ce qu'elles soient dorées et les égoutter sur du papier absorbant."
-        },Region.Sudest,50,10, img:"Images/Recettes/bacalhau.png"),
+        },Region.Sudest,50,10, img:"Images/Recettes/bacalhau.jpg"),
 //************************************************************************************************
 
             new Recette("Brigadeiro",Modele.Type.Dessert,new List<Ingredient>()
@@ -415,7 +415,7 @@ namespace StubLib2
             " (ou 4 cuillères à soupe de chocolat en poudre).",
             "Cuire à feu moyen et remuer jusqu'à ce que le brigadeiro commence à se décoller de la poêle.",
             "Laisser refroidir et faire des petites boules à la main en passant la pâte dans les pépites de chocolat"
-        },Region.Sudest,25,8, img:"Images/Recettes/brigadeiro.png"),
+        },Region.Sudest,25,8, img:"Images/Recettes/brigadeiro.jpg"),
 //************************************************************************************************
 
             new Recette("Riz carreteiro",Modele.Type.Plat,new List<Ingredient>()
@@ -441,7 +441,7 @@ namespace StubLib2
             "Après avoir ajouté le riz, bien le noyer, ajouter l'eau en corrigeant le sel si nécessaire " +
             "et baisser le feu en attendant qu'il sèche.",
             "Lorsque vous êtes prêt, mettez le persil sur le dessus."
-        },Region.Sud,60,6, img:"Images/Recettes/carreteiro.png"),
+        },Region.Sud,60,6, img:"Images/Recettes/carreteiro.jpg"),
 //************************************************************************************************
 
             new Recette("Chimarrão",Modele.Type.Entree,new List<Ingredient>()
@@ -456,7 +456,7 @@ namespace StubLib2
             "Attendez 5 minutes avant de boire pour laisser le temps à l'herbe de gonfler.",
             "La première gorgée doit être crachée car elle est toujours accompagnée d'un peu de poudre de maté.",
             "Si vous voulez répéter, vous n'avez pas besoin d'ajouter plus de maté, il suffit de remplir à nouveau la gourde avec de l'eau."
-        },Region.Sud,10,1, img:"Images/Recettes/chimarrao.png"),
+        },Region.Sud,10,1, img:"Images/Recettes/chimarrao.jpg"),
 //************************************************************************************************
 
             new Recette("Cuca",Modele.Type.Entree,new List<Ingredient>()
@@ -477,7 +477,98 @@ namespace StubLib2
             "Il suffit de tout mettre dans un bol et de pétrir jusqu'à ce que cela ressemble à des miettes.",
             "Unir une forme avec de la margarine, mettre la pâte et saupoudrer le farofa",
             "Placer dans le four préchauffé pour cuire environ 40 minutes."
-        },Region.Sudest,60,12, img:"Images/Recettes/cuca.png")
+        },Region.Sud,60,12, img:"Images/Recettes/cuca.jpg"),
+//************************************************************************************************
+// RECETTES VEGANES
+
+            new RecetteVegan("Moqueca Vegana",Modele.Type.Plat,new List<Ingredient>()
+        {
+            new Ingredient("cœur de palmier (tranches épaisses)", new Quantité(300, Unité.G)),
+            new Ingredient("carotte (en tranches)", new Quantité(1, Unité.UNITE)),
+            new Ingredient("tasse de haricots verts (hachés)", new Quantité(1, Unité.UNITE)),
+            new Ingredient("poivron/poivron rouge (en tranches)", new Quantité(1, Unité.UNITE)),
+            new Ingredient("tomates", new Quantité(4, Unité.UNITE)),
+            new Ingredient("poireau ", new Quantité(1, Unité.UNITE)),
+            new Ingredient("oignon ", new Quantité(1, Unité.UNITE)),
+            new Ingredient("tasse de persil/salsa (haché)", new Quantité(1, Unité.UNITE)),
+            new Ingredient("lait de coco", new Quantité(250, Unité.ML)),
+            new Ingredient("cuillères à soupe d'huile d'olive", new Quantité(15, Unité.UNITE)),
+            new Ingredient("sel et poivre a goût", new Quantité(1, Unité.UNITE)),
+        },new List<string>()
+        {
+            "Faites revenir l'oignon et le poireau dans l'huile d'olive chaude. ",
+            "Ajoutez ensuite la carotte, les haricots verts et les tomates. ",
+            "Assaisonnez avec du sel et du poivre. Après 10 minutes, ajoutez les cœurs de palmier et le lait de coco",
+            "Lorsque les ingrédients sont tendres, éteignez le feu et servez avec le persil haché",
+        },Region.Sudest,60,4, img:"Images/Recettes/moquecaV.jpg","Moqueca de crevettes"),
+//************************************************************************************************
+
+            new RecetteVegan("Vatapa Vegano",Modele.Type.Plat,new List<Ingredient>()
+        {
+            new Ingredient("miches de pain", new Quantité(2, Unité.UNITE)),
+            new Ingredient("lait de coco", new Quantité(125, Unité.ML)),
+            new Ingredient("eau", new Quantité(125, Unité.ML)),
+            new Ingredient("tomate", new Quantité(1, Unité.UNITE)),
+            new Ingredient("oignon", new Quantité(1, Unité.UNITE)),
+            new Ingredient("poivron vert", new Quantité(1, Unité.UNITE)),
+            new Ingredient("coriandre fraîche", new Quantité(10, Unité.G)),
+            new Ingredient("cuillère de cumin en poudre", new Quantité(1, Unité.UNITE)),
+            new Ingredient("cuillères à soupe d'huile d'olive", new Quantité(5, Unité.UNITE)),
+            new Ingredient("Sel et poivre noir/poivre a goût", new Quantité(1, Unité.UNITE)),
+        },new List<string>()
+        {
+            "Placez le pain dans un bol avec le lait de coco pendant 20 minutes. ",
+            "Pendant ce temps, passez au mixeur l'eau avec l'oignon, la tomate, le poivron vert, la coriandre et les cacahuètes.",
+            " Lorsque le mélange est lisse, transférez-le dans une casserole et faites-le cuire à feu moyen.",
+            "Ajoutez le pain trempé, ainsi que le cumin, le sel et le poivre noir.",
+            "Laissez cuire en remuant constamment",
+            "Dès que le mélange commence à s'épaissir, vous saurez qu'il arrive à point.",
+        },Region.Nordest,60,4, img:"Images/Recettes/vatapaV.jpg","Vatapa"),
+//************************************************************************************************
+
+            new RecetteVegan("Gâteau de Banane Vegano ",Modele.Type.Dessert,new List<Ingredient>()
+        {
+            new Ingredient("bananes mûres", new Quantité(3, Unité.UNITE)),
+            new Ingredient("cuillères à soupe de graines de chia", new Quantité(4, Unité.UNITE)),
+            new Ingredient(" lait végétal (l'amande et la noix de coco sont les meilleures options pour le sucré)", new Quantité(150, Unité.ML)),
+            new Ingredient("cuillère à soupe de sirop d'agave", new Quantité(1, Unité.UNITE)),
+            new Ingredient("cuillères à soupe d'huile de noix de coco", new Quantité(2, Unité.UNITE)),
+            new Ingredient("cuillères à soupe de farine", new Quantité(4, Unité.UNITE)),
+            new Ingredient("cuillère à café de levure chimique", new Quantité(1, Unité.UNITE)),
+            new Ingredient("d'amandes entières", new Quantité(50, Unité.G)),
+            new Ingredient("pincée de sel", new Quantité(1, Unité.UNITE))
+        },new List<string>()
+        {
+            "Ecraser les bananes dans un bol",
+            "Ajoutez les graines, le lait végétal, le sirop d'agave et l'huile de coco",
+            "Mélangez bien et laissez reposer pendant une heure",
+            "Ajoutez ensuite la farine, le sel, la levure chimique et les amandes",
+            "Mélangez le tout et versez le mélange dans un moule à pain",
+            "Sur le dessus, vous pouvez mettre des tranches de banane ou des morceaux d'autres fruits (comme des myrtilles ou des framboises)",
+            "Sur le dessus, vous pouvez mettre des tranches de banane ou des morceaux d'autres fruits (comme des myrtilles ou des framboises)",
+            "Retirer du moule lorsqu'il a refroidi et qu'il est prêt à être servi."
+        },Region.Sudest,40,12, img:"Images/Recettes/bananeV.jpg","gâteau de banane"),
+//************************************************************************************************
+
+            new RecetteVegan("Quindim Vegano",Modele.Type.Dessert,new List<Ingredient>()
+        {
+            new Ingredient("lait de coco", new Quantité(200, Unité.ML)),
+            new Ingredient("tasse de sucre", new Quantité(1, Unité.UNITE)),
+            new Ingredient("cuillères à soupe d'extrait de soja", new Quantité(3, Unité.UNITE)),
+            new Ingredient("cuillères à soupe d'eau", new Quantité(2, Unité.UNITE)),
+            new Ingredient("cuillères à soupe d'huile (maïs ou tournesol)", new Quantité(2, Unité.UNITE)),
+            new Ingredient("cuillères à soupe de fécule de maïs", new Quantité(3, Unité.UNITE)),
+            new Ingredient("tasses de manioc brut râpé", new Quantité(2, Unité.UNITE)),
+            new Ingredient("sucre glace pour saupoudrer", new Quantité(20, Unité.G))
+        },new List<string>()
+        {
+            "Laissez la noix de coco râpée de côté, mais battez les autres ingrédients dans le mixeur. ",
+            "Placez les éléments liquides en premier et ajoutez les autres progressivement tout en mixant. Mélangez ensuite la noix de coco râpée. ",
+            "Graissez le moule avec de l'huile et saupoudrez-le d'un peu de sucre. ",
+            "Versez le mélange dans le moule et faites cuire au bain-marie à four moyen pendant environ 40 minutes.",
+            "Vérifiez avec un cure-dent pour décider quand éteindre le four.",
+            "Démouler à froid et saupoudrer le sucre sur le quindim."
+        },Region.Sudest,20,1, img:"Images/Recettes/quindimV.jpg","Quindim")
         };
 
 

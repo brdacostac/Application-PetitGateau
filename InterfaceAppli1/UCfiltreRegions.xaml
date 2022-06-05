@@ -24,14 +24,14 @@
                 </WrapPanel>
             </WrapPanel>
 
-            <WrapPanel DockPanel.Dock="Top" Margin="0,0,0,20" Width="680">
+            <WrapPanel DockPanel.Dock="Top" Margin="0,0,0,20" Width="871">
                 <Border BorderThickness="1.5"
                         BorderBrush="#FF000000"
                         CornerRadius="4">
-                    <Image x:Name="ImageRegion" Source="Images/norte_brasil.jpg" Height="252" Width="508"/>
+                    <Image x:Name="ImageRegion" Source="Images/Regions/norte_brasil.jpg" Height="252" Width="508"/>
                 </Border>
-                <TextBlock x:Name="description"  Text="* Texto sobre a regiao aqui *" Margin="10,15,0,0"
-                           TextAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock x:Name="description"  xml:space="preserve" Text="* Texto sobre a regiao aqui *" Margin="10,15,0,0"
+                           TextAlignment="Center" VerticalAlignment="Top" Height="240" Width="340"/>
             </WrapPanel>
 
 

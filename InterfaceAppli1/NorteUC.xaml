@@ -8,6 +8,8 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <DockPanel>
         <local:UCbuttons DockPanel.Dock="Top" Titre="Nord"/>
-        <local:UCfiltreRegions x:Name="regionNordUC" Reg="Nord" DockPanel.Dock="Top"/>
+        <local:UCfiltreRegions x:Name="regionNordUC" Reg="Nord" DockPanel.Dock="Top" Limage="Images/Regions/norte_brasil.jpg" Description="La région Nord du Brésil est composée des États d'Acre, d'Amapá, d'Amazonas, de Pará, de Rondônia, de Roraima et de Tocantins. Elle est située entre le massif des Guyanes (au nord), le plateau central (au sud), les Andes (à l'ouest) et l'océan Atlantique (au nord-ouest). Avec une superficie de 3 853 322,2 kilomètres carrés, c'est la plus grande région du territoire brésilien, correspondant à 45% de la superficie totale du pays.
+
+Traduit avec www.DeepL.com/Translator (version gratuite)"/>
     </DockPanel>
 </UserControl>
