@@ -18,7 +18,7 @@
                          Style="{StaticResource MordernTextBox}"/>
                 
                 <WrapPanel HorizontalAlignment="Center" Margin="320,0,0,0">
-                    <Button Content="Entrées" Width="60" Cursor="Hand" Click="Button_Click"/>
+                    <Button Content="Entrées" Width="60" Cursor="Hand" Click="Button_Click_entree"/>
                     <Button Content="Plats" Width="60" Cursor="Hand"/>
                     <Button Content="Desserts" Width="60" Cursor="Hand"/>
                 </WrapPanel>
@@ -35,8 +35,8 @@
             </WrapPanel>
 
 
-            <Frame x:Name="Recettes" DockPanel.Dock="Bottom" NavigationUIVisibility="Hidden"/>
-
+            <ContentControl x:Name="Recettes" DockPanel.Dock="Bottom"/>
+            
         </DockPanel>
     </ScrollViewer>
 </UserControl>

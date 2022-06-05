@@ -57,5 +57,21 @@ namespace Modele
             return liste_demande;
             
         }
+
+        public List<Recette> recettes_region_choisi(Region origine)
+        {
+            List<Recette> liste_par_origine = new List<Recette>();
+
+            foreach (Recette r in recettes)
+            {
+
+                if (r.Origine == origine)
+                {
+                    liste_par_origine.Add(r);
+                }
+            }
+            return liste_par_origine;
+
+        }
     }
 }

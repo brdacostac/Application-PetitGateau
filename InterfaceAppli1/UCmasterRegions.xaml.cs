@@ -27,7 +27,15 @@ namespace InterfaceAppli1
             InitializeComponent();
 
             (App.Current as App).LeManager.LoadRecettes();
-            DataContext = Mgr;
+            DataContext = Mgr.Dd.Recettes;
+            
         }
+
+        public Region Origine
+        {
+            get { return Origine; }
+            set { DataContext = Mgr.Dd.recettes_region_choisi(value); }
+        }
+        
     }
 }

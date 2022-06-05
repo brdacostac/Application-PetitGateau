@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modele;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,14 +21,28 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class UCfiltreRegions : UserControl
     {
+        
+        public Manager Mgr => (App.Current as App).LeManager;
+
         public UCfiltreRegions()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_entree(object sender, RoutedEventArgs e)
         {
-            Recettes.Content = new UCmasterRegions();
+            UCmasterRegions page = new UCmasterRegions();
+            page.Origine = Reg;
+            Recettes.Content = page;
+            
         }
+        public Region Reg
+        {
+            get { return (Region)GetValue(RegionProperty); }
+            set { SetValue(RegionProperty, value); }
+        }
+
+        public static readonly DependencyProperty RegionProperty =
+        DependencyProperty.Register("Reg", typeof(Region), typeof(UCfiltreRegions));
     }
 }

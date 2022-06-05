@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modele;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,11 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class NorteUC : UserControl
     {
+        public Manager Mgr => (App.Current as App).LeManager;
         public NorteUC()
         {
             InitializeComponent();
+            regionNordUC.DataContext = Mgr.Dd.recettes_region_choisi(Region.Nord);
         }
     }
 }

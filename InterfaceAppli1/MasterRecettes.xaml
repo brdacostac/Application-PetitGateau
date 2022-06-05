@@ -26,7 +26,7 @@
         <ListBox HorizontalAlignment="Left" VerticalAlignment="Top" ItemsSource="{Binding}" ScrollViewer.VerticalScrollBarVisibility="Disabled" x:Name="recet">
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <WrapPanel Orientation="Vertical"  Margin="0" />
+                    <WrapPanel Orientation="Vertical"  Margin="0"/>
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
 
