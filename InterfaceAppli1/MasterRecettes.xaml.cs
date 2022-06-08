@@ -28,22 +28,22 @@ namespace InterfaceAppli1
             InitializeComponent();
 
             (App.Current as App).LeManager.LoadRecettes();
-            DataContext = Mgr.Dd.Recettes;
+            DataContext = Mgr.recettes_vegans();
         }
 
         private void entree_Click(object sender, RoutedEventArgs e)
         {
-            recet.DataContext = Mgr.Dd.recettes_type_choisi(Modele.Type.Entree);
+            recet.DataContext = Mgr.recettesVegan_type_choisi(Modele.Type.Entree);
         }
 
         private void plat_Click(object sender, RoutedEventArgs e)
         {
-            recet.DataContext = Mgr.Dd.recettes_type_choisi(Modele.Type.Plat);
+            recet.DataContext = Mgr.recettesVegan_type_choisi(Modele.Type.Plat);
         }
 
         private void dessert_Click(object sender, RoutedEventArgs e)
         {
-            recet.DataContext = Mgr.Dd.recettes_type_choisi(Modele.Type.Dessert);
+            recet.DataContext = Mgr.recettesVegan_type_choisi(Modele.Type.Dessert);
         }
     }
 }

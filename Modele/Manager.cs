@@ -70,6 +70,40 @@ namespace Modele
                 return;
         }
 
+
+        public List<RecetteVegan> recettes_vegans()
+        {
+
+            List<RecetteVegan> liste_demande = new List<RecetteVegan>();
+
+            foreach (Recette r in db.Recettes)
+            {
+                RecetteVegan recetteV_demande = r as RecetteVegan;
+                if (recetteV_demande != null)
+                {
+                    liste_demande.Add(recetteV_demande);
+                }
+            }
+            return liste_demande;
+
+        }
+
+        public List<RecetteVegan> recettesVegan_type_choisi(Type filtre)
+        {
+            List<RecetteVegan> liste_demande = new List<RecetteVegan>();
+
+            foreach (Recette r in db.Recettes)
+            {
+                RecetteVegan recetteV_demande = r as RecetteVegan;
+                if (r.Filtre == filtre && recetteV_demande != null)
+                {
+                    liste_demande.Add(recetteV_demande);
+                }
+            }
+            return liste_demande;
+
+        }
+
         /// <summary>
         /// affiche toutes les recettes ayant une region og
         /// </summary>
