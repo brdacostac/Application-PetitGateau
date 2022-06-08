@@ -27,7 +27,7 @@ namespace Modele
         public IPersistanceManager Pers
         {
             get { return pers; }
-            private set { pers = value; }
+            set { pers = value; }
         }
         private IPersistanceManager pers;
 
@@ -174,10 +174,23 @@ namespace Modele
             Console.WriteLine("Le nouveau compte a été créé");
         }
 
+
+        /// <summary>
+        /// Charge tout les recettes
+        /// </summary>
+
         public void LoadRecettes()
         {
             db.Recettes.Clear();
             db.Recettes.AddRange(Pers.LoadRecettes());
+        }
+
+        /// <summary>
+        /// Sauvegarde les données à l'aide de la persistance
+        /// </summary>
+        public void SauvegardeDonnées()
+        {
+            Pers.SauvegardeDonnées(db.Recettes);
         }
 
         /// <summary>

@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DataContractPersistance/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataContractPersistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataContractPersistance.dll": {}
+        }
+      },
+      "Modele/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Modele.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Modele.dll": {}
+        }
+      },
+      "StubLib2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StubLib2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StubLib2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataContractPersistance/1.0.0": {
+      "type": "project",
+      "path": "../DataContractPersistance/DataContractPersistance.csproj",
+      "msbuildProject": "../DataContractPersistance/DataContractPersistance.csproj"
+    },
+    "Modele/1.0.0": {
+      "type": "project",
+      "path": "../Modele/Modele.csproj",
+      "msbuildProject": "../Modele/Modele.csproj"
+    },
+    "StubLib2/1.0.0": {
+      "type": "project",
+      "path": "../StubLib2/StubLib2.csproj",
+      "msbuildProject": "../StubLib2/StubLib2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DataContractPersistance >= 1.0.0",
+      "Modele >= 1.0.0",
+      "StubLib2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Bruno\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Test_datacontract\\Test_datacontract.csproj",
+      "projectName": "Test_datacontract",
+      "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Test_datacontract\\Test_datacontract.csproj",
+      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Test_datacontract\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance\\DataContractPersistance.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance\\DataContractPersistance.csproj"
+            },
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
+            },
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,18 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Modele
 {
+
+    [DataContract]
+    [KnownType(typeof(RecetteVegan))]
     public class RecetteVegan : Recette
     {
+        [DataMember]
         public string source
         {
             get { return sources; }
             private set { sources = value; }
         }
         private string sources;
-
+        
         public RecetteVegan(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv, string img, string s) : base(nom, type, l, prep, og, t, couv, img)
         {
             if(type == Type.Plat)

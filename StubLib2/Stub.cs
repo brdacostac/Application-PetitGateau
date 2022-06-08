@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using Modele;
 
 namespace StubLib2
@@ -588,5 +589,11 @@ namespace StubLib2
         {
             return comptes;
         }
+
+        void IPersistanceManager.SauvegardeDonnées(IEnumerable<Recette> recettes)
+        {
+            Debug.WriteLine("Sauvegarde demandée");
+        }
+        
     }
 }

@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Tests\\Test_Recette\\Test_Recette.csproj": {}
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Recette\\Test_Recette.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
-        "packagesPath": "C:\\Users\\nifranco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\obj\\",
+        "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nifranco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -60,28 +54,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Tests\\Test_Recette\\Test_Recette.csproj": {
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Recette\\Test_Recette.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Tests\\Test_Recette\\Test_Recette.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Recette\\Test_Recette.csproj",
         "projectName": "Test_Recette",
-        "projectPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Tests\\Test_Recette\\Test_Recette.csproj",
-        "packagesPath": "C:\\Users\\nifranco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Tests\\Test_Recette\\obj\\",
+        "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Recette\\Test_Recette.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Tests\\Test_Recette\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nifranco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -94,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\nifranco\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
+              "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
               }
             }
           }
@@ -124,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

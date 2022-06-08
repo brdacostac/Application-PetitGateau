@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Modele
@@ -7,11 +8,13 @@ namespace Modele
     /// <summary>
     /// represente la quantié d'un Ingredient
     /// </summary>
+    [DataContract]
     public class Quantité
     {
         /// <summary>
         /// la quantite
         /// </summary>
+        [DataMember]
         public double Nombre 
         {
             get { return nombre; }
@@ -22,6 +25,7 @@ namespace Modele
         /// <summary>
         /// l'unité liée a la quantité 
         /// </summary>
+        [DataMember]
         public Unité Uni 
         {
             get { return uni; }

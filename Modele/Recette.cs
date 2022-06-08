@@ -1,16 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Modele
 {
+
+    [DataContract]
+    
     public class Recette // : IEquatable<Recette> ? ou IEquatable<Ingredients>
     {
         /// <summary>
         /// nom de la recette
         /// </summary>
+        
+        [DataMember]
         public string Nom
         {
             get { return nom; }
@@ -22,6 +28,7 @@ namespace Modele
         /// <summary>
         /// nombre de "like" reçues par cette recette
         /// </summary>
+        [DataMember]
         public int Liked 
         {
             get { return liked; }
@@ -32,6 +39,7 @@ namespace Modele
         /// <summary>
         /// Liste de commentaires attribués a la recettte
         /// </summary>
+        [DataMember]
         public List<string> Commentaires
         {
             get { return commentaires; }
@@ -42,6 +50,7 @@ namespace Modele
         /// <summary>
         /// indique le nombre de couverts possible par cette recette
         /// </summary>
+        [DataMember]
         public int Couverts
         {
             get { return couverts; }
@@ -52,6 +61,7 @@ namespace Modele
         /// <summary>
         /// indique le temps de préparation de la recette
         /// </summary>
+        [DataMember]
         public int Temps
         {
             get { return temps; }
@@ -63,6 +73,7 @@ namespace Modele
         /// <summary>
         /// Le type de plat (entrée, plat ou dessert)
         /// </summary>
+        [DataMember]
         public Type Filtre 
         {
             get { return filtre; } 
@@ -73,6 +84,7 @@ namespace Modele
         /// <summary>
         /// Indique la region d'origine d'une recette
         /// </summary>
+        [DataMember]
         public Region Origine
         {
             get { return origine; }
@@ -84,6 +96,7 @@ namespace Modele
         /// Liste d'ingredients de la recette
         /// * verifier si encapsulation de la liste est necessaire / correcte
         /// </summary>
+        [DataMember]
         public List<Ingredient> Ingredients
         {
             get { return ingredients; }
@@ -94,6 +107,7 @@ namespace Modele
         /// <summary>
         /// Liste contenant les étapes de preparation de la recette
         /// </summary>
+        [DataMember]
         public List<string> Preparation
         {
             get { return preparation; }
@@ -105,6 +119,7 @@ namespace Modele
         /// <summary>
         /// String qui va contenir l'image
         /// </summary>
+        [DataMember]
         public string Img
         {
             get { return img; }
