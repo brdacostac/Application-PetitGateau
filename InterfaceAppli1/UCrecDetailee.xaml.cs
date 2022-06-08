@@ -27,7 +27,7 @@ namespace InterfaceAppli1
             InitializeComponent();
 
             (App.Current as App).LeManager.LoadRecettes();
-            DataContext = Mgr.Dd.Recettes;
+            DataContext = Mgr.Db.Recettes;
         }
     }
 }

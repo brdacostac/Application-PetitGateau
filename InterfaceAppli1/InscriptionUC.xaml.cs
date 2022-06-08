@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modele;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,12 +21,15 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class InscriptionUC : UserControl
     {
+        public Manager Mgr => (App.Current as App).LeManager;
+
         bool isCheckH = false;
         bool isCheckF = false;
         public InscriptionUC()
         {
             InitializeComponent();
-
+            (App.Current as App).LeManager.LoadComptes();
+            DataContext = Mgr.Db.Comptes;
         }
         
         private void CheckBox_Checked_Homme(object sender, RoutedEventArgs e)
@@ -58,10 +62,28 @@ namespace InterfaceAppli1
         private void CreerCompte(object sender, RoutedEventArgs e)
         {
             string username = NomUtilisateur.Text;
-            string motDePasse = MotDePasse.Text;
-            string confirmMdp = ConfirmerMdp.Text;
+            string motDePasse = MotDePasse.Password;
+            string confirmMdp = ConfirmerMdp.Password;
 
-           
+            if (username != "" && motDePasse == confirmMdp && (isCheckF == true || isCheckH == true))
+            {
+                if (isCheckF)
+                    Mgr.Db.Comptes.Add(new Compte(username, motDePasse, 'f'));
+                else
+                    Mgr.Db.Comptes.Add(new Compte(username, motDePasse, 'h'));
+                Message.Text = "Success ! Votre compte a été créé, vou pouvez vou connecter sur la page Connexion !";
+            }
+            else
+            {
+                if (username == " " || motDePasse == " " || confirmMdp == " ")
+                    Message.Text = "Une ou plusieurs cases n'ont pas été complétés";
+
+                if (motDePasse != confirmMdp)
+                    Message.Text = "Les mots de passe ne correspondent pas";
+
+                if (isCheckF == false && isCheckH == false)
+                    Message.Text = "le sexe n'a pas été indiqué";
+            } 
         }
     }
 }

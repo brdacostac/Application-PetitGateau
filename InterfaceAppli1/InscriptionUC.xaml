@@ -32,10 +32,10 @@
                 </StackPanel>
                 <TextBox x:Name="NomUtilisateur" 
                         TextWrapping="Wrap" 
-                         Text="Enter your username" 
+                         Text="" 
                          Width="316" Height="30"
-                         BorderThickness="2" FontStyle="Italic"
-                         Foreground="DarkGray"/>
+                         BorderThickness="2" FontSize="15"
+                         Foreground="Black"/>
             </StackPanel>
             <StackPanel Grid.Row="0" HorizontalAlignment="Right" Orientation="Horizontal">
                 <CheckBox Content="Homme" HorizontalAlignment="Right" Margin="0,60,0,0"
@@ -45,18 +45,17 @@
             </StackPanel>
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="400">
                 <StackPanel Orientation="Horizontal" Width="316">
-                    <TextBlock x:Name="MotDePasse" 
+                    <TextBlock 
                             Text="Mot de passe" 
                            FontSize="14" 
                            Margin="0,30,0,10" FontWeight="Bold"
                            Style="{StaticResource Titre}"/>
                     <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
                 </StackPanel>
-                <TextBox TextWrapping="Wrap" 
-                         Text="Enter your password" 
+                <PasswordBox x:Name="MotDePasse"  
                          Width="316" Height="30"
-                         BorderThickness="2" FontStyle="Italic"
-                         Foreground="DarkGray"/>
+                         BorderThickness="2" FontSize="15"
+                         Foreground="Black"/>
             </StackPanel>
 
             <StackPanel Grid.Row="2" HorizontalAlignment="Center" Width="400">
@@ -68,18 +67,20 @@
                     <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
                 </StackPanel>
 
-                <TextBox x:Name="ConfirmerMdp"
-                         TextWrapping="Wrap" 
-                         Text="Enter your password again" 
+                <PasswordBox x:Name="ConfirmerMdp"
                          Width="316" Height="29"
-                         BorderThickness="2" FontStyle="Italic"
-                         Foreground="DarkGray"/>
+                         BorderThickness="2" FontSize="15"
+                         Foreground="Black"/>
             </StackPanel>
 
 
             <StackPanel Grid.Row="3">
                 <Button Content="S'inscrire" Height="30" Width="100" Margin="15"
                     Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Stretch" Style="{StaticResource MenuBoutonTop}" Click="CreerCompte"/>
+
+                <TextBlock x:Name="Message"
+                         TextWrapping="Wrap"  
+                         Width="316" Height="29"/>
             </StackPanel>
 
         </Grid>

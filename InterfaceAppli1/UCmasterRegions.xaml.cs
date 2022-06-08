@@ -27,8 +27,7 @@ namespace InterfaceAppli1
             InitializeComponent();
 
             (App.Current as App).LeManager.LoadRecettes();
-            DataContext = Mgr.Dd.Recettes;
-            
+            DataContext = Mgr.Db.Recettes;
         }
 
         /// <summary>
@@ -48,7 +47,7 @@ namespace InterfaceAppli1
         public Modele.Type typ
         {
             get { return typ; }
-            set { DataContext = Mgr.Dd.recettes_region_type_choisi(Origine,value); }
+            set { DataContext = Mgr.Db.recettes_region_type_choisi(Origine,value); }
         }
         
     }

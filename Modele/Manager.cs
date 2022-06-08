@@ -7,7 +7,7 @@ namespace Modele
 {
     public class Manager : INotifyPropertyChanged
     {
-        public Database Dd
+        public Database Db
         {
             get { return db; }
             private set { db = value; }
@@ -176,13 +176,21 @@ namespace Modele
 
 
         /// <summary>
-        /// Charge tout les recettes
+        /// Charge toutes les recettes
         /// </summary>
-
         public void LoadRecettes()
         {
             db.Recettes.Clear();
             db.Recettes.AddRange(Pers.LoadRecettes());
+        }
+
+        /// <summary>
+        /// Charge toutes les comptes
+        /// </summary>
+        public void LoadComptes()
+        {
+            db.Comptes.Clear();
+            db.Comptes.AddRange(Pers.LoadComptes());
         }
 
         /// <summary>
@@ -200,14 +208,14 @@ namespace Modele
         /// <param name="c">liste de comptes</param>
         public Manager(IPersistanceManager pers)
         {
-            Dd = new Database();
+            Db = new Database();
             Pers = pers;
             CurrentUser = new Compte("visiteur", "motdepasse", 'h');
         }
 
         public Manager()
         {
-            Dd = new Database();
+            Db = new Database();
         }
 
     }

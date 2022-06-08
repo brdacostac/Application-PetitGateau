@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruno\\.nuget\\packages\\": {}
+    "C:\\Users\\runte\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance\\DataContractPersistance.csproj",
+      "projectUniqueName": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\DataContractPersistance\\DataContractPersistance.csproj",
       "projectName": "DataContractPersistance",
-      "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance\\DataContractPersistance.csproj",
-      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance\\obj\\",
+      "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\DataContractPersistance\\DataContractPersistance.csproj",
+      "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\DataContractPersistance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
+            "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
             }
           }
         }

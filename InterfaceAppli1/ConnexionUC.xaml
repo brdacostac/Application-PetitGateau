@@ -33,11 +33,12 @@
                                Style="{StaticResource Titre}"/>
                     <Image Source="Images/icons/User.png" Width="40" Height="24" Margin="0,15,0,0"/>
                 </StackPanel>
-                <TextBox TextWrapping="Wrap" 
-                         Text="Enter your username" 
+                <TextBox x:Name="Username" 
+                        TextWrapping="Wrap" 
+                         Text="" 
                          Width="316" Height="30"
-                         BorderThickness="2" FontStyle="Italic"
-                         Foreground="DarkGray"/>
+                         FontSize="15"
+                         Foreground="Black"/>
             </StackPanel>
 
             <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="400" Grid.Column="1" Margin="53,0,0,0">
@@ -48,13 +49,18 @@
                            Style="{StaticResource Titre}"/>
                     <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
                 </StackPanel>
-                <TextBox TextWrapping="Wrap" 
-                         Text="Enter your password" 
+                <PasswordBox x:Name="MotDePasse"
                          Width="316" Height="30"
-                         BorderThickness="2" FontStyle="Italic"
-                         Foreground="DarkGray"/>
+                         FontSize="15"
+                         Foreground="Black"/>
             </StackPanel>
-            <Button  Grid.Row="2" Content="Connexion" Height="30" Width="100" HorizontalAlignment="Left" Margin="200,20,0,45" Cursor="Hand" Style="{StaticResource MenuBoutonTop}" Grid.Column="1"/>
+            <Button  Grid.Row="2" Content="Connexion" Height="30" Width="100" HorizontalAlignment="Left" Margin="200,20,0,45" Cursor="Hand" Style="{StaticResource MenuBoutonTop}" Grid.Column="1" Click="Login"/>
+            <TextBox x:Name="Message" 
+                        TextWrapping="Wrap" 
+                         Text="Enter your username" 
+                         Width="316" Height="30"
+                         FontSize="15"
+                         Foreground="Black" Grid.Column="1" Margin="95,20,242,45" Grid.Row="3"/>
 
 
             <StackPanel Grid.Row="2" Margin="0,55,0,45" Grid.RowSpan="2" Grid.ColumnSpan="2">
