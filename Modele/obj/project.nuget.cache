@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TAVh+y9CZ0iUBPjodJFIPPTZWtTA6aqpiOYmkj0507ommlkHVYJ5sP7hVw89YmyNWbJZadi4gr0SOahvgMKvxg==",
+  "dgSpecHash": "UIzf4u+2iAettyPE1gK8WXFSozGz0D4ifznXaOSIrykJDsE7YgbSJXWr8FhYtZAKgYxrn/QYewvw9F40y0KUSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\runte\\source\\repos\\sae-2.02\\Modele\\Modele.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\brdacostac\\source\\repos\\sae-2.02\\Modele\\Modele.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

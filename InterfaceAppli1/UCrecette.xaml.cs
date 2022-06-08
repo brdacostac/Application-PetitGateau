@@ -25,11 +25,11 @@ namespace InterfaceAppli1
             InitializeComponent();
             if (!Like)
             {
-                LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
+                LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
             }
             else
             {
-                LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
+                LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
             }
         }
 
@@ -53,24 +53,17 @@ namespace InterfaceAppli1
 
 
         public bool Like = false;
-        /*{
-            get { return (bool)GetValue(LikeProperty); }
-            set { SetValue(LikeProperty, value); }
-        }
-
-        public static readonly DependencyProperty LikeProperty =
-        DependencyProperty.Register("Like", typeof(string), typeof(UCrecette), new PropertyMetadata(false));*/
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (!Like)
             {
-                LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
+                LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
                 Like = true;
             }
             else
             {
-                LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
+                LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
                 Like = false;
             }
             

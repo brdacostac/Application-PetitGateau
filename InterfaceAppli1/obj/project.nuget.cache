@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Srs3t+cY/gZ7p8s908qDE5xEMy8hZ/HZOzRBKrhNKWua73Tlsmh7DBP7IifXWy3jKNFUbHyFdB4plnXqD9PsvA==",
+  "dgSpecHash": "gFYmnD8Z/TgOCbjb/LNg5BbMwXJL+r3W5HJ34ugRIEq1vfskmp/6aWTTmAKzDS7rXWIucxjjZML03eOOxIpK1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\runte\\source\\repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
+  "projectFilePath": "C:\\Users\\brdacostac\\source\\repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\runte\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+    "C:\\Users\\brdacostac\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\brdacostac\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
+    "C:\\Users\\brdacostac\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\brdacostac\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

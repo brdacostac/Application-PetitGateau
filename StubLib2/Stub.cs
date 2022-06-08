@@ -459,7 +459,7 @@ namespace StubLib2
         },Region.Sud,10,1, img:"Images/Recettes/chimarrao.jpg"),
 //************************************************************************************************
 
-            new Recette("Cuca",Modele.Type.Entree,new List<Ingredient>()
+            new Recette("Cuca",Modele.Type.Dessert,new List<Ingredient>()
         {
             new Ingredient("tasses de farine de blé", new Quantité(4, Unité.UNITE)),
             new Ingredient("tasses de sucre", new Quantité(2, Unité.UNITE)),

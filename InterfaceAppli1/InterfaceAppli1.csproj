@@ -61,6 +61,10 @@
     <None Remove="Images\Recettes\tapioca.jpg" />
     <None Remove="Images\Recettes\terere.jpg" />
     <None Remove="Images\regionsB.PNG" />
+    <None Remove="Images\Regions\CentroOeste.jpg" />
+    <None Remove="Images\Regions\Norte.jpg" />
+    <None Remove="Images\Regions\Sudeste.jpg" />
+    <None Remove="Images\Regions\Sul.jpg" />
     <None Remove="Images\testR.PNG" />
     <None Remove="Images\testR2.PNG" />
     <None Remove="Images\topB.PNG" />
@@ -223,6 +227,12 @@
     <Content Include="Images\Recettes\terere.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\Regions\CentroOeste.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Regions\Norte.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\Regions\norte_brasil.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -230,6 +240,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\regionsB.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Regions\Sudeste.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Regions\Sul.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\testR.PNG">
