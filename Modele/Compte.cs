@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Modele
 {
@@ -45,7 +47,7 @@ namespace Modele
         public bool Connected
         {
             get { return connected; }
-            private set { connected = value; }
+            set { connected = value; }
         }
         public bool connected;
 
@@ -77,6 +79,7 @@ namespace Modele
         /// <param name="r"></param>
         public void LikeRecette(Recette r)
         {
+            if (connected == false) return; // ou modifier pour return int 1 ou 0 => gestion dans le xaml.cs
             r.Liked++;
             mesRecettes.Add(r);
         }
@@ -86,7 +89,8 @@ namespace Modele
         /// </summary>
         public void DisplayMesRecettes()
         {
-            foreach(Recette r in MesRecettes)
+            if (connected == false) return; 
+            foreach (Recette r in MesRecettes)
             {
                 r.Display();
                 Console.WriteLine();

@@ -14,7 +14,12 @@ namespace Modele
         }
         private Database db;
 
-        
+        public Compte CurrentUser
+        {
+            get { return currentUser; }
+            private set { currentUser = value; }
+        }
+        private Compte currentUser;
 
         /// <summary>
         /// dépendance avec IPersistanceManager
@@ -111,7 +116,6 @@ namespace Modele
                 }
             }
             return liste_demande;
-
         }
 
         /// <summary>
@@ -136,7 +140,7 @@ namespace Modele
         }
 
         /// <summary>
-        /// verifie si les un compte existe dans la base de donnée ou pas
+        /// verifie si le compte passé en paramètre existe dans la base de donnée ou pas
         /// </summary>
         /// <param name="username">nom du compte cherché</param>
         /// <param name="password">le mot de passe associé</param>
@@ -148,9 +152,11 @@ namespace Modele
             {
                 if (c.Username == username)
                     if (c.Password == password)
+                    {
+                        c.connected = true;
+                        currentUser = c;
                         return true;
-                    else
-                        Console.WriteLine("Le mot de passe n'est pas correcte");
+                    }  
             }
             return false;
         }
@@ -183,6 +189,7 @@ namespace Modele
         {
             Dd = new Database();
             Pers = pers;
+            CurrentUser = new Compte("visiteur", "motdepasse", 'h');
         }
 
         public Manager()

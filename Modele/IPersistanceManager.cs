@@ -7,5 +7,6 @@ namespace Modele
     public  interface IPersistanceManager
     {
         IEnumerable<Recette> LoadRecettes();
+        IEnumerable<Compte> LoadComptes();
     }
 }

@@ -11,7 +11,7 @@
         <DockPanel Background="White">
             
             <WrapPanel DockPanel.Dock="Top" Margin="0,10,0,10" HorizontalAlignment="Center" >
-                <TextBox Text="Search"
+                <TextBox Text=""
                          VerticalAlignment="Center"
                          TextAlignment="Center"
                          Margin="5"
@@ -30,10 +30,9 @@
                         CornerRadius="4">
                     <Image x:Name="ImageRegion" MaxHeight="250" MaxWidth="500"/>
                 </Border>
-                <TextBlock x:Name="description"  xml:space="preserve" Text="* Texto sobre a regiao aqui *" Margin="10,15,0,0"
+                <TextBlock x:Name="description"  xml:space="preserve" TextWrapping="Wrap" Text="* Texto sobre a regiao aqui *" Margin="10,15,0,0"
                            TextAlignment="Center" VerticalAlignment="Top" Height="240" Width="340"/>
             </WrapPanel>
-
 
             <ContentControl x:Name="Recettes" DockPanel.Dock="Bottom"/>
             

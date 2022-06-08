@@ -571,10 +571,22 @@ namespace StubLib2
         },Region.Sudest,20,1, img:"Images/Recettes/quindimV.jpg","Quindim")
         };
 
+        List<Compte> comptes = new List<Compte>()
+        {
+            new Compte("user1","senha1",'h'),
+            new Compte("user2","senha2",'f'),
+            new Compte("user3","senha3",'f'),
+            new Compte("user4","senha4",'h')
+        };
 
         IEnumerable<Recette> IPersistanceManager.LoadRecettes()
         {
             return recettes;
+        }
+
+        IEnumerable<Compte> IPersistanceManager.LoadComptes()
+        {
+            return comptes;
         }
     }
 }

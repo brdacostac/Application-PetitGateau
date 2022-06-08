@@ -54,6 +54,15 @@ namespace InterfaceAppli1
                 isCheckF = false;
             }
         }
+
+        private void CreerCompte(object sender, RoutedEventArgs e)
+        {
+            string username = NomUtilisateur.Text;
+            string motDePasse = MotDePasse.Text;
+            string confirmMdp = ConfirmerMdp.Text;
+
+           
+        }
     }
 }
 
