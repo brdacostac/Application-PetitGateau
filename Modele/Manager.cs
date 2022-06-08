@@ -70,6 +70,9 @@ namespace Modele
                 return;
         }
 
+        /// <summary>
+        ///  Crééer une liste de recettes vegans et la returne
+        /// </summary>
 
         public List<RecetteVegan> recettes_vegans()
         {
@@ -87,6 +90,11 @@ namespace Modele
             return liste_demande;
 
         }
+
+        /// <summary>
+        /// Crée une liste des recettes veganes ayant une type precis (entree, plat ou dessert) passé en parametre
+        /// </summary>
+        /// <param name="filtre">type filtre pour filtrer les recettes veganes</param>
 
         public List<RecetteVegan> recettesVegan_type_choisi(Type filtre)
         {
