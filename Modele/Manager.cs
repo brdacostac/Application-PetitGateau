@@ -14,6 +14,8 @@ namespace Modele
         }
         private Database db;
 
+        
+
         /// <summary>
         /// dépendance avec IPersistanceManager
         /// </summary>

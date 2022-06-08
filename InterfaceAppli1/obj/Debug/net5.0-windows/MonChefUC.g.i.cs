@@ -72,7 +72,7 @@ namespace InterfaceAppli1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/InterfaceAppli1;component/monchefuc.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/InterfaceAppli1;V1.0.0.0;component/monchefuc.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MonChefUC.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

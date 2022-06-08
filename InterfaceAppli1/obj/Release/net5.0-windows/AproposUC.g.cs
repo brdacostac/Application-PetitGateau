@@ -10,7 +10,6 @@
 //------------------------------------------------------------------------------
 
 using InterfaceAppli1;
-using InterfaceAppli1.converters;
 using System;
 using System.Diagnostics;
 using System.Windows;

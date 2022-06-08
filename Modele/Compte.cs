@@ -40,6 +40,16 @@ namespace Modele
         public char sexe;
 
         /// <summary>
+        /// indique si le compte est authentifier ou pas
+        /// </summary>
+        public bool Connected
+        {
+            get { return connected; }
+            private set { connected = value; }
+        }
+        public bool connected;
+
+        /// <summary>
         /// le chef associé au compte
         /// </summary>
         public Chef MonChef
@@ -96,6 +106,7 @@ namespace Modele
             Password = password;
             Sexe = sexe;
             MonChef = new Chef();
+            Connected = false;
         }
 
         /// <summary>
