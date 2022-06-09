@@ -62,24 +62,19 @@ namespace Modele
         
 
         /// <summary>
-        /// Recherche une recettes par nom. L'affiche si trouvé.
+        /// Recherche une recettes par nom. La retourne si trouvé.
         /// </summary>
         /// <param name="nom">le nom de la recette recherchée</param>
-        public void SearchByName(string nom)
+        public Recette SearchByName(string nom)
         {
-            int i = 0;
             foreach (Recette r in db.Recettes)
             {
                 if (r.Nom == nom)
                 {
-                    r.Display();
-                    i++;
+                    return r;
                 }
             }
-            if (i == 0)
-                Console.Write("Aucune recette de ce nom a été trouvée");
-            else
-                return;
+            return null;
         }
 
         /// <summary>
@@ -104,9 +99,8 @@ namespace Modele
         }
 
         /// <summary>
-        ///  Crééer une liste de recettes vegans et la returne
+        ///  Retourne une liste contenant seulement mes recettes veganes
         /// </summary>
-
         public List<RecetteVegan> recettes_vegans()
         {
 
@@ -148,21 +142,18 @@ namespace Modele
         /// affiche toutes les recettes ayant une region og
         /// </summary>
         /// <param name="og">region d'origine des recette desirée</param>
-        public void DisplayRecetteRegion(Region og)
+        public List<Recette> DisplayRecetteRegion(Region og)
         {
-            int i = 0;
+            List<Recette> reg = new List<Recette> ();
+
             foreach (Recette r in db.Recettes)
             {
                 if (r.Origine == og)
                 {
-                    r.Display();
-                    i++;
+                    reg.Add(r);
                 }
             }
-            if (i == 0)
-                Console.Write("Aucune recette de cette region a été trouver");
-            else
-                return;
+            return reg;
         }
 
         /// <summary>

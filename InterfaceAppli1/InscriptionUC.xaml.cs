@@ -29,7 +29,7 @@ namespace InterfaceAppli1
         public InscriptionUC()
         {
             InitializeComponent();
-            (App.Current as App).LeManager.LoadComptes();
+            //(App.Current as App).LeManager.LoadComptes();
             DataContext = Mgr.Db.Comptes;
         }
         

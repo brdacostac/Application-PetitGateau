@@ -43,7 +43,7 @@ namespace Modele
         /// <returns>un string contenant le niveau et experience nécessaire</returns>
         public override string ToString()
         {
-            return $"Niveau: {Indice} Experience Nécéssaire: {ExperienceNecessaire}";
+            return $"Niveau: {Indice}\nExperience Nécéssaire: {ExperienceNecessaire}";
         }
     }
 }

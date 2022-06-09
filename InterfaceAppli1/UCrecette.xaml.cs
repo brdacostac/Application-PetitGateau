@@ -23,14 +23,6 @@ namespace InterfaceAppli1
         public UCrecette()
         {
             InitializeComponent();
-            if (!Like)
-            {
-                LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
-            }
-            else
-            {
-                LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
-            }
         }
 
         public string Img
@@ -50,23 +42,5 @@ namespace InterfaceAppli1
 
         public static readonly DependencyProperty NomProperty =
         DependencyProperty.Register("Nom", typeof(string), typeof(UCrecette));
-
-
-        public bool Like = false;
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            if (!Like)
-            {
-                LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
-                Like = true;
-            }
-            else
-            {
-                LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
-                Like = false;
-            }
-            
-        }
     }
 }

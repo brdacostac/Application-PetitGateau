@@ -66,6 +66,7 @@ namespace InterfaceAppli1
             Recettes.Content = page;
 
         }
+
         public Region Reg
         {
             get { return (Region)GetValue(RegionProperty); }

@@ -23,7 +23,8 @@
         </StackPanel>
 
 
-        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top" ItemsSource="{Binding}" ScrollViewer.VerticalScrollBarVisibility="Disabled" x:Name="recet">
+        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top" ItemsSource="{Binding}" ScrollViewer.VerticalScrollBarVisibility="Disabled" x:Name="recet"
+                 SelectionChanged="ListBox_SelectionChanged">
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel Orientation="Vertical"  Margin="0"/>

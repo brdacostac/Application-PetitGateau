@@ -19,6 +19,12 @@
     <Compile Update="InscriptionUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MasterFavoris.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MasterTop.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MonChefUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -58,6 +64,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="InscriptionUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MasterFavoris.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MasterTop.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MonChefUC.xaml">

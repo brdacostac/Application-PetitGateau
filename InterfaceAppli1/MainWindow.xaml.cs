@@ -29,6 +29,8 @@ namespace InterfaceAppli1
         public MainWindow()
         {
             InitializeComponent();
+            (App.Current as App).LeManager.LoadRecettes();
+            (App.Current as App).LeManager.LoadComptes();
             DataContext = this;
         }
     }

@@ -27,7 +27,16 @@ namespace InterfaceAppli1
         {
             InitializeComponent();
 
-            (App.Current as App).LeManager.LoadRecettes();
+            if (!Like)
+            {
+                LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
+            }
+            else
+            {
+                LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
+            }
+
+            //(App.Current as App).LeManager.LoadRecettes();
             DataContext = Mgr;
             LesIngredients.Text = Mgr.RecetteSelectionne.DisplayIngredients();
             LesEtapes.Text = Mgr.RecetteSelectionne.DisplayEtapes();
@@ -35,7 +44,40 @@ namespace InterfaceAppli1
 
         private void Retour(object sender, RoutedEventArgs e)
         {
-            Navigator.NavigateTo(Navigator.PART_REGIONS);
+            RecetteVegan r = Mgr.RecetteSelectionne as RecetteVegan;
+            if (r != null)
+                Navigator.NavigateTo(Navigator.PART_VEGAN);
+            else
+            {
+                if (Mgr.RecetteSelectionne.Origine == Region.Nord)
+                    Navigator.NavigateTo(Navigator.PART_NORTE);
+                if (Mgr.RecetteSelectionne.Origine == Region.Nordest)
+                    Navigator.NavigateTo(Navigator.PART_NORDESTE);
+                if (Mgr.RecetteSelectionne.Origine == Region.Sud)
+                    Navigator.NavigateTo(Navigator.PART_SUL);
+                if (Mgr.RecetteSelectionne.Origine == Region.Sudest)
+                    Navigator.NavigateTo(Navigator.PART_SUDESTE);
+                if (Mgr.RecetteSelectionne.Origine == Region.CentreOuest)
+                    Navigator.NavigateTo(Navigator.PART_CENTRO_OESTE);
+            }
+        }
+
+        public bool Like = false;
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (!Like)
+            {
+                LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
+                Like = true;
+                Mgr.CurrentUser.MesRecettes.Add(Mgr.RecetteSelectionne);
+            }
+            else
+            {
+                LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
+                Like = false;
+                Mgr.CurrentUser.MesRecettes.Remove(Mgr.RecetteSelectionne);
+            }
         }
     }
 }

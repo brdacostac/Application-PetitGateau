@@ -27,7 +27,7 @@ namespace InterfaceAppli1
         public ConnexionUC()
         {
             InitializeComponent();
-            (App.Current as App).LeManager.LoadComptes(); // si commenter inscription marche
+            //(App.Current as App).LeManager.LoadComptes();
             DataContext = Mgr.Db.Comptes;
         }
 
@@ -55,6 +55,7 @@ namespace InterfaceAppli1
             if (Mgr.Login(username, motDePasse))
             {
                 Message.Text = "Success ! Vous êtes connecter!";
+                Mgr.CurrentUser.MonChef.ExperienceActuel += 50;
                 await Task.Delay(1000);
                 Navigator.NavigateTo(Navigator.PART_ACCUEIL);
             }          

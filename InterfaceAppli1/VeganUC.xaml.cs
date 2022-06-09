@@ -21,9 +21,13 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class VeganUC : UserControl
     {
+        public Manager Mgr => (App.Current as App).LeManager;
+
+        public Navigator Navigator => (App.Current as App).Navigator;
         public VeganUC()
         {
             InitializeComponent();
+            DataContext = Mgr.recettes_vegans();
         }
     }
 }

@@ -26,8 +26,6 @@ namespace InterfaceAppli1
         public UCmasterRegions()
         {
             InitializeComponent();
-
-            (App.Current as App).LeManager.LoadRecettes();
             DataContext = Mgr.Db.Recettes;
         }
 

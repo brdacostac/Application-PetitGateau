@@ -23,12 +23,13 @@ namespace InterfaceAppli1
     {
         
         public Manager Mgr => (App.Current as App).LeManager;
+        public Navigator Navigator => (App.Current as App).Navigator;
         public MasterRecettes()
         {
             InitializeComponent();
 
-            (App.Current as App).LeManager.LoadRecettes();
-            DataContext = Mgr.recettes_vegans();
+            //(App.Current as App).LeManager.LoadRecettes();
+            DataContext = Mgr.recettes_vegans(); 
         }
 
         private void entree_Click(object sender, RoutedEventArgs e)
@@ -44,6 +45,12 @@ namespace InterfaceAppli1
         private void dessert_Click(object sender, RoutedEventArgs e)
         {
             recet.DataContext = Mgr.recettesVegan_type_choisi(Modele.Type.Dessert);
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Mgr.RecetteSelectionne = e.AddedItems[0] as Recette;
+            Navigator.NavigateTo(Navigator.PART_RECDETAILEE);
         }
     }
 }

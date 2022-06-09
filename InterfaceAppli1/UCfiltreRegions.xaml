@@ -11,7 +11,8 @@
         <DockPanel Background="White">
             
             <WrapPanel DockPanel.Dock="Top" Margin="0,10,0,10" HorizontalAlignment="Center" >
-                <TextBox Text=""
+                <TextBox x:Name="SearchBox" 
+                        Text=""
                          VerticalAlignment="Center"
                          TextAlignment="Center"
                          Margin="5"

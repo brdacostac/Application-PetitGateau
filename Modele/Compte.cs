@@ -80,7 +80,6 @@ namespace Modele
         }
         private List<Recette> mesRecettes = new List<Recette>();
 
-
         /// <summary>
         /// sauvegarde une recette aimé par l'utilisateur
         /// </summary>
