@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Modele
 {
 
-    [DataContract]
+    [DataContract, KnownType(typeof(RecetteVegan))]
     
     public class Recette // : IEquatable<Recette> ? ou IEquatable<Ingredients>
     {

@@ -15,7 +15,7 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class App : Application
     {
-        public Manager LeManager { get; private set; } = new Manager(new StubLib2.Stub());
+        public Manager LeManager { get; private set; } = new Manager(new DataContractPers());
 
         public Navigator Navigator { get; private set; } = new Navigator();
 

@@ -220,6 +220,7 @@ namespace Modele
             db.Comptes.AddRange(Pers.LoadComptes());
         }
 
+
         /// <summary>
         /// Sauvegarde les données à l'aide de la persistance
         /// </summary>

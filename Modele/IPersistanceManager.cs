@@ -8,6 +8,8 @@ namespace Modele
     {
         IEnumerable<Recette> LoadRecettes();
         IEnumerable<Compte> LoadComptes();
+
+
         void SauvegardeDonnées(IEnumerable<Recette> recettes, IEnumerable<Compte> comptes);
     }
 }

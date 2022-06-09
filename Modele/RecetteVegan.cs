@@ -17,6 +17,7 @@ namespace Modele
             private set { sources = value; }
         }
         private string sources;
+
         
         public RecetteVegan(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv, string img, string s) : base(nom, type, l, prep, og, t, couv, img)
         {

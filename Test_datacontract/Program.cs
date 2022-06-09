@@ -12,6 +12,10 @@ namespace Test_datacontract
             manager.LoadComptes();
             manager.Pers = new DataContractPersistance1.DataContractPers();
             manager.SauvegardeDonnées();
+
+            Manager manager2 = new Manager(new DataContractPersistance1.DataContractPers());
+            manager2.LoadRecettes();
+            manager2.LoadComptes();
         }
     }
 }

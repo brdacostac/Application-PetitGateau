@@ -47,9 +47,7 @@ C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\Ma
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\de\MahApps.Metro.resources.dll
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\Modele.dll
-C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\StubLib2.dll
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\Modele.pdb
-C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\StubLib2.pdb
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\net5.0-windows\InterfaceAppli1.csproj.AssemblyReference.cache
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\net5.0-windows\Themes\TextBoxTheme.baml
 C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\net5.0-windows\AproposUC.g.cs

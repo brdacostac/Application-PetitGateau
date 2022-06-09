@@ -81,19 +81,6 @@
         "runtime": {
           "bin/placeholder/Modele.dll": {}
         }
-      },
-      "StubLib2/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Modele": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/StubLib2.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/StubLib2.dll": {}
-        }
       }
     }
   },
@@ -208,19 +195,13 @@
       "type": "project",
       "path": "../Modele/Modele.csproj",
       "msbuildProject": "../Modele/Modele.csproj"
-    },
-    "StubLib2/1.0.0": {
-      "type": "project",
-      "path": "../StubLib2/StubLib2.csproj",
-      "msbuildProject": "../StubLib2/StubLib2.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "DataContractPersistance1 >= 1.0.0",
       "MahApps.Metro >= 2.4.9",
-      "Modele >= 1.0.0",
-      "StubLib2 >= 1.0.0"
+      "Modele >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -255,9 +236,6 @@
             },
             "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
               "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
-            },
-            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj"
             }
           }
         }

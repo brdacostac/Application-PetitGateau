@@ -14,41 +14,49 @@ namespace DataContractPersistance1
         public string FileName { get; set; } = "petitGateau.xml";
 
         string PersFile => Path.Combine(FilePath, FileName);
+
+        private DataContractSerializer Serializer { get; set; } = new DataContractSerializer(typeof(DataToPersist),
+                                                        new DataContractSerializerSettings()
+                                                        {
+                                                            PreserveObjectReferences = true
+                                                        });
         public IEnumerable<Compte> LoadComptes()
         {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Recette> LoadRecettes()
-        {
-            throw new NotImplementedException();
-        }
-
-        public (IEnumerable<Recette> recettes, IEnumerable<Compte> comptes) ChargeDonnees()
-        {
-            
             if (!File.Exists(PersFile))
             {
                 throw new FileNotFoundException();
             }
 
-            var serializer = new DataContractSerializer(typeof(DataToPersist));
+            DataToPersist data;
+
+            using (Stream s = File.OpenRead(PersFile))
+            {
+                data = Serializer.ReadObject(s) as DataToPersist;
+            }
+
+            return (data.Comptes);
+        }
+
+        public IEnumerable<Recette> LoadRecettes()
+        {
+            if (!File.Exists(PersFile))
+            {
+                throw new FileNotFoundException();
+            }
 
             DataToPersist data;
 
             using (Stream s = File.OpenRead(PersFile))
             {
-                data = serializer.ReadObject(s) as DataToPersist;
+                data = Serializer.ReadObject(s) as DataToPersist;
             }
 
-            return (data.Recettes, data.Comptes);
-
-            
+            return (data.Recettes);
         }
+
 
         public void SauvegardeDonnées(IEnumerable<Recette> recettes, IEnumerable<Compte> comptes)
         {
-            var serializer = new DataContractSerializer(typeof(DataToPersist));
             if (!Directory.Exists(FilePath))
             {
                 Directory.CreateDirectory(FilePath);
@@ -65,7 +73,7 @@ namespace DataContractPersistance1
             {
                 using (XmlWriter writer = XmlWriter.Create(tw, settings))
                 {
-                    serializer.WriteObject(writer, data);
+                    Serializer.WriteObject(writer, data);
                 }
             }
 
