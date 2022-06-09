@@ -22,12 +22,20 @@ namespace InterfaceAppli1
     public partial class UCrecDetailee : UserControl
     {
         public Manager Mgr => (App.Current as App).LeManager;
+        public Navigator Navigator => (App.Current as App).Navigator;
         public UCrecDetailee()
         {
             InitializeComponent();
 
             (App.Current as App).LeManager.LoadRecettes();
-            DataContext = Mgr.Db.Recettes;
+            DataContext = Mgr;
+            LesIngredients.Text = Mgr.RecetteSelectionne.DisplayIngredients();
+            LesEtapes.Text = Mgr.RecetteSelectionne.DisplayEtapes();
+        }
+
+        private void Retour(object sender, RoutedEventArgs e)
+        {
+            Navigator.NavigateTo(Navigator.PART_REGIONS);
         }
     }
 }

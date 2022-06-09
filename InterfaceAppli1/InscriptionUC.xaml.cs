@@ -22,6 +22,7 @@ namespace InterfaceAppli1
     public partial class InscriptionUC : UserControl
     {
         public Manager Mgr => (App.Current as App).LeManager;
+        public Navigator Navigator => (App.Current as App).Navigator;
 
         bool isCheckH = false;
         bool isCheckF = false;
@@ -45,6 +46,7 @@ namespace InterfaceAppli1
                 isCheckH = false;
             }
         }
+
         private void CheckBox_Checked_Femme(object sender, RoutedEventArgs e)
         {
             if (!isCheckF)
@@ -59,7 +61,12 @@ namespace InterfaceAppli1
             }
         }
 
-        private void CreerCompte(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Cette foncyion permet a un visiteur de crée un compte 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void CreerCompte(object sender, RoutedEventArgs e)
         {
             string username = NomUtilisateur.Text;
             string motDePasse = MotDePasse.Password;
@@ -72,6 +79,8 @@ namespace InterfaceAppli1
                 else
                     Mgr.Db.Comptes.Add(new Compte(username, motDePasse, 'h'));
                 Message.Text = "Success ! Votre compte a été créé, vou pouvez vou connecter sur la page Connexion !";
+                await Task.Delay(2000);
+                Navigator.NavigateTo(Navigator.PART_CONNEXION);
             }
             else
             {

@@ -9,8 +9,12 @@
 
     <ScrollViewer>
         <DockPanel Background="white">
-
-            <TextBlock x:Name="nom" DockPanel.Dock="Top" Text="{Binding Nom}" FontWeight="Bold" FontSize="20" Margin="20,20,0,10" Style="{StaticResource Titre}"/>
+            <Button Width="40" Height="40" HorizontalAlignment="Left" Margin="10,0,10,400" Cursor="Hand" DockPanel.Dock="Right" Click="Retour">
+                <Button.Content>
+                    <Image Source="Images/home button.png" Height="35" Width="30"/>
+                </Button.Content>
+            </Button>
+            <TextBlock x:Name="nom" DockPanel.Dock="Top" Text="{Binding RecetteSelectionne.Nom}" FontWeight="Bold" FontSize="20" Margin="20,20,0,10" Style="{StaticResource Titre}"/>
 
             <StackPanel DockPanel.Dock="Top" Height="285">
                 <StackPanel Orientation="Horizontal" Width="785">
@@ -19,7 +23,7 @@
                     <Border BorderThickness="2"
                             BorderBrush="#FF000000"
                             CornerRadius="5">
-                        <Image x:Name="photo" Source="Images/boloDecenoura.png" Width="320"/>
+                        <Image x:Name="photo" Source="{Binding RecetteSelectionne.Img}" Width="320"/>
                     </Border>
                 </StackPanel>
 
@@ -35,25 +39,25 @@
                     <StackPanel Grid.Column="0">
                         <Image Source="Images/icons/clock.png" Height="40" Width="33"/>
                         <TextBlock Text="Preparation" TextAlignment="Center"/>
-                        <TextBlock x:Name="time" Text="{Binding Temps}" TextAlignment="Center"/>
+                        <TextBlock x:Name="time" Text="{Binding RecetteSelectionne.Temps}" TextAlignment="Center"/>
                     </StackPanel>
 
                     <StackPanel Grid.Column="1">
                         <Image Source="Images/icons/serving.png" Height="40" Width="38"/>
                         <TextBlock Text="Portions" TextAlignment="Center"/>
-                        <TextBlock x:Name="portions" Text="{Binding Couverts}" TextAlignment="Center"/>
+                        <TextBlock x:Name="portions" Text="{Binding RecetteSelectionne.Couverts}" TextAlignment="Center"/>
                     </StackPanel>
 
                     <StackPanel Grid.Column="2">
                         <Image Source="Images/icons/heart.png" Height="40" Width="38"/>
                         <TextBlock  Text="Favoris" TextAlignment="Center"/>
-                        <TextBlock x:Name="favourites" Text="{Binding Liked}" TextAlignment="Center"/>
+                        <TextBlock x:Name="favourites" Text="{Binding RecetteSelectionne.Liked}" TextAlignment="Center"/>
                     </StackPanel>
 
                     <StackPanel Grid.Column="3">
                         <Image Source="Images/icons/comments.png" Height="40" Width="38"/>
                         <TextBlock Text="Commentaires" TextAlignment="Center"/>
-                        <TextBlock x:Name="comments" Text="{Binding Commentaires}"  TextAlignment="Center"/>
+                        <TextBlock x:Name="comments" Text="{Binding RecetteSelectionne.Commentaires.count}"  TextAlignment="Center"/>
                     </StackPanel>
 
                     <StackPanel Grid.Column="4" Grid.ColumnSpan="2">
@@ -63,11 +67,20 @@
             </StackPanel>
 
             <StackPanel DockPanel.Dock="Bottom">
+
                 <TextBlock Text="Ingredients" 
                                FontWeight="Bold" 
-                               FontSize="20" 
-                               Margin="20,0,255,327"
-                               Style="{StaticResource Titre}"/>
+                               FontSize="20"
+                               Style="{StaticResource Titre}" Margin="10,0,0,0"/>
+
+                <TextBlock x:Name="LesIngredients" TextWrapping="Wrap" FontSize="18" Margin="5,0,0,0"/>
+
+                <TextBlock Text="Preparation" 
+                               FontWeight="Bold" 
+                               FontSize="20"
+                               Style="{StaticResource Titre}" Margin="10,0,0,0"/>
+                
+                <TextBlock x:Name="LesEtapes" TextWrapping="Wrap" FontSize="18" Margin="10,0,0,0"/>
             </StackPanel>
 
         </DockPanel>

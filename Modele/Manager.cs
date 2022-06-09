@@ -7,19 +7,47 @@ namespace Modele
 {
     public class Manager : INotifyPropertyChanged
     {
+        /// <summary>
+        /// represente la base de données contenant les recettes et comptes 
+        /// </summary>
         public Database Db
         {
             get { return db; }
             private set { db = value; }
         }
         private Database db;
-
+    
+        /// <summary>
+        /// permet de savoir si l'utilisateur actuel est connecter a un compte
+        /// ou pas. Et si connecter, permet de charger ses données.
+        /// </summary>
         public Compte CurrentUser
         {
             get { return currentUser; }
             private set { currentUser = value; }
         }
         private Compte currentUser;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        /// <summary>
+        /// la recette a séléctionné par l'utilisateur dans le master d'items.         /// </summary>
+        public Recette RecetteSelectionne 
+        { 
+            get => recetteSelectionne;
+            set
+            {
+                if(recetteSelectionne != value)
+                {
+                    recetteSelectionne = value;
+                    OnPropertyChanged("RecetteSelectionne");
+                }
+            }
+        }
+        private Recette recetteSelectionne;
+
+        void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
 
         /// <summary>
         /// dépendance avec IPersistanceManager
@@ -31,9 +59,7 @@ namespace Modele
         }
         private IPersistanceManager pers;
 
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        
 
         /// <summary>
         /// Recherche une recettes par nom. L'affiche si trouvé.
@@ -182,6 +208,7 @@ namespace Modele
         {
             db.Recettes.Clear();
             db.Recettes.AddRange(Pers.LoadRecettes());
+            RecetteSelectionne = Db.Recettes[0];
         }
 
         /// <summary>

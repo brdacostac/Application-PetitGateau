@@ -29,6 +29,8 @@ namespace InterfaceAppli1
         public const string PART_SUDESTE = "Sudeste";
         public const string PART_SUL = "Sul";
 
+        public const string PART_RECDETAILEE = "Detail";
+
         public ReadOnlyDictionary<string, Func<UserControl>> WindowParts { get; private set; }
         Dictionary<string, Func<UserControl>> windowParts { get; set; } = new Dictionary<string, Func<UserControl>>()
         {
@@ -46,7 +48,9 @@ namespace InterfaceAppli1
             [PART_NORDESTE] = () => new NordesteUC(),
             [PART_CENTRO_OESTE] = () => new CentroOesteUC(),
             [PART_SUDESTE] = () => new SudesteUC(),
-            [PART_SUL] = () => new SulUC()
+            [PART_SUL] = () => new SulUC(),
+
+            [PART_RECDETAILEE] = () => new UCrecDetailee()
 
 
         };

@@ -30,7 +30,7 @@ namespace Test_Recette
                 new string("5ème couche : paille de pomme de terre."),
                 new string("Mettre au four pendant 10 minutes.")
             },Region.Sudest,10,1,null);
-            rec1.Display();
+            Console.WriteLine(rec1.DisplayIngredients());
         }
     }
 }

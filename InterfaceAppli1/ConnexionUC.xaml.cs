@@ -27,7 +27,7 @@ namespace InterfaceAppli1
         public ConnexionUC()
         {
             InitializeComponent();
-            (App.Current as App).LeManager.LoadComptes();
+            (App.Current as App).LeManager.LoadComptes(); // si commenter inscription marche
             DataContext = Mgr.Db.Comptes;
         }
 
@@ -36,7 +36,12 @@ namespace InterfaceAppli1
             Navigator.NavigateTo(Navigator.PART_INSCRIPTION);
         }
 
-        private void Login(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// cette fonction permet a un utilisateur de se connecter
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void Login(object sender, RoutedEventArgs e)
         {
             string username = Username.Text;
             string motDePasse = MotDePasse.Password;
@@ -48,9 +53,14 @@ namespace InterfaceAppli1
             }
 
             if (Mgr.Login(username, motDePasse))
+            {
                 Message.Text = "Success ! Vous êtes connecter!";
+                await Task.Delay(1000);
+                Navigator.NavigateTo(Navigator.PART_ACCUEIL);
+            }          
             else
                 Message.Text = "L'authentification a échoué";
+
         }
     }
 }

@@ -22,6 +22,7 @@ namespace InterfaceAppli1
     public partial class UCmasterRegions : UserControl
     {
         public Manager Mgr => (App.Current as App).LeManager;
+        public Navigator Navigator => (App.Current as App).Navigator;
         public UCmasterRegions()
         {
             InitializeComponent();
@@ -49,6 +50,11 @@ namespace InterfaceAppli1
             get { return typ; }
             set { DataContext = Mgr.Db.recettes_region_type_choisi(Origine,value); }
         }
-        
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Mgr.RecetteSelectionne = e.AddedItems[0] as Recette;
+            Navigator.NavigateTo(Navigator.PART_RECDETAILEE);
+        }
     }
 }

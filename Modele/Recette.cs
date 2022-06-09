@@ -170,6 +170,28 @@ namespace Modele
             Console.WriteLine("-\n");
         }
 
+        public string DisplayIngredients()
+        {
+            string ingreds = "";
+            foreach (Ingredient i in ingredients)
+            {
+                ingreds = ingreds + $"- {i} \n";
+            }
+            return ingreds;
+        }
+
+        public string DisplayEtapes()
+        {
+            string etapes = "";
+            int num = 1;
+            foreach (string i in preparation)
+            {
+                etapes = etapes + $"{num}. {i} \n\n";
+                num++;
+            }
+            return etapes;
+        }
+
         public override bool Equals(object obj)
         {
             if (obj == null)

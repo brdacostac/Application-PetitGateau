@@ -65,7 +65,7 @@ namespace Test_Database
                 },Region.Nord,50,5, null)
             };
 
-
+            
             Console.WriteLine("Teste database");
             Database db = new Database(comptes, recettes);
 
@@ -80,10 +80,7 @@ namespace Test_Database
             foreach (Compte c in db.Comptes)
             {
                 Console.WriteLine(c);
-
-
             }
-
         }
     }
 }
