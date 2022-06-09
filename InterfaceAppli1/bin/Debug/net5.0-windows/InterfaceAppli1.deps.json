@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "InterfaceAppli1/1.0.0": {
         "dependencies": {
+          "DataContractPersistance1": "1.0.0",
           "MahApps.Metro": "2.4.9",
           "Modele": "1.0.0",
           "StubLib2": "1.0.0"
@@ -53,6 +54,14 @@
         }
       },
       "System.Text.Json/4.7.2": {},
+      "DataContractPersistance1/1.0.0": {
+        "dependencies": {
+          "Modele": "1.0.0"
+        },
+        "runtime": {
+          "DataContractPersistance1.dll": {}
+        }
+      },
       "Modele/1.0.0": {
         "runtime": {
           "Modele.dll": {}
@@ -101,6 +110,11 @@
       "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
       "path": "system.text.json/4.7.2",
       "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+    },
+    "DataContractPersistance1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Modele/1.0.0": {
       "type": "project",

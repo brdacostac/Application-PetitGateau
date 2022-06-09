@@ -265,6 +265,7 @@
     <PackageReference Include="MahApps.Metro" Version="2.4.9" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataContractPersistance1\DataContractPersistance1.csproj" />
     <ProjectReference Include="..\Modele\Modele.csproj" />
     <ProjectReference Include="..\StubLib2\StubLib2.csproj" />
   </ItemGroup>

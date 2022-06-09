@@ -59,6 +59,19 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
+      "DataContractPersistance1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataContractPersistance1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataContractPersistance1.dll": {}
+        }
+      },
       "Modele/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -186,6 +199,11 @@
         "version.txt"
       ]
     },
+    "DataContractPersistance1/1.0.0": {
+      "type": "project",
+      "path": "../DataContractPersistance1/DataContractPersistance1.csproj",
+      "msbuildProject": "../DataContractPersistance1/DataContractPersistance1.csproj"
+    },
     "Modele/1.0.0": {
       "type": "project",
       "path": "../Modele/Modele.csproj",
@@ -199,25 +217,26 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "DataContractPersistance1 >= 1.0.0",
       "MahApps.Metro >= 2.4.9",
       "Modele >= 1.0.0",
       "StubLib2 >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\runte\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\InterfaceAppli1.csproj",
       "projectName": "InterfaceAppli1",
-      "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
-      "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\obj\\",
+      "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\InterfaceAppli1.csproj",
+      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -231,11 +250,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
-              "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj"
             },
-            "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj": {
-              "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj"
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
+            },
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj"
             }
           }
         }
@@ -267,8 +289,20 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[5.0.16, 5.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
           }
         ],
         "frameworkReferences": {

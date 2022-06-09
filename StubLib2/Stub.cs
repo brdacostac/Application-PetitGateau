@@ -590,7 +590,7 @@ namespace StubLib2
             return comptes;
         }
 
-        void IPersistanceManager.SauvegardeDonnées(IEnumerable<Recette> recettes)
+        void IPersistanceManager.SauvegardeDonnées(IEnumerable<Recette> recettes, IEnumerable<Compte> comptes)
         {
             Debug.WriteLine("Sauvegarde demandée");
         }

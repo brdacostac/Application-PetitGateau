@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Modele
 {
+    [DataContract]
     public class Compte
     {
         /// <summary>
         /// represente identifiant de l'utilisateur
         /// </summary>
+        [DataMember]
         public string Username
         {
             get { return username; }
@@ -22,6 +25,7 @@ namespace Modele
         /// <summary>
         /// represente le mot de passe du compte
         /// </summary>
+        [DataMember]
         public string Password
         {
             get { return password; }
@@ -33,6 +37,7 @@ namespace Modele
         /// <summary>
         /// represente le sexe de l'utilisateur
         /// </summary>
+        [DataMember]
         public char Sexe
         {
             get { return sexe; }
@@ -44,6 +49,7 @@ namespace Modele
         /// <summary>
         /// indique si le compte est authentifier ou pas
         /// </summary>
+        [DataMember]
         public bool Connected
         {
             get { return connected; }
@@ -54,6 +60,7 @@ namespace Modele
         /// <summary>
         /// le chef associé au compte
         /// </summary>
+        [DataMember]
         public Chef MonChef
         {
             get { return monChef; }
@@ -65,6 +72,7 @@ namespace Modele
         /// <summary>
         /// contient les recettes aimées par l'utilisateur
         /// </summary>
+        [DataMember]
         public List<Recette> MesRecettes
         {
             get { return mesRecettes; }

@@ -1,4 +1,5 @@
-﻿using Modele;
+﻿using DataContractPersistance;
+using Modele;
 using System;
 using System.Collections.Generic;
 using System.Configuration;

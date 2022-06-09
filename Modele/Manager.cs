@@ -225,7 +225,7 @@ namespace Modele
         /// </summary>
         public void SauvegardeDonnées()
         {
-            Pers.SauvegardeDonnées(db.Recettes);
+            Pers.SauvegardeDonnées(db.Recettes, db.Comptes);
         }
 
         /// <summary>

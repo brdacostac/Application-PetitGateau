@@ -8,10 +8,8 @@ C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\Test_dat
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\Test_datacontract.runtimeconfig.json
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\Test_datacontract.dll
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\Test_datacontract.pdb
-C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\DataContractPersistance.dll
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\Modele.dll
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\StubLib2.dll
-C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\DataContractPersistance.pdb
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\Modele.pdb
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\StubLib2.pdb
 C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\obj\Debug\net6.0\Test_datacontract.csproj.CopyComplete
@@ -25,3 +23,5 @@ C:\Users\runte\Source\Repos\sae-2.02\Test_datacontract\obj\Debug\net6.0\Test_dat
 C:\Users\runte\Source\Repos\sae-2.02\Test_datacontract\obj\Debug\net6.0\Test_datacontract.AssemblyInfoInputs.cache
 C:\Users\runte\Source\Repos\sae-2.02\Test_datacontract\obj\Debug\net6.0\Test_datacontract.AssemblyInfo.cs
 C:\Users\runte\Source\Repos\sae-2.02\Test_datacontract\obj\Debug\net6.0\Test_datacontract.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\DataContractPersistance1.dll
+C:\Users\Bruno\Desktop\sae-2.02-main\Test_datacontract\bin\Debug\net6.0\DataContractPersistance1.pdb
