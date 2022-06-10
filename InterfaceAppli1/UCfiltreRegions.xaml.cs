@@ -71,9 +71,9 @@ namespace InterfaceAppli1
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             UCmasterRegions page = new UCmasterRegions();
-            page.DataContext = Mgr.SearchByNameRegion(SearchBar.Text, Reg);
             page.Origine = Reg;
             Recettes.Content = page;
+            page.DataContext = Mgr.SearchByNameRegion(SearchBar.Text, Reg);
         }
 
         public Region Reg

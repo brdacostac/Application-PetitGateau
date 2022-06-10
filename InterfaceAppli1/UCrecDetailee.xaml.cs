@@ -36,7 +36,7 @@ namespace InterfaceAppli1
                 LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
             }
 
-            //(App.Current as App).LeManager.LoadRecettes();
+            
             DataContext = Mgr;
             LesIngredients.Text = Mgr.RecetteSelectionne.DisplayIngredients();
             LesEtapes.Text = Mgr.RecetteSelectionne.DisplayEtapes();

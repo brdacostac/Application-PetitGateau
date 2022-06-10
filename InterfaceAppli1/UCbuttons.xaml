@@ -41,9 +41,6 @@
                 <mah:DropDownButton.Items>
                     <ListBox>
                         <ListBoxItem>
-                            <Button>Mode sombre</Button>
-                        </ListBoxItem>
-                        <ListBoxItem>
                             <Button Click="Page_Apropos">A-Propos</Button>
                         </ListBoxItem>
                         <ListBoxItem>

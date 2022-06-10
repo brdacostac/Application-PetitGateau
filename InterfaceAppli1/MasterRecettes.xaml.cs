@@ -28,7 +28,6 @@ namespace InterfaceAppli1
         {
             InitializeComponent();
 
-            //(App.Current as App).LeManager.LoadRecettes();
             DataContext = Mgr.recettes_vegans(); 
         }
 
