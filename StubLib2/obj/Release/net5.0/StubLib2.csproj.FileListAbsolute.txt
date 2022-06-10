@@ -1,0 +1,15 @@
+C:\Users\Bruno\Desktop\newAppli\StubLib2\bin\Release\net5.0\StubLib2.deps.json
+C:\Users\Bruno\Desktop\newAppli\StubLib2\bin\Release\net5.0\StubLib2.dll
+C:\Users\Bruno\Desktop\newAppli\StubLib2\bin\Release\net5.0\StubLib2.pdb
+C:\Users\Bruno\Desktop\newAppli\StubLib2\bin\Release\net5.0\Modele.dll
+C:\Users\Bruno\Desktop\newAppli\StubLib2\bin\Release\net5.0\Modele.pdb
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\StubLib2.csproj.AssemblyReference.cache
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\StubLib2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\StubLib2.AssemblyInfoInputs.cache
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\StubLib2.AssemblyInfo.cs
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\StubLib2.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\StubLib2.csproj.CopyComplete
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\StubLib2.dll
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\refint\StubLib2.dll
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\StubLib2.pdb
+C:\Users\Bruno\Desktop\newAppli\StubLib2\obj\Release\net5.0\ref\StubLib2.dll

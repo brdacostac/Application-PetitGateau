@@ -77,7 +77,7 @@ namespace InterfaceAppli1 {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/InterfaceAppli1;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/InterfaceAppli1;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SSfQ0j4RVpKDIC0WXuhMy0YBCwO9nWj4hEpX3XW6PP37RfmC0J6YzR0ohRNsHEGt8HqmCdc8fQ7pO+JXDSZGjg==",
+  "dgSpecHash": "080TMGy+41m9jsepDQC9TtluK2/y+hFDM1S1kDYuXY/Zy4PAdI/OafgBgdh6FHRDJ2VGF3Vskdp3omfkE5qNEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Tests\\Test_Recette\\Test_Recette.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\newAppli\\Tests\\Test_Recette\\Test_Recette.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

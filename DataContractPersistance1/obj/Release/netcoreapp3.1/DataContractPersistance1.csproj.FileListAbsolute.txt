@@ -1,0 +1,13 @@
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\bin\Release\netcoreapp3.1\DataContractPersistance1.deps.json
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\bin\Release\netcoreapp3.1\DataContractPersistance1.dll
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\bin\Release\netcoreapp3.1\DataContractPersistance1.pdb
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\bin\Release\netcoreapp3.1\Modele.dll
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\bin\Release\netcoreapp3.1\Modele.pdb
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\obj\Release\netcoreapp3.1\DataContractPersistance1.csproj.AssemblyReference.cache
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\obj\Release\netcoreapp3.1\DataContractPersistance1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\obj\Release\netcoreapp3.1\DataContractPersistance1.AssemblyInfoInputs.cache
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\obj\Release\netcoreapp3.1\DataContractPersistance1.AssemblyInfo.cs
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\obj\Release\netcoreapp3.1\DataContractPersistance1.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\obj\Release\netcoreapp3.1\DataContractPersistance1.csproj.CopyComplete
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\obj\Release\netcoreapp3.1\DataContractPersistance1.dll
+C:\Users\Bruno\Desktop\newAppli\DataContractPersistance1\obj\Release\netcoreapp3.1\DataContractPersistance1.pdb
