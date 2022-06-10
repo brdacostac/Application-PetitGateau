@@ -60,23 +60,61 @@ namespace Modele
         }
         private IPersistanceManager pers;
 
-        
+
 
         /// <summary>
-        /// Recherche une recettes par nom. La retourne si trouvé.
+        /// Recherche des recettes vegans par nom et l'ajoute à la liste si trouvé
         /// </summary>
         /// <param name="nom">le nom de la recette recherchée</param>
-        public Recette SearchByName(string nom)
+        public List<RecetteVegan> SearchByNameVegan(string nom)
         {
+            List<RecetteVegan> listeVegan_avec_nom = new List<RecetteVegan>();
             foreach (Recette r in db.Recettes)
             {
-                if (r.Nom == nom)
+                RecetteVegan recetteV_demande = r as RecetteVegan;
+                
+                if (r.Nom.Contains(nom) && recetteV_demande != null)
                 {
-                    return r;
+                    listeVegan_avec_nom.Add(recetteV_demande);
                 }
             }
-            return null;
+            return listeVegan_avec_nom;
         }
+
+        /// <summary>
+        /// Recherche des recettes par nom et l'ajoute à la liste si trouvé
+        /// </summary>
+        /// <param name="nom">le nom de la recette recherchée</param>
+        public List<Recette> SearchByNameRegion(string nom, Region origine)
+        {
+            List<Recette> liste_avec_nom = new List<Recette>();
+            foreach (Recette r in db.Recettes)
+            {
+                if (r.Nom.Contains(nom) && r.Origine == origine)
+                {
+                    liste_avec_nom.Add(r);
+                }
+            }
+            return liste_avec_nom;
+        }
+
+        /// <summary>
+        /// Recherche des recettes par nom qui sont dans les favoris de l'utilisateur et l'ajoute à la liste si trouvé
+        /// </summary>
+        /// <param name="nom">le nom de la recette recherchée</param>
+        public List<Recette> SearchByNameFavoris(string nom)
+        {
+            List<Recette> liste_avec_nom = new List<Recette>();
+            foreach (Recette r in CurrentUser.MesRecettes)
+            {
+                if (r.Nom.Contains(nom))
+                {
+                    liste_avec_nom.Add(r);
+                }
+            }
+            return liste_avec_nom;
+        }
+
 
         /// <summary>
         /// affiche toutes les recettes ayant un type t

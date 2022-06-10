@@ -48,6 +48,7 @@ namespace InterfaceAppli1
             page.Origine = Reg;
             page.typ = Modele.Type.Entree;
             Recettes.Content = page;
+
             
         }
         private void Button_Click_plat(object sender, RoutedEventArgs e)
@@ -65,6 +66,14 @@ namespace InterfaceAppli1
             page.typ = Modele.Type.Dessert;
             Recettes.Content = page;
 
+        }
+
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            UCmasterRegions page = new UCmasterRegions();
+            page.DataContext = Mgr.SearchByNameRegion(SearchBar.Text, Reg);
+            page.Origine = Reg;
+            Recettes.Content = page;
         }
 
         public Region Reg

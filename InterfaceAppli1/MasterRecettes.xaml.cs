@@ -52,5 +52,10 @@ namespace InterfaceAppli1
             Mgr.RecetteSelectionne = e.AddedItems[0] as Recette;
             Navigator.NavigateTo(Navigator.PART_RECDETAILEE);
         }
+
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            recet.DataContext = Mgr.SearchByNameVegan(SearchBar.Text);
+        }
     }
 }
