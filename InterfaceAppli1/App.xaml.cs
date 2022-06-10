@@ -23,6 +23,11 @@ namespace InterfaceAppli1
         {
 
         }
+
+        public void App_end(object sender, ExitEventArgs e)
+        {
+            LeManager.SauvegardeDonnées();
+        }
     }
 
 }

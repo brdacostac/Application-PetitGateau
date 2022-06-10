@@ -71,12 +71,14 @@ namespace InterfaceAppli1
                 LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
                 Like = true;
                 Mgr.CurrentUser.MesRecettes.Add(Mgr.RecetteSelectionne);
+                Mgr.RecetteSelectionne.Liked += 1;
             }
             else
             {
                 LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
                 Like = false;
                 Mgr.CurrentUser.MesRecettes.Remove(Mgr.RecetteSelectionne);
+                Mgr.RecetteSelectionne.Liked -= 1;
             }
         }
     }

@@ -5,6 +5,7 @@
              xmlns:conv="clr-namespace:InterfaceAppli1.converters"
              xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
              StartupUri="MainWindow.xaml">
+            <!-- Exit="App_end" -->
     <Application.Resources>
         <ResourceDictionary>
             <!--Fonts-->

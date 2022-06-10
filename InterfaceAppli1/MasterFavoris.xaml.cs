@@ -29,42 +29,21 @@ namespace InterfaceAppli1
         {
             InitializeComponent();
             DataContext = Mgr.CurrentUser.MesRecettes;
-
-            foreach (Recette rec in Mgr.CurrentUser.MesRecettes)
-            {
-                List<Recette> plat = new List<Recette>();
-                if (rec.Filtre == Modele.Type.Plat)
-                    plat.Add(rec);
-            }
-
-            foreach (Recette rec in Mgr.CurrentUser.MesRecettes)
-            {
-                List<Recette> entree = new List<Recette>();
-                if (rec.Filtre == Modele.Type.Entree)
-                    entree.Add(rec);
-            }
-
-            foreach (Recette rec in Mgr.CurrentUser.MesRecettes)
-            {
-                List<Recette> dessert = new List<Recette>();
-                if (rec.Filtre == Modele.Type.Dessert)
-                    dessert.Add(rec);
-            }
         }
 
         private void entree_Click(object sender, RoutedEventArgs e)
         {    
-            recet.DataContext = entree;
+            recet.DataContext = Mgr.recettesFavoris_type_choisi(Modele.Type.Entree);
         }
 
         private void plat_Click(object sender, RoutedEventArgs e)
-        {  
-            recet.DataContext = plat;
+        {
+            recet.DataContext = Mgr.recettesFavoris_type_choisi(Modele.Type.Plat);
         }
 
         private void dessert_Click(object sender, RoutedEventArgs e)
-        {  
-            recet.DataContext = dessert;
+        {
+            recet.DataContext = Mgr.recettesFavoris_type_choisi(Modele.Type.Dessert);
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

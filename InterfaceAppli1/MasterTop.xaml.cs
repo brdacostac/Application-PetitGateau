@@ -27,45 +27,23 @@ namespace InterfaceAppli1
         public MasterTop()
         {
             InitializeComponent();
+            
         }
 
         private void entree_Click(object sender, RoutedEventArgs e)
         {
-            Recette max = Mgr.Db.Recettes[0];
-            foreach (Recette r in Mgr.Db.Recettes)
-            {
-                if (r.Liked > max.Liked && r.Filtre == Modele.Type.Entree)
-                {
-                    max = r;
-                }
-            }
-            recet.DataContext = max;
+            
+            recet.DataContext = Mgr.recette_top_type_choisi(Modele.Type.Entree);
         }
 
         private void plat_Click(object sender, RoutedEventArgs e)
         {
-            Recette max = Mgr.Db.Recettes[0];
-            foreach (Recette r in Mgr.Db.Recettes)
-            {
-                if (r.Liked > max.Liked && r.Filtre == Modele.Type.Plat)
-                {
-                    max = r;
-                }
-            }
-            recet.DataContext = max;
+            recet.DataContext = Mgr.recette_top_type_choisi(Modele.Type.Plat);
         }
 
         private void dessert_Click(object sender, RoutedEventArgs e)
         {
-            Recette max = Mgr.Db.Recettes[0];
-            foreach (Recette r in Mgr.Db.Recettes)
-            {
-                if (r.Liked > max.Liked && r.Filtre == Modele.Type.Dessert)
-                {
-                    max = r;
-                }
-            }
-            recet.DataContext = max;
+            recet.DataContext = Mgr.recette_top_type_choisi(Modele.Type.Dessert);
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj": {}
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\InterfaceAppli1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\DataContractPersistance1\\DataContractPersistance1.csproj": {
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\DataContractPersistance1\\DataContractPersistance1.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj",
         "projectName": "DataContractPersistance1",
-        "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\DataContractPersistance1\\DataContractPersistance1.csproj",
-        "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\DataContractPersistance1\\obj\\",
+        "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
+              "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
               }
             }
           }
@@ -53,20 +53,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -76,17 +62,17 @@
         }
       }
     },
-    "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj": {
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\InterfaceAppli1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\InterfaceAppli1.csproj",
         "projectName": "InterfaceAppli1",
-        "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
-        "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\obj\\",
+        "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\InterfaceAppli1.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\InterfaceAppli1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,11 +86,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\DataContractPersistance1\\DataContractPersistance1.csproj": {
-                "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\DataContractPersistance1\\DataContractPersistance1.csproj"
+              "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj"
               },
-              "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
+              "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
               }
             }
           }
@@ -136,8 +122,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[5.0.16, 5.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -152,17 +150,17 @@
         }
       }
     },
-    "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
+    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
-        "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\obj\\",
+        "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,20 +195,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

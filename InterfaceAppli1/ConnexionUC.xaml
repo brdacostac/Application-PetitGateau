@@ -55,7 +55,7 @@
                          Foreground="Black"/>
             </StackPanel>
             <Button  Grid.Row="2" Content="Connexion" Height="30" Width="100" HorizontalAlignment="Left" Margin="200,20,0,45" Cursor="Hand" Style="{StaticResource MenuBoutonTop}" Grid.Column="1" Click="Login"/>
-            <TextBox x:Name="Message" 
+            <TextBlock x:Name="Message" 
                         TextWrapping="Wrap" 
                          Text="Enter your username" 
                          Width="316" Height="30"

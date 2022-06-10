@@ -31,7 +31,8 @@ namespace Modele
         public event PropertyChangedEventHandler PropertyChanged;
 
         /// <summary>
-        /// la recette a séléctionné par l'utilisateur dans le master d'items.         /// </summary>
+        /// la recette a séléctionné par l'utilisateur dans le master d'items.         
+        /// </summary>
         public Recette RecetteSelectionne 
         { 
             get => recetteSelectionne;
@@ -119,6 +120,29 @@ namespace Modele
         }
 
         /// <summary>
+        ///  Retourne une liste qui contient la recette avec les plus de likes par type
+        /// </summary>
+        /// <param name="filtre">type filtre pour filtrer les top recettes</param>
+        public List<Recette> recette_top_type_choisi(Type filtre)
+        {
+            List<Recette> liste_demande = new List<Recette>();
+
+            Recette max = db.Recettes[0];
+
+            foreach (Recette r in Db.Recettes)
+            {
+                if (r.Liked >= max.Liked && r.Filtre == filtre)
+                {
+                    max = r;
+                }
+            }
+            
+            liste_demande.Add(max);
+            return liste_demande;
+
+        }
+
+        /// <summary>
         /// Crée une liste des recettes veganes ayant une type precis (entree, plat ou dessert) passé en parametre
         /// </summary>
         /// <param name="filtre">type filtre pour filtrer les recettes veganes</param>
@@ -133,6 +157,26 @@ namespace Modele
                 if (r.Filtre == filtre && recetteV_demande != null)
                 {
                     liste_demande.Add(recetteV_demande);
+                }
+            }
+            return liste_demande;
+        }
+
+        /// <summary>
+        /// Crée une liste des recettes favoris ayant une type precis (entree, plat ou dessert) passé en parametre
+        /// </summary>
+        /// <param name="filtre">type filtre pour filtrer les recettes favorites</param>
+
+        public List<Recette> recettesFavoris_type_choisi(Type filtre)
+        {
+            List<Recette> liste_demande = new List<Recette>();
+
+            foreach (Recette r in CurrentUser.MesRecettes)
+            {
+                
+                if (r.Filtre == filtre)
+                {
+                    liste_demande.Add(r);
                 }
             }
             return liste_demande;

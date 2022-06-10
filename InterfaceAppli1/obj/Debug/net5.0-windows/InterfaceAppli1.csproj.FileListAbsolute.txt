@@ -562,3 +562,11 @@ C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\Ma
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\MasterFavoris.baml
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\MasterTop.g.cs
 C:\Users\runte\Source\Repos\sae-2.02\InterfaceAppli1\obj\Debug\net5.0-windows\MasterTop.baml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\Images\Recettes\bananeV.jpg
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\Images\Recettes\moquecaV.jpg
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\Images\Recettes\quindimV.jpg
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\bin\Debug\net5.0-windows\Images\Recettes\vatapaV.jpg
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\net5.0-windows\MasterFavoris.g.cs
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\net5.0-windows\MasterTop.g.cs
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\net5.0-windows\MasterFavoris.baml
+C:\Users\Bruno\Desktop\sae-2.02-main\InterfaceAppli1\obj\Debug\net5.0-windows\MasterTop.baml
