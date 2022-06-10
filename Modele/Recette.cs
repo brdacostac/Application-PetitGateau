@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Modele
 {
+    /// <summary>
+    /// represente les recettes
+    /// </summary>
 
     [DataContract, KnownType(typeof(RecetteVegan))]
 

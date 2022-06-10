@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Modele
 {
-    public  interface IPersistanceManager
+    /// <summary>
+    /// represente la persistance manager
+    /// </summary>
+    public interface IPersistanceManager
     {
         /// <summary>
         /// chargement des recettes

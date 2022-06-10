@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Modele
 {
+    /// <summary>
+    /// represente le Manager
+    /// </summary>
     public class Manager : INotifyPropertyChanged
     {
         /// <summary>

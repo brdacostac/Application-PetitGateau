@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Modele
 {
+    /// <summary>
+    /// Classe Compte
+    /// </summary>
     [DataContract]
     public class Compte
     {

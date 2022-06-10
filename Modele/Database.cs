@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Modele
 {
+    /// <summary>
+    /// Classe DataBase
+    /// </summary>
     public class Database
     {
         /// <summary>

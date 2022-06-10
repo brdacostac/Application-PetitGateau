@@ -1,0 +1,25 @@
+var class_modele_1_1_manager =
+[
+    [ "Manager", "class_modele_1_1_manager.html#aa0a784cd50082dbc1f6c70dee8d24661", null ],
+    [ "DisplayRecetteRegion", "class_modele_1_1_manager.html#a2080dd38fe03888ba7af465a0830a178", null ],
+    [ "DisplayRecetteType", "class_modele_1_1_manager.html#ae113eb0685d2f96f1742c00c670e1bec", null ],
+    [ "LoadComptes", "class_modele_1_1_manager.html#a19114b748ee015338868481a8e09b204", null ],
+    [ "LoadRecettes", "class_modele_1_1_manager.html#a41155af1040badabae056d97002a741d", null ],
+    [ "Login", "class_modele_1_1_manager.html#a37d333ee0a25737c28d834f0fc6915cc", null ],
+    [ "NouveauCompte", "class_modele_1_1_manager.html#a4a467b5cbf1e2c80b3e1cce78fa7c13b", null ],
+    [ "Recette_top_type_choisi", "class_modele_1_1_manager.html#a97eb82f6155e6b23495a9cf5cb786328", null ],
+    [ "Recettes_region_choisi", "class_modele_1_1_manager.html#a5a832d04eeaba1ccc838577ad6697e10", null ],
+    [ "Recettes_region_type_choisi", "class_modele_1_1_manager.html#a426a466a20d4904972ac0a9247d31737", null ],
+    [ "Recettes_type_choisi", "class_modele_1_1_manager.html#a06d64d24d6b02bcce5848ffc19ce9134", null ],
+    [ "Recettes_vegans", "class_modele_1_1_manager.html#a6187e6c53b07fad4c8e94c3eec0a3d64", null ],
+    [ "RecettesFavoris_type_choisi", "class_modele_1_1_manager.html#a563675a401fb42ab491910016042cfe0", null ],
+    [ "RecettesVegan_type_choisi", "class_modele_1_1_manager.html#ab66a2154b09d19abde1cb798cbe714fd", null ],
+    [ "SauvegardeDonnées", "class_modele_1_1_manager.html#a1401389e33f047e9fd896ee0383fd01f", null ],
+    [ "SearchByNameFavoris", "class_modele_1_1_manager.html#a39dfdaf2a1f2028ca7984eea3863368b", null ],
+    [ "SearchByNameRegion", "class_modele_1_1_manager.html#a2f5683a1ca5a79c3d741121ef439ecdd", null ],
+    [ "SearchByNameVegan", "class_modele_1_1_manager.html#ad92fd2cbbdff2219d2228b8e14ba74bc", null ],
+    [ "CurrentUser", "class_modele_1_1_manager.html#a4282fbec3a9322e22d93d18648069780", null ],
+    [ "Db", "class_modele_1_1_manager.html#a8ca11d945281a7816adc6985a038fee9", null ],
+    [ "Pers", "class_modele_1_1_manager.html#a7e912219c283577a6872799783c6894d", null ],
+    [ "RecetteSelectionne", "class_modele_1_1_manager.html#a530205be3f39bb1041f608086c90b42d", null ]
+];

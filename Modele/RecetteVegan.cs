@@ -6,6 +6,9 @@ using System.Text;
 namespace Modele
 {
 
+    /// <summary>
+    /// represente les recettes vegans
+    /// </summary>
     [DataContract]
     [KnownType(typeof(RecetteVegan))]
     public class RecetteVegan : Recette

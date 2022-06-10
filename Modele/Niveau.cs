@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Modele
 {
+    /// <summary>
+    /// represente le niveau
+    /// </summary>
     [DataContract]
     public class Niveau
     {
