@@ -27,12 +27,14 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <StackPanel Grid.Column="0" VerticalAlignment="Center" Height="155">
-                <Image Source="Images/profileBlock.PNG" Height="156" Margin="27,0,22,0" />
+            <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                <Image Source="Images/devCercle1.PNG" Height="156" Margin="27,0,22,0" />
+                <TextBlock Text="CUNHA Bruno" HorizontalAlignment="Center"></TextBlock>
             </StackPanel>
 
             <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                <Image Source="Images/profileBlock.PNG" Height="155" Margin="27,0,22,0" />
+                <Image Source="Images/devCercle2.PNG" Height="155" Margin="27,0,22,0" />
+                <TextBlock Text="FRANCO Nicolas" HorizontalAlignment="Center"></TextBlock>
             </StackPanel>
         </Grid>
     </DockPanel>

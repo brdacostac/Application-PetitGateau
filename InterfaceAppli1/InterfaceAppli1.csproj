@@ -45,6 +45,8 @@
     <None Remove="Images\Decoration3.png" />
     <None Remove="Images\Decoration4.png" />
     <None Remove="Images\defaultR.PNG" />
+    <None Remove="Images\devCercle1.png" />
+    <None Remove="Images\devCercle2.png" />
     <None Remove="Images\home button.png" />
     <None Remove="Images\icons\clock.png" />
     <None Remove="Images\icons\comments.png" />
@@ -215,6 +217,12 @@
     <Content Include="Images\defaultR.PNG">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\devCercle1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\devCercle2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\home button.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -354,9 +362,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Regions\norte_brasil.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Images\profileBlock.PNG">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\regionsB.PNG">

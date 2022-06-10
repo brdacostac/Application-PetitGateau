@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bt8Wi4l6aknSi6akEVbDtaAgL4kxhJm9roR/l481qpnL4Q6Zx8skzS7pISPk0D4ETi8eet+4wQWFykqbyV5EGA==",
+  "dgSpecHash": "EAcNS6QOIEhmSCCN6R4Qw8Gi0M5Si7eSexEearcooRoZwOYgPFJUGfbJsENFUvI8iAKicV/wMpzKuNv+SgbYdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\newAppli\\StubLib2\\StubLib2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
