@@ -15,10 +15,17 @@ namespace Modele
         /// la quantite
         /// </summary>
         [DataMember]
-        public double Nombre 
+        public double Nombre
         {
             get { return nombre; }
-            set { nombre = value; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentOutOfRangeException("La valeur ne peut pas être negatif");
+                }
+                nombre = value;
+            }
         }
         private double nombre;
 
@@ -26,7 +33,7 @@ namespace Modele
         /// l'unité liée a la quantité 
         /// </summary>
         [DataMember]
-        public Unité Uni 
+        public Unité Uni
         {
             get { return uni; }
             set { uni = value; }
@@ -46,7 +53,7 @@ namespace Modele
 
         public override string ToString()
         {
-            if(Uni == Unité.UNITE)
+            if (Uni == Unité.UNITE)
             {
                 return $"{Nombre}";
             }

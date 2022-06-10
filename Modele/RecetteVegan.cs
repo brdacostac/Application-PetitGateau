@@ -18,12 +18,12 @@ namespace Modele
         }
         private string sources;
 
-        
+
         public RecetteVegan(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv, string img, string s) : base(nom, type, l, prep, og, t, couv, img)
         {
-            if(type == Type.Plat)
+            if (type == Type.Plat)
                 sources = "Cette recette est une version vegane du plat " + s;
-            else if(type == Type.Entree)
+            else if (type == Type.Entree)
                 sources = "Cette recette est une version vegane de l'entrée " + s;
             else
                 sources = "Cette recette est une version vegane du dessert " + s;

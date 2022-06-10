@@ -9,13 +9,13 @@ namespace Modele
 {
 
     [DataContract, KnownType(typeof(RecetteVegan))]
-    
+
     public class Recette // : IEquatable<Recette> ? ou IEquatable<Ingredients>
     {
         /// <summary>
         /// nom de la recette
         /// </summary>
-        
+
         [DataMember]
         public string Nom
         {
@@ -29,7 +29,7 @@ namespace Modele
         /// nombre de "like" reçues par cette recette
         /// </summary>
         [DataMember]
-        public int Liked 
+        public int Liked
         {
             get { return liked; }
             set { liked = value; }
@@ -54,7 +54,15 @@ namespace Modele
         public int Couverts
         {
             get { return couverts; }
-            set { couverts = value; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentOutOfRangeException("La valeur ne peut pas être negatif");
+                }
+
+                couverts = value;
+            }
         }
         private int couverts;
 
@@ -65,7 +73,15 @@ namespace Modele
         public int Temps
         {
             get { return temps; }
-            set { temps = value; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentOutOfRangeException("La valeur ne peut pas être negatif");
+                }
+
+                temps = value;
+            }
         }
         private int temps;
 
@@ -74,10 +90,10 @@ namespace Modele
         /// Le type de plat (entrée, plat ou dessert)
         /// </summary>
         [DataMember]
-        public Type Filtre 
+        public Type Filtre
         {
-            get { return filtre; } 
-            private set { filtre = value; } 
+            get { return filtre; }
+            private set { filtre = value; }
         }
         private Type filtre;
 
@@ -155,13 +171,13 @@ namespace Modele
             Console.Write($"Nom : {Nom}\nType : {Filtre}\nRegion : {Origine}\nTemps de preparation : {Temps} min\nCouverts : {Couverts}");
             Console.WriteLine();
             Console.Write("Ingredients : \n");
-            foreach(Ingredient i in ingredients)
+            foreach (Ingredient i in ingredients)
             {
                 Console.Write($"- {i} \n");
             }
             Console.WriteLine();
             Console.WriteLine("Préparation :");
-            foreach(string s in Preparation)
+            foreach (string s in Preparation)
             {
                 Console.Write($"{a} - {s} \n");
                 a++;
@@ -209,7 +225,7 @@ namespace Modele
                 return false;
             else
             {
-                Recette r = (Recette)obj; 
+                Recette r = (Recette)obj;
                 if (r.Nom == this.nom && r.Liked == this.Liked)
                     return true;
                 else

@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using static System.Console;
 using System.Linq;
 using System.Text;
+using System.Runtime.Serialization;
 
 namespace Modele
 {
+    [DataContract]
     public class Chef
     {
         /// <summary>
         /// représente le niveau du chef 
         /// </summary>
+        [DataMember]
         public Niveau Level
         {
             get { return level; }
@@ -22,6 +25,7 @@ namespace Modele
         /// <summary>
         /// l'experience actuel de l'utilisateur
         /// </summary>
+        [DataMember]
         public double ExperienceActuel
         {
             get { return experienceActuel; }
@@ -32,6 +36,7 @@ namespace Modele
         /// <summary>
         /// permet de savoir quels réalisation ont été débloquées
         /// </summary>
+        [DataMember]
         public Dictionary<Réalisation, bool> Realisations
         {
             get { return realisations; }
@@ -44,6 +49,7 @@ namespace Modele
         /// permet a la fonction débloqué outil de ne pas réutiliser
         /// un outil déjà débloqué
         /// </summary>
+        [DataMember]
         public List<int> ListeTrue
         {
             get { return listeTrue; }
@@ -79,7 +85,7 @@ namespace Modele
                 nbRandom = rdm.Next(29);
             }
             Realisations[(Réalisation)nbRandom] = true;
-            listeTrue.Add(nbRandom);        
+            listeTrue.Add(nbRandom);
         }
 
         /// <summary>

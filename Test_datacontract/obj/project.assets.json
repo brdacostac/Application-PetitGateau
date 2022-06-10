@@ -65,19 +65,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\runte\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Test_datacontract\\Test_datacontract.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Test_datacontract\\Test_datacontract.csproj",
       "projectName": "Test_datacontract",
-      "projectPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Test_datacontract\\Test_datacontract.csproj",
-      "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Test_datacontract\\obj\\",
+      "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Test_datacontract\\Test_datacontract.csproj",
+      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Test_datacontract\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -91,14 +91,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\runte\\source\\Repos\\sae-2.02\\DataContractPersistance1\\DataContractPersistance1.csproj": {
-              "projectPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\DataContractPersistance1\\DataContractPersistance1.csproj"
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj"
             },
-            "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
-              "projectPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
             },
-            "C:\\Users\\runte\\source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj": {
-              "projectPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj"
+            "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj"
             }
           }
         }

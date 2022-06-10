@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Modele
 {
+    [DataContract]
     public class Niveau
     {
+        [DataMember]
         /// <summary>
         /// indique le niveau
         /// </summary>
@@ -20,6 +23,7 @@ namespace Modele
         /// <summary>
         /// experience necessaire pour passer au prochain niveau
         /// </summary>
+        [DataMember]
         public double ExperienceNecessaire
         {
             get { return experienceNecessaire; }
@@ -35,7 +39,7 @@ namespace Modele
         {
             Indice = 1;
             ExperienceNecessaire = 100;
-        }   
+        }
 
         /// <summary>
         /// permet d'afficher les information d'un niveau

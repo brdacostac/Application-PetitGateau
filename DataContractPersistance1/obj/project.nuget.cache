@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sulVvqv4Z4jjPKENcyeoBx+KeUyb4QvCsruDIvMbvFFrOhPCSWBwKRzk3U7S3f/EqnY/8HU3YWrJNIoWm2pDzA==",
+  "dgSpecHash": "N/F69+Nd6TJMcK9bLDNaEp/8afDKAbTvUkoblgNSW0Tz4zsdToZ/8i1xQgOQd0vvC4ha2dUM5DWq3BVTM+Nz6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\DataContractPersistance1\\DataContractPersistance1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\runte\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\DataContractPersistance1\\DataContractPersistance1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -10,7 +10,7 @@ namespace Modele
     /// <summary>
     /// represente un ingredient
     /// </summary>
-    
+
     [DataContract]
     public class Ingredient
     {
@@ -18,10 +18,10 @@ namespace Modele
         /// nom de l'aliment
         /// </summary>
         [DataMember]
-        public string Aliment 
+        public string Aliment
         {
             get { return aliment; }
-            private set { aliment = value; } 
+            private set { aliment = value; }
         }
         private string aliment;
 
@@ -29,10 +29,10 @@ namespace Modele
         /// la quantité de l'ingredient
         /// </summary>
         [DataMember]
-        public Quantité Quant 
-        { 
+        public Quantité Quant
+        {
             get { return quant; }
-            private set { quant = value; } 
+            private set { quant = value; }
         }
         private Quantité quant;
 
@@ -40,7 +40,7 @@ namespace Modele
         /// constructeur
         /// </summary>
         /// <param name="aliment">le nom de l'aliment</param>
-        
+
         public Ingredient(string aliment, Quantité quant)
         {
             Aliment = aliment;

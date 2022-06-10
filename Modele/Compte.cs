@@ -86,7 +86,7 @@ namespace Modele
         /// <param name="r"></param>
         public void LikeRecette(Recette r)
         {
-            if (connected == false) return; // ou modifier pour return int 1 ou 0 => gestion dans le xaml.cs
+            if (connected == false) return; 
             r.Liked++;
             mesRecettes.Add(r);
         }
@@ -96,7 +96,7 @@ namespace Modele
         /// </summary>
         public void DisplayMesRecettes()
         {
-            if (connected == false) return; 
+            if (connected == false) return;
             foreach (Recette r in MesRecettes)
             {
                 r.Display();
