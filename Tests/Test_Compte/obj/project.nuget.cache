@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Oz1CQBA3/hgnmh9QSiRTH+Hmt0vceChEtWnm20NVDeFUGdd9EhTffCYfEO2e/dYwz9owvZFTh/ELfLjIdNvcxA==",
+  "dgSpecHash": "+QfEgZgSiKJCWgZxAYwJVK2Wtu1NwH0myoWN4U1GifSHc/GNdfOkftDcBOuCa+yT7WIXp9sX6SQNi4F10kJ65g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\newAppli\\Tests\\Test_Compte\\Test_Compte.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Tests\\Test_Compte\\Test_Compte.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\runte\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512",
+    "C:\\Users\\runte\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\runte\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\runte\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

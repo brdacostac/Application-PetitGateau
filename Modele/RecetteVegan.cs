@@ -11,7 +11,7 @@ namespace Modele
     public class RecetteVegan : Recette
     {
         /// <summary>
-        /// contient la source des aliments du plat
+        /// contient le plat qui a servi de base pour la recette vegane
         /// </summary>
         [DataMember]
         public string source

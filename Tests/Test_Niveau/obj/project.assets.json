@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruno\\.nuget\\packages\\": {}
+    "C:\\Users\\runte\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\newAppli\\Tests\\Test_Niveau\\Test_Niveau.csproj",
+      "projectUniqueName": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Tests\\Test_Niveau\\Test_Niveau.csproj",
       "projectName": "Test_Niveau",
-      "projectPath": "C:\\Users\\Bruno\\Desktop\\newAppli\\Tests\\Test_Niveau\\Test_Niveau.csproj",
-      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruno\\Desktop\\newAppli\\Tests\\Test_Niveau\\obj\\",
+      "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Tests\\Test_Niveau\\Test_Niveau.csproj",
+      "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Tests\\Test_Niveau\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Bruno\\Desktop\\newAppli\\Modele\\Modele.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Desktop\\newAppli\\Modele\\Modele.csproj"
+            "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
             }
           }
         }
@@ -78,6 +78,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.24, 3.1.24]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

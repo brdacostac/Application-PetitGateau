@@ -1,17 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "uQm3dCSM1I1z02COndMLYTmb4YTDFX/DsIxospBzROMDxrFVheuvlcRPo8mBjxFh19NUPZVCbgV1grpZTDi8xQ==",
+  "dgSpecHash": "T3qdZi5SyUu/oWO56hB5M8nzI56xTn1VNzQexjFCLt1aWoVUXb4h335tmwFtWPw2C9cSulTeCqmWBXOgrAQzUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\newAppli\\InterfaceAppli1\\InterfaceAppli1.csproj",
+  "projectFilePath": "C:\\Users\\runte\\Source\\Repos\\sae-2.02\\InterfaceAppli1\\InterfaceAppli1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Bruno\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\runte\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\runte\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
+    "C:\\Users\\runte\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\runte\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\runte\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
   ],
   "logs": []
 }
