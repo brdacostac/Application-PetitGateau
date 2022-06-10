@@ -39,14 +39,14 @@
 
             <TextBlock x:Name="nom" DockPanel.Dock="Top" Text="{Binding RecetteSelectionne.Nom}" FontWeight="Bold" FontSize="20" Margin="20,20,0,10" Style="{StaticResource Titre}"/>
 
-            <StackPanel DockPanel.Dock="Top" Height="285">
+            <StackPanel DockPanel.Dock="Top" Height="320">
                 <StackPanel Orientation="Horizontal" Width="785">
                     <Image Source="Images/Decoration3.png" Width="200"/>
                     <StackPanel Width="30"></StackPanel>
                     <Border BorderThickness="2"
                             BorderBrush="#FF000000"
                             CornerRadius="5">
-                        <Image x:Name="photo" Source="{Binding RecetteSelectionne.Img}" MaxWidth="300"/>
+                        <Image x:Name="photo" Source="{Binding RecetteSelectionne.Img}" MaxWidth="300" MaxHeight="150"/>
                     </Border>
                 </StackPanel>
 
@@ -78,7 +78,12 @@
                     </StackPanel>
 
                     <StackPanel Grid.Column="3">
-                        <Image Source="Images/icons/comments.png" Height="40" Width="38"/>
+                        <Button Click="Commenter">
+                            <Button.Content>
+                                <Image Source="Images/icons/comments.png" Height="40" Width="38"/>
+                            </Button.Content>
+                        </Button>
+                        
                         <TextBlock Text="Commentaires" TextAlignment="Center"/>
                         <TextBlock x:Name="comments" Text="{Binding RecetteSelectionne.Commentaires.count}"  TextAlignment="Center"/>
                     </StackPanel>
@@ -104,6 +109,13 @@
                                Style="{StaticResource Titre}" Margin="10,0,0,0"/>
 
                 <TextBlock x:Name="LesEtapes" TextWrapping="Wrap" FontSize="18" Margin="10,0,0,0"/>
+
+                <TextBlock Text="Commentaires : " 
+                               FontWeight="Bold" 
+                               FontSize="20"
+                               Style="{StaticResource Titre}" Margin="10,0,0,0"/>
+
+                <TextBlock x:Name="LesCommentaires" TextWrapping="Wrap" FontSize="18" Margin="10,0,0,0"/>
             </StackPanel>
 
         </DockPanel>

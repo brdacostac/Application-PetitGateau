@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\runte\source\repos\sae-2.02\InterfaceAppli1\obj\Release\net5.0-windows\
+C:\Users\runte\source\Repos\sae-2.02\InterfaceAppli1\obj\Release\net5.0-windows\
 InterfaceAppli1
 none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-C:\Users\runte\source\repos\sae-2.02\InterfaceAppli1\App.xaml
-22-176518101
-63-1859215973
-24-578530693
-198765915268
-AproposUC.xaml;CentroOesteUC.xaml;ConnexionUC.xaml;FavoritsUC.xaml;InscriptionUC.xaml;MainWindow.xaml;MasterRecettes.xaml;MonChefUC.xaml;NordesteUC.xaml;NorteUC.xaml;RegionsUC.xaml;SudesteUC.xaml;SulUC.xaml;Themes\TextBoxTheme.xaml;TopRecettesUC.xaml;UCaccueil.xaml;UCbuttons.xaml;UCfiltreRegions.xaml;UCmasterRegions.xaml;UCrecDetailee.xaml;UCrecette.xaml;VeganUC.xaml;
+C:\Users\runte\source\Repos\sae-2.02\InterfaceAppli1\App.xaml
+25-1323549792
+671043016056
+27-1067772314
+199-1698329086
+AproposUC.xaml;CentroOesteUC.xaml;ConnexionUC.xaml;FavoritsUC.xaml;InscriptionUC.xaml;MainWindow.xaml;MasterFavoris.xaml;MasterRecettes.xaml;MasterTop.xaml;MonChefUC.xaml;NordesteUC.xaml;NorteUC.xaml;RegionsUC.xaml;SudesteUC.xaml;SulUC.xaml;Themes\TextBoxTheme.xaml;TopRecettesUC.xaml;UCaccueil.xaml;UCbuttons.xaml;UCfiltreRegions.xaml;UCmasterRegions.xaml;UCrecDetailee.xaml;UCrecette.xaml;VeganUC.xaml;WCommenter.xaml;
 
 True
 

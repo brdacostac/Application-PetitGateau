@@ -7,6 +7,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using StubLib2;
 
 namespace InterfaceAppli1
 {
@@ -28,6 +29,7 @@ namespace InterfaceAppli1
         {
             LeManager.SauvegardeDonnées();
         }
+
     }
 
 }

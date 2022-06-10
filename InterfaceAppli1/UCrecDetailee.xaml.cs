@@ -27,7 +27,7 @@ namespace InterfaceAppli1
         {
             InitializeComponent();
 
-            if (!Like)
+            if(!Mgr.CurrentUser.MesRecettes.Contains(Mgr.RecetteSelectionne))
             {
                 LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
             }
@@ -36,10 +36,11 @@ namespace InterfaceAppli1
                 LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
             }
 
-            
+            //(App.Current as App).LeManager.LoadRecettes();
             DataContext = Mgr;
             LesIngredients.Text = Mgr.RecetteSelectionne.DisplayIngredients();
             LesEtapes.Text = Mgr.RecetteSelectionne.DisplayEtapes();
+            LesCommentaires.Text = Mgr.RecetteSelectionne.DisplayCommentaires();
         }
 
         private void Retour(object sender, RoutedEventArgs e)
@@ -61,25 +62,33 @@ namespace InterfaceAppli1
                     Navigator.NavigateTo(Navigator.PART_CENTRO_OESTE);
             }
         }
-
-        public bool Like = false;
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (!Like)
+            if(!Mgr.CurrentUser.connected)
+                Navigator.NavigateTo(Navigator.PART_CONNEXION);
+
+            if (!Mgr.CurrentUser.MesRecettes.Contains(Mgr.RecetteSelectionne))
             {
                 LikeButton.Source = new BitmapImage(new Uri("Images/liked.png", UriKind.Relative));
-                Like = true;
                 Mgr.CurrentUser.MesRecettes.Add(Mgr.RecetteSelectionne);
                 Mgr.RecetteSelectionne.Liked += 1;
             }
             else
             {
                 LikeButton.Source = new BitmapImage(new Uri("Images/likeButton.png", UriKind.Relative));
-                Like = false;
                 Mgr.CurrentUser.MesRecettes.Remove(Mgr.RecetteSelectionne);
-                Mgr.RecetteSelectionne.Liked -= 1;
             }
+        }
+
+        private void Commenter(object sender, RoutedEventArgs e)
+        {
+            if(Mgr.CurrentUser.connected)
+            {
+                WCommenter pageCommentaire = new WCommenter();
+                pageCommentaire.Show();
+            }
+            else
+                Navigator.NavigateTo(Navigator.PART_CONNEXION);
         }
     }
 }

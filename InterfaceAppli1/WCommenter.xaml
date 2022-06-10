@@ -1,0 +1,36 @@
+﻿<Window x:Class="InterfaceAppli1.WCommenter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfaceAppli1"
+        mc:Ignorable="d"
+        Title="WCommenter" Height="350" Width="400">
+    <DockPanel>
+        <StackPanel>
+            <WrapPanel DockPanel.Dock="Top">
+                <TextBlock  TextAlignment="Center"
+                         Text="Que pensez vous de cette recette ?" 
+                         FontSize="20" FontWeight="Bold"
+                         Style="{StaticResource Titre}" Width="342"/>
+                <Image Source="Images/icons/User.png" Width="33" Height="30" Margin="0,0,0,10"/>
+            </WrapPanel>
+
+            <TextBox x:Name="Commentaire" 
+                        TextWrapping="Wrap" 
+                         Text=""                      
+                        Width="316" Height="160"
+                         FontSize="15"
+                         Foreground="Black"/>
+            <Button  Content="Envoyer" Height="30" Width="100" HorizontalAlignment="Center" 
+                     Cursor="Hand" Style="{StaticResource MenuBoutonTop}" Margin="0,10,0,0" Click="SendComment"/>
+            
+            <TextBox x:Name="Message" 
+                        TextWrapping="Wrap" 
+                         Text="" 
+                         Width="316" Height="21"
+                         FontSize="15"
+                         Foreground="Black" Margin="0,10,0,0"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

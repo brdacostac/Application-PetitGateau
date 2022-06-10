@@ -8,12 +8,13 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <DockPanel Background="White">
         <WrapPanel DockPanel.Dock="Top" Background="White">
-            <local:UCbuttons Titre="À Propos" Width="800"/>
+            <local:UCbuttons Titre="À Propos" Width="920"/>
         </WrapPanel>
 
         <StackPanel DockPanel.Dock="Top" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="Qui sommes-nous ?" FontSize="20" TextDecorations="Underline" Margin="0,20,0,0"/>
-            <TextBlock Text="--DESCRIPTION--" HorizontalAlignment="Center"/>
+            <TextBlock TextWrapping="Wrap" FontSize="15"
+                       Text="Nous sommes deux brésiliens étudiant l'informatique en France. Nous aimons partager les différences culturelles entre nous et les Français. Et donc nous avons pensé à partager une des meilleures choses qu'il y a au Brésil, la nourriture ! Nous sommes vraiment passionnés par ce projet et nous espérons qu'il vous montrera un petit morceau d'où nous venons. " Width="528"/>
         </StackPanel>
 
         <WrapPanel DockPanel.Dock="Top" VerticalAlignment="Center" Margin="10,0,0,0" HorizontalAlignment="Center">

@@ -45,7 +45,7 @@ namespace Modele
             get { return commentaires; }
             private set { commentaires = value; }
         }
-        private List<string> commentaires;
+        private List<string> commentaires = new List<string>();
 
         /// <summary>
         /// indique le nombre de couverts possible par cette recette
@@ -127,7 +127,6 @@ namespace Modele
         }
         private string img;
 
-
         /// <summary>
         /// constructeur
         /// </summary>
@@ -190,6 +189,16 @@ namespace Modele
                 num++;
             }
             return etapes;
+        }
+
+        public string DisplayCommentaires()
+        {
+            string comments = "";
+            foreach (string i in commentaires)
+            {
+                comments = comments + $" {i} \n\n";
+            }
+            return comments;
         }
 
         public override bool Equals(object obj)

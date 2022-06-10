@@ -44,1591 +44,1548 @@
   </Comptes>
   <Recettes xmlns:d2p1="http://schemas.datacontract.org/2004/07/Modele" z:Id="23" z:Size="25">
     <d2p1:Recette z:Id="24">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="25" z:Size="0" />
       <d2p1:Couverts>6</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="25">Images/Recettes/amazonie.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="26" z:Size="7">
-        <d2p1:Ingredient z:Id="27">
-          <d2p1:Aliment z:Id="28">tucupi</d2p1:Aliment>
-          <d2p1:Quant z:Id="29">
+      <d2p1:Img z:Id="26">Images/Recettes/amazonie.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="27" z:Size="7">
+        <d2p1:Ingredient z:Id="28">
+          <d2p1:Aliment z:Id="29">tucupi</d2p1:Aliment>
+          <d2p1:Quant z:Id="30">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>L</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="30">
-          <d2p1:Aliment z:Id="31">gousses d'ail</d2p1:Aliment>
-          <d2p1:Quant z:Id="32">
+        <d2p1:Ingredient z:Id="31">
+          <d2p1:Aliment z:Id="32">gousses d'ail</d2p1:Aliment>
+          <d2p1:Quant z:Id="33">
             <d2p1:Nombre>4</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="33">
-          <d2p1:Aliment z:Id="34">poivres</d2p1:Aliment>
-          <d2p1:Quant z:Id="35">
+        <d2p1:Ingredient z:Id="34">
+          <d2p1:Aliment z:Id="35">poivres</d2p1:Aliment>
+          <d2p1:Quant z:Id="36">
             <d2p1:Nombre>4</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="36">
-          <d2p1:Aliment z:Id="37">paquets de jambu</d2p1:Aliment>
-          <d2p1:Quant z:Id="38">
+        <d2p1:Ingredient z:Id="37">
+          <d2p1:Aliment z:Id="38">paquets de jambu</d2p1:Aliment>
+          <d2p1:Quant z:Id="39">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="39">
-          <d2p1:Aliment z:Id="40">crevettes salées</d2p1:Aliment>
-          <d2p1:Quant z:Id="41">
+        <d2p1:Ingredient z:Id="40">
+          <d2p1:Aliment z:Id="41">crevettes salées</d2p1:Aliment>
+          <d2p1:Quant z:Id="42">
             <d2p1:Nombre>0.5</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="42">
-          <d2p1:Aliment z:Id="43">tasse d'amidon de manioc</d2p1:Aliment>
-          <d2p1:Quant z:Id="44">
+        <d2p1:Ingredient z:Id="43">
+          <d2p1:Aliment z:Id="44">tasse d'amidon de manioc</d2p1:Aliment>
+          <d2p1:Quant z:Id="45">
             <d2p1:Nombre>0.5</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="45">
-          <d2p1:Aliment z:Id="46">cuillère de sel</d2p1:Aliment>
-          <d2p1:Quant z:Id="47">
+        <d2p1:Ingredient z:Id="46">
+          <d2p1:Aliment z:Id="47">cuillère de sel</d2p1:Aliment>
+          <d2p1:Quant z:Id="48">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="48">Tacaca d'Amazonie</d2p1:Nom>
+      <d2p1:Nom z:Id="49">Tacaca d'Amazonie</d2p1:Nom>
       <d2p1:Origine>Nord</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="49" z:Size="5">
-        <d4p1:string z:Id="50">Placer le tucupí dans une casserole, assaisonner avec l'ail, la chicorée et le sel, porter à ébullition et porter à ébullition</d4p1:string>
-        <d4p1:string z:Id="51">Puis baissez le feu, couvrez la casserole et laissez cuire 30 minutes.</d4p1:string>
-        <d4p1:string z:Id="52">Cuire le jambu dans de l'eau chaude, laisser cuire jusqu'à ce que les tiges soient tendres, retirer et égoutter, réserver. Retirez la tête des crevettes et faites-les tremper dans un bol d'eau pour éliminer le sel. Faire bouillir 4 tasses d'eau avec du sel au goût, dissoudre la gomme dans un bol d'eau froide, l'ajouter petit à petit à l'eau bouillante, jusqu'à ce qu'elle devienne une bouillie épaisse, ou au point de votre préférence.</d4p1:string>
-        <d4p1:string z:Id="53">Servir dans une calebasse dans cet ordre : 2 cuillères à soupe de tucupí, une louche de gomme, une louche de tucupí, quelques feuilles de jambú et 5 crevettes, sel et poivre au goût.</d4p1:string>
-        <d4p1:string z:Id="54">Si l'amidon de manioc n'est pas disponible, l'amidon acide peut être utilisé.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="50" z:Size="5">
+        <d4p1:string z:Id="51">Placer le tucupí dans une casserole, assaisonner avec l'ail, la chicorée et le sel, porter à ébullition et porter à ébullition</d4p1:string>
+        <d4p1:string z:Id="52">Puis baissez le feu, couvrez la casserole et laissez cuire 30 minutes.</d4p1:string>
+        <d4p1:string z:Id="53">Cuire le jambu dans de l'eau chaude, laisser cuire jusqu'à ce que les tiges soient tendres, retirer et égoutter, réserver. Retirez la tête des crevettes et faites-les tremper dans un bol d'eau pour éliminer le sel. Faire bouillir 4 tasses d'eau avec du sel au goût, dissoudre la gomme dans un bol d'eau froide, l'ajouter petit à petit à l'eau bouillante, jusqu'à ce qu'elle devienne une bouillie épaisse, ou au point de votre préférence.</d4p1:string>
+        <d4p1:string z:Id="54">Servir dans une calebasse dans cet ordre : 2 cuillères à soupe de tucupí, une louche de gomme, une louche de tucupí, quelques feuilles de jambú et 5 crevettes, sel et poivre au goût.</d4p1:string>
+        <d4p1:string z:Id="55">Si l'amidon de manioc n'est pas disponible, l'amidon acide peut être utilisé.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>60</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="55">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="56">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="57" z:Size="0" />
       <d2p1:Couverts>5</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="56">Images/Recettes/casaca.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="57" z:Size="10">
-        <d2p1:Ingredient z:Id="58">
-          <d2p1:Aliment z:Id="59">d'arapaïma salé et séché</d2p1:Aliment>
-          <d2p1:Quant z:Id="60">
+      <d2p1:Img z:Id="58">Images/Recettes/casaca.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="59" z:Size="10">
+        <d2p1:Ingredient z:Id="60">
+          <d2p1:Aliment z:Id="61">d'arapaïma salé et séché</d2p1:Aliment>
+          <d2p1:Quant z:Id="62">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="61">
-          <d2p1:Aliment z:Id="62">d'huile d'olive</d2p1:Aliment>
-          <d2p1:Quant z:Id="63">
+        <d2p1:Ingredient z:Id="63">
+          <d2p1:Aliment z:Id="64">d'huile d'olive</d2p1:Aliment>
+          <d2p1:Quant z:Id="65">
             <d2p1:Nombre>30</d2p1:Nombre>
             <d2p1:Uni>ML</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="64">
-          <d2p1:Aliment z:Id="65">tomates sans peau ni pépins, hachées</d2p1:Aliment>
-          <d2p1:Quant z:Id="66">
+        <d2p1:Ingredient z:Id="66">
+          <d2p1:Aliment z:Id="67">tomates sans peau ni pépins, hachées</d2p1:Aliment>
+          <d2p1:Quant z:Id="68">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="67">
-          <d2p1:Aliment z:Id="68">oignons hachés</d2p1:Aliment>
-          <d2p1:Quant z:Id="69">
+        <d2p1:Ingredient z:Id="69">
+          <d2p1:Aliment z:Id="70">oignons hachés</d2p1:Aliment>
+          <d2p1:Quant z:Id="71">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="70">
-          <d2p1:Aliment z:Id="71">Odeur verte</d2p1:Aliment>
-          <d2p1:Quant z:Id="72">
+        <d2p1:Ingredient z:Id="72">
+          <d2p1:Aliment z:Id="73">Odeur verte</d2p1:Aliment>
+          <d2p1:Quant z:Id="74">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="73">
-          <d2p1:Aliment z:Id="74">Poivre parfumé au goût</d2p1:Aliment>
-          <d2p1:Quant z:Id="75">
+        <d2p1:Ingredient z:Id="75">
+          <d2p1:Aliment z:Id="76">Poivre parfumé au goût</d2p1:Aliment>
+          <d2p1:Quant z:Id="77">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="76">
-          <d2p1:Aliment z:Id="77">paquet de paille de pomme de terre</d2p1:Aliment>
-          <d2p1:Quant z:Id="78">
+        <d2p1:Ingredient z:Id="78">
+          <d2p1:Aliment z:Id="79">paquet de paille de pomme de terre</d2p1:Aliment>
+          <d2p1:Quant z:Id="80">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="79">
-          <d2p1:Aliment z:Id="80">Plantains frits</d2p1:Aliment>
-          <d2p1:Quant z:Id="81">
+        <d2p1:Ingredient z:Id="81">
+          <d2p1:Aliment z:Id="82">Plantains frits</d2p1:Aliment>
+          <d2p1:Quant z:Id="83">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="82">
-          <d2p1:Aliment z:Id="83">Farine de manioc</d2p1:Aliment>
-          <d2p1:Quant z:Id="84">
+        <d2p1:Ingredient z:Id="84">
+          <d2p1:Aliment z:Id="85">Farine de manioc</d2p1:Aliment>
+          <d2p1:Quant z:Id="86">
             <d2p1:Nombre>100</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="85">
-          <d2p1:Aliment z:Id="86">Lait de coco</d2p1:Aliment>
-          <d2p1:Quant z:Id="87">
+        <d2p1:Ingredient z:Id="87">
+          <d2p1:Aliment z:Id="88">Lait de coco</d2p1:Aliment>
+          <d2p1:Quant z:Id="89">
             <d2p1:Nombre>200</d2p1:Nombre>
             <d2p1:Uni>ML</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="88">Pirarucu de casaca</d2p1:Nom>
+      <d2p1:Nom z:Id="90">Pirarucu de casaca</d2p1:Nom>
       <d2p1:Origine>Nord</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="89" z:Size="9">
-        <d4p1:string z:Id="90">Laisser tremper le pirarucu la veille, le faire frire en morceaux puis le déchiqueter</d4p1:string>
-        <d4p1:string z:Id="91">Préparez une salade avec l'oignon, la tomate, le persil et le poivre, en ajoutant l'huile et le sel au goût.</d4p1:string>
-        <d4p1:string z:Id="92">Faire la farofa avec un peu de beurre et la farine de manioc et réserver.</d4p1:string>
-        <d4p1:string z:Id="93">Sur un tableau, disposez en couches :</d4p1:string>
-        <d4p1:string z:Id="94">1ère couche : arapaima râpé.2ª camada: farofa.</d4p1:string>
-        <d4p1:string z:Id="95">3ème couche : salade.</d4p1:string>
-        <d4p1:string z:Id="96">4ème couche : banane frite.</d4p1:string>
-        <d4p1:string z:Id="97">5ème couche : paille de pomme de terre.</d4p1:string>
-        <d4p1:string z:Id="98">Mettre au four pendant 10 minutes.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="91" z:Size="9">
+        <d4p1:string z:Id="92">Laisser tremper le pirarucu la veille, le faire frire en morceaux puis le déchiqueter</d4p1:string>
+        <d4p1:string z:Id="93">Préparez une salade avec l'oignon, la tomate, le persil et le poivre, en ajoutant l'huile et le sel au goût.</d4p1:string>
+        <d4p1:string z:Id="94">Faire la farofa avec un peu de beurre et la farine de manioc et réserver.</d4p1:string>
+        <d4p1:string z:Id="95">Sur un tableau, disposez en couches :</d4p1:string>
+        <d4p1:string z:Id="96">1ère couche : arapaima râpé.2ª camada: farofa.</d4p1:string>
+        <d4p1:string z:Id="97">3ème couche : salade.</d4p1:string>
+        <d4p1:string z:Id="98">4ème couche : banane frite.</d4p1:string>
+        <d4p1:string z:Id="99">5ème couche : paille de pomme de terre.</d4p1:string>
+        <d4p1:string z:Id="100">Mettre au four pendant 10 minutes.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>50</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="99">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="101">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="102" z:Size="0" />
       <d2p1:Couverts>4</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="100">Images/Recettes/tambaqui.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="101" z:Size="10">
-        <d2p1:Ingredient z:Id="102">
-          <d2p1:Aliment z:Id="103">tambaqui</d2p1:Aliment>
-          <d2p1:Quant z:Id="104">
+      <d2p1:Img z:Id="103">Images/Recettes/tambaqui.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="104" z:Size="10">
+        <d2p1:Ingredient z:Id="105">
+          <d2p1:Aliment z:Id="106">tambaqui</d2p1:Aliment>
+          <d2p1:Quant z:Id="107">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="105">
-          <d2p1:Aliment z:Id="106">tomates sans pépins, coupées</d2p1:Aliment>
-          <d2p1:Quant z:Id="107">
-            <d2p1:Nombre>3</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="108">
-          <d2p1:Aliment z:Id="109">oignon coupés</d2p1:Aliment>
+          <d2p1:Aliment z:Id="109">tomates sans pépins, coupées</d2p1:Aliment>
           <d2p1:Quant z:Id="110">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="111">
-          <d2p1:Aliment z:Id="112">piments chili, épépinés et coupé</d2p1:Aliment>
+          <d2p1:Aliment z:Id="112">oignon coupés</d2p1:Aliment>
           <d2p1:Quant z:Id="113">
-            <d2p1:Nombre>15</d2p1:Nombre>
+            <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="114">
-          <d2p1:Aliment z:Id="115">bouquet de persil haché </d2p1:Aliment>
+          <d2p1:Aliment z:Id="115">piments chili, épépinés et coupé</d2p1:Aliment>
           <d2p1:Quant z:Id="116">
-            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Nombre>15</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="117">
-          <d2p1:Aliment z:Id="118">botte de ciboulette ciselée</d2p1:Aliment>
+          <d2p1:Aliment z:Id="118">bouquet de persil haché </d2p1:Aliment>
           <d2p1:Quant z:Id="119">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="120">
-          <d2p1:Aliment z:Id="121">cuillère de Paprika</d2p1:Aliment>
+          <d2p1:Aliment z:Id="121">botte de ciboulette ciselée</d2p1:Aliment>
           <d2p1:Quant z:Id="122">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="123">
-          <d2p1:Aliment z:Id="124">cuillère d'huile d'olive</d2p1:Aliment>
+          <d2p1:Aliment z:Id="124">cuillère de Paprika</d2p1:Aliment>
           <d2p1:Quant z:Id="125">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="126">
-          <d2p1:Aliment z:Ref="46" i:nil="true" />
-          <d2p1:Quant z:Id="127">
+          <d2p1:Aliment z:Id="127">cuillère d'huile d'olive</d2p1:Aliment>
+          <d2p1:Quant z:Id="128">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="128">
-          <d2p1:Aliment z:Id="129">citron</d2p1:Aliment>
+        <d2p1:Ingredient z:Id="129">
+          <d2p1:Aliment z:Ref="47" i:nil="true" />
           <d2p1:Quant z:Id="130">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="131">
+          <d2p1:Aliment z:Id="132">citron</d2p1:Aliment>
+          <d2p1:Quant z:Id="133">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="131">Caldeirada de Tambaqui</d2p1:Nom>
+      <d2p1:Nom z:Id="134">Caldeirada de Tambaqui</d2p1:Nom>
       <d2p1:Origine>Nord</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="132" z:Size="10">
-        <d4p1:string z:Id="133">La veille, bien laver le poisson à l'eau froide. Placez-le dans un bol en le baignant de jus de citron (bouillon) et de sel, couvrez le bol et placez-le au réfrigérateur.</d4p1:string>
-        <d4p1:string z:Id="134">Le lendemain, faites tremper le poisson une seule fois dans l'eau pour éliminer l'excès de citron et de sel.</d4p1:string>
-        <d4p1:string z:Id="135">Dans une grande casserole, déposer le poisson, la tomate, l'oignon, le piment et une partie de la coriandre et de la ciboulette.</d4p1:string>
-        <d4p1:string z:Id="136">Ajouter suffisamment d'eau pour couvrir le poisson.</d4p1:string>
-        <d4p1:string z:Ref="54" i:nil="true" />
-        <d4p1:string z:Id="137">Ajouter l'huile d'olive au goût, 1 cuillère à soupe de vinaigre et le colorant ou la pâte de tomate.</d4p1:string>
-        <d4p1:string z:Id="138">Ajoutez le sel petit à petit, car pendant l'ébullition, le sel contenu dans le poisson se libère dans le bouillon.</d4p1:string>
-        <d4p1:string z:Id="139">Faire bouillir environ 20 minutes.</d4p1:string>
-        <d4p1:string z:Id="140">Après 20 minutes, éteignez le feu, ajoutez le reste de la coriandre et de la ciboulette et servez immédiatement.</d4p1:string>
-        <d4p1:string z:Id="141">Ce ragoût peut être accompagné de riz blanc.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="135" z:Size="10">
+        <d4p1:string z:Id="136">La veille, bien laver le poisson à l'eau froide. Placez-le dans un bol en le baignant de jus de citron (bouillon) et de sel, couvrez le bol et placez-le au réfrigérateur.</d4p1:string>
+        <d4p1:string z:Id="137">Le lendemain, faites tremper le poisson une seule fois dans l'eau pour éliminer l'excès de citron et de sel.</d4p1:string>
+        <d4p1:string z:Id="138">Dans une grande casserole, déposer le poisson, la tomate, l'oignon, le piment et une partie de la coriandre et de la ciboulette.</d4p1:string>
+        <d4p1:string z:Id="139">Ajouter suffisamment d'eau pour couvrir le poisson.</d4p1:string>
+        <d4p1:string z:Ref="55" i:nil="true" />
+        <d4p1:string z:Id="140">Ajouter l'huile d'olive au goût, 1 cuillère à soupe de vinaigre et le colorant ou la pâte de tomate.</d4p1:string>
+        <d4p1:string z:Id="141">Ajoutez le sel petit à petit, car pendant l'ébullition, le sel contenu dans le poisson se libère dans le bouillon.</d4p1:string>
+        <d4p1:string z:Id="142">Faire bouillir environ 20 minutes.</d4p1:string>
+        <d4p1:string z:Id="143">Après 20 minutes, éteignez le feu, ajoutez le reste de la coriandre et de la ciboulette et servez immédiatement.</d4p1:string>
+        <d4p1:string z:Id="144">Ce ragoût peut être accompagné de riz blanc.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>30</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="142">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="145">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="146" z:Size="0" />
       <d2p1:Couverts>5</d2p1:Couverts>
       <d2p1:Filtre>Entree</d2p1:Filtre>
-      <d2p1:Img z:Id="143">Images/Recettes/araipama.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="144" z:Size="11">
-        <d2p1:Ingredient z:Id="145">
-          <d2p1:Aliment z:Id="146">pirarucu, déssalé, néttoyé et râpé</d2p1:Aliment>
-          <d2p1:Quant z:Id="147">
+      <d2p1:Img z:Id="147">Images/Recettes/araipama.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="148" z:Size="11">
+        <d2p1:Ingredient z:Id="149">
+          <d2p1:Aliment z:Id="150">pirarucu, déssalé, néttoyé et râpé</d2p1:Aliment>
+          <d2p1:Quant z:Id="151">
             <d2p1:Nombre>400</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="148">
-          <d2p1:Aliment z:Id="149">cuillère de soupe d'huile d'olive</d2p1:Aliment>
-          <d2p1:Quant z:Id="150">
+        <d2p1:Ingredient z:Id="152">
+          <d2p1:Aliment z:Id="153">cuillère de soupe d'huile d'olive</d2p1:Aliment>
+          <d2p1:Quant z:Id="154">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="151">
-          <d2p1:Aliment z:Id="152">gousses d'ail hachées</d2p1:Aliment>
-          <d2p1:Quant z:Id="153">
+        <d2p1:Ingredient z:Id="155">
+          <d2p1:Aliment z:Id="156">gousses d'ail hachées</d2p1:Aliment>
+          <d2p1:Quant z:Id="157">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="154">
-          <d2p1:Aliment z:Id="155">oignon hachées</d2p1:Aliment>
-          <d2p1:Quant z:Id="156">
+        <d2p1:Ingredient z:Id="158">
+          <d2p1:Aliment z:Id="159">oignon hachées</d2p1:Aliment>
+          <d2p1:Quant z:Id="160">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="157">
-          <d2p1:Aliment z:Id="158">pincé de sel </d2p1:Aliment>
-          <d2p1:Quant z:Id="159">
+        <d2p1:Ingredient z:Id="161">
+          <d2p1:Aliment z:Id="162">pincé de sel </d2p1:Aliment>
+          <d2p1:Quant z:Id="163">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="160">
-          <d2p1:Aliment z:Id="161">Poivre noir</d2p1:Aliment>
-          <d2p1:Quant z:Id="162">
+        <d2p1:Ingredient z:Id="164">
+          <d2p1:Aliment z:Id="165">Poivre noir</d2p1:Aliment>
+          <d2p1:Quant z:Id="166">
             <d2p1:Nombre>50</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="163">
-          <d2p1:Aliment z:Id="164">cuillères à soupe de persil haché</d2p1:Aliment>
-          <d2p1:Quant z:Id="165">
+        <d2p1:Ingredient z:Id="167">
+          <d2p1:Aliment z:Id="168">cuillères à soupe de persil haché</d2p1:Aliment>
+          <d2p1:Quant z:Id="169">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="166">
-          <d2p1:Aliment z:Id="167">cuillères à soupe de coriandre hachée</d2p1:Aliment>
-          <d2p1:Quant z:Id="168">
+        <d2p1:Ingredient z:Id="170">
+          <d2p1:Aliment z:Id="171">cuillères à soupe de coriandre hachée</d2p1:Aliment>
+          <d2p1:Quant z:Id="172">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="169">
-          <d2p1:Aliment z:Id="170">pommes de terre</d2p1:Aliment>
-          <d2p1:Quant z:Id="171">
+        <d2p1:Ingredient z:Id="173">
+          <d2p1:Aliment z:Id="174">pommes de terre</d2p1:Aliment>
+          <d2p1:Quant z:Id="175">
             <d2p1:Nombre>500</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="172">
-          <d2p1:Aliment z:Id="173">oeuf</d2p1:Aliment>
-          <d2p1:Quant z:Id="174">
+        <d2p1:Ingredient z:Id="176">
+          <d2p1:Aliment z:Id="177">oeuf</d2p1:Aliment>
+          <d2p1:Quant z:Id="178">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="175">
-          <d2p1:Aliment z:Id="176">tasses (thé) d'huile</d2p1:Aliment>
-          <d2p1:Quant z:Id="177">
+        <d2p1:Ingredient z:Id="179">
+          <d2p1:Aliment z:Id="180">tasses (thé) d'huile</d2p1:Aliment>
+          <d2p1:Quant z:Id="181">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="178">Gâteau arapaïma</d2p1:Nom>
+      <d2p1:Nom z:Id="182">Gâteau arapaïma</d2p1:Nom>
       <d2p1:Origine>Nord</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="179" z:Size="9">
-        <d4p1:string z:Id="180">Dessalez l'arapaima en le laissant macérer 1 jour au réfrigérateur et en changeant l'eau au moins 3 fois</d4p1:string>
-        <d4p1:string z:Id="181">Démêler et mettre de côté.</d4p1:string>
-        <d4p1:string z:Id="182">Dans une poêle, chauffer l'huile et faire revenir l'ail, l'oignon, le sel, le poivre, le persil et la coriandre</d4p1:string>
-        <d4p1:string z:Id="183">Bien mélanger, ajouter l'arapaima et faire sauter..</d4p1:string>
-        <d4p1:string z:Id="184">Faites cuire les pommes de terre et écrasez-les.</d4p1:string>
-        <d4p1:string z:Id="185">Ajouter les pommes de terre pressées et l'œuf à l'arapaima braisé et mélanger jusqu'à l'obtention d'une masse homogène.</d4p1:string>
-        <d4p1:string z:Id="186">Ajustez le sel</d4p1:string>
-        <d4p1:string z:Id="187">Faites des boulettes avec vos mains, faites-les frire dans l'huile chaude jusqu'à ce qu'elles soient dorées.</d4p1:string>
-        <d4p1:string z:Id="188">Égoutter sur du papier absorbant et servir chaud.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="183" z:Size="9">
+        <d4p1:string z:Id="184">Dessalez l'arapaima en le laissant macérer 1 jour au réfrigérateur et en changeant l'eau au moins 3 fois</d4p1:string>
+        <d4p1:string z:Id="185">Démêler et mettre de côté.</d4p1:string>
+        <d4p1:string z:Id="186">Dans une poêle, chauffer l'huile et faire revenir l'ail, l'oignon, le sel, le poivre, le persil et la coriandre</d4p1:string>
+        <d4p1:string z:Id="187">Bien mélanger, ajouter l'arapaima et faire sauter..</d4p1:string>
+        <d4p1:string z:Id="188">Faites cuire les pommes de terre et écrasez-les.</d4p1:string>
+        <d4p1:string z:Id="189">Ajouter les pommes de terre pressées et l'œuf à l'arapaima braisé et mélanger jusqu'à l'obtention d'une masse homogène.</d4p1:string>
+        <d4p1:string z:Id="190">Ajustez le sel</d4p1:string>
+        <d4p1:string z:Id="191">Faites des boulettes avec vos mains, faites-les frire dans l'huile chaude jusqu'à ce qu'elles soient dorées.</d4p1:string>
+        <d4p1:string z:Id="192">Égoutter sur du papier absorbant et servir chaud.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>50</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="189">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="193">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="194" z:Size="0" />
       <d2p1:Couverts>2</d2p1:Couverts>
       <d2p1:Filtre>Entree</d2p1:Filtre>
-      <d2p1:Img z:Id="190">Images/Recettes/marajo.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="191" z:Size="12">
-        <d2p1:Ingredient z:Id="192">
-          <d2p1:Aliment z:Id="193">Feuilles de laitue de 1 pied, coupées en lanières</d2p1:Aliment>
-          <d2p1:Quant z:Id="194">
+      <d2p1:Img z:Id="195">Images/Recettes/marajo.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="196" z:Size="12">
+        <d2p1:Ingredient z:Id="197">
+          <d2p1:Aliment z:Id="198">Feuilles de laitue de 1 pied, coupées en lanières</d2p1:Aliment>
+          <d2p1:Quant z:Id="199">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="195">
-          <d2p1:Aliment z:Id="196">petites tomates, coupées en tranches</d2p1:Aliment>
-          <d2p1:Quant z:Id="197">
+        <d2p1:Ingredient z:Id="200">
+          <d2p1:Aliment z:Id="201">petites tomates, coupées en tranches</d2p1:Aliment>
+          <d2p1:Quant z:Id="202">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="198">
-          <d2p1:Aliment z:Id="199">blanc de dinde, en cubes</d2p1:Aliment>
-          <d2p1:Quant z:Id="200">
+        <d2p1:Ingredient z:Id="203">
+          <d2p1:Aliment z:Id="204">blanc de dinde, en cubes</d2p1:Aliment>
+          <d2p1:Quant z:Id="205">
             <d2p1:Nombre>150</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="201">
-          <d2p1:Aliment z:Id="202">branches de céleri, hachées</d2p1:Aliment>
-          <d2p1:Quant z:Id="203">
+        <d2p1:Ingredient z:Id="206">
+          <d2p1:Aliment z:Id="207">branches de céleri, hachées</d2p1:Aliment>
+          <d2p1:Quant z:Id="208">
             <d2p1:Nombre>4</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="204">
-          <d2p1:Aliment z:Id="205">manchon moyen, en cales</d2p1:Aliment>
-          <d2p1:Quant z:Id="206">
+        <d2p1:Ingredient z:Id="209">
+          <d2p1:Aliment z:Id="210">manchon moyen, en cales</d2p1:Aliment>
+          <d2p1:Quant z:Id="211">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="207">
-          <d2p1:Aliment z:Id="208">tasse (thé) de noix du Brésil hachées</d2p1:Aliment>
-          <d2p1:Quant z:Id="209">
+        <d2p1:Ingredient z:Id="212">
+          <d2p1:Aliment z:Id="213">tasse (thé) de noix du Brésil hachées</d2p1:Aliment>
+          <d2p1:Quant z:Id="214">
             <d2p1:Nombre>0.5</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="210">
-          <d2p1:Aliment z:Id="211">unités moyennes de mozzarella de bufflonne, en tranches</d2p1:Aliment>
-          <d2p1:Quant z:Id="212">
+        <d2p1:Ingredient z:Id="215">
+          <d2p1:Aliment z:Id="216">unités moyennes de mozzarella de bufflonne, en tranches</d2p1:Aliment>
+          <d2p1:Quant z:Id="217">
             <d2p1:Nombre>8</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="213">
-          <d2p1:Aliment z:Id="214">tasse (thé) de mayonnaise</d2p1:Aliment>
-          <d2p1:Quant z:Id="215">
+        <d2p1:Ingredient z:Id="218">
+          <d2p1:Aliment z:Id="219">tasse (thé) de mayonnaise</d2p1:Aliment>
+          <d2p1:Quant z:Id="220">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="216">
-          <d2p1:Aliment z:Id="217">cuillère à soupe de moutarde</d2p1:Aliment>
-          <d2p1:Quant z:Id="218">
+        <d2p1:Ingredient z:Id="221">
+          <d2p1:Aliment z:Id="222">cuillère à soupe de moutarde</d2p1:Aliment>
+          <d2p1:Quant z:Id="223">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="219">
-          <d2p1:Aliment z:Id="220">cuillère (soupe) de ketchup</d2p1:Aliment>
-          <d2p1:Quant z:Id="221">
+        <d2p1:Ingredient z:Id="224">
+          <d2p1:Aliment z:Id="225">cuillère (soupe) de ketchup</d2p1:Aliment>
+          <d2p1:Quant z:Id="226">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="222">
-          <d2p1:Aliment z:Id="223">vinaigre de vin blanc</d2p1:Aliment>
-          <d2p1:Quant z:Id="224">
+        <d2p1:Ingredient z:Id="227">
+          <d2p1:Aliment z:Id="228">vinaigre de vin blanc</d2p1:Aliment>
+          <d2p1:Quant z:Id="229">
             <d2p1:Nombre>20</d2p1:Nombre>
             <d2p1:Uni>ML</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="225">
-          <d2p1:Aliment z:Id="226">sachets d'assaisonnement pour salade </d2p1:Aliment>
-          <d2p1:Quant z:Id="227">
+        <d2p1:Ingredient z:Id="230">
+          <d2p1:Aliment z:Id="231">sachets d'assaisonnement pour salade </d2p1:Aliment>
+          <d2p1:Quant z:Id="232">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>ML</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="228">Salade d'île de marajo</d2p1:Nom>
+      <d2p1:Nom z:Id="233">Salade d'île de marajo</d2p1:Nom>
       <d2p1:Origine>Nord</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="229" z:Size="3">
-        <d4p1:string z:Id="230">Dans un grand saladier, disposer les feuilles de laitue, les tranches de tomate, la poitrine de dinde, le céleri, la mangue, les noix du Brésil et la mozzarella de bufflonne</d4p1:string>
-        <d4p1:string z:Id="231">Préparez la sauce : dans un petit bol, placez la mayonnaise, la moutarde, le ketchup, le vinaigre et l'Assaisonnement SAZÓN® et mélangez</d4p1:string>
-        <d4p1:string z:Id="232">Servir la salade avec la vinaigrette.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="234" z:Size="3">
+        <d4p1:string z:Id="235">Dans un grand saladier, disposer les feuilles de laitue, les tranches de tomate, la poitrine de dinde, le céleri, la mangue, les noix du Brésil et la mozzarella de bufflonne</d4p1:string>
+        <d4p1:string z:Id="236">Préparez la sauce : dans un petit bol, placez la mayonnaise, la moutarde, le ketchup, le vinaigre et l'Assaisonnement SAZÓN® et mélangez</d4p1:string>
+        <d4p1:string z:Id="237">Servir la salade avec la vinaigrette.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>20</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="233">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="238">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="239" z:Size="0" />
       <d2p1:Couverts>1</d2p1:Couverts>
       <d2p1:Filtre>Dessert</d2p1:Filtre>
-      <d2p1:Img z:Id="234">Images/Recettes/cartola.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="235" z:Size="5">
-        <d2p1:Ingredient z:Id="236">
-          <d2p1:Aliment z:Id="237">Type de fromage Queijo do Norte ou Beurre</d2p1:Aliment>
-          <d2p1:Quant z:Id="238">
+      <d2p1:Img z:Id="240">Images/Recettes/cartola.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="241" z:Size="5">
+        <d2p1:Ingredient z:Id="242">
+          <d2p1:Aliment z:Id="243">Type de fromage Queijo do Norte ou Beurre</d2p1:Aliment>
+          <d2p1:Quant z:Id="244">
             <d2p1:Nombre>200</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="239">
-          <d2p1:Aliment z:Id="240">Banane</d2p1:Aliment>
-          <d2p1:Quant z:Id="241">
+        <d2p1:Ingredient z:Id="245">
+          <d2p1:Aliment z:Id="246">Banane</d2p1:Aliment>
+          <d2p1:Quant z:Id="247">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="242">
-          <d2p1:Aliment z:Id="243">Du sucre</d2p1:Aliment>
-          <d2p1:Quant z:Id="244">
-            <d2p1:Nombre>100</d2p1:Nombre>
-            <d2p1:Uni>G</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="245">
-          <d2p1:Aliment z:Id="246">Poudre de cannelle</d2p1:Aliment>
-          <d2p1:Quant z:Id="247">
-            <d2p1:Nombre>100</d2p1:Nombre>
-            <d2p1:Uni>G</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="248">
-          <d2p1:Aliment z:Id="249"></d2p1:Aliment>
+          <d2p1:Aliment z:Id="249">Du sucre</d2p1:Aliment>
           <d2p1:Quant z:Id="250">
+            <d2p1:Nombre>100</d2p1:Nombre>
+            <d2p1:Uni>G</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="251">
+          <d2p1:Aliment z:Id="252">Poudre de cannelle</d2p1:Aliment>
+          <d2p1:Quant z:Id="253">
+            <d2p1:Nombre>100</d2p1:Nombre>
+            <d2p1:Uni>G</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="254">
+          <d2p1:Aliment z:Id="255"></d2p1:Aliment>
+          <d2p1:Quant z:Id="256">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="251">Cartola</d2p1:Nom>
+      <d2p1:Nom z:Id="257">Cartola</d2p1:Nom>
       <d2p1:Origine>Nord</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="252" z:Size="6">
-        <d4p1:string z:Id="253">Coupez la banane en deux dans le sens de la longueur, faites-la revenir dans du beurre et réservez.</d4p1:string>
-        <d4p1:string z:Id="254">Coupez le fromage en tranches généreuses de 1,5 cm d'épaisseur et faites revenir jusqu'à ce qu'il soit presque entièrement fondu.</d4p1:string>
-        <d4p1:string z:Id="255">Dans une casserole, mélanger le sucre et la cannelle à votre goût (brun)</d4p1:string>
-        <d4p1:string z:Id="256">Placer les deux tranches de banane froide dans une assiette, le fromage presque fondu sur la banane, puis recouvrir le tout avec le sucre et la cannelle.</d4p1:string>
-        <d4p1:string z:Id="257">Le plat doit être assemblé avec la banane et le fromage encore chauds.</d4p1:string>
-        <d4p1:string z:Id="258">Consommez de préférence tout de suite.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="258" z:Size="6">
+        <d4p1:string z:Id="259">Coupez la banane en deux dans le sens de la longueur, faites-la revenir dans du beurre et réservez.</d4p1:string>
+        <d4p1:string z:Id="260">Coupez le fromage en tranches généreuses de 1,5 cm d'épaisseur et faites revenir jusqu'à ce qu'il soit presque entièrement fondu.</d4p1:string>
+        <d4p1:string z:Id="261">Dans une casserole, mélanger le sucre et la cannelle à votre goût (brun)</d4p1:string>
+        <d4p1:string z:Id="262">Placer les deux tranches de banane froide dans une assiette, le fromage presque fondu sur la banane, puis recouvrir le tout avec le sucre et la cannelle.</d4p1:string>
+        <d4p1:string z:Id="263">Le plat doit être assemblé avec la banane et le fromage encore chauds.</d4p1:string>
+        <d4p1:string z:Id="264">Consommez de préférence tout de suite.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>10</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="259">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="265">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="266" z:Size="0" />
       <d2p1:Couverts>5</d2p1:Couverts>
       <d2p1:Filtre>Dessert</d2p1:Filtre>
-      <d2p1:Img z:Id="260">Images/Recettes/macaxeira.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="261" z:Size="8">
-        <d2p1:Ingredient z:Id="262">
-          <d2p1:Aliment z:Id="263">assiettes creuses de manioc cru grossièrement râpé</d2p1:Aliment>
-          <d2p1:Quant z:Id="264">
+      <d2p1:Img z:Id="267">Images/Recettes/macaxeira.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="268" z:Size="8">
+        <d2p1:Ingredient z:Id="269">
+          <d2p1:Aliment z:Id="270">assiettes creuses de manioc cru grossièrement râpé</d2p1:Aliment>
+          <d2p1:Quant z:Id="271">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="265">
-          <d2p1:Aliment z:Id="266">boîte de lait concentré</d2p1:Aliment>
-          <d2p1:Quant z:Id="267">
+        <d2p1:Ingredient z:Id="272">
+          <d2p1:Aliment z:Id="273">boîte de lait concentré</d2p1:Aliment>
+          <d2p1:Quant z:Id="274">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="268">
-          <d2p1:Aliment z:Id="269">œufs entiers</d2p1:Aliment>
-          <d2p1:Quant z:Id="270">
+        <d2p1:Ingredient z:Id="275">
+          <d2p1:Aliment z:Id="276">œufs entiers</d2p1:Aliment>
+          <d2p1:Quant z:Id="277">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="271">
-          <d2p1:Aliment z:Id="272">tasse (thé) de margarine fondue</d2p1:Aliment>
-          <d2p1:Quant z:Id="273">
+        <d2p1:Ingredient z:Id="278">
+          <d2p1:Aliment z:Id="279">tasse (thé) de margarine fondue</d2p1:Aliment>
+          <d2p1:Quant z:Id="280">
             <d2p1:Nombre>0.5</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="274">
-          <d2p1:Aliment z:Id="275">cuillère à soupe de levure chimique</d2p1:Aliment>
-          <d2p1:Quant z:Id="276">
+        <d2p1:Ingredient z:Id="281">
+          <d2p1:Aliment z:Id="282">cuillère à soupe de levure chimique</d2p1:Aliment>
+          <d2p1:Quant z:Id="283">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="277">
-          <d2p1:Aliment z:Id="278">noix de coco fraîchement râpée</d2p1:Aliment>
-          <d2p1:Quant z:Id="279">
+        <d2p1:Ingredient z:Id="284">
+          <d2p1:Aliment z:Id="285">noix de coco fraîchement râpée</d2p1:Aliment>
+          <d2p1:Quant z:Id="286">
             <d2p1:Nombre>100</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="280">
-          <d2p1:Aliment z:Id="281">tasses de (thé) sucre</d2p1:Aliment>
-          <d2p1:Quant z:Id="282">
+        <d2p1:Ingredient z:Id="287">
+          <d2p1:Aliment z:Id="288">tasses de (thé) sucre</d2p1:Aliment>
+          <d2p1:Quant z:Id="289">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="283">
-          <d2p1:Aliment z:Id="284">tasses de (thé) d'eau</d2p1:Aliment>
-          <d2p1:Quant z:Id="285">
+        <d2p1:Ingredient z:Id="290">
+          <d2p1:Aliment z:Id="291">tasses de (thé) d'eau</d2p1:Aliment>
+          <d2p1:Quant z:Id="292">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="286">Gâteau Macaxeira</d2p1:Nom>
+      <d2p1:Nom z:Id="293">Gâteau Macaxeira</d2p1:Nom>
       <d2p1:Origine>Nord</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="287" z:Size="5">
-        <d4p1:string z:Id="288">Bien mélanger les 4 premiers ingrédients, ajouter la levure et la noix de coco fraîche.</d4p1:string>
-        <d4p1:string z:Id="289">Placer sur une plaque à pâtisserie graissée et farinée.</d4p1:string>
-        <d4p1:string z:Id="290">Portez-le au four moyen, préchauffé, pendant environ 40 minutes.</d4p1:string>
-        <d4p1:string z:Id="291">Pour le sirop, porter les 2 ingrédients à feu doux, quand ça bout, remuer un peu et laisser sur le feu encore 2 minutes.</d4p1:string>
-        <d4p1:string z:Id="292">Le gâteau encore chaud, versez le sirop dessus et remettez le gâteau au four encore 10 minutes.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="294" z:Size="5">
+        <d4p1:string z:Id="295">Bien mélanger les 4 premiers ingrédients, ajouter la levure et la noix de coco fraîche.</d4p1:string>
+        <d4p1:string z:Id="296">Placer sur une plaque à pâtisserie graissée et farinée.</d4p1:string>
+        <d4p1:string z:Id="297">Portez-le au four moyen, préchauffé, pendant environ 40 minutes.</d4p1:string>
+        <d4p1:string z:Id="298">Pour le sirop, porter les 2 ingrédients à feu doux, quand ça bout, remuer un peu et laisser sur le feu encore 2 minutes.</d4p1:string>
+        <d4p1:string z:Id="299">Le gâteau encore chaud, versez le sirop dessus et remettez le gâteau au four encore 10 minutes.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>80</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="293">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="300">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="301" z:Size="0" />
       <d2p1:Couverts>10</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="294">Images/Recettes/piauense.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="295" z:Size="10">
-        <d2p1:Ingredient z:Id="296">
-          <d2p1:Aliment z:Id="297">tripes</d2p1:Aliment>
-          <d2p1:Quant z:Id="298">
+      <d2p1:Img z:Id="302">Images/Recettes/piauense.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="303" z:Size="10">
+        <d2p1:Ingredient z:Id="304">
+          <d2p1:Aliment z:Id="305">tripes</d2p1:Aliment>
+          <d2p1:Quant z:Id="306">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="299">
-          <d2p1:Aliment z:Id="300">nerfs</d2p1:Aliment>
-          <d2p1:Quant z:Id="301">
+        <d2p1:Ingredient z:Id="307">
+          <d2p1:Aliment z:Id="308">nerfs</d2p1:Aliment>
+          <d2p1:Quant z:Id="309">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="302">
-          <d2p1:Aliment z:Id="303">poivre moyen</d2p1:Aliment>
-          <d2p1:Quant z:Id="304">
+        <d2p1:Ingredient z:Id="310">
+          <d2p1:Aliment z:Id="311">poivre moyen</d2p1:Aliment>
+          <d2p1:Quant z:Id="312">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="305">
-          <d2p1:Aliment z:Id="306">oignons moyens, hachés</d2p1:Aliment>
-          <d2p1:Quant z:Id="307">
+        <d2p1:Ingredient z:Id="313">
+          <d2p1:Aliment z:Id="314">oignons moyens, hachés</d2p1:Aliment>
+          <d2p1:Quant z:Id="315">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="308">
-          <d2p1:Aliment z:Id="309">tomates au goût</d2p1:Aliment>
-          <d2p1:Quant z:Id="310">
+        <d2p1:Ingredient z:Id="316">
+          <d2p1:Aliment z:Id="317">tomates au goût</d2p1:Aliment>
+          <d2p1:Quant z:Id="318">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="311">
-          <d2p1:Aliment z:Id="312">poivre et sel</d2p1:Aliment>
-          <d2p1:Quant z:Id="313">
+        <d2p1:Ingredient z:Id="319">
+          <d2p1:Aliment z:Id="320">poivre et sel</d2p1:Aliment>
+          <d2p1:Quant z:Id="321">
             <d2p1:Nombre>100</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="314">
-          <d2p1:Aliment z:Id="315">sabots de boeuf</d2p1:Aliment>
-          <d2p1:Quant z:Id="316">
+        <d2p1:Ingredient z:Id="322">
+          <d2p1:Aliment z:Id="323">sabots de boeuf</d2p1:Aliment>
+          <d2p1:Quant z:Id="324">
             <d2p1:Nombre>6</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="317">
-          <d2p1:Aliment z:Id="318">gousses d'ail, hachées ou écrasées</d2p1:Aliment>
-          <d2p1:Quant z:Id="319">
+        <d2p1:Ingredient z:Id="325">
+          <d2p1:Aliment z:Id="326">gousses d'ail, hachées ou écrasées</d2p1:Aliment>
+          <d2p1:Quant z:Id="327">
             <d2p1:Nombre>4</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="320">
-          <d2p1:Aliment z:Id="321">feuilles de laurier</d2p1:Aliment>
-          <d2p1:Quant z:Id="322">
+        <d2p1:Ingredient z:Id="328">
+          <d2p1:Aliment z:Id="329">feuilles de laurier</d2p1:Aliment>
+          <d2p1:Quant z:Id="330">
             <d2p1:Nombre>10</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="323">
-          <d2p1:Aliment z:Ref="129" i:nil="true" />
-          <d2p1:Quant z:Id="324">
+        <d2p1:Ingredient z:Id="331">
+          <d2p1:Aliment z:Ref="132" i:nil="true" />
+          <d2p1:Quant z:Id="332">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="325">Panelada piauense</d2p1:Nom>
+      <d2p1:Nom z:Id="333">Panelada piauense</d2p1:Nom>
       <d2p1:Origine>Nordest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="326" z:Size="3">
-        <d4p1:string z:Id="327">Mélangez les tripes, les tripes et les pieds de boeuf et faites bouillir 15 minutes avec le jus de 2 citrons.</d4p1:string>
-        <d4p1:string z:Id="328">Ajouter les assaisonnements et mélanger avec les tripes, les tripes et les pieds.</d4p1:string>
-        <d4p1:string z:Id="329">Cuire pendant 2 heures et vérifier toutes les 30 minutes pour voir ce que vous aimez.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="334" z:Size="3">
+        <d4p1:string z:Id="335">Mélangez les tripes, les tripes et les pieds de boeuf et faites bouillir 15 minutes avec le jus de 2 citrons.</d4p1:string>
+        <d4p1:string z:Id="336">Ajouter les assaisonnements et mélanger avec les tripes, les tripes et les pieds.</d4p1:string>
+        <d4p1:string z:Id="337">Cuire pendant 2 heures et vérifier toutes les 30 minutes pour voir ce que vous aimez.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>135</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="330">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="338">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="339" z:Size="0" />
       <d2p1:Couverts>2</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="331">Images/Recettes/crevettes.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="332" z:Size="10">
-        <d2p1:Ingredient z:Id="333">
-          <d2p1:Aliment z:Id="334">crevettes moyennes</d2p1:Aliment>
-          <d2p1:Quant z:Id="335">
+      <d2p1:Img z:Id="340">Images/Recettes/crevettes.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="341" z:Size="10">
+        <d2p1:Ingredient z:Id="342">
+          <d2p1:Aliment z:Id="343">crevettes moyennes</d2p1:Aliment>
+          <d2p1:Quant z:Id="344">
             <d2p1:Nombre>0.5</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="336">
-          <d2p1:Aliment z:Id="337">jus de citron</d2p1:Aliment>
-          <d2p1:Quant z:Id="338">
+        <d2p1:Ingredient z:Id="345">
+          <d2p1:Aliment z:Id="346">jus de citron</d2p1:Aliment>
+          <d2p1:Quant z:Id="347">
             <d2p1:Nombre>100</d2p1:Nombre>
             <d2p1:Uni>ML</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="339">
-          <d2p1:Aliment z:Id="340">tasse de café à l'huile de palme</d2p1:Aliment>
-          <d2p1:Quant z:Id="341">
-            <d2p1:Nombre>0.5</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="342">
-          <d2p1:Aliment z:Id="343">oignons moyens, coupés en rondelles</d2p1:Aliment>
-          <d2p1:Quant z:Id="344">
-            <d2p1:Nombre>2</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="345">
-          <d2p1:Aliment z:Id="346">tasse de thé à la coriandre</d2p1:Aliment>
-          <d2p1:Quant z:Id="347">
-            <d2p1:Nombre>0.5</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="348">
-          <d2p1:Aliment z:Id="349">tasse de persil haché</d2p1:Aliment>
+          <d2p1:Aliment z:Id="349">tasse de café à l'huile de palme</d2p1:Aliment>
           <d2p1:Quant z:Id="350">
             <d2p1:Nombre>0.5</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="351">
-          <d2p1:Aliment z:Id="352">oignons verts hachés</d2p1:Aliment>
+          <d2p1:Aliment z:Id="352">oignons moyens, coupés en rondelles</d2p1:Aliment>
           <d2p1:Quant z:Id="353">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="354">
-          <d2p1:Aliment z:Id="355">tomates coupées en tranches</d2p1:Aliment>
+          <d2p1:Aliment z:Id="355">tasse de thé à la coriandre</d2p1:Aliment>
           <d2p1:Quant z:Id="356">
-            <d2p1:Nombre>3</d2p1:Nombre>
+            <d2p1:Nombre>0.5</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="357">
-          <d2p1:Aliment z:Id="358">Sel</d2p1:Aliment>
+          <d2p1:Aliment z:Id="358">tasse de persil haché</d2p1:Aliment>
           <d2p1:Quant z:Id="359">
+            <d2p1:Nombre>0.5</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="360">
+          <d2p1:Aliment z:Id="361">oignons verts hachés</d2p1:Aliment>
+          <d2p1:Quant z:Id="362">
+            <d2p1:Nombre>2</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="363">
+          <d2p1:Aliment z:Id="364">tomates coupées en tranches</d2p1:Aliment>
+          <d2p1:Quant z:Id="365">
+            <d2p1:Nombre>3</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="366">
+          <d2p1:Aliment z:Id="367">Sel</d2p1:Aliment>
+          <d2p1:Quant z:Id="368">
             <d2p1:Nombre>10</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="360">
-          <d2p1:Aliment z:Id="361">verre de lait de coco</d2p1:Aliment>
-          <d2p1:Quant z:Id="362">
+        <d2p1:Ingredient z:Id="369">
+          <d2p1:Aliment z:Id="370">verre de lait de coco</d2p1:Aliment>
+          <d2p1:Quant z:Id="371">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="363">Moqueca aux crevettes</d2p1:Nom>
+      <d2p1:Nom z:Id="372">Moqueca aux crevettes</d2p1:Nom>
       <d2p1:Origine>Nordest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="364" z:Size="6">
-        <d4p1:string z:Id="365">Nettoyez les crevettes et assaisonnez avec du sel et du jus de citron.</d4p1:string>
-        <d4p1:string z:Id="366">Réservez</d4p1:string>
-        <d4p1:string z:Id="367">Faire revenir tous les assaisonnements pendant 15 minutes dans l'huile de palme.</d4p1:string>
-        <d4p1:string z:Id="368">Ajouter les crevettes et cuire 5 minutes avec la poêle couverte</d4p1:string>
-        <d4p1:string z:Id="369">Enfin, ajoutez le lait de coco</d4p1:string>
-        <d4p1:string z:Id="370">Servir avec du riz blanc</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="373" z:Size="6">
+        <d4p1:string z:Id="374">Nettoyez les crevettes et assaisonnez avec du sel et du jus de citron.</d4p1:string>
+        <d4p1:string z:Id="375">Réservez</d4p1:string>
+        <d4p1:string z:Id="376">Faire revenir tous les assaisonnements pendant 15 minutes dans l'huile de palme.</d4p1:string>
+        <d4p1:string z:Id="377">Ajouter les crevettes et cuire 5 minutes avec la poêle couverte</d4p1:string>
+        <d4p1:string z:Id="378">Enfin, ajoutez le lait de coco</d4p1:string>
+        <d4p1:string z:Id="379">Servir avec du riz blanc</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>20</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="371">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="380">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="381" z:Size="0" />
       <d2p1:Couverts>5</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="372">Images/Recettes/caruru.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="373" z:Size="9">
-        <d2p1:Ingredient z:Id="374">
-          <d2p1:Aliment z:Id="375">gombo coupé en forme de croix</d2p1:Aliment>
-          <d2p1:Quant z:Id="376">
+      <d2p1:Img z:Id="382">Images/Recettes/caruru.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="383" z:Size="9">
+        <d2p1:Ingredient z:Id="384">
+          <d2p1:Aliment z:Id="385">gombo coupé en forme de croix</d2p1:Aliment>
+          <d2p1:Quant z:Id="386">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="377">
-          <d2p1:Aliment z:Id="378">oignon râpé</d2p1:Aliment>
-          <d2p1:Quant z:Id="379">
+        <d2p1:Ingredient z:Id="387">
+          <d2p1:Aliment z:Id="388">oignon râpé</d2p1:Aliment>
+          <d2p1:Quant z:Id="389">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="380">
-          <d2p1:Aliment z:Ref="31" i:nil="true" />
-          <d2p1:Quant z:Id="381">
+        <d2p1:Ingredient z:Id="390">
+          <d2p1:Aliment z:Ref="32" i:nil="true" />
+          <d2p1:Quant z:Id="391">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="382">
-          <d2p1:Aliment z:Id="383">gingebre râpé</d2p1:Aliment>
-          <d2p1:Quant z:Id="384">
+        <d2p1:Ingredient z:Id="392">
+          <d2p1:Aliment z:Id="393">gingebre râpé</d2p1:Aliment>
+          <d2p1:Quant z:Id="394">
             <d2p1:Nombre>100</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="385">
-          <d2p1:Aliment z:Id="386">crevettes séchées moulues</d2p1:Aliment>
-          <d2p1:Quant z:Id="387">
+        <d2p1:Ingredient z:Id="395">
+          <d2p1:Aliment z:Id="396">crevettes séchées moulues</d2p1:Aliment>
+          <d2p1:Quant z:Id="397">
             <d2p1:Nombre>0.5</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="388">
-          <d2p1:Aliment z:Id="389">noix de cajou moulues</d2p1:Aliment>
-          <d2p1:Quant z:Id="390">
+        <d2p1:Ingredient z:Id="398">
+          <d2p1:Aliment z:Id="399">noix de cajou moulues</d2p1:Aliment>
+          <d2p1:Quant z:Id="400">
             <d2p1:Nombre>200</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="391">
-          <d2p1:Aliment z:Id="392">tasse de thé à l'huile de palme</d2p1:Aliment>
-          <d2p1:Quant z:Id="393">
+        <d2p1:Ingredient z:Id="401">
+          <d2p1:Aliment z:Id="402">tasse de thé à l'huile de palme</d2p1:Aliment>
+          <d2p1:Quant z:Id="403">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="394">
-          <d2p1:Aliment z:Ref="337" i:nil="true" />
-          <d2p1:Quant z:Id="395">
+        <d2p1:Ingredient z:Id="404">
+          <d2p1:Aliment z:Ref="346" i:nil="true" />
+          <d2p1:Quant z:Id="405">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>L</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="396">
-          <d2p1:Aliment z:Id="397">Eau chaude</d2p1:Aliment>
-          <d2p1:Quant z:Id="398">
+        <d2p1:Ingredient z:Id="406">
+          <d2p1:Aliment z:Id="407">Eau chaude</d2p1:Aliment>
+          <d2p1:Quant z:Id="408">
             <d2p1:Nombre>200</d2p1:Nombre>
             <d2p1:Uni>ML</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="399">Caruru</d2p1:Nom>
+      <d2p1:Nom z:Id="409">Caruru</d2p1:Nom>
       <d2p1:Origine>Nordest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="400" z:Size="7">
-        <d4p1:string z:Id="401">Faites chauffer l'huile de palme dans une poêle et faites revenir l'oignon et l'ail.</d4p1:string>
-        <d4p1:string z:Id="402">Ajoutez ensuite le gingembre râpé.</d4p1:string>
-        <d4p1:string z:Id="403">Ajoutez le gombo et laissez-le sauter.</d4p1:string>
-        <d4p1:string z:Id="404">Ajouter les crevettes séchées, les marrons et laisser cuire un peu plus longtemps</d4p1:string>
-        <d4p1:string z:Id="405">Ajouter suffisamment d'eau chaude pour couvrir.</d4p1:string>
-        <d4p1:string z:Id="406">Pendant la cuisson, testez la bave de gombo et ajoutez, petit à petit, des cuillerées de jus de citron</d4p1:string>
-        <d4p1:string z:Id="407">Laissez cuire jusqu'à ce que les graines deviennent roses</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="410" z:Size="7">
+        <d4p1:string z:Id="411">Faites chauffer l'huile de palme dans une poêle et faites revenir l'oignon et l'ail.</d4p1:string>
+        <d4p1:string z:Id="412">Ajoutez ensuite le gingembre râpé.</d4p1:string>
+        <d4p1:string z:Id="413">Ajoutez le gombo et laissez-le sauter.</d4p1:string>
+        <d4p1:string z:Id="414">Ajouter les crevettes séchées, les marrons et laisser cuire un peu plus longtemps</d4p1:string>
+        <d4p1:string z:Id="415">Ajouter suffisamment d'eau chaude pour couvrir.</d4p1:string>
+        <d4p1:string z:Id="416">Pendant la cuisson, testez la bave de gombo et ajoutez, petit à petit, des cuillerées de jus de citron</d4p1:string>
+        <d4p1:string z:Id="417">Laissez cuire jusqu'à ce que les graines deviennent roses</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>80</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="408">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="418">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="419" z:Size="0" />
       <d2p1:Couverts>4</d2p1:Couverts>
       <d2p1:Filtre>Entree</d2p1:Filtre>
-      <d2p1:Img z:Id="409">Images/Recettes/catupiry.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="410" z:Size="12">
-        <d2p1:Ingredient z:Id="411">
-          <d2p1:Aliment z:Id="412">tapioca</d2p1:Aliment>
-          <d2p1:Quant z:Id="413">
+      <d2p1:Img z:Id="420">Images/Recettes/catupiry.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="421" z:Size="12">
+        <d2p1:Ingredient z:Id="422">
+          <d2p1:Aliment z:Id="423">tapioca</d2p1:Aliment>
+          <d2p1:Quant z:Id="424">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="414">
-          <d2p1:Aliment z:Id="415">sel</d2p1:Aliment>
-          <d2p1:Quant z:Id="416">
+        <d2p1:Ingredient z:Id="425">
+          <d2p1:Aliment z:Id="426">sel</d2p1:Aliment>
+          <d2p1:Quant z:Id="427">
             <d2p1:Nombre>10</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="417">
-          <d2p1:Aliment z:Id="418">poitrines de poulet</d2p1:Aliment>
-          <d2p1:Quant z:Id="419">
+        <d2p1:Ingredient z:Id="428">
+          <d2p1:Aliment z:Id="429">poitrines de poulet</d2p1:Aliment>
+          <d2p1:Quant z:Id="430">
             <d2p1:Nombre>500</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="420">
-          <d2p1:Aliment z:Id="421">1cube de bouillon de poulet</d2p1:Aliment>
-          <d2p1:Quant z:Id="422">
+        <d2p1:Ingredient z:Id="431">
+          <d2p1:Aliment z:Id="432">1cube de bouillon de poulet</d2p1:Aliment>
+          <d2p1:Quant z:Id="433">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="423">
-          <d2p1:Aliment z:Id="424">coriandre et paprika</d2p1:Aliment>
-          <d2p1:Quant z:Id="425">
+        <d2p1:Ingredient z:Id="434">
+          <d2p1:Aliment z:Id="435">coriandre et paprika</d2p1:Aliment>
+          <d2p1:Quant z:Id="436">
             <d2p1:Nombre>100</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="426">
-          <d2p1:Aliment z:Id="427">cuillière de soupe d'huile d'olive</d2p1:Aliment>
-          <d2p1:Quant z:Id="428">
+        <d2p1:Ingredient z:Id="437">
+          <d2p1:Aliment z:Id="438">cuillière de soupe d'huile d'olive</d2p1:Aliment>
+          <d2p1:Quant z:Id="439">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="429">
-          <d2p1:Aliment z:Id="430">poivron vert</d2p1:Aliment>
-          <d2p1:Quant z:Id="431">
+        <d2p1:Ingredient z:Id="440">
+          <d2p1:Aliment z:Id="441">poivron vert</d2p1:Aliment>
+          <d2p1:Quant z:Id="442">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="432">
-          <d2p1:Aliment z:Id="433">oignon haché</d2p1:Aliment>
-          <d2p1:Quant z:Id="434">
+        <d2p1:Ingredient z:Id="443">
+          <d2p1:Aliment z:Id="444">oignon haché</d2p1:Aliment>
+          <d2p1:Quant z:Id="445">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="435">
-          <d2p1:Aliment z:Id="436">tomate hachée</d2p1:Aliment>
-          <d2p1:Quant z:Id="437">
+        <d2p1:Ingredient z:Id="446">
+          <d2p1:Aliment z:Id="447">tomate hachée</d2p1:Aliment>
+          <d2p1:Quant z:Id="448">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="438">
-          <d2p1:Aliment z:Id="439">bouquet d'odeur verte</d2p1:Aliment>
-          <d2p1:Quant z:Id="440">
+        <d2p1:Ingredient z:Id="449">
+          <d2p1:Aliment z:Id="450">bouquet d'odeur verte</d2p1:Aliment>
+          <d2p1:Quant z:Id="451">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="441">
-          <d2p1:Aliment z:Id="442">sel au goût</d2p1:Aliment>
-          <d2p1:Quant z:Id="443">
+        <d2p1:Ingredient z:Id="452">
+          <d2p1:Aliment z:Id="453">sel au goût</d2p1:Aliment>
+          <d2p1:Quant z:Id="454">
             <d2p1:Nombre>10</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="444">
-          <d2p1:Aliment z:Id="445">catupiry</d2p1:Aliment>
-          <d2p1:Quant z:Id="446">
+        <d2p1:Ingredient z:Id="455">
+          <d2p1:Aliment z:Id="456">catupiry</d2p1:Aliment>
+          <d2p1:Quant z:Id="457">
             <d2p1:Nombre>250</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="447">Tapioca poulet et catupiry</d2p1:Nom>
+      <d2p1:Nom z:Id="458">Tapioca poulet et catupiry</d2p1:Nom>
       <d2p1:Origine>Nordest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="448" z:Size="4">
-        <d4p1:string z:Id="449">Assaisonnez la poitrine de poulet désossée avec le cube de bouillon de poulet, la coriandre, le paprika et une cuillère à soupe d'huile d'olive.</d4p1:string>
-        <d4p1:string z:Id="450">Placer le poivron vert coupé en petits cubes, l'oignon haché, la tomate hachée, l'odeur verte et le sel au goût.</d4p1:string>
-        <d4p1:string z:Id="451">Râpez et ajoutez 150 g de crème.</d4p1:string>
-        <d4p1:string z:Id="452">Étalez le caillé sur le tapioca, placez une tranche de fromage mozzarella et la farce depoulet avec la crème.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="459" z:Size="4">
+        <d4p1:string z:Id="460">Assaisonnez la poitrine de poulet désossée avec le cube de bouillon de poulet, la coriandre, le paprika et une cuillère à soupe d'huile d'olive.</d4p1:string>
+        <d4p1:string z:Id="461">Placer le poivron vert coupé en petits cubes, l'oignon haché, la tomate hachée, l'odeur verte et le sel au goût.</d4p1:string>
+        <d4p1:string z:Id="462">Râpez et ajoutez 150 g de crème.</d4p1:string>
+        <d4p1:string z:Id="463">Étalez le caillé sur le tapioca, placez une tranche de fromage mozzarella et la farce depoulet avec la crème.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>40</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="453">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="464">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="465" z:Size="0" />
       <d2p1:Couverts>8</d2p1:Couverts>
       <d2p1:Filtre>Dessert</d2p1:Filtre>
-      <d2p1:Img z:Id="454">Images/Recettes/tapioca.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="455" z:Size="7">
-        <d2p1:Ingredient z:Id="456">
-          <d2p1:Aliment z:Id="457">tasse de sucre</d2p1:Aliment>
-          <d2p1:Quant z:Id="458">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="459">
-          <d2p1:Aliment z:Id="460">tasse d'eau</d2p1:Aliment>
-          <d2p1:Quant z:Id="461">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="462">
-          <d2p1:Aliment z:Id="463">tasse de tapioca granulé</d2p1:Aliment>
-          <d2p1:Quant z:Id="464">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="465">
-          <d2p1:Aliment z:Id="466">lait de coco</d2p1:Aliment>
-          <d2p1:Quant z:Id="467">
-            <d2p1:Nombre>100</d2p1:Nombre>
-            <d2p1:Uni>ML</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
+      <d2p1:Img z:Id="466">Images/Recettes/tapioca.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="467" z:Size="7">
         <d2p1:Ingredient z:Id="468">
-          <d2p1:Aliment z:Id="469">tasse de lait</d2p1:Aliment>
+          <d2p1:Aliment z:Id="469">tasse de sucre</d2p1:Aliment>
           <d2p1:Quant z:Id="470">
-            <d2p1:Nombre>2</d2p1:Nombre>
+            <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="471">
-          <d2p1:Aliment z:Id="472">boite de lait concentré</d2p1:Aliment>
+          <d2p1:Aliment z:Id="472">tasse d'eau</d2p1:Aliment>
           <d2p1:Quant z:Id="473">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="474">
-          <d2p1:Aliment z:Ref="173" i:nil="true" />
-          <d2p1:Quant z:Id="475">
+          <d2p1:Aliment z:Id="475">tasse de tapioca granulé</d2p1:Aliment>
+          <d2p1:Quant z:Id="476">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="477">
+          <d2p1:Aliment z:Id="478">lait de coco</d2p1:Aliment>
+          <d2p1:Quant z:Id="479">
+            <d2p1:Nombre>100</d2p1:Nombre>
+            <d2p1:Uni>ML</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="480">
+          <d2p1:Aliment z:Id="481">tasse de lait</d2p1:Aliment>
+          <d2p1:Quant z:Id="482">
+            <d2p1:Nombre>2</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="483">
+          <d2p1:Aliment z:Id="484">boite de lait concentré</d2p1:Aliment>
+          <d2p1:Quant z:Id="485">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="486">
+          <d2p1:Aliment z:Ref="177" i:nil="true" />
+          <d2p1:Quant z:Id="487">
             <d2p1:Nombre>4</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="476">Pudim de tapioca</d2p1:Nom>
+      <d2p1:Nom z:Id="488">Pudim de tapioca</d2p1:Nom>
       <d2p1:Origine>Nordest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="477" z:Size="10">
-        <d4p1:string z:Id="478">Portez le sucre, dans une casserole, au feu et faites cuire jusqu'à ce qu'il caramélise.</d4p1:string>
-        <d4p1:string z:Id="479">Ajouter 1/2 tasse d'eau et éteindre le feu.</d4p1:string>
-        <d4p1:string z:Id="480">Versez ce sirop dans une forme avec un trou au milieu et réservez.</d4p1:string>
-        <d4p1:string z:Id="481">Dans un bol, mélanger le tapioca granulé avec le lait de coco et laisser hydrater 20 à 30 minutes, réserver.</d4p1:string>
-        <d4p1:string z:Id="482">Battez le lait avec le lait concentré et les œufs dans un mélangeur.</d4p1:string>
-        <d4p1:string z:Id="483">Ouvrez le couvercle du mélangeur et ajoutez le tapioca hydraté.</d4p1:string>
-        <d4p1:string z:Id="484">Fouettez rapidement, juste pour mélanger</d4p1:string>
-        <d4p1:string z:Id="485">Versez ce mélange dans la forme réservée avec le sirop.</d4p1:string>
-        <d4p1:string z:Id="486">Recouvrez le moule de papier d'aluminium et faites cuire au bain-marie (180°C) pendant environ 60 minutes.</d4p1:string>
-        <d4p1:string z:Id="487">Démouler et conserver au réfrigérateur.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="489" z:Size="10">
+        <d4p1:string z:Id="490">Portez le sucre, dans une casserole, au feu et faites cuire jusqu'à ce qu'il caramélise.</d4p1:string>
+        <d4p1:string z:Id="491">Ajouter 1/2 tasse d'eau et éteindre le feu.</d4p1:string>
+        <d4p1:string z:Id="492">Versez ce sirop dans une forme avec un trou au milieu et réservez.</d4p1:string>
+        <d4p1:string z:Id="493">Dans un bol, mélanger le tapioca granulé avec le lait de coco et laisser hydrater 20 à 30 minutes, réserver.</d4p1:string>
+        <d4p1:string z:Id="494">Battez le lait avec le lait concentré et les œufs dans un mélangeur.</d4p1:string>
+        <d4p1:string z:Id="495">Ouvrez le couvercle du mélangeur et ajoutez le tapioca hydraté.</d4p1:string>
+        <d4p1:string z:Id="496">Fouettez rapidement, juste pour mélanger</d4p1:string>
+        <d4p1:string z:Id="497">Versez ce mélange dans la forme réservée avec le sirop.</d4p1:string>
+        <d4p1:string z:Id="498">Recouvrez le moule de papier d'aluminium et faites cuire au bain-marie (180°C) pendant environ 60 minutes.</d4p1:string>
+        <d4p1:string z:Id="499">Démouler et conserver au réfrigérateur.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>90</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="488">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="500">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="501" z:Size="0" />
       <d2p1:Couverts>8</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="489">Images/Recettes/piranha.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="490" z:Size="8">
-        <d2p1:Ingredient z:Id="491">
-          <d2p1:Aliment z:Id="492">piranhas</d2p1:Aliment>
-          <d2p1:Quant z:Id="493">
+      <d2p1:Img z:Id="502">Images/Recettes/piranha.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="503" z:Size="8">
+        <d2p1:Ingredient z:Id="504">
+          <d2p1:Aliment z:Id="505">piranhas</d2p1:Aliment>
+          <d2p1:Quant z:Id="506">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="494">
-          <d2p1:Aliment z:Id="495">oignons</d2p1:Aliment>
-          <d2p1:Quant z:Id="496">
+        <d2p1:Ingredient z:Id="507">
+          <d2p1:Aliment z:Id="508">oignons</d2p1:Aliment>
+          <d2p1:Quant z:Id="509">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="497">
-          <d2p1:Aliment z:Id="498">sachet d'assaisonnement pour poisson assaisonné</d2p1:Aliment>
-          <d2p1:Quant z:Id="499">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="500">
-          <d2p1:Aliment z:Ref="31" i:nil="true" />
-          <d2p1:Quant z:Id="501">
-            <d2p1:Nombre>4</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="502">
-          <d2p1:Aliment z:Id="503">eau</d2p1:Aliment>
-          <d2p1:Quant z:Id="504">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>L</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="505">
-          <d2p1:Aliment z:Id="506">paquet de creme d'oignon</d2p1:Aliment>
-          <d2p1:Quant z:Id="507">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="508">
-          <d2p1:Aliment z:Id="509">cuillière (soupe) huile d'olive</d2p1:Aliment>
-          <d2p1:Quant z:Id="510">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="511">
-          <d2p1:Aliment z:Ref="249" i:nil="true" />
+        <d2p1:Ingredient z:Id="510">
+          <d2p1:Aliment z:Id="511">sachet d'assaisonnement pour poisson assaisonné</d2p1:Aliment>
           <d2p1:Quant z:Id="512">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-      </d2p1:Ingredients>
-      <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="513">Bouillon de piranha</d2p1:Nom>
-      <d2p1:Origine>CentreOuest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="514" z:Size="8">
-        <d4p1:string z:Id="515">Pressez l'ail, écrasez l'oignon et mettez-le à dorer dans l'huile, dans une cocotte-minute.</d4p1:string>
-        <d4p1:string z:Id="516">Assaisonnez les piranhas avec l'assaisonnement pour poisson</d4p1:string>
-        <d4p1:string z:Id="517">Lorsque l'ail et l'oignon sont dorés, ajoutez les piranhas.</d4p1:string>
-        <d4p1:string z:Id="518">Faire sauter et ajouter l'eau, le persil et la ciboulette.</d4p1:string>
-        <d4p1:string z:Id="519">Laisser sous pression pendant 30 minutes.</d4p1:string>
-        <d4p1:string z:Id="520">Laisser refroidir et passer au tamis.</d4p1:string>
-        <d4p1:string z:Id="521">Placer dans une casserole, ajouter la crème d'oignon et porter à ébullition en remuant constamment, à feu doux.</d4p1:string>
-        <d4p1:string z:Id="522">Servir avec du persil et du parmesan râpé.</d4p1:string>
-      </d2p1:Preparation>
-      <d2p1:Temps>90</d2p1:Temps>
-    </d2p1:Recette>
-    <d2p1:Recette z:Id="523">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-      <d2p1:Couverts>1</d2p1:Couverts>
-      <d2p1:Filtre>Entree</d2p1:Filtre>
-      <d2p1:Img z:Id="524">Images/Recettes/terere.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="525" z:Size="5">
-        <d2p1:Ingredient z:Id="526">
-          <d2p1:Aliment z:Id="527">paquet de jus de citron</d2p1:Aliment>
-          <d2p1:Quant z:Id="528">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>KG</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="529">
-          <d2p1:Aliment z:Id="530">citron hachés</d2p1:Aliment>
-          <d2p1:Quant z:Id="531">
+        <d2p1:Ingredient z:Id="513">
+          <d2p1:Aliment z:Ref="32" i:nil="true" />
+          <d2p1:Quant z:Id="514">
             <d2p1:Nombre>4</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="532">
-          <d2p1:Aliment z:Ref="457" i:nil="true" />
-          <d2p1:Quant z:Id="533">
+        <d2p1:Ingredient z:Id="515">
+          <d2p1:Aliment z:Id="516">eau</d2p1:Aliment>
+          <d2p1:Quant z:Id="517">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>L</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="518">
+          <d2p1:Aliment z:Id="519">paquet de creme d'oignon</d2p1:Aliment>
+          <d2p1:Quant z:Id="520">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="521">
+          <d2p1:Aliment z:Id="522">cuillière (soupe) huile d'olive</d2p1:Aliment>
+          <d2p1:Quant z:Id="523">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="524">
+          <d2p1:Aliment z:Ref="255" i:nil="true" />
+          <d2p1:Quant z:Id="525">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+      </d2p1:Ingredients>
+      <d2p1:Liked>0</d2p1:Liked>
+      <d2p1:Nom z:Id="526">Bouillon de piranha</d2p1:Nom>
+      <d2p1:Origine>CentreOuest</d2p1:Origine>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="527" z:Size="8">
+        <d4p1:string z:Id="528">Pressez l'ail, écrasez l'oignon et mettez-le à dorer dans l'huile, dans une cocotte-minute.</d4p1:string>
+        <d4p1:string z:Id="529">Assaisonnez les piranhas avec l'assaisonnement pour poisson</d4p1:string>
+        <d4p1:string z:Id="530">Lorsque l'ail et l'oignon sont dorés, ajoutez les piranhas.</d4p1:string>
+        <d4p1:string z:Id="531">Faire sauter et ajouter l'eau, le persil et la ciboulette.</d4p1:string>
+        <d4p1:string z:Id="532">Laisser sous pression pendant 30 minutes.</d4p1:string>
+        <d4p1:string z:Id="533">Laisser refroidir et passer au tamis.</d4p1:string>
+        <d4p1:string z:Id="534">Placer dans une casserole, ajouter la crème d'oignon et porter à ébullition en remuant constamment, à feu doux.</d4p1:string>
+        <d4p1:string z:Id="535">Servir avec du persil et du parmesan râpé.</d4p1:string>
+      </d2p1:Preparation>
+      <d2p1:Temps>90</d2p1:Temps>
+    </d2p1:Recette>
+    <d2p1:Recette z:Id="536">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="537" z:Size="0" />
+      <d2p1:Couverts>1</d2p1:Couverts>
+      <d2p1:Filtre>Entree</d2p1:Filtre>
+      <d2p1:Img z:Id="538">Images/Recettes/terere.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="539" z:Size="5">
+        <d2p1:Ingredient z:Id="540">
+          <d2p1:Aliment z:Id="541">paquet de jus de citron</d2p1:Aliment>
+          <d2p1:Quant z:Id="542">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>KG</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="543">
+          <d2p1:Aliment z:Id="544">citron hachés</d2p1:Aliment>
+          <d2p1:Quant z:Id="545">
+            <d2p1:Nombre>4</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="546">
+          <d2p1:Aliment z:Ref="469" i:nil="true" />
+          <d2p1:Quant z:Id="547">
             <d2p1:Nombre>1.5</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="534">
-          <d2p1:Aliment z:Id="535">eau glacée</d2p1:Aliment>
-          <d2p1:Quant z:Id="536">
+        <d2p1:Ingredient z:Id="548">
+          <d2p1:Aliment z:Id="549">eau glacée</d2p1:Aliment>
+          <d2p1:Quant z:Id="550">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>L</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="537">
-          <d2p1:Aliment z:Id="538">courge préparée avec des herbes</d2p1:Aliment>
-          <d2p1:Quant z:Id="539">
+        <d2p1:Ingredient z:Id="551">
+          <d2p1:Aliment z:Id="552">courge préparée avec des herbes</d2p1:Aliment>
+          <d2p1:Quant z:Id="553">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="540">TERERÊ</d2p1:Nom>
+      <d2p1:Nom z:Id="554">TERERÊ</d2p1:Nom>
       <d2p1:Origine>CentreOuest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="541" z:Size="2">
-        <d4p1:string z:Id="542">Mettez 1 litre d'eau glacée dans un thermos, le jus du jus de citron, le jus des 4 citrons, le sucre et remuez</d4p1:string>
-        <d4p1:string z:Id="543">Servir dans la calebasse avec l'herbe.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="555" z:Size="2">
+        <d4p1:string z:Id="556">Mettez 1 litre d'eau glacée dans un thermos, le jus du jus de citron, le jus des 4 citrons, le sucre et remuez</d4p1:string>
+        <d4p1:string z:Id="557">Servir dans la calebasse avec l'herbe.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>40</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="544">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="558">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="559" z:Size="0" />
       <d2p1:Couverts>12</d2p1:Couverts>
       <d2p1:Filtre>Dessert</d2p1:Filtre>
-      <d2p1:Img z:Id="545">Images/Recettes/nelado.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="546" z:Size="9">
-        <d2p1:Ingredient z:Id="547">
-          <d2p1:Aliment z:Id="548">de manioc râpé</d2p1:Aliment>
-          <d2p1:Quant z:Id="549">
+      <d2p1:Img z:Id="560">Images/Recettes/nelado.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="561" z:Size="9">
+        <d2p1:Ingredient z:Id="562">
+          <d2p1:Aliment z:Id="563">de manioc râpé</d2p1:Aliment>
+          <d2p1:Quant z:Id="564">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="550">
-          <d2p1:Aliment z:Id="551">tasses de sucre</d2p1:Aliment>
-          <d2p1:Quant z:Id="552">
+        <d2p1:Ingredient z:Id="565">
+          <d2p1:Aliment z:Id="566">tasses de sucre</d2p1:Aliment>
+          <d2p1:Quant z:Id="567">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="553">
-          <d2p1:Aliment z:Id="554">cuillères à soupe de margarine ou de beurre</d2p1:Aliment>
-          <d2p1:Quant z:Id="555">
+        <d2p1:Ingredient z:Id="568">
+          <d2p1:Aliment z:Id="569">cuillères à soupe de margarine ou de beurre</d2p1:Aliment>
+          <d2p1:Quant z:Id="570">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="556">
-          <d2p1:Aliment z:Id="557">oeufs</d2p1:Aliment>
-          <d2p1:Quant z:Id="558">
+        <d2p1:Ingredient z:Id="571">
+          <d2p1:Aliment z:Id="572">oeufs</d2p1:Aliment>
+          <d2p1:Quant z:Id="573">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="559">
-          <d2p1:Aliment z:Id="560">paquet de noix de coco râpée</d2p1:Aliment>
-          <d2p1:Quant z:Id="561">
+        <d2p1:Ingredient z:Id="574">
+          <d2p1:Aliment z:Id="575">paquet de noix de coco râpée</d2p1:Aliment>
+          <d2p1:Quant z:Id="576">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="562">
-          <d2p1:Aliment z:Ref="466" i:nil="true" />
-          <d2p1:Quant z:Id="563">
+        <d2p1:Ingredient z:Id="577">
+          <d2p1:Aliment z:Ref="478" i:nil="true" />
+          <d2p1:Quant z:Id="578">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>L</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="564">
-          <d2p1:Aliment z:Id="565">lait concentré</d2p1:Aliment>
-          <d2p1:Quant z:Id="566">
+        <d2p1:Ingredient z:Id="579">
+          <d2p1:Aliment z:Id="580">lait concentré</d2p1:Aliment>
+          <d2p1:Quant z:Id="581">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>L</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="567">
-          <d2p1:Aliment z:Id="568">pincée de sel</d2p1:Aliment>
-          <d2p1:Quant z:Id="569">
+        <d2p1:Ingredient z:Id="582">
+          <d2p1:Aliment z:Id="583">pincée de sel</d2p1:Aliment>
+          <d2p1:Quant z:Id="584">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="570">
-          <d2p1:Aliment z:Id="571">cuillère de levure chimique</d2p1:Aliment>
-          <d2p1:Quant z:Id="572">
+        <d2p1:Ingredient z:Id="585">
+          <d2p1:Aliment z:Id="586">cuillère de levure chimique</d2p1:Aliment>
+          <d2p1:Quant z:Id="587">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="573">Gâteau mané Nelado</d2p1:Nom>
+      <d2p1:Nom z:Id="588">Gâteau mané Nelado</d2p1:Nom>
       <d2p1:Origine>CentreOuest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="574" z:Size="4">
-        <d4p1:string z:Id="575">Combinez tous les ingrédients et mélangez bien.</d4p1:string>
-        <d4p1:string z:Id="576">Verser dans une forme graissée avec de la margarine</d4p1:string>
-        <d4p1:string z:Id="577">Placer au four préchauffé, laisser à haute température, jusqu'à ce qu'ils soient dorés.</d4p1:string>
-        <d4p1:string z:Id="578">Il est préférable de servir après quelques heures, c'est meilleur !</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="589" z:Size="4">
+        <d4p1:string z:Id="590">Combinez tous les ingrédients et mélangez bien.</d4p1:string>
+        <d4p1:string z:Id="591">Verser dans une forme graissée avec de la margarine</d4p1:string>
+        <d4p1:string z:Id="592">Placer au four préchauffé, laisser à haute température, jusqu'à ce qu'ils soient dorés.</d4p1:string>
+        <d4p1:string z:Id="593">Il est préférable de servir après quelques heures, c'est meilleur !</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>40</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="579">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="594">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="595" z:Size="0" />
       <d2p1:Couverts>5</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="580">Images/Recettes/feijoada.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="581" z:Size="17">
-        <d2p1:Ingredient z:Id="582">
-          <d2p1:Aliment z:Id="583">haricots noirs</d2p1:Aliment>
-          <d2p1:Quant z:Id="584">
+      <d2p1:Img z:Id="596">Images/Recettes/feijoada.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="597" z:Size="17">
+        <d2p1:Ingredient z:Id="598">
+          <d2p1:Aliment z:Id="599">haricots noirs</d2p1:Aliment>
+          <d2p1:Quant z:Id="600">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>KG</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="585">
-          <d2p1:Aliment z:Id="586">viande séchée</d2p1:Aliment>
-          <d2p1:Quant z:Id="587">
+        <d2p1:Ingredient z:Id="601">
+          <d2p1:Aliment z:Id="602">viande séchée</d2p1:Aliment>
+          <d2p1:Quant z:Id="603">
             <d2p1:Nombre>100</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="588">
-          <d2p1:Aliment z:Id="589">oreille de porc</d2p1:Aliment>
-          <d2p1:Quant z:Id="590">
+        <d2p1:Ingredient z:Id="604">
+          <d2p1:Aliment z:Id="605">oreille de porc</d2p1:Aliment>
+          <d2p1:Quant z:Id="606">
             <d2p1:Nombre>70</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="591">
-          <d2p1:Aliment z:Id="592">queue de porc</d2p1:Aliment>
-          <d2p1:Quant z:Id="593">
+        <d2p1:Ingredient z:Id="607">
+          <d2p1:Aliment z:Id="608">queue de porc</d2p1:Aliment>
+          <d2p1:Quant z:Id="609">
             <d2p1:Nombre>70</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="594">
-          <d2p1:Aliment z:Id="595">pieds de porc</d2p1:Aliment>
-          <d2p1:Quant z:Id="596">
+        <d2p1:Ingredient z:Id="610">
+          <d2p1:Aliment z:Id="611">pieds de porc</d2p1:Aliment>
+          <d2p1:Quant z:Id="612">
             <d2p1:Nombre>70</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="597">
-          <d2p1:Aliment z:Id="598">côtes de porc</d2p1:Aliment>
-          <d2p1:Quant z:Id="599">
+        <d2p1:Ingredient z:Id="613">
+          <d2p1:Aliment z:Id="614">côtes de porc</d2p1:Aliment>
+          <d2p1:Quant z:Id="615">
             <d2p1:Nombre>100</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="600">
-          <d2p1:Aliment z:Id="601">longe de porc</d2p1:Aliment>
-          <d2p1:Quant z:Id="602">
+        <d2p1:Ingredient z:Id="616">
+          <d2p1:Aliment z:Id="617">longe de porc</d2p1:Aliment>
+          <d2p1:Quant z:Id="618">
             <d2p1:Nombre>50</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="603">
-          <d2p1:Aliment z:Id="604">paio</d2p1:Aliment>
-          <d2p1:Quant z:Id="605">
+        <d2p1:Ingredient z:Id="619">
+          <d2p1:Aliment z:Id="620">paio</d2p1:Aliment>
+          <d2p1:Quant z:Id="621">
             <d2p1:Nombre>100</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="606">
-          <d2p1:Aliment z:Id="607">saucisse portugaise</d2p1:Aliment>
-          <d2p1:Quant z:Id="608">
+        <d2p1:Ingredient z:Id="622">
+          <d2p1:Aliment z:Id="623">saucisse portugaise</d2p1:Aliment>
+          <d2p1:Quant z:Id="624">
             <d2p1:Nombre>150</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="609">
-          <d2p1:Aliment z:Id="610">gros oignons hachés</d2p1:Aliment>
-          <d2p1:Quant z:Id="611">
+        <d2p1:Ingredient z:Id="625">
+          <d2p1:Aliment z:Id="626">gros oignons hachés</d2p1:Aliment>
+          <d2p1:Quant z:Id="627">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="612">
-          <d2p1:Aliment z:Id="613">bouquet d'oignons verts hachés</d2p1:Aliment>
-          <d2p1:Quant z:Id="614">
+        <d2p1:Ingredient z:Id="628">
+          <d2p1:Aliment z:Id="629">bouquet d'oignons verts hachés</d2p1:Aliment>
+          <d2p1:Quant z:Id="630">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="615">
-          <d2p1:Aliment z:Ref="321" i:nil="true" />
-          <d2p1:Quant z:Id="616">
+        <d2p1:Ingredient z:Id="631">
+          <d2p1:Aliment z:Ref="329" i:nil="true" />
+          <d2p1:Quant z:Id="632">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="617">
-          <d2p1:Aliment z:Ref="31" i:nil="true" />
-          <d2p1:Quant z:Id="618">
+        <d2p1:Ingredient z:Id="633">
+          <d2p1:Aliment z:Ref="32" i:nil="true" />
+          <d2p1:Quant z:Id="634">
             <d2p1:Nombre>6</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="619">
-          <d2p1:Aliment z:Id="620">poivre noir au goût</d2p1:Aliment>
-          <d2p1:Quant z:Id="621">
+        <d2p1:Ingredient z:Id="635">
+          <d2p1:Aliment z:Id="636">poivre noir au goût</d2p1:Aliment>
+          <d2p1:Quant z:Id="637">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="622">
-          <d2p1:Aliment z:Id="623">oranges</d2p1:Aliment>
-          <d2p1:Quant z:Id="624">
+        <d2p1:Ingredient z:Id="638">
+          <d2p1:Aliment z:Id="639">oranges</d2p1:Aliment>
+          <d2p1:Quant z:Id="640">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="625">
-          <d2p1:Aliment z:Id="626">pinga</d2p1:Aliment>
-          <d2p1:Quant z:Id="627">
+        <d2p1:Ingredient z:Id="641">
+          <d2p1:Aliment z:Id="642">pinga</d2p1:Aliment>
+          <d2p1:Quant z:Id="643">
             <d2p1:Nombre>50</d2p1:Nombre>
             <d2p1:Uni>ML</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="628">
-          <d2p1:Aliment z:Ref="568" i:nil="true" />
-          <d2p1:Quant z:Id="629">
+        <d2p1:Ingredient z:Id="644">
+          <d2p1:Aliment z:Ref="583" i:nil="true" />
+          <d2p1:Quant z:Id="645">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="630">Feijoada</d2p1:Nom>
+      <d2p1:Nom z:Id="646">Feijoada</d2p1:Nom>
       <d2p1:Origine>Sudest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="631" z:Size="4">
-        <d4p1:string z:Id="632">Faites tremper les viandes pendant 36 heures ou plus, changez l'eau plusieurs fois, s'il s'agit d'un environnement chaud ou estival, mettez de la glace sur le dessus ou en couches froides.</d4p1:string>
-        <d4p1:string z:Id="633">Cuire pas à pas : les viandes dures, puis les viandes tendres.</d4p1:string>
-        <d4p1:string z:Id="634">Lorsqu'ils sont tendres, ajoutez les haricots et retirez la viande</d4p1:string>
-        <d4p1:string z:Id="635">Enfin, assaisonnez les haricots.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="647" z:Size="4">
+        <d4p1:string z:Id="648">Faites tremper les viandes pendant 36 heures ou plus, changez l'eau plusieurs fois, s'il s'agit d'un environnement chaud ou estival, mettez de la glace sur le dessus ou en couches froides.</d4p1:string>
+        <d4p1:string z:Id="649">Cuire pas à pas : les viandes dures, puis les viandes tendres.</d4p1:string>
+        <d4p1:string z:Id="650">Lorsqu'ils sont tendres, ajoutez les haricots et retirez la viande</d4p1:string>
+        <d4p1:string z:Id="651">Enfin, assaisonnez les haricots.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>140</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="636">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="652">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="653" z:Size="0" />
       <d2p1:Couverts>10</d2p1:Couverts>
       <d2p1:Filtre>Entree</d2p1:Filtre>
-      <d2p1:Img z:Id="637">Images/Recettes/bacalhau.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="638" z:Size="7">
-        <d2p1:Ingredient z:Id="639">
-          <d2p1:Aliment z:Id="640">cabillaud dessalé et effiloché</d2p1:Aliment>
-          <d2p1:Quant z:Id="641">
+      <d2p1:Img z:Id="654">Images/Recettes/bacalhau.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="655" z:Size="7">
+        <d2p1:Ingredient z:Id="656">
+          <d2p1:Aliment z:Id="657">cabillaud dessalé et effiloché</d2p1:Aliment>
+          <d2p1:Quant z:Id="658">
             <d2p1:Nombre>300</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="642">
-          <d2p1:Aliment z:Id="643">tasses (thé) de pommes de terre bouillies et pressées</d2p1:Aliment>
-          <d2p1:Quant z:Id="644">
+        <d2p1:Ingredient z:Id="659">
+          <d2p1:Aliment z:Id="660">tasses (thé) de pommes de terre bouillies et pressées</d2p1:Aliment>
+          <d2p1:Quant z:Id="661">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="645">
-          <d2p1:Aliment z:Id="646">cuillère à soupe (soupe) de farine de blé</d2p1:Aliment>
-          <d2p1:Quant z:Id="647">
+        <d2p1:Ingredient z:Id="662">
+          <d2p1:Aliment z:Id="663">cuillère à soupe (soupe) de farine de blé</d2p1:Aliment>
+          <d2p1:Quant z:Id="664">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="648">
-          <d2p1:Aliment z:Id="649">Sel et poivre noir au goût</d2p1:Aliment>
-          <d2p1:Quant z:Id="650">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="651">
-          <d2p1:Aliment z:Ref="557" i:nil="true" />
-          <d2p1:Quant z:Id="652">
-            <d2p1:Nombre>3</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="653">
-          <d2p1:Aliment z:Ref="164" i:nil="true" />
-          <d2p1:Quant z:Id="654">
-            <d2p1:Nombre>2</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="655">
-          <d2p1:Aliment z:Id="656">huile de friture</d2p1:Aliment>
-          <d2p1:Quant z:Id="657">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>L</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-      </d2p1:Ingredients>
-      <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="658">Bolinho de bacalhau</d2p1:Nom>
-      <d2p1:Origine>Sudest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="659" z:Size="2">
-        <d4p1:string z:Id="660">Dans un bol, bien mélanger tous les ingrédients.</d4p1:string>
-        <d4p1:string z:Id="661">A l'aide d'une cuillère à soupe, prélever des portions de pâte, les faire revenir dans l'huile chaude jusqu'à ce qu'elles soient dorées et les égoutter sur du papier absorbant.</d4p1:string>
-      </d2p1:Preparation>
-      <d2p1:Temps>50</d2p1:Temps>
-    </d2p1:Recette>
-    <d2p1:Recette z:Id="662">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-      <d2p1:Couverts>8</d2p1:Couverts>
-      <d2p1:Filtre>Dessert</d2p1:Filtre>
-      <d2p1:Img z:Id="663">Images/Recettes/brigadeiro.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="664" z:Size="4">
         <d2p1:Ingredient z:Id="665">
-          <d2p1:Aliment z:Ref="565" i:nil="true" />
-          <d2p1:Quant z:Id="666">
+          <d2p1:Aliment z:Id="666">Sel et poivre noir au goût</d2p1:Aliment>
+          <d2p1:Quant z:Id="667">
             <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>L</d2p1:Uni>
+            <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="667">
-          <d2p1:Aliment z:Id="668">cuillère à soupe de margarine non salée</d2p1:Aliment>
+        <d2p1:Ingredient z:Id="668">
+          <d2p1:Aliment z:Ref="572" i:nil="true" />
           <d2p1:Quant z:Id="669">
-            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="670">
-          <d2p1:Aliment z:Id="671">cuillères à soupe de lait au chocolat</d2p1:Aliment>
-          <d2p1:Quant z:Id="672">
+          <d2p1:Aliment z:Ref="168" i:nil="true" />
+          <d2p1:Quant z:Id="671">
+            <d2p1:Nombre>2</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="672">
+          <d2p1:Aliment z:Id="673">huile de friture</d2p1:Aliment>
+          <d2p1:Quant z:Id="674">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>L</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+      </d2p1:Ingredients>
+      <d2p1:Liked>0</d2p1:Liked>
+      <d2p1:Nom z:Id="675">Bolinho de bacalhau</d2p1:Nom>
+      <d2p1:Origine>Sudest</d2p1:Origine>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="676" z:Size="2">
+        <d4p1:string z:Id="677">Dans un bol, bien mélanger tous les ingrédients.</d4p1:string>
+        <d4p1:string z:Id="678">A l'aide d'une cuillère à soupe, prélever des portions de pâte, les faire revenir dans l'huile chaude jusqu'à ce qu'elles soient dorées et les égoutter sur du papier absorbant.</d4p1:string>
+      </d2p1:Preparation>
+      <d2p1:Temps>50</d2p1:Temps>
+    </d2p1:Recette>
+    <d2p1:Recette z:Id="679">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="680" z:Size="0" />
+      <d2p1:Couverts>8</d2p1:Couverts>
+      <d2p1:Filtre>Dessert</d2p1:Filtre>
+      <d2p1:Img z:Id="681">Images/Recettes/brigadeiro.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="682" z:Size="4">
+        <d2p1:Ingredient z:Id="683">
+          <d2p1:Aliment z:Ref="580" i:nil="true" />
+          <d2p1:Quant z:Id="684">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>L</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="685">
+          <d2p1:Aliment z:Id="686">cuillère à soupe de margarine non salée</d2p1:Aliment>
+          <d2p1:Quant z:Id="687">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="673">
-          <d2p1:Aliment z:Id="674">PEPITES de chocolat</d2p1:Aliment>
-          <d2p1:Quant z:Id="675">
+        <d2p1:Ingredient z:Id="688">
+          <d2p1:Aliment z:Id="689">cuillères à soupe de lait au chocolat</d2p1:Aliment>
+          <d2p1:Quant z:Id="690">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="691">
+          <d2p1:Aliment z:Id="692">PEPITES de chocolat</d2p1:Aliment>
+          <d2p1:Quant z:Id="693">
             <d2p1:Nombre>300</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="676">Brigadeiro</d2p1:Nom>
+      <d2p1:Nom z:Id="694">Brigadeiro</d2p1:Nom>
       <d2p1:Origine>Sudest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="677" z:Size="3">
-        <d4p1:string z:Id="678">Dans une casserole profonde, ajouter le lait concentré, la margarine et le lait au chocolat (ou 4 cuillères à soupe de chocolat en poudre).</d4p1:string>
-        <d4p1:string z:Id="679">Cuire à feu moyen et remuer jusqu'à ce que le brigadeiro commence à se décoller de la poêle.</d4p1:string>
-        <d4p1:string z:Id="680">Laisser refroidir et faire des petites boules à la main en passant la pâte dans les pépites de chocolat</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="695" z:Size="3">
+        <d4p1:string z:Id="696">Dans une casserole profonde, ajouter le lait concentré, la margarine et le lait au chocolat (ou 4 cuillères à soupe de chocolat en poudre).</d4p1:string>
+        <d4p1:string z:Id="697">Cuire à feu moyen et remuer jusqu'à ce que le brigadeiro commence à se décoller de la poêle.</d4p1:string>
+        <d4p1:string z:Id="698">Laisser refroidir et faire des petites boules à la main en passant la pâte dans les pépites de chocolat</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>25</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="681">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="699">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="700" z:Size="0" />
       <d2p1:Couverts>6</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="682">Images/Recettes/carreteiro.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="683" z:Size="9">
-        <d2p1:Ingredient z:Id="684">
-          <d2p1:Aliment z:Id="685">tasses de riz</d2p1:Aliment>
-          <d2p1:Quant z:Id="686">
+      <d2p1:Img z:Id="701">Images/Recettes/carreteiro.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="702" z:Size="9">
+        <d2p1:Ingredient z:Id="703">
+          <d2p1:Aliment z:Id="704">tasses de riz</d2p1:Aliment>
+          <d2p1:Quant z:Id="705">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="687">
-          <d2p1:Aliment z:Ref="586" i:nil="true" />
-          <d2p1:Quant z:Id="688">
+        <d2p1:Ingredient z:Id="706">
+          <d2p1:Aliment z:Ref="602" i:nil="true" />
+          <d2p1:Quant z:Id="707">
             <d2p1:Nombre>500</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="689">
-          <d2p1:Aliment z:Id="690">bacon tranché</d2p1:Aliment>
-          <d2p1:Quant z:Id="691">
+        <d2p1:Ingredient z:Id="708">
+          <d2p1:Aliment z:Id="709">bacon tranché</d2p1:Aliment>
+          <d2p1:Quant z:Id="710">
             <d2p1:Nombre>200</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="692">
-          <d2p1:Aliment z:Id="693">pepperoni</d2p1:Aliment>
-          <d2p1:Quant z:Id="694">
+        <d2p1:Ingredient z:Id="711">
+          <d2p1:Aliment z:Id="712">pepperoni</d2p1:Aliment>
+          <d2p1:Quant z:Id="713">
             <d2p1:Nombre>200</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="695">
-          <d2p1:Aliment z:Id="696">tomate bien mûre</d2p1:Aliment>
-          <d2p1:Quant z:Id="697">
+        <d2p1:Ingredient z:Id="714">
+          <d2p1:Aliment z:Id="715">tomate bien mûre</d2p1:Aliment>
+          <d2p1:Quant z:Id="716">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="698">
-          <d2p1:Aliment z:Id="699">oignon</d2p1:Aliment>
-          <d2p1:Quant z:Id="700">
+        <d2p1:Ingredient z:Id="717">
+          <d2p1:Aliment z:Id="718">oignon</d2p1:Aliment>
+          <d2p1:Quant z:Id="719">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="701">
-          <d2p1:Aliment z:Id="702">pincé de piment pepperoni</d2p1:Aliment>
-          <d2p1:Quant z:Id="703">
+        <d2p1:Ingredient z:Id="720">
+          <d2p1:Aliment z:Id="721">pincé de piment pepperoni</d2p1:Aliment>
+          <d2p1:Quant z:Id="722">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="704">
-          <d2p1:Aliment z:Id="705">bout de persil</d2p1:Aliment>
-          <d2p1:Quant z:Id="706">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="707">
-          <d2p1:Aliment z:Id="708">pincé de sel</d2p1:Aliment>
-          <d2p1:Quant z:Id="709">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-      </d2p1:Ingredients>
-      <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="710">Riz carreteiro</d2p1:Nom>
-      <d2p1:Origine>Sud</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="711" z:Size="8">
-        <d4p1:string z:Id="712">Faites cuire la viande dans une cocotte-minute, retirez-le, attendez qu'il refroidisse et râpez-le.</d4p1:string>
-        <d4p1:string z:Ref="366" i:nil="true" />
-        <d4p1:string z:Id="713">Pelez la peau du pepperoni et coupez-la en cubes avec le bacon.</d4p1:string>
-        <d4p1:string z:Id="714">Couper la tomate en petits dés sans les pépins ainsi que l'oignon</d4p1:string>
-        <d4p1:string z:Ref="366" i:nil="true" />
-        <d4p1:string z:Id="715">Faire sauter le bacon et le pepperoni jusqu'à ce qu'ils soient dorés, puis ajouter l'oignon, la tomate, le pepperoni et la viande effilochée.</d4p1:string>
-        <d4p1:string z:Id="716">Après avoir ajouté le riz, bien le noyer, ajouter l'eau en corrigeant le sel si nécessaire et baisser le feu en attendant qu'il sèche.</d4p1:string>
-        <d4p1:string z:Id="717">Lorsque vous êtes prêt, mettez le persil sur le dessus.</d4p1:string>
-      </d2p1:Preparation>
-      <d2p1:Temps>60</d2p1:Temps>
-    </d2p1:Recette>
-    <d2p1:Recette z:Id="718">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-      <d2p1:Couverts>1</d2p1:Couverts>
-      <d2p1:Filtre>Entree</d2p1:Filtre>
-      <d2p1:Img z:Id="719">Images/Recettes/chimarrao.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="720" z:Size="3">
-        <d2p1:Ingredient z:Id="721">
-          <d2p1:Aliment z:Id="722">une gourde de herba mate</d2p1:Aliment>
-          <d2p1:Quant z:Id="723">
-            <d2p1:Nombre>750</d2p1:Nombre>
-            <d2p1:Uni>ML</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="724">
-          <d2p1:Aliment z:Ref="503" i:nil="true" />
+        <d2p1:Ingredient z:Id="723">
+          <d2p1:Aliment z:Id="724">bout de persil</d2p1:Aliment>
           <d2p1:Quant z:Id="725">
-            <d2p1:Nombre>200</d2p1:Nombre>
-            <d2p1:Uni>ML</d2p1:Uni>
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="726">
-          <d2p1:Aliment z:Id="727">gourde</d2p1:Aliment>
+          <d2p1:Aliment z:Id="727">pincé de sel</d2p1:Aliment>
           <d2p1:Quant z:Id="728">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
@@ -1636,454 +1593,497 @@
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="729">Chimarrão</d2p1:Nom>
+      <d2p1:Nom z:Id="729">Riz carreteiro</d2p1:Nom>
       <d2p1:Origine>Sud</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="730" z:Size="5">
-        <d4p1:string z:Id="731">Remplir aux deux tiers d'une gourde (un bol dans lequel on prend le maté) de maté.</d4p1:string>
-        <d4p1:string z:Id="732">Ensuite, faites un petit tas sur un côté de la calebasse et versez de l'eau tiède ou chaude jusqu'à la bouche.</d4p1:string>
-        <d4p1:string z:Id="733">Attendez 5 minutes avant de boire pour laisser le temps à l'herbe de gonfler.</d4p1:string>
-        <d4p1:string z:Id="734">La première gorgée doit être crachée car elle est toujours accompagnée d'un peu de poudre de maté.</d4p1:string>
-        <d4p1:string z:Id="735">Si vous voulez répéter, vous n'avez pas besoin d'ajouter plus de maté, il suffit de remplir à nouveau la gourde avec de l'eau.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="730" z:Size="8">
+        <d4p1:string z:Id="731">Faites cuire la viande dans une cocotte-minute, retirez-le, attendez qu'il refroidisse et râpez-le.</d4p1:string>
+        <d4p1:string z:Ref="375" i:nil="true" />
+        <d4p1:string z:Id="732">Pelez la peau du pepperoni et coupez-la en cubes avec le bacon.</d4p1:string>
+        <d4p1:string z:Id="733">Couper la tomate en petits dés sans les pépins ainsi que l'oignon</d4p1:string>
+        <d4p1:string z:Ref="375" i:nil="true" />
+        <d4p1:string z:Id="734">Faire sauter le bacon et le pepperoni jusqu'à ce qu'ils soient dorés, puis ajouter l'oignon, la tomate, le pepperoni et la viande effilochée.</d4p1:string>
+        <d4p1:string z:Id="735">Après avoir ajouté le riz, bien le noyer, ajouter l'eau en corrigeant le sel si nécessaire et baisser le feu en attendant qu'il sèche.</d4p1:string>
+        <d4p1:string z:Id="736">Lorsque vous êtes prêt, mettez le persil sur le dessus.</d4p1:string>
       </d2p1:Preparation>
-      <d2p1:Temps>10</d2p1:Temps>
+      <d2p1:Temps>60</d2p1:Temps>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="736">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-      <d2p1:Couverts>12</d2p1:Couverts>
-      <d2p1:Filtre>Dessert</d2p1:Filtre>
-      <d2p1:Img z:Id="737">Images/Recettes/cuca.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="738" z:Size="10">
-        <d2p1:Ingredient z:Id="739">
-          <d2p1:Aliment z:Id="740">tasses de farine de blé</d2p1:Aliment>
-          <d2p1:Quant z:Id="741">
-            <d2p1:Nombre>4</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="742">
-          <d2p1:Aliment z:Ref="551" i:nil="true" />
+    <d2p1:Recette z:Id="737">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="738" z:Size="0" />
+      <d2p1:Couverts>1</d2p1:Couverts>
+      <d2p1:Filtre>Entree</d2p1:Filtre>
+      <d2p1:Img z:Id="739">Images/Recettes/chimarrao.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="740" z:Size="3">
+        <d2p1:Ingredient z:Id="741">
+          <d2p1:Aliment z:Id="742">une gourde de herba mate</d2p1:Aliment>
           <d2p1:Quant z:Id="743">
-            <d2p1:Nombre>2</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
+            <d2p1:Nombre>750</d2p1:Nombre>
+            <d2p1:Uni>ML</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="744">
-          <d2p1:Aliment z:Ref="469" i:nil="true" />
+          <d2p1:Aliment z:Ref="516" i:nil="true" />
           <d2p1:Quant z:Id="745">
+            <d2p1:Nombre>200</d2p1:Nombre>
+            <d2p1:Uni>ML</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="746">
+          <d2p1:Aliment z:Id="747">gourde</d2p1:Aliment>
+          <d2p1:Quant z:Id="748">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="746">
-          <d2p1:Aliment z:Id="747">œufs</d2p1:Aliment>
-          <d2p1:Quant z:Id="748">
+      </d2p1:Ingredients>
+      <d2p1:Liked>0</d2p1:Liked>
+      <d2p1:Nom z:Id="749">Chimarrão</d2p1:Nom>
+      <d2p1:Origine>Sud</d2p1:Origine>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="750" z:Size="5">
+        <d4p1:string z:Id="751">Remplir aux deux tiers d'une gourde (un bol dans lequel on prend le maté) de maté.</d4p1:string>
+        <d4p1:string z:Id="752">Ensuite, faites un petit tas sur un côté de la calebasse et versez de l'eau tiède ou chaude jusqu'à la bouche.</d4p1:string>
+        <d4p1:string z:Id="753">Attendez 5 minutes avant de boire pour laisser le temps à l'herbe de gonfler.</d4p1:string>
+        <d4p1:string z:Id="754">La première gorgée doit être crachée car elle est toujours accompagnée d'un peu de poudre de maté.</d4p1:string>
+        <d4p1:string z:Id="755">Si vous voulez répéter, vous n'avez pas besoin d'ajouter plus de maté, il suffit de remplir à nouveau la gourde avec de l'eau.</d4p1:string>
+      </d2p1:Preparation>
+      <d2p1:Temps>10</d2p1:Temps>
+    </d2p1:Recette>
+    <d2p1:Recette z:Id="756">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="757" z:Size="0" />
+      <d2p1:Couverts>12</d2p1:Couverts>
+      <d2p1:Filtre>Dessert</d2p1:Filtre>
+      <d2p1:Img z:Id="758">Images/Recettes/cuca.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="759" z:Size="10">
+        <d2p1:Ingredient z:Id="760">
+          <d2p1:Aliment z:Id="761">tasses de farine de blé</d2p1:Aliment>
+          <d2p1:Quant z:Id="762">
             <d2p1:Nombre>4</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="749">
-          <d2p1:Aliment z:Id="750">cuillères a soupe de beurre ou de margarine</d2p1:Aliment>
-          <d2p1:Quant z:Id="751">
-            <d2p1:Nombre>2</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="752">
-          <d2p1:Aliment z:Id="753">cuillères a soupe de levure chimique</d2p1:Aliment>
-          <d2p1:Quant z:Id="754">
-            <d2p1:Nombre>2</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="755">
-          <d2p1:Aliment z:Ref="457" i:nil="true" />
-          <d2p1:Quant z:Id="756">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="757">
-          <d2p1:Aliment z:Id="758">tasse de farine de blé</d2p1:Aliment>
-          <d2p1:Quant z:Id="759">
-            <d2p1:Nombre>0.5</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="760">
-          <d2p1:Aliment z:Id="761">poudre de cannelle</d2p1:Aliment>
-          <d2p1:Quant z:Id="762">
-            <d2p1:Nombre>5</d2p1:Nombre>
-            <d2p1:Uni>G</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="763">
-          <d2p1:Aliment z:Ref="554" i:nil="true" />
+          <d2p1:Aliment z:Ref="566" i:nil="true" />
           <d2p1:Quant z:Id="764">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-      </d2p1:Ingredients>
-      <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="765">Cuca</d2p1:Nom>
-      <d2p1:Origine>Sud</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="766" z:Size="4">
-        <d4p1:string z:Id="767">Battre les œufs avec le sucre et mélanger les autres ingrédients jusqu'à formation d'une masse homogène.</d4p1:string>
-        <d4p1:string z:Id="768">Il suffit de tout mettre dans un bol et de pétrir jusqu'à ce que cela ressemble à des miettes.</d4p1:string>
-        <d4p1:string z:Id="769">Unir une forme avec de la margarine, mettre la pâte et saupoudrer le farofa</d4p1:string>
-        <d4p1:string z:Id="770">Placer dans le four préchauffé pour cuire environ 40 minutes.</d4p1:string>
-      </d2p1:Preparation>
-      <d2p1:Temps>60</d2p1:Temps>
-    </d2p1:Recette>
-    <d2p1:Recette z:Id="771" i:type="d2p1:RecetteVegan">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-      <d2p1:Couverts>4</d2p1:Couverts>
-      <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="772">Images/Recettes/moquecaV.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="773" z:Size="11">
-        <d2p1:Ingredient z:Id="774">
-          <d2p1:Aliment z:Id="775">cœur de palmier (tranches épaisses)</d2p1:Aliment>
-          <d2p1:Quant z:Id="776">
-            <d2p1:Nombre>300</d2p1:Nombre>
-            <d2p1:Uni>G</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="777">
-          <d2p1:Aliment z:Id="778">carotte (en tranches)</d2p1:Aliment>
-          <d2p1:Quant z:Id="779">
+        <d2p1:Ingredient z:Id="765">
+          <d2p1:Aliment z:Ref="481" i:nil="true" />
+          <d2p1:Quant z:Id="766">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="780">
-          <d2p1:Aliment z:Id="781">tasse de haricots verts (hachés)</d2p1:Aliment>
-          <d2p1:Quant z:Id="782">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="783">
-          <d2p1:Aliment z:Id="784">poivron/poivron rouge (en tranches)</d2p1:Aliment>
-          <d2p1:Quant z:Id="785">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="786">
-          <d2p1:Aliment z:Id="787">tomates</d2p1:Aliment>
-          <d2p1:Quant z:Id="788">
+        <d2p1:Ingredient z:Id="767">
+          <d2p1:Aliment z:Id="768">œufs</d2p1:Aliment>
+          <d2p1:Quant z:Id="769">
             <d2p1:Nombre>4</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="789">
-          <d2p1:Aliment z:Id="790">poireau </d2p1:Aliment>
-          <d2p1:Quant z:Id="791">
+        <d2p1:Ingredient z:Id="770">
+          <d2p1:Aliment z:Id="771">cuillères a soupe de beurre ou de margarine</d2p1:Aliment>
+          <d2p1:Quant z:Id="772">
+            <d2p1:Nombre>2</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="773">
+          <d2p1:Aliment z:Id="774">cuillères a soupe de levure chimique</d2p1:Aliment>
+          <d2p1:Quant z:Id="775">
+            <d2p1:Nombre>2</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="776">
+          <d2p1:Aliment z:Ref="469" i:nil="true" />
+          <d2p1:Quant z:Id="777">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="792">
-          <d2p1:Aliment z:Id="793">oignon </d2p1:Aliment>
-          <d2p1:Quant z:Id="794">
-            <d2p1:Nombre>1</d2p1:Nombre>
+        <d2p1:Ingredient z:Id="778">
+          <d2p1:Aliment z:Id="779">tasse de farine de blé</d2p1:Aliment>
+          <d2p1:Quant z:Id="780">
+            <d2p1:Nombre>0.5</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="795">
-          <d2p1:Aliment z:Id="796">tasse de persil/salsa (haché)</d2p1:Aliment>
-          <d2p1:Quant z:Id="797">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
+        <d2p1:Ingredient z:Id="781">
+          <d2p1:Aliment z:Id="782">poudre de cannelle</d2p1:Aliment>
+          <d2p1:Quant z:Id="783">
+            <d2p1:Nombre>5</d2p1:Nombre>
+            <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="798">
-          <d2p1:Aliment z:Ref="466" i:nil="true" />
-          <d2p1:Quant z:Id="799">
-            <d2p1:Nombre>250</d2p1:Nombre>
-            <d2p1:Uni>ML</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="800">
-          <d2p1:Aliment z:Id="801">cuillères à soupe d'huile d'olive</d2p1:Aliment>
-          <d2p1:Quant z:Id="802">
-            <d2p1:Nombre>15</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="803">
-          <d2p1:Aliment z:Id="804">sel et poivre a goût</d2p1:Aliment>
-          <d2p1:Quant z:Id="805">
-            <d2p1:Nombre>1</d2p1:Nombre>
+        <d2p1:Ingredient z:Id="784">
+          <d2p1:Aliment z:Ref="569" i:nil="true" />
+          <d2p1:Quant z:Id="785">
+            <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="806">Moqueca Vegana</d2p1:Nom>
-      <d2p1:Origine>Sudest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="807" z:Size="4">
-        <d4p1:string z:Id="808">Faites revenir l'oignon et le poireau dans l'huile d'olive chaude. </d4p1:string>
-        <d4p1:string z:Id="809">Ajoutez ensuite la carotte, les haricots verts et les tomates. </d4p1:string>
-        <d4p1:string z:Id="810">Assaisonnez avec du sel et du poivre. Après 10 minutes, ajoutez les cœurs de palmier et le lait de coco</d4p1:string>
-        <d4p1:string z:Id="811">Lorsque les ingrédients sont tendres, éteignez le feu et servez avec le persil haché</d4p1:string>
+      <d2p1:Nom z:Id="786">Cuca</d2p1:Nom>
+      <d2p1:Origine>Sud</d2p1:Origine>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="787" z:Size="4">
+        <d4p1:string z:Id="788">Battre les œufs avec le sucre et mélanger les autres ingrédients jusqu'à formation d'une masse homogène.</d4p1:string>
+        <d4p1:string z:Id="789">Il suffit de tout mettre dans un bol et de pétrir jusqu'à ce que cela ressemble à des miettes.</d4p1:string>
+        <d4p1:string z:Id="790">Unir une forme avec de la margarine, mettre la pâte et saupoudrer le farofa</d4p1:string>
+        <d4p1:string z:Id="791">Placer dans le four préchauffé pour cuire environ 40 minutes.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>60</d2p1:Temps>
-      <d2p1:source z:Id="812">Cette recette est une version vegane du plat Moqueca de crevettes</d2p1:source>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="813" i:type="d2p1:RecetteVegan">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+    <d2p1:Recette z:Id="792" i:type="d2p1:RecetteVegan">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="793" z:Size="0" />
       <d2p1:Couverts>4</d2p1:Couverts>
       <d2p1:Filtre>Plat</d2p1:Filtre>
-      <d2p1:Img z:Id="814">Images/Recettes/vatapaV.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="815" z:Size="10">
-        <d2p1:Ingredient z:Id="816">
-          <d2p1:Aliment z:Id="817">miches de pain</d2p1:Aliment>
-          <d2p1:Quant z:Id="818">
-            <d2p1:Nombre>2</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
+      <d2p1:Img z:Id="794">Images/Recettes/moquecaV.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="795" z:Size="11">
+        <d2p1:Ingredient z:Id="796">
+          <d2p1:Aliment z:Id="797">cœur de palmier (tranches épaisses)</d2p1:Aliment>
+          <d2p1:Quant z:Id="798">
+            <d2p1:Nombre>300</d2p1:Nombre>
+            <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="819">
-          <d2p1:Aliment z:Ref="466" i:nil="true" />
-          <d2p1:Quant z:Id="820">
-            <d2p1:Nombre>125</d2p1:Nombre>
-            <d2p1:Uni>ML</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="821">
-          <d2p1:Aliment z:Ref="503" i:nil="true" />
-          <d2p1:Quant z:Id="822">
-            <d2p1:Nombre>125</d2p1:Nombre>
-            <d2p1:Uni>ML</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="823">
-          <d2p1:Aliment z:Id="824">tomate</d2p1:Aliment>
-          <d2p1:Quant z:Id="825">
+        <d2p1:Ingredient z:Id="799">
+          <d2p1:Aliment z:Id="800">carotte (en tranches)</d2p1:Aliment>
+          <d2p1:Quant z:Id="801">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="826">
-          <d2p1:Aliment z:Ref="699" i:nil="true" />
+        <d2p1:Ingredient z:Id="802">
+          <d2p1:Aliment z:Id="803">tasse de haricots verts (hachés)</d2p1:Aliment>
+          <d2p1:Quant z:Id="804">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="805">
+          <d2p1:Aliment z:Id="806">poivron/poivron rouge (en tranches)</d2p1:Aliment>
+          <d2p1:Quant z:Id="807">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="808">
+          <d2p1:Aliment z:Id="809">tomates</d2p1:Aliment>
+          <d2p1:Quant z:Id="810">
+            <d2p1:Nombre>4</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="811">
+          <d2p1:Aliment z:Id="812">poireau </d2p1:Aliment>
+          <d2p1:Quant z:Id="813">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="814">
+          <d2p1:Aliment z:Id="815">oignon </d2p1:Aliment>
+          <d2p1:Quant z:Id="816">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="817">
+          <d2p1:Aliment z:Id="818">tasse de persil/salsa (haché)</d2p1:Aliment>
+          <d2p1:Quant z:Id="819">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="820">
+          <d2p1:Aliment z:Ref="478" i:nil="true" />
+          <d2p1:Quant z:Id="821">
+            <d2p1:Nombre>250</d2p1:Nombre>
+            <d2p1:Uni>ML</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="822">
+          <d2p1:Aliment z:Id="823">cuillères à soupe d'huile d'olive</d2p1:Aliment>
+          <d2p1:Quant z:Id="824">
+            <d2p1:Nombre>15</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="825">
+          <d2p1:Aliment z:Id="826">sel et poivre a goût</d2p1:Aliment>
           <d2p1:Quant z:Id="827">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="828">
-          <d2p1:Aliment z:Ref="430" i:nil="true" />
-          <d2p1:Quant z:Id="829">
+      </d2p1:Ingredients>
+      <d2p1:Liked>0</d2p1:Liked>
+      <d2p1:Nom z:Id="828">Moqueca Vegana</d2p1:Nom>
+      <d2p1:Origine>Sudest</d2p1:Origine>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="829" z:Size="4">
+        <d4p1:string z:Id="830">Faites revenir l'oignon et le poireau dans l'huile d'olive chaude. </d4p1:string>
+        <d4p1:string z:Id="831">Ajoutez ensuite la carotte, les haricots verts et les tomates. </d4p1:string>
+        <d4p1:string z:Id="832">Assaisonnez avec du sel et du poivre. Après 10 minutes, ajoutez les cœurs de palmier et le lait de coco</d4p1:string>
+        <d4p1:string z:Id="833">Lorsque les ingrédients sont tendres, éteignez le feu et servez avec le persil haché</d4p1:string>
+      </d2p1:Preparation>
+      <d2p1:Temps>60</d2p1:Temps>
+      <d2p1:source z:Id="834">Cette recette est une version vegane du plat Moqueca de crevettes</d2p1:source>
+    </d2p1:Recette>
+    <d2p1:Recette z:Id="835" i:type="d2p1:RecetteVegan">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="836" z:Size="0" />
+      <d2p1:Couverts>4</d2p1:Couverts>
+      <d2p1:Filtre>Plat</d2p1:Filtre>
+      <d2p1:Img z:Id="837">Images/Recettes/vatapaV.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="838" z:Size="10">
+        <d2p1:Ingredient z:Id="839">
+          <d2p1:Aliment z:Id="840">miches de pain</d2p1:Aliment>
+          <d2p1:Quant z:Id="841">
+            <d2p1:Nombre>2</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="842">
+          <d2p1:Aliment z:Ref="478" i:nil="true" />
+          <d2p1:Quant z:Id="843">
+            <d2p1:Nombre>125</d2p1:Nombre>
+            <d2p1:Uni>ML</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="844">
+          <d2p1:Aliment z:Ref="516" i:nil="true" />
+          <d2p1:Quant z:Id="845">
+            <d2p1:Nombre>125</d2p1:Nombre>
+            <d2p1:Uni>ML</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="846">
+          <d2p1:Aliment z:Id="847">tomate</d2p1:Aliment>
+          <d2p1:Quant z:Id="848">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="830">
-          <d2p1:Aliment z:Id="831">coriandre fraîche</d2p1:Aliment>
-          <d2p1:Quant z:Id="832">
+        <d2p1:Ingredient z:Id="849">
+          <d2p1:Aliment z:Ref="718" i:nil="true" />
+          <d2p1:Quant z:Id="850">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="851">
+          <d2p1:Aliment z:Ref="441" i:nil="true" />
+          <d2p1:Quant z:Id="852">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="853">
+          <d2p1:Aliment z:Id="854">coriandre fraîche</d2p1:Aliment>
+          <d2p1:Quant z:Id="855">
             <d2p1:Nombre>10</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="833">
-          <d2p1:Aliment z:Id="834">cuillère de cumin en poudre</d2p1:Aliment>
-          <d2p1:Quant z:Id="835">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="836">
-          <d2p1:Aliment z:Ref="801" i:nil="true" />
-          <d2p1:Quant z:Id="837">
-            <d2p1:Nombre>5</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="838">
-          <d2p1:Aliment z:Id="839">Sel et poivre noir/poivre a goût</d2p1:Aliment>
-          <d2p1:Quant z:Id="840">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-      </d2p1:Ingredients>
-      <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="841">Vatapa Vegano</d2p1:Nom>
-      <d2p1:Origine>Nordest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="842" z:Size="6">
-        <d4p1:string z:Id="843">Placez le pain dans un bol avec le lait de coco pendant 20 minutes. </d4p1:string>
-        <d4p1:string z:Id="844">Pendant ce temps, passez au mixeur l'eau avec l'oignon, la tomate, le poivron vert, la coriandre et les cacahuètes.</d4p1:string>
-        <d4p1:string z:Id="845"> Lorsque le mélange est lisse, transférez-le dans une casserole et faites-le cuire à feu moyen.</d4p1:string>
-        <d4p1:string z:Id="846">Ajoutez le pain trempé, ainsi que le cumin, le sel et le poivre noir.</d4p1:string>
-        <d4p1:string z:Id="847">Laissez cuire en remuant constamment</d4p1:string>
-        <d4p1:string z:Id="848">Dès que le mélange commence à s'épaissir, vous saurez qu'il arrive à point.</d4p1:string>
-      </d2p1:Preparation>
-      <d2p1:Temps>60</d2p1:Temps>
-      <d2p1:source z:Id="849">Cette recette est une version vegane du plat Vatapa</d2p1:source>
-    </d2p1:Recette>
-    <d2p1:Recette z:Id="850" i:type="d2p1:RecetteVegan">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-      <d2p1:Couverts>12</d2p1:Couverts>
-      <d2p1:Filtre>Dessert</d2p1:Filtre>
-      <d2p1:Img z:Id="851">Images/Recettes/bananeV.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="852" z:Size="9">
-        <d2p1:Ingredient z:Id="853">
-          <d2p1:Aliment z:Id="854">bananes mûres</d2p1:Aliment>
-          <d2p1:Quant z:Id="855">
-            <d2p1:Nombre>3</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="856">
-          <d2p1:Aliment z:Id="857">cuillères à soupe de graines de chia</d2p1:Aliment>
+          <d2p1:Aliment z:Id="857">cuillère de cumin en poudre</d2p1:Aliment>
           <d2p1:Quant z:Id="858">
-            <d2p1:Nombre>4</d2p1:Nombre>
+            <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
         <d2p1:Ingredient z:Id="859">
-          <d2p1:Aliment z:Id="860"> lait végétal (l'amande et la noix de coco sont les meilleures options pour le sucré)</d2p1:Aliment>
-          <d2p1:Quant z:Id="861">
-            <d2p1:Nombre>150</d2p1:Nombre>
-            <d2p1:Uni>ML</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="862">
-          <d2p1:Aliment z:Id="863">cuillère à soupe de sirop d'agave</d2p1:Aliment>
-          <d2p1:Quant z:Id="864">
-            <d2p1:Nombre>1</d2p1:Nombre>
+          <d2p1:Aliment z:Ref="823" i:nil="true" />
+          <d2p1:Quant z:Id="860">
+            <d2p1:Nombre>5</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="865">
-          <d2p1:Aliment z:Id="866">cuillères à soupe d'huile de noix de coco</d2p1:Aliment>
-          <d2p1:Quant z:Id="867">
-            <d2p1:Nombre>2</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="868">
-          <d2p1:Aliment z:Id="869">cuillères à soupe de farine</d2p1:Aliment>
-          <d2p1:Quant z:Id="870">
-            <d2p1:Nombre>4</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="871">
-          <d2p1:Aliment z:Id="872">cuillère à café de levure chimique</d2p1:Aliment>
-          <d2p1:Quant z:Id="873">
-            <d2p1:Nombre>1</d2p1:Nombre>
-            <d2p1:Uni>UNITE</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="874">
-          <d2p1:Aliment z:Id="875">d'amandes entières</d2p1:Aliment>
-          <d2p1:Quant z:Id="876">
-            <d2p1:Nombre>50</d2p1:Nombre>
-            <d2p1:Uni>G</d2p1:Uni>
-          </d2p1:Quant>
-        </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="877">
-          <d2p1:Aliment z:Ref="568" i:nil="true" />
-          <d2p1:Quant z:Id="878">
+        <d2p1:Ingredient z:Id="861">
+          <d2p1:Aliment z:Id="862">Sel et poivre noir/poivre a goût</d2p1:Aliment>
+          <d2p1:Quant z:Id="863">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="879">Gâteau de Banane Vegano </d2p1:Nom>
-      <d2p1:Origine>Sudest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="880" z:Size="8">
-        <d4p1:string z:Id="881">Ecraser les bananes dans un bol</d4p1:string>
-        <d4p1:string z:Id="882">Ajoutez les graines, le lait végétal, le sirop d'agave et l'huile de coco</d4p1:string>
-        <d4p1:string z:Id="883">Mélangez bien et laissez reposer pendant une heure</d4p1:string>
-        <d4p1:string z:Id="884">Ajoutez ensuite la farine, le sel, la levure chimique et les amandes</d4p1:string>
-        <d4p1:string z:Id="885">Mélangez le tout et versez le mélange dans un moule à pain</d4p1:string>
-        <d4p1:string z:Id="886">Sur le dessus, vous pouvez mettre des tranches de banane ou des morceaux d'autres fruits (comme des myrtilles ou des framboises)</d4p1:string>
-        <d4p1:string z:Ref="886" i:nil="true" />
-        <d4p1:string z:Id="887">Retirer du moule lorsqu'il a refroidi et qu'il est prêt à être servi.</d4p1:string>
+      <d2p1:Nom z:Id="864">Vatapa Vegano</d2p1:Nom>
+      <d2p1:Origine>Nordest</d2p1:Origine>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="865" z:Size="6">
+        <d4p1:string z:Id="866">Placez le pain dans un bol avec le lait de coco pendant 20 minutes. </d4p1:string>
+        <d4p1:string z:Id="867">Pendant ce temps, passez au mixeur l'eau avec l'oignon, la tomate, le poivron vert, la coriandre et les cacahuètes.</d4p1:string>
+        <d4p1:string z:Id="868"> Lorsque le mélange est lisse, transférez-le dans une casserole et faites-le cuire à feu moyen.</d4p1:string>
+        <d4p1:string z:Id="869">Ajoutez le pain trempé, ainsi que le cumin, le sel et le poivre noir.</d4p1:string>
+        <d4p1:string z:Id="870">Laissez cuire en remuant constamment</d4p1:string>
+        <d4p1:string z:Id="871">Dès que le mélange commence à s'épaissir, vous saurez qu'il arrive à point.</d4p1:string>
       </d2p1:Preparation>
-      <d2p1:Temps>40</d2p1:Temps>
-      <d2p1:source z:Id="888">Cette recette est une version vegane du dessert gâteau de banane</d2p1:source>
+      <d2p1:Temps>60</d2p1:Temps>
+      <d2p1:source z:Id="872">Cette recette est une version vegane du plat Vatapa</d2p1:source>
     </d2p1:Recette>
-    <d2p1:Recette z:Id="889" i:type="d2p1:RecetteVegan">
-      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
-      <d2p1:Couverts>1</d2p1:Couverts>
+    <d2p1:Recette z:Id="873" i:type="d2p1:RecetteVegan">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="874" z:Size="0" />
+      <d2p1:Couverts>12</d2p1:Couverts>
       <d2p1:Filtre>Dessert</d2p1:Filtre>
-      <d2p1:Img z:Id="890">Images/Recettes/quindimV.jpg</d2p1:Img>
-      <d2p1:Ingredients z:Id="891" z:Size="8">
-        <d2p1:Ingredient z:Id="892">
-          <d2p1:Aliment z:Ref="466" i:nil="true" />
-          <d2p1:Quant z:Id="893">
-            <d2p1:Nombre>200</d2p1:Nombre>
+      <d2p1:Img z:Id="875">Images/Recettes/bananeV.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="876" z:Size="9">
+        <d2p1:Ingredient z:Id="877">
+          <d2p1:Aliment z:Id="878">bananes mûres</d2p1:Aliment>
+          <d2p1:Quant z:Id="879">
+            <d2p1:Nombre>3</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="880">
+          <d2p1:Aliment z:Id="881">cuillères à soupe de graines de chia</d2p1:Aliment>
+          <d2p1:Quant z:Id="882">
+            <d2p1:Nombre>4</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="883">
+          <d2p1:Aliment z:Id="884"> lait végétal (l'amande et la noix de coco sont les meilleures options pour le sucré)</d2p1:Aliment>
+          <d2p1:Quant z:Id="885">
+            <d2p1:Nombre>150</d2p1:Nombre>
             <d2p1:Uni>ML</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="894">
-          <d2p1:Aliment z:Ref="457" i:nil="true" />
-          <d2p1:Quant z:Id="895">
+        <d2p1:Ingredient z:Id="886">
+          <d2p1:Aliment z:Id="887">cuillère à soupe de sirop d'agave</d2p1:Aliment>
+          <d2p1:Quant z:Id="888">
             <d2p1:Nombre>1</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="896">
-          <d2p1:Aliment z:Id="897">cuillères à soupe d'extrait de soja</d2p1:Aliment>
-          <d2p1:Quant z:Id="898">
+        <d2p1:Ingredient z:Id="889">
+          <d2p1:Aliment z:Id="890">cuillères à soupe d'huile de noix de coco</d2p1:Aliment>
+          <d2p1:Quant z:Id="891">
+            <d2p1:Nombre>2</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="892">
+          <d2p1:Aliment z:Id="893">cuillères à soupe de farine</d2p1:Aliment>
+          <d2p1:Quant z:Id="894">
+            <d2p1:Nombre>4</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="895">
+          <d2p1:Aliment z:Id="896">cuillère à café de levure chimique</d2p1:Aliment>
+          <d2p1:Quant z:Id="897">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="898">
+          <d2p1:Aliment z:Id="899">d'amandes entières</d2p1:Aliment>
+          <d2p1:Quant z:Id="900">
+            <d2p1:Nombre>50</d2p1:Nombre>
+            <d2p1:Uni>G</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="901">
+          <d2p1:Aliment z:Ref="583" i:nil="true" />
+          <d2p1:Quant z:Id="902">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+      </d2p1:Ingredients>
+      <d2p1:Liked>0</d2p1:Liked>
+      <d2p1:Nom z:Id="903">Gâteau de Banane Vegano </d2p1:Nom>
+      <d2p1:Origine>Sudest</d2p1:Origine>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="904" z:Size="8">
+        <d4p1:string z:Id="905">Ecraser les bananes dans un bol</d4p1:string>
+        <d4p1:string z:Id="906">Ajoutez les graines, le lait végétal, le sirop d'agave et l'huile de coco</d4p1:string>
+        <d4p1:string z:Id="907">Mélangez bien et laissez reposer pendant une heure</d4p1:string>
+        <d4p1:string z:Id="908">Ajoutez ensuite la farine, le sel, la levure chimique et les amandes</d4p1:string>
+        <d4p1:string z:Id="909">Mélangez le tout et versez le mélange dans un moule à pain</d4p1:string>
+        <d4p1:string z:Id="910">Sur le dessus, vous pouvez mettre des tranches de banane ou des morceaux d'autres fruits (comme des myrtilles ou des framboises)</d4p1:string>
+        <d4p1:string z:Ref="910" i:nil="true" />
+        <d4p1:string z:Id="911">Retirer du moule lorsqu'il a refroidi et qu'il est prêt à être servi.</d4p1:string>
+      </d2p1:Preparation>
+      <d2p1:Temps>40</d2p1:Temps>
+      <d2p1:source z:Id="912">Cette recette est une version vegane du dessert gâteau de banane</d2p1:source>
+    </d2p1:Recette>
+    <d2p1:Recette z:Id="913" i:type="d2p1:RecetteVegan">
+      <d2p1:Commentaires xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="914" z:Size="0" />
+      <d2p1:Couverts>1</d2p1:Couverts>
+      <d2p1:Filtre>Dessert</d2p1:Filtre>
+      <d2p1:Img z:Id="915">Images/Recettes/quindimV.jpg</d2p1:Img>
+      <d2p1:Ingredients z:Id="916" z:Size="8">
+        <d2p1:Ingredient z:Id="917">
+          <d2p1:Aliment z:Ref="478" i:nil="true" />
+          <d2p1:Quant z:Id="918">
+            <d2p1:Nombre>200</d2p1:Nombre>
+            <d2p1:Uni>ML</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="919">
+          <d2p1:Aliment z:Ref="469" i:nil="true" />
+          <d2p1:Quant z:Id="920">
+            <d2p1:Nombre>1</d2p1:Nombre>
+            <d2p1:Uni>UNITE</d2p1:Uni>
+          </d2p1:Quant>
+        </d2p1:Ingredient>
+        <d2p1:Ingredient z:Id="921">
+          <d2p1:Aliment z:Id="922">cuillères à soupe d'extrait de soja</d2p1:Aliment>
+          <d2p1:Quant z:Id="923">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="899">
-          <d2p1:Aliment z:Id="900">cuillères à soupe d'eau</d2p1:Aliment>
-          <d2p1:Quant z:Id="901">
+        <d2p1:Ingredient z:Id="924">
+          <d2p1:Aliment z:Id="925">cuillères à soupe d'eau</d2p1:Aliment>
+          <d2p1:Quant z:Id="926">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="902">
-          <d2p1:Aliment z:Id="903">cuillères à soupe d'huile (maïs ou tournesol)</d2p1:Aliment>
-          <d2p1:Quant z:Id="904">
+        <d2p1:Ingredient z:Id="927">
+          <d2p1:Aliment z:Id="928">cuillères à soupe d'huile (maïs ou tournesol)</d2p1:Aliment>
+          <d2p1:Quant z:Id="929">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="905">
-          <d2p1:Aliment z:Id="906">cuillères à soupe de fécule de maïs</d2p1:Aliment>
-          <d2p1:Quant z:Id="907">
+        <d2p1:Ingredient z:Id="930">
+          <d2p1:Aliment z:Id="931">cuillères à soupe de fécule de maïs</d2p1:Aliment>
+          <d2p1:Quant z:Id="932">
             <d2p1:Nombre>3</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="908">
-          <d2p1:Aliment z:Id="909">tasses de manioc brut râpé</d2p1:Aliment>
-          <d2p1:Quant z:Id="910">
+        <d2p1:Ingredient z:Id="933">
+          <d2p1:Aliment z:Id="934">tasses de manioc brut râpé</d2p1:Aliment>
+          <d2p1:Quant z:Id="935">
             <d2p1:Nombre>2</d2p1:Nombre>
             <d2p1:Uni>UNITE</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
-        <d2p1:Ingredient z:Id="911">
-          <d2p1:Aliment z:Id="912">sucre glace pour saupoudrer</d2p1:Aliment>
-          <d2p1:Quant z:Id="913">
+        <d2p1:Ingredient z:Id="936">
+          <d2p1:Aliment z:Id="937">sucre glace pour saupoudrer</d2p1:Aliment>
+          <d2p1:Quant z:Id="938">
             <d2p1:Nombre>20</d2p1:Nombre>
             <d2p1:Uni>G</d2p1:Uni>
           </d2p1:Quant>
         </d2p1:Ingredient>
       </d2p1:Ingredients>
       <d2p1:Liked>0</d2p1:Liked>
-      <d2p1:Nom z:Id="914">Quindim Vegano</d2p1:Nom>
+      <d2p1:Nom z:Id="939">Quindim Vegano</d2p1:Nom>
       <d2p1:Origine>Sudest</d2p1:Origine>
-      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="915" z:Size="6">
-        <d4p1:string z:Id="916">Laissez la noix de coco râpée de côté, mais battez les autres ingrédients dans le mixeur. </d4p1:string>
-        <d4p1:string z:Id="917">Placez les éléments liquides en premier et ajoutez les autres progressivement tout en mixant. Mélangez ensuite la noix de coco râpée. </d4p1:string>
-        <d4p1:string z:Id="918">Graissez le moule avec de l'huile et saupoudrez-le d'un peu de sucre. </d4p1:string>
-        <d4p1:string z:Id="919">Versez le mélange dans le moule et faites cuire au bain-marie à four moyen pendant environ 40 minutes.</d4p1:string>
-        <d4p1:string z:Id="920">Vérifiez avec un cure-dent pour décider quand éteindre le four.</d4p1:string>
-        <d4p1:string z:Id="921">Démouler à froid et saupoudrer le sucre sur le quindim.</d4p1:string>
+      <d2p1:Preparation xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="940" z:Size="6">
+        <d4p1:string z:Id="941">Laissez la noix de coco râpée de côté, mais battez les autres ingrédients dans le mixeur. </d4p1:string>
+        <d4p1:string z:Id="942">Placez les éléments liquides en premier et ajoutez les autres progressivement tout en mixant. Mélangez ensuite la noix de coco râpée. </d4p1:string>
+        <d4p1:string z:Id="943">Graissez le moule avec de l'huile et saupoudrez-le d'un peu de sucre. </d4p1:string>
+        <d4p1:string z:Id="944">Versez le mélange dans le moule et faites cuire au bain-marie à four moyen pendant environ 40 minutes.</d4p1:string>
+        <d4p1:string z:Id="945">Vérifiez avec un cure-dent pour décider quand éteindre le four.</d4p1:string>
+        <d4p1:string z:Id="946">Démouler à froid et saupoudrer le sucre sur le quindim.</d4p1:string>
       </d2p1:Preparation>
       <d2p1:Temps>20</d2p1:Temps>
-      <d2p1:source z:Id="922">Cette recette est une version vegane du dessert Quindim</d2p1:source>
+      <d2p1:source z:Id="947">Cette recette est une version vegane du dessert Quindim</d2p1:source>
     </d2p1:Recette>
   </Recettes>
 </DataToPersist>

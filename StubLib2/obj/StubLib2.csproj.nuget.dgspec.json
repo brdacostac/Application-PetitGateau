@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj": {}
+    "C:\\Users\\runte\\source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
+    "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj",
+        "projectUniqueName": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj",
-        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\obj\\",
+        "projectPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Modele\\Modele.csproj",
+        "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Modele\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -58,17 +72,17 @@
         }
       }
     },
-    "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj": {
+    "C:\\Users\\runte\\source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj",
+        "projectUniqueName": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj",
         "projectName": "StubLib2",
-        "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\StubLib2.csproj",
-        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\StubLib2\\obj\\",
+        "projectPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\StubLib2\\StubLib2.csproj",
+        "packagesPath": "C:\\Users\\runte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\StubLib2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\runte\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\Desktop\\sae-2.02-main\\Modele\\Modele.csproj"
+              "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\runte\\source\\Repos\\sae-2.02\\Modele\\Modele.csproj"
               }
             }
           }
@@ -107,20 +121,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
