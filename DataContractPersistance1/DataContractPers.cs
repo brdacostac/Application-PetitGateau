@@ -9,7 +9,7 @@ namespace DataContractPersistance1
 {
     public class DataContractPers : IPersistanceManager
     {
-        public string FilePath { get; set; } = Path.Combine(Directory.GetCurrentDirectory(), "..//XML");
+        public string FilePath { get; set; } = Path.Combine(Directory.GetCurrentDirectory(), "XML");
 
         public string FileName { get; set; } = "petitGateau.xml";
 
