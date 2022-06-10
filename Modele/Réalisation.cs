@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Modele
 {
+    /// <summary>
+    /// la classe réalisations contient la toutes les réalitions que peut débloquer un utilisateur
+    /// </summary>
     [Flags]
     public enum Réalisation : int
     {

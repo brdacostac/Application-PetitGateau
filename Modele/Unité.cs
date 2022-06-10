@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace Modele
 {
     /// <summary>
-    /// represente des differentes unitées
+    /// represente les differentes unitées
     /// </summary>
     [DataContract]
     public enum Unité : short

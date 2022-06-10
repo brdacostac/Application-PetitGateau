@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Modele
 {
+    /// <summary>
+    /// cette classe contient les types qui peuvent etre attribuées a une recette
+    /// </summary>
     [DataContract]
     public enum Type
     {

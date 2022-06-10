@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Modele
 {
     /// <summary>
-    /// represente un ingredient
+    /// représente un ingredient
     /// </summary>
 
     [DataContract]

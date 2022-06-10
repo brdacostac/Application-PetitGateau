@@ -10,12 +10,11 @@ namespace Modele
 
     [DataContract, KnownType(typeof(RecetteVegan))]
 
-    public class Recette // : IEquatable<Recette> ? ou IEquatable<Ingredients>
+    public class Recette 
     {
         /// <summary>
         /// nom de la recette
         /// </summary>
-
         [DataMember]
         public string Nom
         {
@@ -110,7 +109,6 @@ namespace Modele
 
         /// <summary>
         /// Liste d'ingredients de la recette
-        /// * verifier si encapsulation de la liste est necessaire / correcte
         /// </summary>
         [DataMember]
         public List<Ingredient> Ingredients
@@ -185,6 +183,10 @@ namespace Modele
             Console.WriteLine("-\n");
         }
 
+        /// <summary>
+        /// affichage des ingredients de la recette
+        /// </summary>
+        /// <returns>le string au format d'affichage désiré</returns>
         public string DisplayIngredients()
         {
             string ingreds = "";
@@ -195,6 +197,10 @@ namespace Modele
             return ingreds;
         }
 
+        /// <summary>
+        /// affichage des étapes de la recette
+        /// </summary>
+        /// <returns>le string au format d'affichage désiré</returns>
         public string DisplayEtapes()
         {
             string etapes = "";
@@ -207,6 +213,10 @@ namespace Modele
             return etapes;
         }
 
+        /// <summary>
+        /// affichage des commentaires de la recette
+        /// </summary>
+        /// <returns>le string au format d'affichage désiré</returns>
         public string DisplayCommentaires()
         {
             string comments = "";

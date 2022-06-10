@@ -11,7 +11,7 @@ namespace Modele
     public class Compte
     {
         /// <summary>
-        /// represente identifiant de l'utilisateur
+        /// représente identifiant de l'utilisateur
         /// </summary>
         [DataMember]
         public string Username
@@ -23,7 +23,7 @@ namespace Modele
         public string username;
 
         /// <summary>
-        /// represente le mot de passe du compte
+        /// représente le mot de passe du compte
         /// </summary>
         [DataMember]
         public string Password
@@ -35,7 +35,7 @@ namespace Modele
         public string password;
 
         /// <summary>
-        /// represente le sexe de l'utilisateur
+        /// représente le sexe de l'utilisateur
         /// </summary>
         [DataMember]
         public char Sexe

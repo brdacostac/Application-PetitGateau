@@ -10,6 +10,9 @@ namespace Modele
     [KnownType(typeof(RecetteVegan))]
     public class RecetteVegan : Recette
     {
+        /// <summary>
+        /// contient la source des aliments du plat
+        /// </summary>
         [DataMember]
         public string source
         {
@@ -19,6 +22,9 @@ namespace Modele
         private string sources;
 
 
+        /// <summary>
+        /// constructeur
+        /// </summary>
         public RecetteVegan(string nom, Type type, List<Ingredient> l, List<string> prep, Region og, int t, int couv, string img, string s) : base(nom, type, l, prep, og, t, couv, img)
         {
             if (type == Type.Plat)

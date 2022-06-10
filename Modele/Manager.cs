@@ -8,7 +8,7 @@ namespace Modele
     public class Manager : INotifyPropertyChanged
     {
         /// <summary>
-        /// represente la base de données contenant les recettes et comptes 
+        /// représente la base de données contenant les recettes et comptes 
         /// </summary>
         public Database Db
         {
@@ -98,7 +98,7 @@ namespace Modele
         }
 
         /// <summary>
-        /// Recherche des recettes par nom qui sont dans les favoris de l'utilisateur et l'ajoute à la liste si trouvé
+        /// Recherche des recettes par nom parmi celles favoritées par l'utilisateur et l'ajoute à la liste si trouvé
         /// </summary>
         /// <param name="nom">le nom de la recette recherchée</param>
         public List<Recette> SearchByNameFavoris(string nom)
@@ -219,7 +219,7 @@ namespace Modele
         }
 
         /// <summary>
-        ///  Retourne une liste qui contient la recette avec les plus de likes par type
+        ///  retourne une liste qui contient la recette avec les plus de likes par type
         /// </summary>
         /// <param name="filtre">type filtre pour filtrer les top recettes</param>
         public List<Recette> Recette_top_type_choisi(Type filtre)
@@ -346,7 +346,7 @@ namespace Modele
         }
 
         /// <summary>
-        /// Charge toutes les comptes
+        /// Charge touts les comptes
         /// </summary>
         public void LoadComptes()
         {
@@ -356,7 +356,7 @@ namespace Modele
 
 
         /// <summary>
-        /// Sauvegarde les données à l'aide de la persistance
+        /// sauvegarde les données à l'aide de la persistance
         /// </summary>
         public void SauvegardeDonnées()
         {
@@ -374,11 +374,5 @@ namespace Modele
             Pers = pers;
             CurrentUser = new Compte("visiteur", "motdepasse", 'h');
         }
-
-        public Manager()
-        {
-            Db = new Database();
-        }
-
     }
 }

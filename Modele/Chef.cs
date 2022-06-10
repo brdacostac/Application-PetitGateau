@@ -23,7 +23,7 @@ namespace Modele
         private Niveau level;
 
         /// <summary>
-        /// l'experience actuel de l'utilisateur
+        /// l'éxperience actuel de l'utilisateur
         /// </summary>
         [DataMember]
         public double ExperienceActuel
@@ -46,7 +46,7 @@ namespace Modele
 
 
         /// <summary>
-        /// permet a la fonction débloqué outil de ne pas réutiliser
+        /// permet à la fonction débloqué outil de ne pas réutiliser les mêmes
         /// un outil déjà débloqué
         /// </summary>
         [DataMember]
@@ -59,7 +59,7 @@ namespace Modele
 
 
         /// <summary>
-        /// monte le niveau du chef de 1 en mettant a jour l'experience 
+        /// monte le niveau du chef de 1 en mettant a jour l'éxperience 
         /// nécéssaire et en débloquant un nouvel outil
         /// </summary>
         public void LevelUp()
@@ -89,7 +89,7 @@ namespace Modele
         }
 
         /// <summary>
-        /// contructeur
+        /// constructeur
         /// </summary>
         public Chef()
         {

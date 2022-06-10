@@ -27,17 +27,17 @@ namespace Modele
         private List<Compte> comptes = new List<Compte>();
 
         /// <summary>
-        /// database 
+        /// constructeur 
         /// </summary>
-        /// <param name="c"></param>
-        /// <param name="r"></param>
+        /// <param name="c">une liste de comptes</param>
+        /// <param name="r">une liste de recettes</param>
         public Database(List<Compte> c, List<Recette> r)
         {
             Comptes = c;
             Recettes = r;
         }
         /// <summary>
-        /// database
+        /// contructeur par default
         /// </summary>
         public Database()
         {
