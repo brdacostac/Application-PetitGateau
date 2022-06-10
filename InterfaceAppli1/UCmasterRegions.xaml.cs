@@ -46,7 +46,7 @@ namespace InterfaceAppli1
         public Modele.Type typ
         {
             get { return typ; }
-            set { DataContext = Mgr.recettes_region_type_choisi(Origine,value); }
+            set { DataContext = Mgr.Recettes_region_type_choisi(Origine,value); }
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

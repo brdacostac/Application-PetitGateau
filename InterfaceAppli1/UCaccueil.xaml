@@ -26,7 +26,7 @@
                         Cursor="Hand"
                         Click="Page_monchef">
                     <Button.Content>
-                        <Image Source="Images/Chef_F.PNG" Width="150" VerticalAlignment="Center"/>
+                        <Image x:Name="ImgChef" Width="150" VerticalAlignment="Center"/>
                     </Button.Content>
                 </Button>
                 

@@ -24,6 +24,31 @@
                 <Image x:Name="Badge2"/>
                 <Image x:Name="Badge3"/>
                 <Image x:Name="Badge4"/>
+                <Image x:Name="Badge5"/>
+                <Image x:Name="Badge6"/>
+                <Image x:Name="Badge7"/>
+                <Image x:Name="Badge8"/>
+                <Image x:Name="Badge9"/>
+                <Image x:Name="Badge10"/>
+                <Image x:Name="Badge11"/>
+                <Image x:Name="Badge12"/>
+                <Image x:Name="Badge13"/>
+                <Image x:Name="Badge14"/>
+                <Image x:Name="Badge15"/>
+                <Image x:Name="Badge16"/>
+                <Image x:Name="Badge17"/>
+                <Image x:Name="Badge18"/>
+                <Image x:Name="Badge19"/>
+                <Image x:Name="Badge20"/>
+                <Image x:Name="Badge21"/>
+                <Image x:Name="Badge22"/>
+                <Image x:Name="Badge23"/>
+                <Image x:Name="Badge24"/>
+                <Image x:Name="Badge25"/>
+                <Image x:Name="Badge26"/>
+                <Image x:Name="Badge27"/>
+                <Image x:Name="Badge28"/>
+                <Image x:Name="Badge29"/>
             </WrapPanel>
         </ScrollViewer>
     </DockPanel>

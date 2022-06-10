@@ -27,7 +27,7 @@ namespace InterfaceAppli1
         public VeganUC()
         {
             InitializeComponent();
-            DataContext = Mgr.recettes_vegans();
+            DataContext = Mgr.Recettes_vegans();
         }
     }
 }

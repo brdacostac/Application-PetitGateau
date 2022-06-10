@@ -61,7 +61,6 @@ namespace Modele
         private IPersistanceManager pers;
 
 
-
         /// <summary>
         /// Recherche des recettes vegans par nom et l'ajoute à la liste si trouvé
         /// </summary>
@@ -139,7 +138,7 @@ namespace Modele
         /// <summary>
         ///  Retourne une liste contenant seulement mes recettes veganes
         /// </summary>
-        public List<RecetteVegan> recettes_vegans()
+        public List<RecetteVegan> Recettes_vegans()
         {
 
             List<RecetteVegan> liste_demande = new List<RecetteVegan>();
@@ -161,7 +160,7 @@ namespace Modele
         /// recettes du type choisi par l'utilisateur 
         /// </summary>
         /// <param name="filtre"></param>
-        public List<Recette> recettes_type_choisi(Type filtre)
+        public List<Recette> Recettes_type_choisi(Type filtre)
         {
             List<Recette> liste_demande = new List<Recette>();
 
@@ -182,7 +181,7 @@ namespace Modele
         /// recettes de la region choisi par l'utilisateur 
         /// </summary>
         /// <param name="origine"></param>
-        public List<Recette> recettes_region_choisi(Region origine)
+        public List<Recette> Recettes_region_choisi(Region origine)
         {
             List<Recette> liste_par_origine = new List<Recette>();
 
@@ -203,7 +202,7 @@ namespace Modele
         /// </summary>
         /// <param name="origine"></param>
         /// <param name="filtre"></param>
-        public List<Recette> recettes_region_type_choisi(Region origine, Type filtre)
+        public List<Recette> Recettes_region_type_choisi(Region origine, Type filtre)
         {
             List<Recette> liste_par_origine_et_filtre = new List<Recette>();
 
@@ -223,7 +222,7 @@ namespace Modele
         ///  Retourne une liste qui contient la recette avec les plus de likes par type
         /// </summary>
         /// <param name="filtre">type filtre pour filtrer les top recettes</param>
-        public List<Recette> recette_top_type_choisi(Type filtre)
+        public List<Recette> Recette_top_type_choisi(Type filtre)
         {
             List<Recette> liste_demande = new List<Recette>();
 
@@ -247,7 +246,7 @@ namespace Modele
         /// </summary>
         /// <param name="filtre">type filtre pour filtrer les recettes veganes</param>
 
-        public List<RecetteVegan> recettesVegan_type_choisi(Type filtre)
+        public List<RecetteVegan> RecettesVegan_type_choisi(Type filtre)
         {
             List<RecetteVegan> liste_demande = new List<RecetteVegan>();
 
@@ -267,7 +266,7 @@ namespace Modele
         /// </summary>
         /// <param name="filtre">type filtre pour filtrer les recettes favorites</param>
 
-        public List<Recette> recettesFavoris_type_choisi(Type filtre)
+        public List<Recette> RecettesFavoris_type_choisi(Type filtre)
         {
             List<Recette> liste_demande = new List<Recette>();
 

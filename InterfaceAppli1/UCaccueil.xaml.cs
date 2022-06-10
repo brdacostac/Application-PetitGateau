@@ -28,6 +28,10 @@ namespace InterfaceAppli1
         public UCaccueil()
         {
             InitializeComponent();
+            if (Mgr.CurrentUser.Sexe == 'h' || Mgr.CurrentUser.Sexe == 'H')
+                ImgChef.Source = new BitmapImage(new Uri("Images/chef_H.png", UriKind.Relative));
+            else
+                ImgChef.Source = new BitmapImage(new Uri("Images/chef_F.png", UriKind.Relative));
         }
         private void Page_vegan(object sender, RoutedEventArgs e)
         {
