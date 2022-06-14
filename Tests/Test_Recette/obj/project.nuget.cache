@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "080TMGy+41m9jsepDQC9TtluK2/y+hFDM1S1kDYuXY/Zy4PAdI/OafgBgdh6FHRDJ2VGF3Vskdp3omfkE5qNEw==",
+  "dgSpecHash": "isSE2Vgk9q54VWacupBjXJDHnW2GElAml+LVn7S1ZMQziPgch6D6vO1Us7a69LIMTw2o4ypFPylvjjH/K6b3gw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\newAppli\\Tests\\Test_Recette\\Test_Recette.csproj",
+  "projectFilePath": "C:\\Users\\brdacostac\\Source\\Repos\\sae-2.02\\Tests\\Test_Recette\\Test_Recette.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

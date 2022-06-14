@@ -7,20 +7,20 @@ using System.Xml;
 
 namespace DataContractPersistance1
 {
+
     public class DataContractPers : IPersistanceManager
     {
-        public string FilePath { get; set; } = Path.Combine(Directory.GetCurrentDirectory(), "XML");
+        public string FilePath => Path.Combine(Directory.GetCurrentDirectory(), RelativePath);
+
+        public string RelativePath { get; set; } = "XML";
 
         public string FileName { get; set; } = "petitGateau.xml";
 
-        string PersFile => Path.Combine(FilePath, FileName);
+        protected string PersFile => Path.Combine(FilePath, FileName);
 
-        private DataContractSerializer Serializer { get; set; } = new DataContractSerializer(typeof(DataToPersist),
-                                                        new DataContractSerializerSettings()
-                                                        {
-                                                            PreserveObjectReferences = true
-                                                        });
-        public IEnumerable<Compte> LoadComptes()
+        protected XmlObjectSerializer Serializer { get; set; } = new DataContractSerializer(typeof(DataToPersist));
+
+        public virtual IEnumerable<Compte> LoadComptes()
         {
             if (!File.Exists(PersFile))
             {
@@ -37,7 +37,7 @@ namespace DataContractPersistance1
             return (data.Comptes);
         }
 
-        public IEnumerable<Recette> LoadRecettes()
+        public virtual IEnumerable<Recette> LoadRecettes()
         {
             if (!File.Exists(PersFile))
             {
@@ -55,7 +55,7 @@ namespace DataContractPersistance1
         }
 
 
-        public void SauvegardeDonnées(IEnumerable<Recette> recettes, IEnumerable<Compte> comptes)
+        public virtual void SauvegardeDonnées(IEnumerable<Recette> recettes, IEnumerable<Compte> comptes)
         {
             if (!Directory.Exists(FilePath))
             {

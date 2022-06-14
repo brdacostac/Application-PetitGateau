@@ -16,7 +16,7 @@ namespace InterfaceAppli1
     /// </summary>
     public partial class App : Application
     {
-        public Manager LeManager { get; private set; } = new Manager(new DataContractPers());
+        public Manager LeManager { get; private set; } = new Manager(new DataContractPersJSON());
 
         public Navigator Navigator { get; private set; } = new Navigator();
 

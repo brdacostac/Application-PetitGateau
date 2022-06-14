@@ -10,10 +10,10 @@ namespace Test_datacontract
            Manager manager = new Manager(new StubLib2.Stub());
             manager.LoadRecettes();
             manager.LoadComptes();
-            manager.Pers = new DataContractPersistance1.DataContractPers();
+            manager.Pers = new DataContractPersistance1.DataContractPersJSON();
             manager.SauvegardeDonnées();
 
-            Manager manager2 = new Manager(new DataContractPersistance1.DataContractPers());
+            Manager manager2 = new Manager(new DataContractPersistance1.DataContractPersJSON());
             manager2.LoadRecettes();
             manager2.LoadComptes();
         }
