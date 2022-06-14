@@ -11,8 +11,7 @@
         <WrapPanel DockPanel.Dock="Top">
             <local:UCbuttons x:Name="Titre" Loaded="UCbuttons_Loaded" Width="920" FontStyle="Normal"/>
         </WrapPanel>
-
-        <TextBlock DockPanel.Dock="Top" x:Name="Ladresse" Width="380" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+        <TextBlock  DockPanel.Dock="Top" x:Name="Ladresse" Width="380" HorizontalAlignment="Left" Margin="10,0,0,0"/>
         <StackPanel DockPanel.Dock="Top">
             <Image x:Name="Chef" Height="220" Width="260"/>
             <mah:MetroProgressBar x:Name="progressBar" Height="20" Width="500" Margin="0,10,0,0" Foreground="#FF27E60C"/>

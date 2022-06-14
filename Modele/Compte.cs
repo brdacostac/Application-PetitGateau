@@ -52,6 +52,7 @@ namespace Modele
         /// <summary>
         /// MODIFICATION DE L'ORAL : Ajout de l'attribut adresse //ville, codePostal, rue, numero
         /// </summary>
+        [DataMember]
         public string Adresse
         {
             get { return adresse; }
