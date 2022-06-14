@@ -71,19 +71,26 @@ namespace InterfaceAppli1
             string username = NomUtilisateur.Text;
             string motDePasse = MotDePasse.Password;
             string confirmMdp = ConfirmerMdp.Password;
+            string cp = CodePostal.Text;
+            string ville = Ville.Text;
+            string rue = Rue.Text;
+            string num = Numero.Text;
 
-            if (username != "" && motDePasse == confirmMdp && (isCheckF == true || isCheckH == true))
+            if (username != "" && motDePasse == confirmMdp && (isCheckF == true || isCheckH == true) && cp != "" && ville != "" && rue != "" && num != "")
             {
                 if (isCheckF)
-                    Mgr.Db.Comptes.Add(new Compte(username, motDePasse, 'f'));
+                    Mgr.Db.Comptes.Add(new Compte(username, motDePasse, 'f', cp + ", " + ville + " " + rue + " n°" + num));
                 else
-                    Mgr.Db.Comptes.Add(new Compte(username, motDePasse, 'h'));
+                    Mgr.Db.Comptes.Add(new Compte(username, motDePasse, 'h', cp + ", " + ville + ", " + " n°" + num + " Rue " + rue));
                 Message.Text = "Success ! Votre compte a été créé, vou pouvez vou connecter sur la page Connexion !";
                 await Task.Delay(2000);
                 Navigator.NavigateTo(Navigator.PART_CONNEXION);
             }
             else
             {
+                if (cp == "" || ville == "" || rue == "" || num == "")
+                    Message.Text = "Les informations d'adresse ne sont pas complètes";
+
                 if (username == " " || motDePasse == " " || confirmMdp == " ")
                     Message.Text = "Une ou plusieurs cases n'ont pas été complétés";
 

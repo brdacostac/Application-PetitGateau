@@ -50,6 +50,16 @@ namespace Modele
         public char sexe;
 
         /// <summary>
+        /// MODIFICATION DE L'ORAL : Ajout de l'attribut adresse //ville, codePostal, rue, numero
+        /// </summary>
+        public string Adresse
+        {
+            get { return adresse; }
+            private set { adresse = value; }
+        }
+        private string adresse;
+
+        /// <summary>
         /// indique si le compte est authentifier ou pas
         /// </summary>
         [DataMember]
@@ -108,19 +118,21 @@ namespace Modele
         }
 
         /// <summary>
-        /// constructeur de la classe  
+        /// constructeur de la classe
         /// </summary>
         /// <param name="username">l'identifiant</param>
         /// <param name="password">le mot de passe</param>
         /// <param name="sexe">le sexe</param>
+        /// <param name="adresse">l'adresse de l'utilisateur</param>
         /// <param name="monChef"></param>
-        public Compte(string username, string password, char sexe)
+        public Compte(string username, string password, char sexe, string adresse)
         {
             Username = username;
             Password = password;
             Sexe = sexe;
             MonChef = new Chef();
             Connected = false;
+            Adresse = adresse;
         }
 
         /// <summary>

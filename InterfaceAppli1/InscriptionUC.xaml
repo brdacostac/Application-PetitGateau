@@ -8,81 +8,112 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <DockPanel Background="White">
         <local:UCbuttons DockPanel.Dock="Top" Titre="S'inscrire" FontFamily="Fonts/#"/>
-        <Grid DockPanel.Dock="Top">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
+        <WrapPanel>
+            <StackPanel Width="190" Margin="10,0,0,0">
+                <TextBlock Text="Adresse" 
+                           FontSize="14" 
+                           Margin="0,30,0,10" FontWeight="Bold"
+                           Style="{StaticResource Titre}"/>
 
-            <Image Source="Images/Decoration2.png" Margin="562,74,10,2" Grid.RowSpan="4"/>
-            <Image Source="Images/Decoration4.png" Margin="0,-34,592,38" Grid.RowSpan="3"/>
+                <TextBlock Text="Ville :" 
+                           FontSize="14" 
+                           Margin="0,0,0,10" FontWeight="Bold"
+                           Style="{StaticResource Titre}"/>
+                <TextBox x:Name="Ville" Width="150" Height="30" Margin="0,0,0,10"/>
 
-            <StackPanel Grid.Row="0" HorizontalAlignment="Center" Width="400">
-                <StackPanel Orientation="Horizontal" Width="316">
+                <TextBlock Text="Code Postal :" 
+                           FontSize="14" 
+                           Margin="0,0,0,0" FontWeight="Bold"
+                           Style="{StaticResource Titre}"/>
+                <TextBox x:Name="CodePostal" Width="150" Height="30" Margin="0,0,0,10"/>
 
-                    <TextBlock Text="Nom d'utilisateur" 
+                <TextBlock Text="Rue :" 
+                           FontSize="14" 
+                           Margin="0,0,0,0" FontWeight="Bold"
+                           Style="{StaticResource Titre}"/>
+                <TextBox x:Name="Rue" Width="150" Height="30" Margin="0,0,0,10"/>
+
+                <TextBlock Text="Numero :" 
+                           FontSize="14" 
+                           Margin="0,0,0,0" FontWeight="Bold"
+                           Style="{StaticResource Titre}"/>
+                <TextBox x:Name="Numero" Width="150" Height="30" Margin="0,0,0,10"/>
+            </StackPanel>
+
+            <Grid DockPanel.Dock="Top" Width="590">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <!--Image Source="Images/Decoration2.png" Margin="562,74,10,2" Grid.RowSpan="4"/-->
+                <!---Image Source="Images/Decoration4.png" Margin="0,-34,592,38" Grid.RowSpan="3"/-->
+
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center" Width="400">
+                    <StackPanel Orientation="Horizontal" Width="316">
+
+                        <TextBlock Text="Nom d'utilisateur" 
                                FontSize="14" 
                                Margin="0,30,0,10" FontWeight="Bold"
                                Style="{StaticResource Titre}"/>
-                    <Image Source="Images/icons/User.png" Width="40" Height="24" Margin="0,15,0,0"/>
+                        <Image Source="Images/icons/User.png" Width="40" Height="24" Margin="0,15,0,0"/>
 
 
-                </StackPanel>
-                <TextBox x:Name="NomUtilisateur" 
+                    </StackPanel>
+                    <TextBox x:Name="NomUtilisateur" 
                         TextWrapping="Wrap" 
                          Text="" 
                          Width="316" Height="30"
                          BorderThickness="2" FontSize="15"
                          Foreground="Black"/>
-            </StackPanel>
-            <StackPanel Grid.Row="0" HorizontalAlignment="Right" Orientation="Horizontal">
-                <CheckBox Content="Homme" HorizontalAlignment="Right" Margin="0,60,0,0"
+                </StackPanel>
+                <StackPanel Grid.Row="0" HorizontalAlignment="Left" Orientation="Horizontal" Margin="404,-36,0,0" Width="184" Height="82" VerticalAlignment="Top">
+                    <CheckBox Content="Homme" HorizontalAlignment="Right" Margin="0,60,0,0"
                               IsChecked="False" x:Name="Homme" Style="{StaticResource inscriptionCheckBox}" Checked="CheckBox_Checked_Homme"/>
-                <CheckBox Content="Femme" HorizontalAlignment="Right" Margin="40,60,30,0"
+                    <CheckBox Content="Femme" HorizontalAlignment="Right" Margin="40,60,30,0"
                               IsChecked="False" x:Name="Femme" Style="{StaticResource inscriptionCheckBox}" Checked="CheckBox_Checked_Femme"/>
-            </StackPanel>
-            <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="400">
-                <StackPanel Orientation="Horizontal" Width="316">
-                    <TextBlock 
+                </StackPanel>
+                <StackPanel Grid.Row="1" HorizontalAlignment="Center" Width="400">
+                    <StackPanel Orientation="Horizontal" Width="316">
+                        <TextBlock 
                             Text="Mot de passe" 
                            FontSize="14" 
                            Margin="0,30,0,10" FontWeight="Bold"
                            Style="{StaticResource Titre}"/>
-                    <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
-                </StackPanel>
-                <PasswordBox x:Name="MotDePasse"  
+                        <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
+                    </StackPanel>
+                    <PasswordBox x:Name="MotDePasse"  
                          Width="316" Height="30"
                          BorderThickness="2" FontSize="15"
                          Foreground="Black"/>
-            </StackPanel>
+                </StackPanel>
 
-            <StackPanel Grid.Row="2" HorizontalAlignment="Center" Width="400">
-                <StackPanel Orientation="Horizontal" Width="316">
-                    <TextBlock Text="Confirmez votre mot de passe" 
+                <StackPanel Grid.Row="2" HorizontalAlignment="Center" Width="400">
+                    <StackPanel Orientation="Horizontal" Width="316">
+                        <TextBlock Text="Confirmez votre mot de passe" 
                            FontSize="14" 
                            Margin="0,30,0,10" FontWeight="Bold"
                            Style="{StaticResource Titre}"/>
-                    <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
-                </StackPanel>
+                        <Image Source="Images/icons/PassWord.png" Width="15" Height="24" Margin="10,10,0,0"/>
+                    </StackPanel>
 
-                <PasswordBox x:Name="ConfirmerMdp"
+                    <PasswordBox x:Name="ConfirmerMdp"
                          Width="316" Height="29"
                          BorderThickness="2" FontSize="15"
                          Foreground="Black"/>
-            </StackPanel>
+                </StackPanel>
 
+                <StackPanel Grid.Row="3">
+                    <Button Content="S'inscrire" Height="30" Width="100" Margin="15"
+                Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Stretch" Style="{StaticResource MenuBoutonTop}" Click="CreerCompte"/>
 
-            <StackPanel Grid.Row="3">
-                <Button Content="S'inscrire" Height="30" Width="100" Margin="15"
-                    Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Stretch" Style="{StaticResource MenuBoutonTop}" Click="CreerCompte"/>
-
-                <TextBlock x:Name="Message"
-                         TextWrapping="Wrap"  
-                         Width="316" Height="29"/>
-            </StackPanel>
-
-        </Grid>
+                    <TextBlock x:Name="Message"
+                        TextWrapping="Wrap"  
+                        Width="316" Height="29"/>
+                </StackPanel>
+            </Grid>
+        </WrapPanel>
     </DockPanel>
 </UserControl>

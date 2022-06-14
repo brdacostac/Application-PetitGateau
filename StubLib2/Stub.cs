@@ -574,10 +574,10 @@ namespace StubLib2
 
         List<Compte> comptes = new List<Compte>()
         {
-            new Compte("user1","senha1",'h'),
-            new Compte("user2","senha2",'f'),
-            new Compte("user3","senha3",'f'),
-            new Compte("user4","senha4",'h')
+            new Compte("user1","senha1",'h',"inconnu"),
+            new Compte("user2","senha2",'f',"inconnu"),
+            new Compte("user3","senha3",'f',"inconnu"),
+            new Compte("user4","senha4",'h',"inconnu")
         };
 
         IEnumerable<Recette> IPersistanceManager.LoadRecettes()

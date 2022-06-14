@@ -35,8 +35,9 @@ namespace InterfaceAppli1
             else
                 Chef.Source = new BitmapImage(new Uri("Images/chef_F.png", UriKind.Relative));
 
-            //nom de l'utilisateur
+            //nom de l'utilisateur et adresse
             Titre.Titre = Mgr.CurrentUser.Username;
+            Ladresse.Text = Mgr.CurrentUser.Adresse;
 
             // informations sur le niveau de l'utilisateur
             Niveau.Text = " " + Mgr.CurrentUser.MonChef;

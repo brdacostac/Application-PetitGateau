@@ -330,9 +330,9 @@ namespace Modele
         /// <param name="username">le choisi par l'utilisateur</param>
         /// <param name="password">le mot de passe associé</param>
         /// <param name="sexe">le sexe choisi</param>
-        public void NouveauCompte(string username, string password, char sexe)
+        public void NouveauCompte(string username, string password, char sexe, string adresse)
         {
-            Compte c = new Compte(username, password, sexe);
+            Compte c = new Compte(username, password, sexe, adresse);
             db.Comptes.Add(c);
             Console.WriteLine("Le nouveau compte a été créé");
         }
@@ -375,7 +375,7 @@ namespace Modele
         {
             Db = new Database();
             Pers = pers;
-            CurrentUser = new Compte("visiteur", "motdepasse", 'h');
+            CurrentUser = new Compte("visiteur", "motdepasse", 'h',"inconnu");
         }
     }
 }

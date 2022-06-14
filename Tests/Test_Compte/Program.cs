@@ -10,7 +10,7 @@ namespace Test_Compte
         {
             Niveau niveau = new Niveau();
             Chef newChef = new Chef();
-            Compte compte = new Compte("Bruno","cachorro",'M');
+            Compte compte = new Compte("Bruno","cachorro",'M',"63000, Clermont-Ferrand Rue Pablo Picasso 48");
             Console.WriteLine("*****TESTE_Compte_Class******");
             Console.WriteLine(compte.ToString());
         }
