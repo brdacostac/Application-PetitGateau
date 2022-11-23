@@ -1,3 +1,3 @@
-# SAE 2.01
+# Projet Binome BUT Informatique
 
-Pour acceder à la doxygene, il faut cliquer sur le fichier Doxygene/html/index
+Pour acceder à la doxygene, allez sur le fichier Doxygene/html/index
